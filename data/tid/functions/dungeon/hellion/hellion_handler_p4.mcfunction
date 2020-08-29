@@ -11,4 +11,4 @@ forceload remove 1000 1000 1032 1032
 say Done!
 
 #Move to nonexistent phase
-scoreboard players set hellion_handler_phase 666
+scoreboard players set hellion_handler_phase value 666

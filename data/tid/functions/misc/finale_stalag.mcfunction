@@ -33,20 +33,21 @@ execute positioned ~1 ~ ~-2 run function tid:misc/finale_stalag_extend
 execute positioned ~-1 ~ ~2 run function tid:misc/finale_stalag_extend
 execute positioned ~-1 ~ ~-2 run function tid:misc/finale_stalag_extend
 
-#When these generate in starting areas, they're made of cobblestone instead of stone
-execute if predicate tid:random_05 fill ~-2 ~ ~-2 ~2 ~-9 ~2 redstone_block replace glass
-execute if predicate tid:random_10 fill ~-2 ~ ~-2 ~2 ~-9 ~2 lapis_block replace glass
-execute if predicate tid:random_15 fill ~-2 ~ ~-2 ~2 ~-9 ~2 coal_block replace glass
-execute if predicate tid:random_25 fill ~-2 ~ ~-2 ~2 ~-9 ~2 gold_block replace glass
-execute if predicate tid:random_33 fill ~-2 ~ ~-2 ~2 ~-9 ~2 emerald_block replace glass
-execute if predicate tid:random_50 fill ~-2 ~ ~-2 ~2 ~-9 ~2 diamond_block replace glass
+#Decide which resource block it should be
+execute if predicate tid:random_05 run fill ~-2 ~ ~-2 ~2 ~-9 ~2 redstone_block replace glass
+execute if predicate tid:random_10 run fill ~-2 ~ ~-2 ~2 ~-9 ~2 lapis_block replace glass
+execute if predicate tid:random_25 run fill ~-2 ~ ~-2 ~2 ~-9 ~2 gold_block replace glass
+execute if predicate tid:random_33 run fill ~-2 ~ ~-2 ~2 ~-9 ~2 emerald_block replace glass
+execute if predicate tid:random_50 run fill ~-2 ~ ~-2 ~2 ~-9 ~2 diamond_block replace glass
 fill ~-2 ~ ~-2 ~2 ~-9 ~2 iron_block replace glass
 
-execute if block ~ ~ ~ diamond_block run data modify storage tid generated_diamond_stalag set value 1
-execute if block ~ ~ ~ gold_block run data modify storage tid generated_gold_stalag set value 1
-execute if block ~ ~ ~ emerald_block run data modify storage tid generated_emerald_stalag set value 1
-execute if block ~ ~ ~ lapis_block run data modify storage tid generated_lapis_stalag set value 1
-execute if block ~ ~ ~ iron_block run data modify storage tid generated_iron_stalag set value 1
-execute if block ~ ~ ~ coal_block run data modify storage tid generated_coal_stalag set value 1
+#Track which of these got generated, so the spawn room can include whatever didn't generate elsewhere
+execute if block ~ ~ ~ diamond_block run scoreboard players add generated_diamond_stalag value 1
+execute if block ~ ~ ~ gold_block run scoreboard players add generated_gold_stalag value 1
+execute if block ~ ~ ~ emerald_block run scoreboard players add generated_emerald_stalag value 1
+execute if block ~ ~ ~ lapis_block run scoreboard players add generated_lapis_stalag value 1
+execute if block ~ ~ ~ iron_block run scoreboard players add generated_iron_stalag value 1
+
+
 
 

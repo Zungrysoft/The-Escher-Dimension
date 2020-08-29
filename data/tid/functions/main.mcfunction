@@ -27,9 +27,6 @@ execute as @e run function tid:update_coords
 function tid:gameplay/replace_spawns
 
 #Dungeon Generation Checks
-execute as @e[type=minecraft:area_effect_cloud,name="station_handler_north"] at @s run function tid:dungeon/station_handler_north
-execute as @e[type=minecraft:area_effect_cloud,name="station_cave_segment"] at @s run function tid:dungeon/station_cave_segment_handler
-execute as @e[type=minecraft:area_effect_cloud,name="station_entrance_spawner"] at @s run function tid:dungeon/station_initialchecks_north
 execute as @e[type=minecraft:area_effect_cloud,name="infernal_handler"] at @s run function tid:dungeon/infernal/infernal_handler
 execute as @e[type=minecraft:area_effect_cloud,name="sin_handler"] at @s run function tid:dungeon/sin/sin_handler
 

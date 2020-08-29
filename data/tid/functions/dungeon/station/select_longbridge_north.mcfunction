@@ -1,11 +1,15 @@
 #Pick a structure from this list
-setblock ~-2 ~-3 ~-25 minecraft:structure_block{name: "tid:station/longbridge_north_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/longbridge_north_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
-setblock ~-2 ~-2 ~-25 minecraft:redstone_block
+setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~-2 ~125 ~-25 ~2 ~133 ~-1 minecraft:blue_wool
+fill ~ ~128 ~ ~4 ~136 ~24 minecraft:blue_wool
+
+#Mark this area on the map
+fill ~ 255 ~ ~4 255 ~24 minecraft:red_nether_bricks replace minecraft:purple_concrete
+fill ~ 255 ~ ~4 255 ~24 minecraft:red_nether_bricks replace minecraft:black_concrete
 
 #Count the room in the total
 scoreboard players add @e[name="station_roomcount",type=area_effect_cloud,limit=1] tries 1
