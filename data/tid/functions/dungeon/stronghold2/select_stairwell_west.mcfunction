@@ -10,7 +10,7 @@ execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~-128 ~ ~4 ~-113 ~4 minecraft:blue_wool replace minecraft:orange_wool
+fill ~ ~128 ~ ~4 ~143 ~4 minecraft:blue_wool replace minecraft:orange_wool
 
 #Mark this area on the map
 fill ~ 255 ~ ~4 255 ~4 minecraft:stone replace minecraft:black_concrete

@@ -1,5 +1,7 @@
 #Platform
 fill ~-7 ~-3 ~-7 ~7 ~ ~7 minecraft:bedrock
+#Air Pocket
+fill ~-7 ~1 ~-7 ~7 ~5 ~7 minecraft:air
 #Cage
 fill ~-5 ~1 ~-5 ~5 ~5 ~5 minecraft:bedrock
 fill ~-4 ~1 ~-4 ~4 ~4 ~4 minecraft:air

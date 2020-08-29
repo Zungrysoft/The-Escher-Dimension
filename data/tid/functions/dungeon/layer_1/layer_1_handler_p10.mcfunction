@@ -1,5 +1,5 @@
 #Message to notify that the world is being built
-say Assembling Caverns...
+say Generating Dungeons...
 
 #Storehouse for orange wool
 execute in tid:layer_1 run fill 1000 1 1000 1032 28 1032 minecraft:bedrock
@@ -22,6 +22,10 @@ execute in tid:layer_1 run fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 scoreboard players set stronghold2_rooms value 250
 
 #Summon the entrance rooms
+#Stronghold
+execute positioned 0 55 7 positioned ~-6 ~-5 ~1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/entrance_south", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute positioned 0 55 7 positioned ~-6 ~-5 ~1 run setblock ~ ~1 ~ minecraft:redstone_block
+execute positioned 0 55 7 positioned ~-6 ~-5 ~1 run fill ~ ~128 ~ ~12 ~139 ~20 minecraft:blue_wool
 
 #Done, now move to the next phase
 scoreboard players set layer_1_handler_phase value 20

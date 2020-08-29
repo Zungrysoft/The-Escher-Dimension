@@ -3,22 +3,17 @@ execute as @a[predicate=tid:in_overworld] run function tid:general/respawn
 execute as @a[predicate=tid:in_the_nether] run function tid:general/respawn
 execute as @a[predicate=tid:in_the_end] run function tid:general/respawn
 
-#Generate The World's Structures if that has not already been done
-execute if entity @a[predicate=tid:in_layer_1] in tid:layer_1 unless block 0 54 0 minecraft:bedrock run function tid:generate_1
-execute if entity @a[predicate=tid:in_layer_2] in tid:layer_2 unless block 0 54 0 minecraft:bedrock run function tid:generate_2
-execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 unless block 0 54 0 minecraft:bedrock run function tid:generate_3
-execute if entity @a[predicate=tid:in_layer_4] in tid:layer_4 unless block 0 54 0 minecraft:bedrock run function tid:generate_4
-execute if entity @a[predicate=tid:in_layer_5] in tid:layer_5 unless block 0 54 0 minecraft:bedrock run function tid:generate_5
-execute if entity @a[predicate=tid:in_layer_6] in tid:layer_6 unless block 0 54 0 minecraft:bedrock run function tid:generate_6
-execute if entity @a[predicate=tid:in_layer_sin] in tid:layer_sin unless block 0 182 0 minecraft:bedrock run function tid:generate_sin
-
 #Layer 1
-execute if entity @a[predicate=tid:in_layer_1] in tid:layer_1 run function tid:dungeon/layer_1/layer_1_handler
-execute in tid:layer_1 positioned 0 55 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute in tid:layer_1 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_1] in tid:layer_1 if block 0 54 0 bedrock run function tid:dungeon/layer_1/layer_1_handler
+
+#Layer 4
+execute in tid:layer_4 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_4] in tid:layer_4 if block 0 54 0 bedrock run function tid:dungeon/layer_4/layer_4_handler
 
 #Hellion
-execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion run function tid:dungeon/hellion/hellion_handler
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
 #Automatic Scoreboard Stuff
 execute as @e run function tid:update_coords

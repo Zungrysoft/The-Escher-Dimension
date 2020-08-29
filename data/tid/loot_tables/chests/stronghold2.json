@@ -1,5 +1,15 @@
 {
     "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:orange_dye"
+                }
+            ]
+        },
         {
             "rolls": 3,
             "bonus_rolls": 0,
@@ -27,7 +37,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 5
+                                "max": 3
                             }
                         }
                     ]
@@ -65,28 +75,28 @@
                 },
                 {
                     "type": "item",
-                    "weight": 80,
-                    "name": "minecraft:gold_nugget",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 9
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
                     "weight": 25,
-                    "name": "minecraft:iron_nugget",
+                    "name": "minecraft:leather",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
                                 "max": 7
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 10
                             }
                         }
                     ]
@@ -100,7 +110,21 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 3
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:quartz",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 10
                             }
                         }
                     ]
@@ -114,14 +138,14 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 7
+                                "max": 10
                             }
                         }
                     ]
                 },
 				{
                     "type": "item",
-                    "weight": 12,
+                    "weight": 10,
                     "name": "minecraft:lapis_lazuli",
                     "functions": [
                         {
@@ -150,7 +174,7 @@
 				{
                     "type": "item",
                     "weight": 10,
-                    "name": "minecraft:redstone",
+                    "name": "minecraft:paper",
                     "functions": [
                         {
                             "function": "set_count",
@@ -163,28 +187,14 @@
                 },
 				{
                     "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:flint",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
                     "weight": 8,
-                    "name": "minecraft:charcoal",
+                    "name": "minecraft:coal",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 5
+                                "max": 4
                             }
                         }
                     ]
@@ -192,47 +202,41 @@
                 {
                     "type": "item",
                     "weight": 5,
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
+                    "name": "minecraft:diamond"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_helmet"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_chestplate"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_leggings"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_boots"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_pickaxe"
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_axe"
                 },
 				{
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:iron_sword"
                 },
 				{
@@ -265,7 +269,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:26,Duration:6000}],CustomPotionColor:2225664,display:{Name:'[{\"text\":\"Potion of Luck\",\"italic\":false}]'}}"
+                            "tag": "{Potion:\"minecraft:luck\"}"
                         }
                     ]
                 }

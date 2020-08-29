@@ -1,5 +1,5 @@
 #Message to notify that the world is being built
-say Generating dungeons...
+say Growing Caverns...
 
 #Storehouse for orange wool
 execute in tid:layer_4 run fill 1000 1 1000 1032 28 1032 minecraft:bedrock
@@ -22,7 +22,7 @@ execute in tid:layer_4 run fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 scoreboard players set station_rooms value 300
 
 #Summon the entrance rooms
-execute positioned -16 42 40 run dungeon/station/cave_expand
+execute positioned -16 42 40 run function tid:dungeon/station/cave_expand
 
 #Done, now move to the next phase
 scoreboard players set layer_4_handler_phase value 11
