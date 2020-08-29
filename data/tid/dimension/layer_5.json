@@ -1,0 +1,37 @@
+{
+  "type": "tid:layer_5_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 126
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+        {
+          "block": "minecraft:orange_wool",
+          "height": 126
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

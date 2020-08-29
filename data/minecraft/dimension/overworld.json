@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:overworld_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:forest",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~ ~ {CustomName:'[{"text":"Oxidation Spirit"}]',HandItems:[{id:bow,Count:1}],ArmorItems:[{},{},{id:leather_chestplate,tag:{display:{color:16760367}},Count:1},{id:shroomlight,Count:1}],ArmorDropChances:[0.0F,0F,0F,0F],HandDropChances:[0F],ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:12b}],DeathLootTable: "tid:entities/oxidation_spirit"}

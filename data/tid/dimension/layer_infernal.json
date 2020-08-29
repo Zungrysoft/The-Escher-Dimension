@@ -1,0 +1,49 @@
+{
+  "type": "tid:layer_infernal_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:soul_sand_valley",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:basalt",
+          "height": 35
+        },
+		{
+          "block": "minecraft:lava",
+          "height": 10
+        },
+		{
+          "block": "minecraft:air",
+          "height": 76
+        },
+		{
+          "block": "minecraft:basalt",
+          "height": 5
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+        {
+          "block": "minecraft:orange_wool",
+          "height": 126
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

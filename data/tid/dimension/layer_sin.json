@@ -1,0 +1,49 @@
+{
+  "type": "tid:layer_sin_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:ocean",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:yellow_wool",
+          "height": 40
+        },
+		{
+          "block": "minecraft:orange_wool",
+          "height": 86
+        },
+		{
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+		{
+          "block": "minecraft:netherrack",
+          "height": 5
+        },
+		{
+          "block": "minecraft:blackstone",
+          "height": 28
+        },
+		{
+          "block": "minecraft:basalt",
+          "height": 7
+        },
+		{
+          "block": "minecraft:water",
+          "height": 9
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

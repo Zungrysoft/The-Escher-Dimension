@@ -1,0 +1,2 @@
+function tid:dungeon/infernal/check_tries
+execute unless score @s failed matches 1.. if predicate tid:random_20 if blocks ~-12 ~119 ~1 ~17 ~142 ~30 1 1 1 all run function tid:dungeon/infernal/select_sewer_south

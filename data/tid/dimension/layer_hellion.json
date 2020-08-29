@@ -1,0 +1,41 @@
+{
+  "type": "tid:layer_hellion_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:basalt_deltas",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+		{
+          "block": "minecraft:quartz_bricks",
+          "height": 45
+        },
+		{
+          "block": "minecraft:orange_wool",
+          "height": 81
+        },
+		{
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+		{
+          "block": "minecraft:netherrack",
+          "height": 30
+        },
+		{
+          "block": "minecraft:lava",
+          "height": 15
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

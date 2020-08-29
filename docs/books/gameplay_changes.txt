@@ -1,0 +1,14 @@
+This book lists all of the changes made to standard gameplay. Reading this book is not necessary to enjoy the game, as you'll discover most of the changes on your own anyway.
+
+---
+
+§1-Reflected ghast fireballs are extra powerful.
+§4-Monster spawners drop gold ingots.
+§1-Gilded blackstone either drops blackstone or a gold ingot. It never drops itself.
+§4-Items received from piglin bartering have changed. Rare items can be found!
+
+---
+
+§1-Piglins drop gold nuggets. Piglin brutes drop gold ingots.
+§4-Wither skeleton skulls drop considerably more often.
+§1-Apples drop from oak leaves considerably more often. 
