@@ -21,5 +21,5 @@ summon minecraft:area_effect_cloud -7 183 0 {Duration:99999999,CustomName:"\"hel
 summon minecraft:area_effect_cloud 7 183 0 {Duration:99999999,CustomName:"\"hellion_east\""}
 
 #Done, now move to the next phase
-scoreboard players set hellion_handler_phase value 2
+scoreboard players set hellion_handler_phase value 20
 

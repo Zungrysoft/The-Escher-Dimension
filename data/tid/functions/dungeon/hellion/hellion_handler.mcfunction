@@ -5,14 +5,14 @@ execute unless score hellion_handler_phase value matches 0.. run scoreboard play
 #Phase 0: Wait for chunks to load
 execute if score hellion_handler_phase value matches 0 run function tid:dungeon/hellion/hellion_handler_p0
 
-#Phase 1: Initialize the world
-execute if score hellion_handler_phase value matches 1 run function tid:dungeon/hellion/hellion_handler_p1
+#Phase 10: Initialize the world
+execute if score hellion_handler_phase value matches 10 run function tid:dungeon/hellion/hellion_handler_p10
 
-#Phase 2: Generate the world
-execute if score hellion_handler_phase value matches 2 run function tid:dungeon/hellion/hellion_handler_p2
+#Phase 20: Generate the world
+execute if score hellion_handler_phase value matches 20 run function tid:dungeon/hellion/hellion_handler_p20
 
-#Phase 3: Make sure that a sufficient number of rooms got generated
-execute if score hellion_handler_phase value matches 3 run function tid:dungeon/hellion/hellion_handler_p3
+#Phase 30: Make sure that a sufficient number of rooms got generated
+execute if score hellion_handler_phase value matches 30 run function tid:dungeon/hellion/hellion_handler_p30
 
-#Phase 4: Final Steps
-execute if score hellion_handler_phase value matches 4 run function tid:dungeon/hellion/hellion_handler_p4
+#Phase 40: Final Steps
+execute if score hellion_handler_phase value matches 40 run function tid:dungeon/hellion/hellion_handler_p40

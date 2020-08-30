@@ -2,8 +2,8 @@
 execute unless score layer_4_handler_phase value matches 0.. run say Waiting for chunks to load...
 execute unless score layer_4_handler_phase value matches 0.. run scoreboard players set layer_4_handler_phase value 0
 
-#Phase 00: Wait for chunks to load
-execute if score layer_4_handler_phase value matches 0 run function tid:dungeon/layer_4/layer_4_handler_p00
+#Phase 0: Wait for chunks to load
+execute if score layer_4_handler_phase value matches 0 run function tid:dungeon/layer_4/layer_4_handler_p0
 
 #Phase 10: Initialize the world
 execute if score layer_4_handler_phase value matches 10 run function tid:dungeon/layer_4/layer_4_handler_p10

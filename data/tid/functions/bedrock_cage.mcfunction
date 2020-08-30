@@ -10,6 +10,8 @@ setblock ~3 ~1 ~3 torch
 setblock ~-3 ~1 ~3 torch
 setblock ~3 ~1 ~-3 torch
 setblock ~-3 ~1 ~-3 torch
+#Mark this area on the map
+fill ~-7 255 ~-7 ~7 255 ~7 minecraft:stone replace minecraft:black_concrete
 #Reserve the area this dungeon takes up
 fill ~-7 ~-131 ~-7 ~7 ~-123 ~7 minecraft:air
 fill ~-7 ~125 ~-7 ~7 ~133 ~7 minecraft:air

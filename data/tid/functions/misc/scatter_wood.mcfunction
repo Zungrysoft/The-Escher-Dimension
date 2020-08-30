@@ -16,7 +16,7 @@ spreadplayers ~ ~ 1 3 false @e[type=area_effect_cloud,name="scatter"]
 execute as @e[type=area_effect_cloud,name="scatter"] run data modify entity @s Pos[1] set from entity @e[type=area_effect_cloud,limit=1,name="anchor"] Pos[1]
 
 #Place the wood
-execute at @e[type=area_effect_cloud,name="scatter"] run setblock ~ ~ ~ oak_log
+execute at @e[type=area_effect_cloud,name="scatter"] if block ~ ~ ~ air run setblock ~ ~ ~ oak_log
 
 #Kill the entities
 kill @e[type=area_effect_cloud,name="scatter"]

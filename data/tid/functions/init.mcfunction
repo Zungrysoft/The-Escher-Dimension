@@ -1,8 +1,7 @@
 #Setup
 gamerule commandBlockOutput false
 gamerule doTraderSpawning false
-gamerule randomTickSpeed 5
-gamerule keepInventory true
+#gamerule randomTickSpeed 5
 gamerule doWeatherCycle false
 execute in tid:layer_1 run forceload add 0 0 64 64
 execute in tid:layer_2 run forceload add 0 0 64 64
