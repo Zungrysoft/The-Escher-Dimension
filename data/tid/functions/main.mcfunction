@@ -25,22 +25,6 @@ function tid:gameplay/replace_spawns
 execute as @e[type=minecraft:area_effect_cloud,name="infernal_handler"] at @s run function tid:dungeon/infernal/infernal_handler
 execute as @e[type=minecraft:area_effect_cloud,name="sin_handler"] at @s run function tid:dungeon/sin/sin_handler
 
-execute as @e[type=minecraft:area_effect_cloud,name="station_north"] at @s run function tid:dungeon/station_check_north
-execute as @e[type=minecraft:area_effect_cloud,name="station_east"] at @s run function tid:dungeon/station_check_east
-execute as @e[type=minecraft:area_effect_cloud,name="station_south"] at @s run function tid:dungeon/station_check_south
-execute as @e[type=minecraft:area_effect_cloud,name="station_west"] at @s run function tid:dungeon/station_check_west
-execute as @e[type=minecraft:area_effect_cloud,name="station_up"] at @s run function tid:dungeon/station_check_up
-execute as @e[type=minecraft:area_effect_cloud,name="station_down"] at @s run function tid:dungeon/station_check_down
-
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_north"] at @s run function tid:dungeon/soulsand_check_north
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_east"] at @s run function tid:dungeon/soulsand_check_east
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_south"] at @s run function tid:dungeon/soulsand_check_south
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_west"] at @s run function tid:dungeon/soulsand_check_west
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_up"] at @s run function tid:dungeon/soulsand_check_up
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_down"] at @s run function tid:dungeon/soulsand_check_down
-
-
-
 #Entrance Messages
 execute as @a unless score @s found_stronghold matches 1.. at @s if block ~ ~-1 ~ cracked_stone_bricks if entity @e[name="stronghold2_entrance",distance=..30] run function tid:intro/stronghold2
 execute as @a unless score @s found_brick matches 1.. at @s if block ~ ~-1 ~ bricks if entity @e[name="brick_entrance",distance=..30] run function tid:intro/brick
