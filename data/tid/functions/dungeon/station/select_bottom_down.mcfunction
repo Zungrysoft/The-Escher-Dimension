@@ -5,7 +5,7 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_bottom", posX:
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~4 ~131 ~10 minecraft:blue_wool
+fill ~ ~128 ~ ~14 ~131 ~10 minecraft:blue_wool
 
 #No need to mark the map, since generating up or down will never mark any new space
 

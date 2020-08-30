@@ -1,3 +1,3 @@
 function tid:dungeon/station/room_checks
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-7 ~-10 ~-5 if blocks ~ ~128 ~ ~4 ~137 ~10 1033 129 1033 all run function tid:dungeon/station/select_stack_down
-execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-7 ~-4 ~-5 if blocks ~ ~128 ~ ~4 ~131 ~10 1033 129 1033 all run function tid:dungeon/station/select_bottom_down
+execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-7 ~-10 ~-5 if blocks ~ ~128 ~ ~14 ~136 ~10 1033 1 1033 all run function tid:dungeon/station/select_stack_down
+execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-7 ~-4 ~-5 if blocks ~ ~128 ~ ~4 ~131 ~10 1033 1 1033 all run function tid:dungeon/station/select_bottom_down

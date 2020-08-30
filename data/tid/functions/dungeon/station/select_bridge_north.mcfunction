@@ -20,7 +20,7 @@ fill ~ 255 ~ ~6 255 ~4 minecraft:red_nether_bricks replace minecraft:purple_conc
 fill ~ 255 ~ ~6 255 ~4 minecraft:red_nether_bricks replace minecraft:black_concrete
 
 #Count the room in the total
-scoreboard players add @e[name="station_roomcount",type=area_effect_cloud,limit=1] tries 1
+scoreboard players remove station_rooms value 1
 
 #We're done here
 kill @s

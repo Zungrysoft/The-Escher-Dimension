@@ -16,7 +16,7 @@ setblock ~ ~1 ~ minecraft:redstone_block
 fill ~-7 ~125 ~-2 ~-1 ~133 ~2 minecraft:blue_wool
 
 #Count the room in the total
-scoreboard players add @e[name="station_roomcount",type=area_effect_cloud,limit=1] tries 1
+scoreboard players remove station_rooms value 1
 
 #We're done here
 kill @s

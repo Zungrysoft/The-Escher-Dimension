@@ -61,7 +61,7 @@ execute as @e[type=minecraft:armor_stand,name="tnt_stick"] at @s run function ti
 execute as @e[type=minecraft:armor_stand,name="station_pillar_base",nbt={OnGround:1b}] at @s run function tid:misc/station_pillar_base
 execute as @e[type=minecraft:area_effect_cloud,name="summon_mob"] at @s if entity @p[distance=0..18] run function tid:misc/summon_mob
 execute as @e[type=minecraft:firework_rocket,name="glowstone_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae run setblock ~ ~ ~ glowstone
-execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae run function tid:misc/ghast_rocket_generate
+execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run function tid:misc/ghast_rocket_generate
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check

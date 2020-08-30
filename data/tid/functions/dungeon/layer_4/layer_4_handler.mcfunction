@@ -3,7 +3,7 @@ execute unless score layer_4_handler_phase value matches 0.. run say Waiting for
 execute unless score layer_4_handler_phase value matches 0.. run scoreboard players set layer_4_handler_phase value 0
 
 #Phase 00: Wait for chunks to load
-execute if score layer_4_handler_phase value matches 0 run function tid:dungeon/layer_4/layer_4_handler_p0
+execute if score layer_4_handler_phase value matches 0 run function tid:dungeon/layer_4/layer_4_handler_p00
 
 #Phase 10: Initialize the world
 execute if score layer_4_handler_phase value matches 10 run function tid:dungeon/layer_4/layer_4_handler_p10
@@ -31,4 +31,4 @@ execute if score layer_4_handler_phase value matches 40 run function tid:dungeon
 
 
 #Run cave generation
-execute if score layer_4_handler_phase value matches 11..13 run execute as @e[type=minecraft:area_effect_cloud,name="station_cave_segment"] at @s run function tid:dungeon/station_cave_segment_handler
+execute if score layer_4_handler_phase value matches 11..13 as @e[type=minecraft:area_effect_cloud,name="station_cave_segment"] at @s run function tid:dungeon/station/cave_segment_handler

@@ -13,4 +13,3 @@ execute if score @s phase matches 1 run function tid:dungeon/station/cave_segmen
 
 #Phase 3: Finish generating the interior of the cave, then kill self
 execute if score @s phase matches 3 run function tid:dungeon/station/cave_segment_handler_p3
-

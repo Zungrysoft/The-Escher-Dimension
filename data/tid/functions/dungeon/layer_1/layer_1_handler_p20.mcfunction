@@ -17,3 +17,4 @@ execute as @e[type=minecraft:area_effect_cloud,name="brick_down3"] at @s run fun
 
 #Once all of the rooms are done generating, move to the next phase
 execute unless entity @e[type=area_effect_cloud,name="stronghold2_north"] unless entity @e[type=area_effect_cloud,name="stronghold2_south"] unless entity @e[type=area_effect_cloud,name="stronghold2_east"] unless entity @e[type=area_effect_cloud,name="stronghold2_west"] unless entity @e[type=area_effect_cloud,name="stronghold2_up"] unless entity @e[type=area_effect_cloud,name="brick_north"] unless entity @e[type=area_effect_cloud,name="brick_south"] unless entity @e[type=area_effect_cloud,name="brick_east"] unless entity @e[type=area_effect_cloud,name="brick_west"] run scoreboard players set layer_1_handler_phase value 30
+

@@ -19,7 +19,7 @@ execute if predicate tid:random_04 run setblock ~ ~ ~ minecraft:structure_block{
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~4 ~137 ~10 minecraft:blue_wool
+fill ~ ~128 ~ ~14 ~136 ~10 minecraft:blue_wool
 
 #No need to mark the map, since generating up or down will never mark any new space
 
@@ -28,4 +28,3 @@ scoreboard players remove station_rooms value 1
 
 #We're done here
 kill @s
-
