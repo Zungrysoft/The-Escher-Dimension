@@ -5,4 +5,4 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/nexus_event1_1",
 scoreboard players add stronghold2_hellion_portals value 1
 
 #Mark this area on the map. It has priority over all other rooms.
-fill ~ 255 ~ ~12 255 ~12 minecraft:red_concrete
+fill ~ 255 ~ ~12 255 ~12 minecraft:white_concrete

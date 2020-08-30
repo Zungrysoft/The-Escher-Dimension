@@ -20,6 +20,7 @@ execute in tid:layer_1 run fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
 scoreboard players set stronghold2_rooms value 250
+scoreboard players set brick_rooms value 250
 
 #Summon the entrance rooms and starting area
 execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/intro/select_entrance
@@ -27,6 +28,7 @@ execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/int
 execute positioned 0 55 -7 positioned ~-3 ~ ~-18 run function tid:dungeon/intro/select_hallway
 
 execute positioned 0 59 -45 positioned ~-6 ~-5 ~-21 run function tid:dungeon/stronghold2/select_entrance_north
+execute positioned -16 59 -42 positioned ~-20 ~-20 ~-7 run function tid:dungeon/brick/select_entrance_west
 
 #Done, now move to the next phase
 scoreboard players set layer_1_handler_phase value 20
