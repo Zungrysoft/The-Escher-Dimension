@@ -19,7 +19,7 @@ execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if blo
 execute as @e run function tid:update_coords
 
 #Get rid of monsters outside the world
-execute in tid:layer_1 as @e[type=!player,type=!item] if score @s y matches 128.. run tp @s 0 -100 0
+#execute in tid:layer_1 as @e[type=!player,type=!item] if score @s y matches 128.. run tp @s 0 -100 0
 
 #Handle monster spawning replacement
 function tid:gameplay/replace_spawns
