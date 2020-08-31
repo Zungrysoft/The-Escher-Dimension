@@ -10,9 +10,9 @@ execute if score @s counter1 matches 0..1 run summon magma_cube ~ ~ ~ {Tags:["ke
 execute if score @s counter1 matches 2..3 run function tid:custom_mobs/explosion_elemental
 #Oxidation Spirit
 execute if score @s counter1 matches 4..7 run function tid:custom_mobs/oxidation_spirit
-execute if score @s counter1 matches 4..7 if predicate tid:random_50 run function tid:custom_mobs/oxidation_spirit ~.5 ~ ~
-execute if score @s counter1 matches 4..7 if predicate tid:random_50 run function tid:custom_mobs/oxidation_spirit ~-.5 ~ ~
-execute if score @s counter1 matches 4..7 if predicate tid:random_50 run function tid:custom_mobs/oxidation_spirit ~ ~ ~-.5
+execute if score @s counter1 matches 4..7 if predicate tid:random_50 positioned ~ ~ ~-.5 run function tid:custom_mobs/oxidation_spirit
+execute if score @s counter1 matches 4..7 if predicate tid:random_50 positioned ~.5 ~ ~ run function tid:custom_mobs/oxidation_spirit
+execute if score @s counter1 matches 4..7 if predicate tid:random_50 positioned ~-.5 ~ ~ run function tid:custom_mobs/oxidation_spirit
 
 #Dye Zombie
 execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:yellow_dye,Count:1}],HandDropChances:[1.00F]}
