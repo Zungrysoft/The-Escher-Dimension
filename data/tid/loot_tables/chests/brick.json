@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 15,
                     "name": "minecraft:magenta_dye"
                 },
 				{
@@ -89,6 +89,11 @@
                             }
                         }
                     ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:compass"
                 },
 				{
                     "type": "item",
