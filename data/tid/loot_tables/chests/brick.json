@@ -79,7 +79,7 @@
 				{
                     "type": "item",
                     "weight": 25,
-                    "name": "minecraft:charcoal",
+                    "name": "minecraft:coal",
                     "functions": [
                         {
                             "function": "set_count",
