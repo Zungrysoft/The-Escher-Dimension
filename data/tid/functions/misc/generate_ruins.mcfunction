@@ -40,6 +40,7 @@ execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block
 execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/ruins/ruins34", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/ruins/ruins35", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/ruins/ruins36", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:stronghold2/ruins/ruins37", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate it
 setblock ~ ~1 ~ redstone_block

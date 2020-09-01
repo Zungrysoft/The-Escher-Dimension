@@ -15,6 +15,10 @@ execute if entity @a[predicate=tid:in_layer_4] in tid:layer_4 if block 0 54 0 be
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
+#Test World
+execute in tid:layer_test positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_test] in tid:layer_test if block 0 182 0 bedrock run function tid:dungeon/test/test_handler
+
 #Automatic Scoreboard Stuff
 execute as @e run function tid:update_coords
 
@@ -52,6 +56,8 @@ execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] 
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
+execute as @e[type=area_effect_cloud,name="cave1"] at @s run function tid:misc/cave1_carve
+execute as @e[type=area_effect_cloud,name="cave1"] at @s run tp @s ^ ^ ^3
 
 #Gameplay stuff
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
