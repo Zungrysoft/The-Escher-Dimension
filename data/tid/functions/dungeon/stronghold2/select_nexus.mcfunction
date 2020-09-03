@@ -22,9 +22,16 @@ execute if entity @s[name="stronghold2_west"] if predicate tid:random_10 run set
 
 #Mark this area on the map
 fill ~ 255 ~ ~12 255 ~12 minecraft:stone replace minecraft:black_concrete
+fill ~ 255 ~ ~12 255 ~12 minecraft:stone replace minecraft:bricks
 
 #Check for the portal to Hellion Heights
 function tid:dungeon/stronghold2/event1_check
+
+#Rest of the map
+fill ~6 255 ~ ~6 255 ~12 minecraft:light_gray_concrete replace minecraft:stone
+fill ~ 255 ~6 ~12 255 ~6 minecraft:light_gray_concrete replace minecraft:stone
+fill ~6 255 ~ ~6 255 ~12 minecraft:light_gray_concrete replace minecraft:white_concrete
+fill ~ 255 ~6 ~12 255 ~6 minecraft:light_gray_concrete replace minecraft:white_concrete
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block

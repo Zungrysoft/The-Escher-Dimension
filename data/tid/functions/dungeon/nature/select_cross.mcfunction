@@ -1,0 +1,25 @@
+#Pick a structure from this list
+setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/cross_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_50 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/cross_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/cross_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
+#Mark this area on the map
+fill ~ 255 ~ ~12 255 ~12 minecraft:oak_planks replace minecraft:black_concrete
+fill ~6 255 ~ ~6 255 ~12 minecraft:stone replace minecraft:oak_planks
+fill ~ 255 ~6 ~12 255 ~6 minecraft:stone replace minecraft:oak_planks
+
+#Check for the portal to Layer 2
+#function tid:dungeon/nature/event1_check
+
+#Activate whichever structure block was picked
+setblock ~ ~1 ~ minecraft:redstone_block
+
+#Mark this area as generated
+fill ~1 ~128 ~1 ~11 ~142 ~11 minecraft:blue_wool replace minecraft:orange_wool
+
+#Count the room in the total
+scoreboard players remove nature_rooms value 1
+
+#We're done here
+kill @s
+

@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:glass_bottle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:shears"
+                },
+				{
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:beehive"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_axe"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_shovel"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:honeycomb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:honey_bottle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

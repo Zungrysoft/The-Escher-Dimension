@@ -9,6 +9,10 @@ fill ~ ~128 ~ ~15 ~135 ~10 minecraft:blue_wool replace minecraft:orange_wool
 
 #Mark this area on the map
 fill ~ 255 ~ ~15 255 ~10 minecraft:stone replace minecraft:black_concrete
+fill ~ 255 ~ ~15 255 ~10 minecraft:stone replace minecraft:bricks
+fill ~10 255 ~5 ~15 255 ~5 minecraft:light_gray_concrete replace minecraft:stone
+fill ~9 255 ~4 ~11 255 ~6 minecraft:light_gray_concrete replace minecraft:stone
+
 #Leaving the experimental code for height-based maps here in case I ever decide to actually implement it
 #execute if score @s y matches 61.. fill ~-2 255 ~-9 ~2 255 ~-1 minecraft:gray_concrete replace minecraft:black_concrete
 #execute if score @s y matches 61.. fill ~-2 255 ~-9 ~2 255 ~-1 minecraft:gray_concrete replace minecraft:light_gray_concrete

@@ -58,11 +58,13 @@ execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] a
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=area_effect_cloud,name="cave1"] at @s run function tid:misc/cave1_carve
 execute as @e[type=area_effect_cloud,name="cave1"] at @s run tp @s ^ ^ ^3
+execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 
 #Gameplay stuff
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
 function tid:gameplay/super_flint
 scoreboard players set @a damage_dealt 0
+execute as @a at @s run function tid:gameplay/float_orb
 
 #Handles custom monster effects
 #Fireflare

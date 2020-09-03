@@ -21,6 +21,8 @@ fill ~ ~128 ~ ~13 ~133 ~4 minecraft:blue_wool replace minecraft:orange_wool
 
 #Mark this area on the map
 fill ~ 255 ~ ~13 255 ~4 minecraft:stone replace minecraft:black_concrete
+fill ~ 255 ~ ~13 255 ~4 minecraft:stone replace minecraft:bricks
+fill ~ 255 ~2 ~13 255 ~2 minecraft:light_gray_concrete replace minecraft:stone
 
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
