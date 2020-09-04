@@ -19,7 +19,7 @@ execute in tid:layer_3 run fill 1033 1 1001 1064 27 1032 minecraft:purple_wool
 execute in tid:layer_3 run fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
-scoreboard players set station_rooms value 300
+scoreboard players set station_rooms value 350
 scoreboard players set layer_3_handler_counter value 55
 
 #Summon the entrance rooms

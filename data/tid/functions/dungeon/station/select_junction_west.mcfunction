@@ -5,7 +5,7 @@ execute if predicate tid:random_25 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/junction_tee_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/junction_turn_east", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/junction_turn_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_08 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/junction_straight_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_08 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/junction_straight_west", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block

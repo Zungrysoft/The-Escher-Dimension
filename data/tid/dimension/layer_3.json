@@ -4,7 +4,7 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "minecraft:plains",
+      "biome": "tid:layer_3",
       "lakes": false,
       "features": false,
       "layers": [

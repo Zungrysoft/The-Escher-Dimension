@@ -1,5 +1,6 @@
 #Remove Baby Zombies from the spawning pool
 execute as @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare",predicate=tid:in_layer_1] at @s run function tid:gameplay/layer_1_spawns
+execute as @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare",predicate=tid:in_layer_3] at @s run function tid:gameplay/layer_3_spawns
 tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1
 
 #Convert Endermen to Debris Demons in Infernal Industries
