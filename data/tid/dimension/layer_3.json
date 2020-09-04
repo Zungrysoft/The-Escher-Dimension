@@ -4,7 +4,7 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "minecraft:swamp",
+      "biome": "minecraft:plains",
       "lakes": false,
       "features": false,
       "layers": [

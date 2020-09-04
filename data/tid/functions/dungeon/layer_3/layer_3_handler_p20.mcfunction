@@ -7,4 +7,4 @@ execute as @e[type=minecraft:area_effect_cloud,name="station_up"] at @s run func
 execute as @e[type=minecraft:area_effect_cloud,name="station_down"] at @s run function tid:dungeon/station/check_down
 
 #Once all of the rooms are done generating, move to the next phase
-execute unless entity @e[type=area_effect_cloud,name="station_north"] unless entity @e[type=area_effect_cloud,name="station_south"] unless entity @e[type=area_effect_cloud,name="station_east"] unless entity @e[type=area_effect_cloud,name="station_west"] unless entity @e[type=area_effect_cloud,name="station_up"] unless entity @e[type=area_effect_cloud,name="station_down"] run scoreboard players set layer_4_handler_phase value 30
+execute unless entity @e[type=area_effect_cloud,name="station_north"] unless entity @e[type=area_effect_cloud,name="station_south"] unless entity @e[type=area_effect_cloud,name="station_east"] unless entity @e[type=area_effect_cloud,name="station_west"] unless entity @e[type=area_effect_cloud,name="station_up"] unless entity @e[type=area_effect_cloud,name="station_down"] run scoreboard players set layer_3_handler_phase value 30

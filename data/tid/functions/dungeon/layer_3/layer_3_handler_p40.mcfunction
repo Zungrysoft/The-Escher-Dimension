@@ -11,5 +11,5 @@ forceload remove 1000 1000 1064 1064
 say Done!
 
 #Move to nonexistent phase
-scoreboard players set layer_4_handler_phase value 666
+scoreboard players set layer_3_handler_phase value 666
 

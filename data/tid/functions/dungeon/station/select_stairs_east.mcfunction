@@ -10,6 +10,7 @@ fill ~ ~128 ~ ~10 ~138 ~4 minecraft:blue_wool
 #Mark this area on the map
 fill ~ 255 ~ ~10 255 ~4 minecraft:red_nether_bricks replace minecraft:purple_concrete
 fill ~ 255 ~ ~10 255 ~4 minecraft:red_nether_bricks replace minecraft:black_concrete
+fill ~ 255 ~2 ~10 255 ~2 minecraft:red_concrete replace minecraft:red_nether_bricks
 
 #Count the room in the total
 scoreboard players remove station_rooms value 1

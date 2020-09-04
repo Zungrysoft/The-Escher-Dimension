@@ -5,7 +5,7 @@ gamerule doTraderSpawning false
 gamerule doWeatherCycle false
 gamerule doInsomnia false
 execute in tid:layer_1 run forceload add -7 -7 7 7
-execute in tid:layer_4 run forceload add -7 -7 7 7
+execute in tid:layer_3 run forceload add -7 -7 7 7
 execute in tid:layer_hellion run forceload add -7 -7 7 7
 
 #Scoreboard

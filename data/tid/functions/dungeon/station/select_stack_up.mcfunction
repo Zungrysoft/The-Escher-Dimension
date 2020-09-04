@@ -14,6 +14,8 @@ execute if predicate tid:random_06 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_04 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_13", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_04 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_14", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_04 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_15", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_16", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:station/stack_17", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block

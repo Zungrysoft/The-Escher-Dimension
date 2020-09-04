@@ -4,5 +4,5 @@ execute as @e[name="station_cave_segment",type=area_effect_cloud] unless score @
 
 #If they are all on phase 2, advance their phases and move on here to phase 13
 execute unless score failed value matches 1 run scoreboard players set @e[name="station_cave_segment",type=area_effect_cloud] phase 3
-execute unless score failed value matches 1 run scoreboard players set layer_4_handler_phase value 13
+execute unless score failed value matches 1 run scoreboard players set layer_3_handler_phase value 13
 

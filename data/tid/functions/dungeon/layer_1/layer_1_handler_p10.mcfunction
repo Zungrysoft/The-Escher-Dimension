@@ -21,6 +21,7 @@ execute in tid:layer_1 run fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 #Determine the number of rooms to generate
 scoreboard players set stronghold2_rooms value 250
 scoreboard players set brick_rooms value 250
+scoreboard players set nature_rooms value 0
 #scoreboard players set nature_rooms value 250
 
 #Summon the entrance rooms and starting area

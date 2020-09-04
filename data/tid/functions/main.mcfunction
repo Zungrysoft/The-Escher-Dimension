@@ -7,9 +7,9 @@ execute as @a[predicate=tid:in_the_end] run function tid:general/respawn
 execute in tid:layer_1 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_1] in tid:layer_1 if block 0 54 0 bedrock run function tid:dungeon/layer_1/layer_1_handler
 
-#Layer 4
-execute in tid:layer_4 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
-execute if entity @a[predicate=tid:in_layer_4] in tid:layer_4 if block 0 54 0 bedrock run function tid:dungeon/layer_4/layer_4_handler
+#Layer 3
+execute in tid:layer_3 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 if block 0 54 0 bedrock run function tid:dungeon/layer_3/layer_3_handler
 
 #Hellion
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage

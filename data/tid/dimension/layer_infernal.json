@@ -4,7 +4,7 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "minecraft:soul_sand_valley",
+      "biome": "tid:infernal",
       "lakes": false,
       "features": false,
       "layers": [
