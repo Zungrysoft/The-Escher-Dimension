@@ -14,7 +14,7 @@
         },
         {
           "block": "minecraft:basalt",
-          "height": 35
+          "height": 10
         },
 		{
           "block": "minecraft:lava",
@@ -22,7 +22,7 @@
         },
 		{
           "block": "minecraft:air",
-          "height": 76
+          "height": 101
         },
 		{
           "block": "minecraft:basalt",

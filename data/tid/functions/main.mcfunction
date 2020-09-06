@@ -15,6 +15,10 @@ execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 if block 0 54 0 be
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
+#Infernal
+execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if block 0 54 0 bedrock run function tid:dungeon/infernal/infernal_handler
+
 #Test World
 execute in tid:layer_test positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_test] in tid:layer_test if block 0 182 0 bedrock run function tid:dungeon/test/test_handler
