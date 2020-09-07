@@ -11,3 +11,4 @@ data modify entity @e[name="new_spawn",limit=1] CustomName set value '{"text":"s
 
 #Mark this area as generated
 fill ~ ~128 ~ ~4 ~131 ~4 minecraft:blue_wool
+

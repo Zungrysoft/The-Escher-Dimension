@@ -30,13 +30,15 @@ execute if score @s north matches 1 if score @s east matches 0 if score @s south
 execute if score @s north matches 0 if score @s east matches 1 if score @s south matches 0 if score @s west matches 1 if score @s down matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_straight_west", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Other Shafts
-execute if score @s north matches 1 if score @s east matches 0 if score @s south matches 0 if score @s west matches 0 if score @s down matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score @s north matches 0 if score @s east matches 0 if score @s south matches 1 if score @s west matches 0 if score @s down matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_south", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score @s north matches 0 if score @s east matches 1 if score @s south matches 0 if score @s west matches 0 if score @s down matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_east", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score @s north matches 0 if score @s east matches 0 if score @s south matches 0 if score @s west matches 1 if score @s down matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_west", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score @s north matches 1 if score @s east matches 0 if score @s south matches 0 if score @s west matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score @s north matches 0 if score @s east matches 0 if score @s south matches 1 if score @s west matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_south", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score @s north matches 0 if score @s east matches 1 if score @s south matches 0 if score @s west matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_east", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score @s north matches 0 if score @s east matches 0 if score @s south matches 0 if score @s west matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/sewer/junction_shaft_west", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate it
 setblock ~ ~1 ~ redstone_block
+
+#Check for nearby 
 
 #Over and out
 kill @s

@@ -4,7 +4,7 @@ fill -5 55 -5 5 59 5 air replace bedrock
 #Add the teleporter
 summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"teleporter\"",Color:5b,Tags:["starts_open"]}
 
-#Handle the decorative pieces
+#Handle the decorative pieces and final bits
 execute as @e[type=area_effect_cloud,name="sewer_section_finished"] at @s run function tid:dungeon/infernal/sewer_generate
 execute as @e[type=area_effect_cloud,name="sewer_outflow_north"] at @s run function tid:dungeon/infernal/sewer_outflow_check_north
 execute as @e[type=area_effect_cloud,name="sewer_outflow_south"] at @s run function tid:dungeon/infernal/sewer_outflow_check_south
