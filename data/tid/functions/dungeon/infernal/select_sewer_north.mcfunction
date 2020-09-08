@@ -6,7 +6,7 @@ setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
 fill ~ ~128 ~ ~29 ~151 ~29 minecraft:yellow_wool
-execute positioned ~-2 ~-1 ~-5 run fill ~ ~128 ~ ~4 ~131 ~4 minecraft:blue_wool
+execute at @s positioned ~-2 ~-1 ~-5 run fill ~ ~128 ~ ~4 ~131 ~4 minecraft:blue_wool
 
 #Summon the first sewer section
 execute at @s run summon minecraft:area_effect_cloud ~-2 ~-1 ~-5 {Duration:99999999,CustomName:"\"new_spawn\""}

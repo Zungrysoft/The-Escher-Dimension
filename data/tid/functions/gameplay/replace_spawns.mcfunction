@@ -3,9 +3,13 @@ execute as @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare",predicate=
 execute as @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare",predicate=tid:in_layer_3] at @s run function tid:gameplay/layer_3_spawns
 tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1
 
-#Convert Endermen to Debris Demons in Infernal Industries
-execute at @e[type=minecraft:enderman,predicate=tid:in_layer_infernal] run summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"\"Debris Demon\"",Health:30,HandItems:[{id:netherite_pickaxe,Count:1}],HandDropChances:[0.00F],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:ancient_debris,Count:1}],ArmorDropChances:[0.00F,0.00F,0.00F,0.00F],Attributes:[{Name:"generic.max_health",Base:30F}],DeathLootTable: "tid:entities/debris_demon"}
-tp @e[type=minecraft:enderman,predicate=tid:in_layer_infernal] 1 -100 1
+#Convert Zombie Villagers to Debris Demons in Infernal Industries
+execute at @e[type=minecraft:zombie_villager,predicate=tid:in_layer_infernal] run summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"\"Debris Demon\"",Health:30,HandItems:[{id:netherite_pickaxe,Count:1}],HandDropChances:[0.00F],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:ancient_debris,Count:1}],ArmorDropChances:[0.00F,0.00F,0.00F,0.00F],Attributes:[{Name:"generic.max_health",Base:30F}],DeathLootTable: "tid:entities/debris_demon"}
+tp @e[type=minecraft:zombie_villager,predicate=tid:in_layer_infernal] 1 -100 1
+
+#Convert Zombies to Dye Zombies in Infernal Industries
+execute at @e[type=minecraft:zombie,predicate=tid:in_layer_infernal,tag=!keep,name=!"Fireflare"] run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:black_dye,Count:1}],HandDropChances:[1.00F],Tags:["keep"]}
+tp @e[type=minecraft:zombie,predicate=tid:in_layer_infernal,tag=!keep,name=!"Fireflare"] 1 -100 1
 
 #Kill any Ghasts that spawn in Infernal Industries
 tp @e[type=minecraft:ghast,predicate=tid:in_layer_infernal] 1 -100 1
