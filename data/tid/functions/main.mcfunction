@@ -15,6 +15,10 @@ execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 if block 0 54 0 be
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
+#Jungle
+execute in tid:layer_jungle positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_jungle] in tid:layer_jungle if block 0 182 0 bedrock run function tid:dungeon/jungle/jungle_handler
+
 #Infernal
 execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
 execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if block 0 54 0 bedrock run function tid:dungeon/infernal/infernal_handler
@@ -47,6 +51,7 @@ execute as @a unless score @s found_wildfire matches 1.. at @s if block ~ ~-1 ~ 
 execute as @a unless score @s found_sin matches 1.. at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
 execute as @a unless score @s found_chambers matches 1.. at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
 execute as @a unless score @s found_hellion matches 1.. at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
+execute as @a unless score @s found_jungle matches 1.. at @s if block ~ ~-1 ~ cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar

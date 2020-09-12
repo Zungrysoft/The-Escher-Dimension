@@ -1,0 +1,1 @@
+execute if predicate tid:random_80 run setblock ~ ~ ~ air

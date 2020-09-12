@@ -1,0 +1,41 @@
+{
+  "type": "tid:layer_jungle_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "minecraft:jungle",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+		{
+          "block": "minecraft:mossy_cobblestone",
+          "height": 50
+        },
+		{
+          "block": "minecraft:orange_wool",
+          "height": 76
+        },
+		{
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+		{
+          "block": "minecraft:gravel",
+          "height": 20
+        },
+		{
+          "block": "minecraft:water",
+          "height": 30
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}
