@@ -1,13 +1,13 @@
 gamemode survival @a
 clear @a
 effect clear @a
-give @a stone_sword
-give @a stone_axe
+give @a iron_sword
+give @a iron_axe
 give @a bow
-give @a stone_pickaxe
+give @a iron_pickaxe
 give @a torch 64
 give @a cobblestone 64
-give @a stone_shovel
+give @a iron_shovel
 give @a golden_apple 2
 give @a bread 64
 give @a torch 64

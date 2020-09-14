@@ -8,6 +8,7 @@ execute in tid:layer_1 run forceload add -7 -7 7 7
 #execute in tid:layer_2 run forceload add -7 -7 7 7
 execute in tid:layer_3 run forceload add -7 -7 7 7
 execute in tid:layer_hellion run forceload add -7 -7 7 7
+execute in tid:layer_jungle run forceload add -7 -7 7 7
 execute in tid:layer_infernal run forceload add -7 -7 7 7
 
 #Scoreboard

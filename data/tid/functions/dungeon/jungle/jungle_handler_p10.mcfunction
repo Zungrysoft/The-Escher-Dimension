@@ -12,6 +12,9 @@ fill 1000 1 0 1032 28 1032 minecraft:air
 #function tid:misc/jungle_space_savers
 #function tid:misc/jungle_space_savers
 
+#Place the center-seeker
+summon minecraft:area_effect_cloud 0 255 0 {Duration:99999999,CustomName:"\"center\""}
+
 #Determine the number of rooms to generate
 scoreboard players set jungle_rooms value 350
 

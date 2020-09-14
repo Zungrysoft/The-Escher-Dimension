@@ -21,6 +21,12 @@ fill ~11 ~-1 ~ ~12 ~-45 ~4 mossy_cobblestone replace orange_wool
 clone ~11 ~-174 ~ ~12 ~-218 ~4 ~11 ~-90 ~ masked
 fill ~11 ~-46 ~ ~12 ~-90 ~4 mossy_cobblestone replace orange_wool
 
+#Run the randomizer
+scoreboard players set xmax value 15
+scoreboard players set zmax value 7
+scoreboard players set ymax value 10
+execute positioned ~-1 149 ~-1 run function tid:dungeon/jungle/rng/run_rng
+
 #We're done here
-#kill @s
+kill @s
 

@@ -7,6 +7,14 @@
 	"minecraft:mossy_cobblestone",
 	"minecraft:mossy_cobblestone_slab",
 	"minecraft:mossy_cobblestone_stairs",
-	"minecraft:mossy_cobblestone_wall"
+	"minecraft:mossy_cobblestone_wall",
+	"minecraft:stone_bricks",
+	"minecraft:stone_brick_slab",
+	"minecraft:stone_brick_stairs",
+	"minecraft:stone_brick_wall",
+	"minecraft:mossy_stone_bricks",
+	"minecraft:mossy_stone_brick_slab",
+	"minecraft:mossy_stone_brick_stairs",
+	"minecraft:mossy_stone_brick_wall"
   ]
 }
