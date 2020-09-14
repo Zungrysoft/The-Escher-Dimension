@@ -16,8 +16,8 @@ execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run f
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
 #Jungle
-execute in tid:layer_jungle positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
-execute if entity @a[predicate=tid:in_layer_jungle] in tid:layer_jungle if block 0 182 0 bedrock run function tid:dungeon/jungle/jungle_handler
+execute in tid:layer_jungle positioned 0 192 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
+execute if entity @a[predicate=tid:in_layer_jungle] in tid:layer_jungle if block 0 192 0 bedrock run function tid:dungeon/jungle/jungle_handler
 
 #Infernal
 execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:bedrock_cage
@@ -65,8 +65,6 @@ execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] 
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
-execute as @e[type=area_effect_cloud,name="cave1"] at @s run function tid:misc/cave1_carve
-execute as @e[type=area_effect_cloud,name="cave1"] at @s run tp @s ^ ^ ^3
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 
 #Gameplay stuff

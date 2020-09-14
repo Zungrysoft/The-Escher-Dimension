@@ -1,0 +1,2 @@
+setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/cave_air", posX: -3, posY: -3, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock ~ ~1 ~ redstone_block

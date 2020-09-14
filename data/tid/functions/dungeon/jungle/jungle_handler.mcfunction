@@ -5,8 +5,14 @@ execute unless score jungle_handler_phase value matches 0.. run scoreboard playe
 #Phase 0: Wait for chunks to load
 execute if score jungle_handler_phase value matches 0 run function tid:dungeon/jungle/jungle_handler_p0
 
-#Phase 10: Initialize the world
+#Phase 10: Start the cave generation
 execute if score jungle_handler_phase value matches 10 run function tid:dungeon/jungle/jungle_handler_p10
+
+#Phase 11: Run the cave generation and wait for it to finish
+execute if score jungle_handler_phase value matches 11 run function tid:dungeon/jungle/jungle_handler_p11
+
+#Phase 12: Initialize the world
+execute if score jungle_handler_phase value matches 12 run function tid:dungeon/jungle/jungle_handler_p12
 
 #Phase 20: Generate the world
 execute if score jungle_handler_phase value matches 20 run function tid:dungeon/jungle/jungle_handler_p20

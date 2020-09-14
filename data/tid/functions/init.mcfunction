@@ -36,6 +36,8 @@ scoreboard objectives add found_wildfire dummy
 scoreboard objectives add found_sin dummy
 scoreboard objectives add found_chambers dummy
 scoreboard objectives add found_hellion dummy
+scoreboard objectives add found_jungle dummy
+scoreboard objectives add found_infernal dummy
 scoreboard objectives add starting_gear dummy
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths

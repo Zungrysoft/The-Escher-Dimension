@@ -11,11 +11,11 @@ execute if score temp value matches 4 in tid:layer_infernal positioned 0 55 0 ru
 execute if score temp value matches 5 in tid:layer_3 at @e[name="teleporter",nbt={Color:4},tag=open,limit=1,sort=random] positioned ~-1 ~ ~-1 run function tid:general/teleporter_teleport_run
 
 #Teleporter to and from The Jungle
-execute if score temp value matches 6 in tid:layer_jungle positioned 0 55 0 run function tid:general/teleporter_teleport_run
+execute if score temp value matches 6 in tid:layer_jungle positioned 0 193 0 run function tid:general/teleporter_teleport_run
 execute if score temp value matches 7 in tid:layer_3 at @e[name="teleporter",nbt={Color:6},tag=open,limit=1,sort=random] positioned ~-1 ~ ~-1 run function tid:general/teleporter_teleport_run
 
 #Teleporter to and from Sin City
-execute if score temp value matches 8 in tid:layer_sin positioned 0 55 0 run function tid:general/teleporter_teleport_run
+execute if score temp value matches 8 in tid:layer_sin positioned 0 183 0 run function tid:general/teleporter_teleport_run
 execute if score temp value matches 9 in tid:layer_2 at @e[name="teleporter",nbt={Color:8},tag=open,limit=1,sort=random] positioned ~-1 ~ ~-1 run function tid:general/teleporter_teleport_run
 
 #Teleporter to and from Layer 2
