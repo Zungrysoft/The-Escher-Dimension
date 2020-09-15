@@ -14,11 +14,11 @@
         },
 		{
           "block": "minecraft:mossy_cobblestone",
-          "height": 50
+          "height": 60
         },
 		{
           "block": "minecraft:orange_wool",
-          "height": 76
+          "height": 66
         },
 		{
           "block": "minecraft:bedrock",
@@ -30,7 +30,7 @@
         },
 		{
           "block": "minecraft:water",
-          "height": 30
+          "height": 40
         }
       ],
       "structures": {

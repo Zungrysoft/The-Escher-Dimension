@@ -18,10 +18,10 @@ fill 1000 1 0 1032 28 1032 minecraft:air
 #Determine the number of rooms to generate
 scoreboard players set jungle_rooms value 350
 
-summon minecraft:area_effect_cloud 0 183 -7 {Duration:99999999,CustomName:"\"jungle_north\""}
-summon minecraft:area_effect_cloud 0 183 7 {Duration:99999999,CustomName:"\"jungle_south\""}
-summon minecraft:area_effect_cloud -7 183 0 {Duration:99999999,CustomName:"\"jungle_west\""}
-summon minecraft:area_effect_cloud 7 183 0 {Duration:99999999,CustomName:"\"jungle_east\""}
+summon minecraft:area_effect_cloud 0 193 -7 {Duration:99999999,CustomName:"\"jungle_north\""}
+summon minecraft:area_effect_cloud 0 193 7 {Duration:99999999,CustomName:"\"jungle_south\""}
+summon minecraft:area_effect_cloud -7 193 0 {Duration:99999999,CustomName:"\"jungle_west\""}
+summon minecraft:area_effect_cloud 7 193 0 {Duration:99999999,CustomName:"\"jungle_east\""}
 
 #Done, now move to the next phase
 scoreboard players set jungle_handler_phase value 20

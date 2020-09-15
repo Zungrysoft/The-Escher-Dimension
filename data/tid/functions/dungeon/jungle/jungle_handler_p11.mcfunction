@@ -6,5 +6,5 @@ execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run tp @s ^ ^ ^3
 execute unless entity @e[type=area_effect_cloud,name="cave_jungle"] run function tid:dungeon/jungle/cave/scatter
 
 #End if all carving is finished
-execute if score jungle_cave_carves value matches 500.. run kill @e[type=area_effect_cloud,name="cave_jungle"]
-execute if score jungle_cave_carves value matches 500.. run scoreboard players set jungle_handler_phase value 12
+execute if score jungle_cave_carves value matches 800.. run kill @e[type=area_effect_cloud,name="cave_jungle"]
+execute if score jungle_cave_carves value matches 800.. run scoreboard players set jungle_handler_phase value 12
