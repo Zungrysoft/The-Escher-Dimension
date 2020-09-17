@@ -66,6 +66,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] a
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
+effect clear @a bad_omen
 
 #Gameplay stuff
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs

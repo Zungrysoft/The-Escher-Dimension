@@ -28,7 +28,7 @@
                 {
                     "type": "item",
                     "weight": 3,
-                    "name": "minecraft:potion",
+                    "name": "minecraft:splash_potion",
                     "functions": [
                         {
                             "function": "set_nbt",

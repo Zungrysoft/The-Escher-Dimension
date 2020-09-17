@@ -7,6 +7,10 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~-128 ~ ~4 ~-122 ~2 air
 
+#Remove torches
+execute if predicate tid:random_90 positioned ~ ~3 ~1 run setblock ~ ~ ~ air
+execute if predicate tid:random_90 positioned ~4 ~3 ~1 run setblock ~ ~ ~ air
+
 #Pillars
 clone ~ ~-129 ~ ~4 ~-173 ~2 ~ ~-45 ~ masked
 fill ~ ~-1 ~ ~4 ~-45 ~2 mossy_cobblestone replace orange_wool

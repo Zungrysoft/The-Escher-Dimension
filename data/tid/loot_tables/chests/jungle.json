@@ -232,6 +232,11 @@
                 },
 				{
                     "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:milk_bucket"
+                },
+				{
+                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:redstone",
                     "functions": [

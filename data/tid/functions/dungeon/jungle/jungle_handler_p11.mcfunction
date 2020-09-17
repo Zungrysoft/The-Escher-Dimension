@@ -2,6 +2,15 @@
 execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run function tid:dungeon/jungle/cave/carve
 execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run tp @s ^ ^ ^3
 
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run function tid:dungeon/jungle/cave/carve
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run tp @s ^ ^ ^3
+
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run function tid:dungeon/jungle/cave/carve
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run tp @s ^ ^ ^3
+
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run function tid:dungeon/jungle/cave/carve
+execute as @e[type=area_effect_cloud,name="cave_jungle"] at @s run tp @s ^ ^ ^3
+
 #If all the carvers are removed for some reason, spawn more
 execute unless entity @e[type=area_effect_cloud,name="cave_jungle"] run function tid:dungeon/jungle/cave/scatter
 

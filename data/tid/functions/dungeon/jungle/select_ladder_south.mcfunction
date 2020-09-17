@@ -10,6 +10,12 @@ fill ~ ~-128 ~ ~4 ~-117 ~6 air
 #Count the room in the total
 scoreboard players remove jungle_rooms value 1
 
+#Remove torches
+execute if predicate tid:random_90 positioned ~1 ~3 ~3 run setblock ~ ~ ~ air
+execute if predicate tid:random_90 positioned ~3 ~3 ~3 run setblock ~ ~ ~ air
+execute if predicate tid:random_90 positioned ~ ~11 ~1 run setblock ~ ~ ~ air
+execute if predicate tid:random_90 positioned ~4 ~11 ~1 run setblock ~ ~ ~ air
+
 #Pillars
 clone ~ ~-129 ~ ~4 ~-173 ~6 ~ ~-45 ~ masked
 fill ~ ~-1 ~ ~4 ~-45 ~6 mossy_cobblestone replace orange_wool

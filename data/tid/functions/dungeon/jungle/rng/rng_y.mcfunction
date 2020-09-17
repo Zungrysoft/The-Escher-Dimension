@@ -4,10 +4,6 @@ execute if predicate tid:random_04 if block ~ ~ ~ air run function tid:dungeon/j
 #Convert random blocks to valuable treasure blocks
 execute if predicate tid:random_diamond if block ~ ~ ~ mossy_cobblestone run function tid:dungeon/jungle/rng/treasure
 
-#Remove most of the torches
-#execute if predicate tid:random_90 run execute if block ~ ~ ~ torch run setblock ~ ~ ~ air
-#execute if predicate tid:random_90 run execute if block ~ ~ ~ wall_torch run setblock ~ ~ ~ air
-
 #Randomize jungle blocks
 execute if predicate tid:random_50 run execute if block ~ ~ ~ #tid:jungle_base_blocks run function tid:dungeon/jungle/rng/jungle_blocks
 
