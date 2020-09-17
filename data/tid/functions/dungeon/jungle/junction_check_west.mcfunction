@@ -6,4 +6,4 @@ execute if score @s failed matches 1.. positioned ~-3 ~-2 ~-2 if blocks ~ ~-128 
 execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~-13 ~-4 ~-2 if blocks ~ ~-128 ~ ~12 ~-120 ~4 1001 129 1001 all run function tid:dungeon/jungle/select_bridge_west
 execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~-7 ~-2 ~-2 if blocks ~ ~-128 ~ ~6 ~-117 ~4 1001 129 1001 all run function tid:dungeon/jungle/select_ladder_west
 execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~-7 ~-10 ~-2 if blocks ~ ~-128 ~ ~6 ~-117 ~4 1001 129 1001 all run function tid:dungeon/jungle/select_ladder_east
-execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~-15 ~-4 ~-5 if blocks ~ ~-128 ~ ~14 ~-115 ~11 1001 129 1001 all run function tid:dungeon/jungle/select_pyramid_west
+execute unless score @s failed matches 1.. if predicate tid:random_001 positioned ~-15 ~-4 ~-5 if blocks ~ ~-128 ~ ~14 ~-115 ~11 1001 129 1001 all run function tid:dungeon/jungle/select_pyramid_west

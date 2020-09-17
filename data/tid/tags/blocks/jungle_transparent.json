@@ -1,0 +1,19 @@
+{
+  "values":[
+	"minecraft:mossy_cobblestone_stairs",
+	"minecraft:mossy_cobblestone_slab",
+	"minecraft:cobblestone_stairs",
+	"minecraft:cobblestone_slab",
+	"minecraft:stone_stairs",
+	"minecraft:stone_slab",
+	"minecraft:stone_brick_stairs",
+	"minecraft:stone_brick_slab",
+	"minecraft:mossy_stone_brick_stairs",
+	"minecraft:mossy_stone_brick_slab",
+	"minecraft:torch",
+	"minecraft:vine",
+	"minecraft:iron_bars",
+	"minecraft:air",
+	"minecraft:water"
+  ]
+}

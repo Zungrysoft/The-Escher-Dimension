@@ -7,6 +7,9 @@ summon minecraft:area_effect_cloud -6 193 -6 {Duration:99999999,CustomName:"\"te
 #Add in the bonus chest
 #setblock 6 193 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Towers of fire and hate, twisting up and down, and back through themselves. Staircases to nowhere and doors hopefully to somewhere.\\n\\nIf there\'s anything to take away from this, it\'s to §lwatch your step! §0You have been warned."}'], title: "A Fair Warning", author: "ZungryWare", resolved: 1b}}, {Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water_breathing"}}]}
 
+#Add in the water stalagtites
+function tid:misc/water_stalag_scatter
+
 #Add in the underwater treasure
 execute as @e[type=area_effect_cloud,name="underwater_treasure",sort=random] at @s run function tid:misc/underwater_treasure
 

@@ -11,6 +11,10 @@ tp @e[type=minecraft:zombie_villager,predicate=tid:in_layer_infernal] 1 -100 1
 execute at @e[type=minecraft:zombie,predicate=tid:in_layer_infernal,tag=!keep,name=!"Fireflare"] run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:black_dye,Count:1}],HandDropChances:[1.00F],Tags:["keep"]}
 tp @e[type=minecraft:zombie,predicate=tid:in_layer_infernal,tag=!keep,name=!"Fireflare"] 1 -100 1
 
+#Convert Cod to Dye Zombies in Jungle
+execute at @e[type=minecraft:cod,predicate=tid:in_layer_jungle] run summon minecraft:drowned ~ ~ ~ {HandItems:[{id:blue_dye,Count:1}],HandDropChances:[1.00F],Tags:["keep"]}
+tp @e[type=minecraft:cod,predicate=tid:in_layer_jungle] 1 -100 1
+
 #Kill any Ghasts that spawn in Infernal Industries
 tp @e[type=minecraft:ghast,predicate=tid:in_layer_infernal] 1 -100 1
 

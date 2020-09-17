@@ -7,9 +7,6 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~-128 ~ ~2 ~-122 ~4 air
 
-#Count the room in the total
-scoreboard players remove jungle_rooms value 1
-
 #Pillars
 clone ~ ~-129 ~ ~2 ~-173 ~4 ~ ~-45 ~ masked
 fill ~ ~-1 ~ ~2 ~-45 ~4 mossy_cobblestone replace orange_wool

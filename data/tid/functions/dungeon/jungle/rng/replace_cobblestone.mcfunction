@@ -1,20 +1,20 @@
 #Blocks
-fill ~ ~ ~ ~ ~ ~ cobblestone replace mossy_cobblestone
+execute if block ~ ~ ~ mossy_cobblestone run setblock ~ ~ ~ cobblestone
 
 #Stairs
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=north,half=bottom] replace mossy_cobblestone_stairs[facing=north,half=bottom]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=south,half=bottom] replace mossy_cobblestone_stairs[facing=south,half=bottom]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=east,half=bottom] replace mossy_cobblestone_stairs[facing=east,half=bottom]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=west,half=bottom] replace mossy_cobblestone_stairs[facing=west,half=bottom]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=north,half=bottom] run setblock ~ ~ ~ cobblestone_stairs[facing=north,half=bottom]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=south,half=bottom] run setblock ~ ~ ~ cobblestone_stairs[facing=south,half=bottom]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=east,half=bottom] run setblock ~ ~ ~ cobblestone_stairs[facing=east,half=bottom]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=west,half=bottom] run setblock ~ ~ ~ cobblestone_stairs[facing=west,half=bottom]
 
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=north,half=top] replace mossy_cobblestone_stairs[facing=north,half=top]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=south,half=top] replace mossy_cobblestone_stairs[facing=south,half=top]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=east,half=top] replace mossy_cobblestone_stairs[facing=east,half=top]
-fill ~ ~ ~ ~ ~ ~ cobblestone_stairs[facing=west,half=top] replace mossy_cobblestone_stairs[facing=west,half=top]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=north,half=top] run setblock ~ ~ ~ cobblestone_stairs[facing=north,half=top]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=south,half=top] run setblock ~ ~ ~ cobblestone_stairs[facing=south,half=top]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=east,half=top] run setblock ~ ~ ~ cobblestone_stairs[facing=east,half=top]
+execute if block ~ ~ ~ mossy_cobblestone_stairs[facing=west,half=top] run setblock ~ ~ ~ cobblestone_stairs[facing=west,half=top]
 
 #Slabs
-fill ~ ~ ~ ~ ~ ~ cobblestone_slab[type=bottom] replace mossy_cobblestone_slab[type=bottom]
-fill ~ ~ ~ ~ ~ ~ cobblestone_slab[type=top] replace mossy_cobblestone_slab[type=top]
+execute if block ~ ~ ~ mossy_cobblestone_slab[type=bottom] run setblock ~ ~ ~ cobblestone_slab[type=bottom]
+execute if block ~ ~ ~ mossy_cobblestone_slab[type=top] run setblock ~ ~ ~ cobblestone_slab[type=top]
 
 #Walls
-fill ~ ~ ~ ~ ~ ~ cobblestone_wall replace mossy_cobblestone_wall
+execute if block ~ ~ ~ mossy_cobblestone_wall run setblock ~ ~ ~ cobblestone_wall

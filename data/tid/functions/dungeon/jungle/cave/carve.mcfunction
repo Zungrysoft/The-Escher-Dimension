@@ -39,7 +39,7 @@ function tid:update_coords
 scoreboard players set temp value 0
 execute if score @s y matches 25..71 if score @s x matches -100..100 if score @s z matches -100..100 run scoreboard players set temp value 1
 #Don't let it smother the spawn
-execute if score @s y matches 60.. if score @s x matches -15..15 if score @s z matches -15..15 run scoreboard players set temp value 0
+execute if score @s y matches 55.. if score @s x matches -15..15 if score @s z matches -15..15 run scoreboard players set temp value 0
 execute if score temp value matches 1 run function tid:dungeon/jungle/cave/select
 execute unless score temp value matches 1 run kill @s
 
@@ -54,7 +54,7 @@ execute if score temp value matches 8.. run kill @s
 execute if predicate tid:random_005 run kill @s
 
 #Leave treasure behind
-execute positioned ~ ~128 ~ unless entity @e[name="underwater_treasure",distance=0..20] run summon minecraft:area_effect_cloud ~ ~-2 ~ {Duration:99999999,CustomName:"\"underwater_treasure\""}
+execute positioned ~ ~128 ~ unless entity @e[name="underwater_treasure",distance=0..28] run summon minecraft:area_effect_cloud ~ ~-2 ~ {Duration:99999999,CustomName:"\"underwater_treasure\""}
 
 #Initialize
 execute unless score @s counter1 matches 0.. run function tid:dungeon/jungle/cave/init
