@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "title": "Sin City",
+    "description": "A Piglin port town",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "entered_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "tid:layer_sin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_dimension"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "tid:hellion/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Hellion's Treasure",
+    "description": "Find a chest in Hellion's Heights",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/hellion"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}
