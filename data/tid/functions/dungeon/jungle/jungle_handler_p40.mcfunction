@@ -13,6 +13,9 @@ function tid:misc/water_stalag_scatter
 #Add in the underwater treasure
 execute as @e[type=area_effect_cloud,name="underwater_treasure",sort=random] at @s run function tid:misc/underwater_treasure
 
+#Kill the locators
+kill @e[type=area_effect_cloud,name="jungle_towerbase"]
+
 #These chunks are no longer needed
 forceload remove -100 -100 100 100
 forceload remove 1000 1000 1032 1032

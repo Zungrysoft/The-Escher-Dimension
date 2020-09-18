@@ -4,9 +4,10 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "minecraft:ocean",
+      "biome": "tid:sin",
       "lakes": false,
       "features": false,
+	  "sea_level": 178,
       "layers": [
         {
           "block": "minecraft:bedrock",
