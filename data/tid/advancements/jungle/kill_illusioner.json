@@ -1,0 +1,35 @@
+{
+  "parent": "tid:jungle/kill_illager",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": "The Wizard",
+    "description": "Find and kill an Illusioner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:illusioner"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ]
+}

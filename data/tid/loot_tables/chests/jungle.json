@@ -74,11 +74,6 @@
                 },
 				{
                     "type": "item",
-                    "weight": 80,
-                    "name": "minecraft:trident"
-                },
-				{
-                    "type": "item",
                     "weight": 40,
                     "name": "minecraft:iron_helmet",
                     "functions": [

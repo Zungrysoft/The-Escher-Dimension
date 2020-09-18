@@ -1,11 +1,11 @@
 {
-  "parent": "tid:jungle/find_loot",
+  "parent": "tid:layer_1/find_canal",
   "display": {
     "icon": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:chest"
     },
-    "title": "Subaquatic Cargo",
-    "description": "Find treasure under the water line",
+    "title": "Canal Treasure",
+    "description": "Find a chest in the Underworld Canals",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
     "loot_1": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "tid:chests/jungle_water"
+        "loot_table": "tid:chests/canal"
       }
     }
   },

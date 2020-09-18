@@ -1,0 +1,34 @@
+{
+  "parent": "tid:layer_1/find_loot_stronghold2",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_wool"
+    },
+    "title": "Orange Wool",
+    "description": "Craft orange wool for the victory monument",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

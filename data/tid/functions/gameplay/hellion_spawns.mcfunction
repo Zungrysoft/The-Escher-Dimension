@@ -17,5 +17,8 @@ execute if score @s counter1 matches 4..7 if predicate tid:random_50 positioned 
 #Dye Zombie
 execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:yellow_dye,Count:1}],HandDropChances:[1.00F]}
 
+#Mega-Magma-Cube
+#execute if predicate tid:random_02 run summon magma_cube ~ ~ ~-.5 {Tags:["keep"],Size:10}
+
 #Kill the source mob
 tp @s 1 -100 1

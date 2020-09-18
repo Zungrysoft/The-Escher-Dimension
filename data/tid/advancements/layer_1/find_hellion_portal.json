@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_1/craft_map",
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz"
+    },
+    "title": "Mysterious Portal",
+    "description": "Find a quartz portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "tid:jungle/find_loot_underwater",
+  "display": {
+    "icon": {
+      "item": "minecraft:trident",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Poseidon's Armaments",
+    "description": "Take your new trident for a spin",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shot_trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shot_trident"
+    ]
+  ]
+}

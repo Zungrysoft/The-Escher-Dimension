@@ -1,0 +1,22 @@
+{
+  "parent": "tid:hellion/ride_strider",
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_cream"
+    },
+    "title": "Around the World",
+    "description": "Circumnavigate the fortress on a Strider",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

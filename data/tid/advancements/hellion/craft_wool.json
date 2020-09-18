@@ -1,0 +1,34 @@
+{
+  "parent": "tid:hellion/find_loot",
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_wool"
+    },
+    "title": "Yellow Wool",
+    "description": "Craft yellow wool for the victory monument",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

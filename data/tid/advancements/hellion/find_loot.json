@@ -5,7 +5,7 @@
       "item": "minecraft:chest"
     },
     "title": "Hellion's Treasure",
-    "description": "Find a chest in Hellion's Heights",
+    "description": "Find a chest in Hellion Heights",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

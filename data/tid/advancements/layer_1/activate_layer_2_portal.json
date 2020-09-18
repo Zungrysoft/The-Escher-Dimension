@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_1/find_layer_2_portal",
+  "display": {
+    "icon": {
+      "item": "minecraft:coal_block"
+    },
+    "title": "Further Into the Depths",
+    "description": "Activate the coal portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

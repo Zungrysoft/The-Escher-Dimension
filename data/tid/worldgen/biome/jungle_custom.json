@@ -76,25 +76,25 @@
     "monster": [
       {
         "type": "minecraft:cave_spider",
-        "weight": 100,
+        "weight": 200,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:vindicator",
-        "weight": 95,
+        "weight": 150,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:pillager",
-        "weight": 100,
+        "weight": 200,
         "minCount": 4,
         "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
-        "weight": 100,
+        "weight": 200,
         "minCount": 4,
         "maxCount": 4
       },

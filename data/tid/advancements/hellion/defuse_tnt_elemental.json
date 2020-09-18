@@ -1,0 +1,36 @@
+{
+  "parent": "tid:hellion/kill_oxidation_spirit",
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": "Bomb Defusal",
+    "description": "Kill an Explosion Elemental without its head falling off",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"tnt\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ]
+}

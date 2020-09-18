@@ -1,0 +1,34 @@
+{
+  "parent": "tid:layer_3/find_loot_station",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_wool"
+    },
+    "title": "Purple Wool",
+    "description": "Craft purple wool for the victory monument",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

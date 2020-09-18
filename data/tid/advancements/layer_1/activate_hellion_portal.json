@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_1/find_hellion_portal",
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz_block"
+    },
+    "title": "Portage to the Unknown",
+    "description": "Activate the quartz portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "tid:layer_1/find_loot_brick",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "title": "Magenta Wool",
+    "description": "Craft magenta wool for the victory monument",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

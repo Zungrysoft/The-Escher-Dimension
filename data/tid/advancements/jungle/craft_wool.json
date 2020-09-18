@@ -1,0 +1,34 @@
+{
+  "parent": "tid:jungle/find_loot_underwater",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_wool"
+    },
+    "title": "Blue Wool",
+    "description": "Craft blue wool for the victory monument",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

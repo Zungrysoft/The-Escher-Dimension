@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_1/find_brick",
+  "display": {
+    "icon": {
+      "item": "minecraft:coal"
+    },
+    "title": "Mysterious Portal",
+    "description": "Find a coal portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

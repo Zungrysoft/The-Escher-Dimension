@@ -38,6 +38,11 @@ scoreboard objectives add found_chambers dummy
 scoreboard objectives add found_hellion dummy
 scoreboard objectives add found_jungle dummy
 scoreboard objectives add found_infernal dummy
+scoreboard objectives add found_canal dummy
+scoreboard objectives add adv_hellion_1 dummy
+scoreboard objectives add adv_hellion_2 dummy
+scoreboard objectives add adv_hellion_3 dummy
+scoreboard objectives add adv_hellion_4 dummy
 scoreboard objectives add starting_gear dummy
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths
@@ -46,7 +51,10 @@ scoreboard objectives setdisplay list health
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 
 #Start the particles loop
-function tid:particles
+function tid:general/particles
+
+#Start the advancement checks loop
+function tid:general/advancement_checks
 
 
 

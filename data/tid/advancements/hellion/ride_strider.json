@@ -1,0 +1,20 @@
+{
+  "parent": "tid:hellion/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Steed of Hades",
+    "description": "Ride a Strider with a Warped Fungus on a Stick",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
