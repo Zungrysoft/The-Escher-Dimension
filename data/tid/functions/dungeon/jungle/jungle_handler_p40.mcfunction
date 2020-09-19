@@ -11,7 +11,7 @@ summon minecraft:area_effect_cloud -6 193 -6 {Duration:99999999,CustomName:"\"te
 scoreboard players set willow_count value 700
 function tid:misc/jungle_willow_scatter
 
-#Add in the water stalagtites
+#Add in the water stalagmites
 function tid:misc/water_stalag_scatter
 
 #Add in the underwater treasure

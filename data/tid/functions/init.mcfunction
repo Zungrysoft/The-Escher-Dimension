@@ -25,6 +25,7 @@ scoreboard objectives add tries dummy
 scoreboard objectives add failed dummy
 scoreboard objectives add succeeded dummy
 scoreboard objectives add counter1 dummy
+scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add value dummy
 scoreboard objectives add found_stronghold dummy

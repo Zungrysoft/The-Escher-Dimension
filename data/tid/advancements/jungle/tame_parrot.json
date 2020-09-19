@@ -1,0 +1,36 @@
+{
+  "parent": "tid:jungle/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": "Feathered Friend",
+    "description": "Rescue and tame a Parrot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+	    "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:parrot"
+            },
+            "entity": "this"
+          }
+        ]
+	  
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ]
+}

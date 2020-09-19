@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/find_loot",
+  "parent": "tid:sin/distract_piglin",
   "display": {
     "icon": {
       "item": "minecraft:gray_wool"
