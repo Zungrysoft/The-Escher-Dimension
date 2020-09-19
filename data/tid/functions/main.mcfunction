@@ -51,7 +51,7 @@ execute as @a unless score @s found_wildfire matches 1.. at @s if block ~ ~-1 ~ 
 execute as @a unless score @s found_sin matches 1.. at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
 execute as @a unless score @s found_chambers matches 1.. at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
 execute as @a unless score @s found_hellion matches 1.. at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
-execute as @a unless score @s found_jungle matches 1.. at @s if block ~ ~-1 ~ cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
+execute as @a unless score @s found_jungle matches 1.. at @s if block ~ ~-1 ~ mossy_cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
@@ -62,11 +62,17 @@ execute as @e[type=minecraft:armor_stand,name="station_pillar_base",nbt={OnGroun
 execute as @e[type=minecraft:area_effect_cloud,name="summon_mob"] at @s if entity @p[distance=0..18] run function tid:misc/summon_mob
 execute as @e[type=minecraft:firework_rocket,name="glowstone_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae run setblock ~ ~ ~ glowstone
 execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run function tid:misc/ghast_rocket_generate
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
-execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 effect clear @a bad_omen
+
+#Haunted Chests
+#Soulsand Arena
+execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
+execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
+#Jungle Illusioner
+execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/jungle"} run function tid:misc/illusioner_detect
+execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/illusioner_detect
 
 #Gameplay stuff
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs

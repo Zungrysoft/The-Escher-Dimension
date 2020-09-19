@@ -81,22 +81,22 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:creeper",
+        "weight": 200,
+        "minCount": 4,
+        "maxCount": 4
+      },
+	  {
         "type": "minecraft:vindicator",
         "weight": 150,
         "minCount": 4,
         "maxCount": 4
       },
-      {
-        "type": "minecraft:pillager",
+	  {
+        "type": "minecraft:skeleton",
         "weight": 200,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 200,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:guardian",
@@ -106,19 +106,13 @@
       },
       {
         "type": "minecraft:enderman",
-        "weight": 10,
+        "weight": 20,
         "minCount": 1,
         "maxCount": 4
       },
       {
-        "type": "minecraft:drowned",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
         "type": "minecraft:ocelot",
-        "weight": 2,
+        "weight": 20,
         "minCount": 1,
         "maxCount": 3
       }

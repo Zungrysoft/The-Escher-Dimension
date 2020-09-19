@@ -4,6 +4,9 @@
 	"minecraft:mossy_cobblestone",
 	"minecraft:stone_bricks",
 	"minecraft:mossy_stone_bricks",
+	"minecraft:stone",
+	"minecraft:andesite",
+	"minecraft:polished_andesite",
 	"minecraft:chiseled_stone_bricks"
   ]
 }
