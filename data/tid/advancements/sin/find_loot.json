@@ -1,0 +1,27 @@
+{
+  "parent": "tid:sin/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Harbor Treasure",
+    "description": "Find a chest in The Babirusan Harbor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/sin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}

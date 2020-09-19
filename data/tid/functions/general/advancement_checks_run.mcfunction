@@ -56,4 +56,6 @@ execute if score @s found_station matches 1 run advancement grant @s only tid:la
 #execute if score @s found_moon matches 1 run advancement grant @s only tid:layer_3/find_moon
 #execute if score @s found_minecart matches 1 run advancement grant @s only tid:layer_3/find_minecart
 #execute if score @s found_neon matches 1 run advancement grant @s only tid:layer_3/find_neon
+#Sin Chambers
+#execute if score @s found_chambers matches 1 run advancement grant @s only tid:sin/find_sin_chambers
 

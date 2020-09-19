@@ -7,7 +7,7 @@
     },
     "title": "Poseidon's Armaments",
     "description": "Take your new trident for a spin",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

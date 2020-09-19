@@ -1,18 +1,15 @@
 {
-  "parent": "tid:jungle/kill_illager",
+  "parent": "tid:sin/root",
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:shield"
     },
-    "title": "Battle Atop the Tower",
-    "description": "Find and kill an Evoker",
-    "frame": "goal",
+    "title": "City Rebel",
+    "description": "Defeat a District Captain",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 30
   },
   "criteria": {
     "kill_mob": {
@@ -22,7 +19,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:evoker"
+              "type": "minecraft:piglin_brute",
+			  "nbt": "{IsImmuneToZombification:1b}"
             },
             "entity": "this"
           }

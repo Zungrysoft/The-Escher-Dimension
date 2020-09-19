@@ -1,0 +1,9 @@
+{
+  "values":[
+    "minecraft:air",
+	"minecraft:cobweb",
+	"minecraft:vine",
+	"minecraft:torch",
+	"minecraft:wall_torch"
+  ]
+}

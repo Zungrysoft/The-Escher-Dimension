@@ -1,15 +1,18 @@
 {
-  "parent": "tid:layer_1/find_loot_stronghold2",
+  "parent": "tid:sin/find_loot_sin_chambers",
   "display": {
     "icon": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:light_gray_wool"
     },
-    "title": "Subterranean Cartographer",
-    "description": "Find the materials needed to craft a map",
-    "frame": "task",
+    "title": "Light Gray Wool",
+    "description": "Craft light gray wool for the victory monument",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "rewards": {
+    "experience": 30
   },
   "criteria": {
     "got_item": {
@@ -17,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:map"
+            "item": "minecraft:light_gray_wool"
           }
         ]
       }

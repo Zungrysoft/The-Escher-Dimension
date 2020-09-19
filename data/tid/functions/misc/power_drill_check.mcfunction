@@ -1,3 +1,4 @@
+#Check if the iron block cost has been paid
 execute if block ~1 ~6 ~ iron_block if block ~-1 ~6 ~ iron_block if block ~ ~6 ~1 iron_block if block ~ ~6 ~-1 iron_block run function tid:misc/power_drill_activate
 
 #If the Drill has charges left in it, count down to the next dig

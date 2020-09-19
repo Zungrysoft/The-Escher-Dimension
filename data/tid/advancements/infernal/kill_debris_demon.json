@@ -1,18 +1,15 @@
 {
-  "parent": "tid:jungle/kill_illager",
+  "parent": "tid:infernal/root",
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:ancient_debris"
     },
-    "title": "Battle Atop the Tower",
-    "description": "Find and kill an Evoker",
-    "frame": "goal",
+    "title": "You can run...",
+    "description": "Kill a Debris Demon",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 30
   },
   "criteria": {
     "kill_mob": {
@@ -22,7 +19,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:evoker"
+              "type": "minecraft:husk",
+			  "nbt": "{DeathLootTable: \"tid:entities/debris_demon\"}"
             },
             "entity": "this"
           }

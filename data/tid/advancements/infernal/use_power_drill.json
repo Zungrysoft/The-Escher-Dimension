@@ -1,12 +1,12 @@
 {
-  "parent": "tid:layer_1/find_hellion_portal",
+  "parent": "tid:infernal/root",
   "display": {
     "icon": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:bedrock"
     },
-    "title": "Portage to the Unknown",
-    "description": "Activate the quartz portal",
-    "frame": "goal",
+    "title": "Industrial Mining Techniques",
+    "description": "Activate an explosive drill",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

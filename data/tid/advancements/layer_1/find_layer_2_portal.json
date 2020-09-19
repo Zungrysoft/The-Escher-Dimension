@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:coal"
     },
-    "title": "Mysterious Portal",
+    "title": "Cryptic Portal",
     "description": "Find a coal portal",
     "frame": "task",
     "show_toast": true,

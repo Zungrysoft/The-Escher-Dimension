@@ -1,0 +1,27 @@
+{
+  "parent": "tid:sin/find_sin_chambers",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Chamber Treasure",
+    "description": "Find a chest in The Sinful Chambers",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/sin_chambers"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}

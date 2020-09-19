@@ -1,0 +1,62 @@
+{
+  "parent": "tid:sin/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": "New Wares in Stock",
+    "description": "Barter with a Piglin",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "distract_piglin": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:gold_ingot"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:piglin",
+              "flags": {
+                "is_baby": false
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "distract_piglin_directly": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:gold_ingot"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:piglin",
+              "flags": {
+                "is_baby": false
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "distract_piglin",
+      "distract_piglin_directly"
+    ]
+  ]
+}

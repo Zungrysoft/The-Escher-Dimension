@@ -3,6 +3,7 @@
 	"minecraft:cobblestone",
 	"minecraft:mossy_cobblestone",
 	"minecraft:stone_bricks",
-	"minecraft:mossy_stone_bricks"
+	"minecraft:mossy_stone_bricks",
+	"minecraft:chiseled_stone_bricks"
   ]
 }
