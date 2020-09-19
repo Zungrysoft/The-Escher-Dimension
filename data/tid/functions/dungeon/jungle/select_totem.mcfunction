@@ -7,6 +7,7 @@ execute if predicate tid:random_08 run setblock ~1 ~ ~1 minecraft:structure_bloc
 execute if predicate tid:random_07 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_5", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_6", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_06 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_9", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~1 ~1 ~1 minecraft:redstone_block
