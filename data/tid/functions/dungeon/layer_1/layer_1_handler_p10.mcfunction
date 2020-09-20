@@ -30,7 +30,7 @@ execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/int
 execute positioned 0 55 -7 positioned ~-3 ~ ~-18 run function tid:dungeon/intro/select_hallway
 
 execute positioned 0 59 -45 positioned ~-6 ~-5 ~-21 run function tid:dungeon/stronghold2/select_entrance_north
-execute positioned -16 59 -42 positioned ~-20 ~-20 ~-7 run function tid:dungeon/brick/select_entrance_west
+execute positioned -16 59 -42 positioned ~-22 ~-20 ~-7 run function tid:dungeon/brick/select_entrance_west
 execute positioned 16 59 -42 positioned ~1 ~-1 ~-4 run function tid:dungeon/nature/select_hall_west
 
 #Done, now move to the next phase

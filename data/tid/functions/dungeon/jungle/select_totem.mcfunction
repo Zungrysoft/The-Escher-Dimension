@@ -7,12 +7,17 @@ execute if predicate tid:random_08 run setblock ~1 ~ ~1 minecraft:structure_bloc
 execute if predicate tid:random_07 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_5", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_6", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_06 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_06 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_10", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Don't place ravager pens too close to spawn
-execute if predicate tid:random_06 unless score @s x matches -30..30 unless score @s z matches -30..30 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_9", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+scoreboard players set close_to_spawn value 0
+execute if score @s x matches -30..30 if score @s z matches -30..30 run scoreboard players set close_to_spawn value 1
+
+execute if predicate tid:random_07 unless score close_to_spawn value matches 1 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_9", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Nearly guaranteed one Illusioner tower, placed a good distance from spawn
-execute unless score @s x matches -40..40 unless score @s z matches -40..40 unless entity @e[tag=haunted,predicate=tid:in_layer_jungle] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_8", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute unless score close_to_spawn value matches 1 unless entity @e[tag=haunted,predicate=tid:in_layer_jungle] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_8", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~1 ~1 ~1 minecraft:redstone_block

@@ -5,13 +5,13 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:brick/entrance_west", posX: 
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~19 ~154 ~15 minecraft:blue_wool replace minecraft:orange_wool
+fill ~ ~128 ~ ~21 ~154 ~15 minecraft:blue_wool replace minecraft:orange_wool
 
 #Mark this area on the map
-fill ~ 255 ~ ~19 255 ~15 minecraft:bricks
+fill ~ 255 ~ ~21 255 ~15 minecraft:bricks
 
 #Spawn in the nexus
-execute positioned ~4 ~-6 ~4 run function tid:dungeon/brick/select_entrance_nexus
+execute positioned ~6 ~-6 ~4 run function tid:dungeon/brick/select_entrance_nexus
 
 #We're done here
 kill @s

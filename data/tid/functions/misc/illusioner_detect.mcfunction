@@ -1,6 +1,6 @@
 #The Illusioner's secret chest has been disturbed! He teleports in to stop you!
-summon illusioner ~-2 ~-2 ~-2 {PersistenceRequired:1}
-summon illusioner ~2 ~-2 ~2 {PersistenceRequired:1}
+summon illusioner ~-2 ~-2 ~-2 {PersistenceRequired:1,Tags:["keep"]}
+summon illusioner ~2 ~-2 ~2 {PersistenceRequired:1,Tags:["keep"]}
 
 #Ensure the Illusioner has space to spawn in
 setblock ~-2 ~-2 ~-2 air destroy

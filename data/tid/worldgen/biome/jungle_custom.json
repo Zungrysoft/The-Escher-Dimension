@@ -82,7 +82,7 @@
       },
       {
         "type": "minecraft:creeper",
-        "weight": 200,
+        "weight": 120,
         "minCount": 4,
         "maxCount": 4
       },
@@ -93,8 +93,14 @@
         "maxCount": 4
       },
 	  {
-        "type": "minecraft:skeleton",
+        "type": "minecraft:pillager",
         "weight": 200,
+        "minCount": 1,
+        "maxCount": 1
+      },
+	  {
+        "type": "minecraft:illusioner",
+        "weight": 300,
         "minCount": 1,
         "maxCount": 1
       },

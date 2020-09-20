@@ -31,4 +31,4 @@ execute as @e[type=minecraft:piglin,tag=!keep,predicate=tid:in_layer_sin] at @s 
 execute as @e[type=minecraft:magma_cube,tag=!keep,predicate=tid:in_layer_hellion,nbt={Size:3}] at @s run function tid:gameplay/hellion_spawns
 
 #Handles Illusioner spawning in Reliquary Outpost
-execute as @e[type=minecraft:skeleton,predicate=tid:in_layer_jungle] at @s run function tid:gameplay/jungle_spawns
+execute as @e[type=minecraft:illusioner,predicate=tid:in_layer_jungle,tag=!keep] at @s run function tid:gameplay/jungle_spawns
