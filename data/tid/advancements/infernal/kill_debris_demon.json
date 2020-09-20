@@ -20,7 +20,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:husk",
-			  "nbt": "{DeathLootTable: \"tid:entities/debris_demon\"}"
+			  "nbt": "{Tags:[\"debris_demon\"]}"
             },
             "entity": "this"
           }

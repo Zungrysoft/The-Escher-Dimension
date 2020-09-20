@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 15,
+          "name": "minecraft:iron_ingot"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 10,
+          "name": "minecraft:gold_ingot"
+        },
+		{
+          "type": "minecraft:item",
+		  "weight": 5,
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

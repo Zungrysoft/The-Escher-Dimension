@@ -20,7 +20,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:stray",
-			  "nbt": "{DeathLootTable: \"tid:entities/oxidation_spirit\"}"
+			  "nbt": "{Tags:[\"oxidation_spirit\"]}"
             },
             "entity": "this"
           }

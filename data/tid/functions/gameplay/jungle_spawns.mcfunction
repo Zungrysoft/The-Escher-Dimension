@@ -2,8 +2,7 @@ function tid:update_coords
 
 #Illusioners spawn covered by a large amount of ceiling, not near other illusioners, and not near spawn
 #If these checks fail, kill the Illusioner
-scoreboard players set temp value 0
-#execute if score @s y matches ..202 run scoreboard players set temp value 1
+scoreboard players set temp value 1
 execute if score @s x matches -15..15 if score @s z matches -15..15 run scoreboard players set temp value 0
 execute if block ~ ~10 ~ air run scoreboard players set temp value 0
 execute if block ~ ~12 ~ air run scoreboard players set temp value 0

@@ -82,14 +82,16 @@ execute as @a at @s run function tid:gameplay/float_orb
 
 #Handles custom monster effects
 #Fireflare
-execute as @e[type=minecraft:zombie,nbt={IsBaby:1b},name="Fireflare"] at @s if block ~ ~ ~ air run setblock ~ ~ ~ fire
+execute as @e[type=minecraft:zombie,tag=fireflare] at @s if block ~ ~ ~ air run setblock ~ ~ ~ fire
 #Debris Demon
-execute as @e[type=minecraft:husk,name="Debris Demon"] at @s run function tid:gameplay/ai_debris_demon
+execute as @e[type=minecraft:husk,tag=debris_demon] at @s run function tid:gameplay/ai_debris_demon
 #Oxidation Spirit
-execute as @e[type=minecraft:stray,name="Oxidation Spirit"] at @s run function tid:gameplay/ai_oxidation_spirit
+execute as @e[type=minecraft:stray,tag=oxidation_spirit] at @s run function tid:gameplay/ai_oxidation_spirit
 execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid:gameplay/oxidation_fireball
 #Explosion Elemental
-execute as @e[type=minecraft:zombie,name="Explosion Elemental"] at @s run function tid:gameplay/ai_explosion_elemental
+execute as @e[type=minecraft:zombie,tag=explosion_elemental] at @s run function tid:gameplay/ai_explosion_elemental
+#Alloy Elemental
+execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter
