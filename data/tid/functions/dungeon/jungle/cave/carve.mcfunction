@@ -54,7 +54,7 @@ execute if score temp value matches 8.. run kill @s
 execute if predicate tid:random_005 run kill @s
 
 #Leave treasure behind
-execute positioned ~ ~128 ~ unless entity @e[name="underwater_treasure",distance=0..28] run summon minecraft:area_effect_cloud ~ ~-2 ~ {Duration:99999999,CustomName:"\"underwater_treasure\""}
+execute positioned ~ ~128 ~ unless entity @e[name="underwater_treasure",distance=0..24] run summon minecraft:area_effect_cloud ~ ~-2 ~ {Duration:99999999,CustomName:"\"underwater_treasure\""}
 
 #Initialize
 execute unless score @s counter1 matches 0.. run function tid:dungeon/jungle/cave/init
