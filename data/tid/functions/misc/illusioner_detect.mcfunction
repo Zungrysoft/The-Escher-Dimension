@@ -1,4 +1,4 @@
-#The Illusioner's secret chest has been disturbed! He teleports in to stop you!
+#The Illusioners' secret chest has been disturbed! They teleport in to stop you!
 summon illusioner ~-2 ~-2 ~-2 {PersistenceRequired:1,Tags:["keep"]}
 summon illusioner ~2 ~-2 ~2 {PersistenceRequired:1,Tags:["keep"]}
 

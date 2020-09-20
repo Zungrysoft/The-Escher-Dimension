@@ -11,7 +11,7 @@ execute if block ~ ~14 ~ air run scoreboard players set temp value 0
 execute if entity @e[type=illusioner,distance=1..10] run scoreboard players set temp value 0
 execute if score temp value matches 0 run tp @s 1 -100 1
 
-#If the Illusioner is left alive, modify its tag so the game knows not to kill it again
+#If the Illusioner is left alive, modify its tag so the game knows not to test it again
 tag @s add keep
 
 #Some other monsters may also spawn off this
