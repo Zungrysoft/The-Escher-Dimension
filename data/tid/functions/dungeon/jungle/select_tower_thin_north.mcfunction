@@ -9,7 +9,7 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/tower_thin_north_1", 
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~1 ~-128 ~1 ~3 ~-124 ~5 air
+fill ~1 ~-128 ~1 ~3 ~-125 ~5 air
 
 #Count the room in the total
 scoreboard players remove jungle_tower_rooms value 1
@@ -23,6 +23,9 @@ scoreboard players set xmax value 7
 scoreboard players set zmax value 9
 scoreboard players set ymax value 6
 execute positioned ~-1 ~-1 ~-1 run function tid:dungeon/jungle/rng/run_rng_nopillar
+
+#Summon the staircase tracker entity for this room
+summon minecraft:area_effect_cloud ~2 ~1 ~3 {Duration:200,CustomName:"\"jungle_tower_room\""}
 
 #We're done here
 kill @s

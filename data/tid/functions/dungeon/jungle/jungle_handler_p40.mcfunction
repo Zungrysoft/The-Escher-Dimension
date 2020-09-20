@@ -17,6 +17,9 @@ function tid:misc/water_stalag_scatter
 #Add in the underwater treasure
 execute as @e[type=area_effect_cloud,name="underwater_treasure",sort=random] at @s run function tid:misc/underwater_treasure
 
+#If somehow, no evokers were generated, put one in a random spot so the player can kill it for the advancement
+execute unless entity @e[type=evoker] run function tid:misc/safety_evoker
+
 #Kill the locators
 kill @e[type=area_effect_cloud,name="jungle_towerbase"]
 

@@ -5,7 +5,7 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_1", posX: 0
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~-126 ~ ~20 ~-119 ~20 air
+fill ~ ~-126 ~ ~20 ~-120 ~20 air
 
 #Count the room in the total
 scoreboard players remove jungle_rooms value 1
