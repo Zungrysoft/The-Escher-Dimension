@@ -12,6 +12,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
+  "rewards": {
+    "experience": 30
+  },
   "criteria": {
     "shot_trident": {
       "trigger": "minecraft:player_hurt_entity",

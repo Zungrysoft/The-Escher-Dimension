@@ -1,0 +1,180 @@
+{
+    "pools": [
+		{
+            "rolls": 3,
+            "bonus_rolls": 1,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:blue_dye"
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_pickaxe",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_hoe",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:ravager_spawn_egg"
+                }
+            ]
+        }
+    ]
+}

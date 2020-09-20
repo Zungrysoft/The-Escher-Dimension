@@ -10,7 +10,8 @@ kill @e[type=area_effect_cloud,name="jungle_tower_room",distance=0..30]
 #Generate the layer's first room
 execute positioned ~-3 ~3 ~-3 run function tid:dungeon/jungle/select_tower_quad
 
-#Empty out the room to make room for the stairwell
+#Empty out both rooms to make room for the stairwell
+fill ~-2 ~ ~-2 ~2 ~2 ~2 air
 fill ~-2 ~4 ~-2 ~2 ~6 ~2 air
 
 #If this layer only one room, stop going up any further. Prevents weird single-wide towers. Also put that top room

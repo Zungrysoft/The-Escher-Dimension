@@ -24,9 +24,6 @@ scoreboard players set zmax value 9
 scoreboard players set ymax value 6
 execute positioned ~-1 ~-1 ~-1 run function tid:dungeon/jungle/rng/run_rng_nopillar
 
-#Summon the staircase tracker entity for this room
-summon minecraft:area_effect_cloud ~2 ~1 ~3 {Duration:200,CustomName:"\"jungle_tower_room\""}
-
 #We're done here
 kill @s
 

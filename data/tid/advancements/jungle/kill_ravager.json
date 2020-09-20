@@ -1,0 +1,38 @@
+{
+  "parent": "tid:jungle/kill_illusioner",
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": "Slay the Beast",
+    "description": "Kill a Ravager",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:ravager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ]
+}

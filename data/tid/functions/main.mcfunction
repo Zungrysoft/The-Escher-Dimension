@@ -71,7 +71,7 @@ effect clear @a bad_omen
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/soulsand"} run function tid:misc/soulsand_arena_detect
 execute as @e[type=minecraft:area_effect_cloud,name="soulsand_arena_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/soulsand_arena_detect
 #Jungle Illusioner
-execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/jungle"} run function tid:misc/illusioner_detect
+execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless data block ~ ~-1 ~ {LootTable:"tid:chests/jungle_illusioner"} run function tid:misc/illusioner_detect
 execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/illusioner_detect
 
 #Gameplay stuff
