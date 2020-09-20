@@ -142,9 +142,9 @@
 		{
             "rolls": {
                 "min": 2,
-                "max": 3
+                "max": 4
             },
-            "bonus_rolls": 0,
+            "bonus_rolls": 1,
             "entries": [
 				{
                     "type": "item",

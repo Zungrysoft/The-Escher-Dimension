@@ -137,9 +137,9 @@
 		{
             "rolls": {
                 "min": 2,
-                "max": 3
+                "max": 4
             },
-            "bonus_rolls": 0,
+            "bonus_rolls": 1,
             "entries": [
 				{
                     "type": "item",
@@ -227,11 +227,6 @@
                 },
 				{
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:milk_bucket"
-                },
-				{
-                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:redstone",
                     "functions": [
@@ -279,7 +274,7 @@
                 },
 				{
                     "type": "item",
-                    "weight": 3,
+                    "weight": 5,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -288,6 +283,17 @@
                                 "min": 1,
                                 "max": 3
                             }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:water_breathing\"}"
                         }
                     ]
                 }

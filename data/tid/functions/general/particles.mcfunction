@@ -1,6 +1,6 @@
 schedule function tid:general/particles .4s replace
 
-execute as @e[type=area_effect_cloud,tag=haunted] at @s if entity @p[distance=0..20] run function tid:misc/haunted_chest_particles
+execute as @e[type=area_effect_cloud,tag=haunted] at @s if entity @p[distance=0..20] run function tid:general/haunted_chest_particles
 
 #Particle effect on dyes
 execute as @e[type=item,nbt={Item:{id:"minecraft:white_dye"}}] at @s run particle dust 1.0 1.0 1.0 2.0 ~ ~.25 ~
