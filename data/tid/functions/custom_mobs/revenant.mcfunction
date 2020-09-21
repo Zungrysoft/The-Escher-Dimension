@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Duration:999999999,Id:14b}],CustomName:'[{"text":"Alloy Elemental"}]',Tags:["revenant"]}

@@ -97,8 +97,10 @@ execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid
 execute as @e[type=minecraft:zombie,tag=explosion_elemental] at @s run function tid:gameplay/ai_explosion_elemental
 #Alloy Elemental
 execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
-#Summoned Pigman
-execute as @e[type=minecraft:zombified_piglin,tag=summon] at @s run function tid:gameplay/ai_summon
+#Summoned Minions
+execute as @e[tag=summon] at @s run function tid:gameplay/ai_summon
+#Revenants
+execute as @e[type=minecraft:stray,tag=revenant] at @s run function tid:gameplay/ai_revenant
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter

@@ -8,7 +8,7 @@ summon minecraft:area_effect_cloud -6 193 -6 {Duration:99999999,CustomName:"\"te
 #setblock 6 193 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Towers of fire and hate, twisting up and down, and back through themselves. Staircases to nowhere and doors hopefully to somewhere.\\n\\nIf there\'s anything to take away from this, it\'s to §lwatch your step! §0You have been warned."}'], title: "A Fair Warning", author: "ZungryWare", resolved: 1b}}, {Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water_breathing"}}]}
 
 #Add in willows
-scoreboard players set willow_count value 1200
+scoreboard players set willow_count value 1600
 function tid:misc/jungle_willow_scatter
 
 #Add in the water stalagmites
