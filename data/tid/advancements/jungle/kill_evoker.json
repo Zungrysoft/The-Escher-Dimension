@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:totem_of_undying"
     },
-    "title": "Battle Atop the Tower",
+    "title": "Confront the Tower Boss",
     "description": "Find and kill an Evoker",
     "frame": "goal",
     "show_toast": true,

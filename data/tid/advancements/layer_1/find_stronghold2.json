@@ -5,7 +5,7 @@
       "item": "minecraft:cracked_stone_bricks"
     },
     "title": "The Stronghold Ruins",
-    "description": "Scour the wreckage",
+    "description": "",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

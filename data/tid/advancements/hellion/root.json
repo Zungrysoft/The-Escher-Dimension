@@ -4,7 +4,7 @@
       "item": "minecraft:quartz_bricks"
     },
     "title": "Hellion Heights",
-    "description": "Watch your step!",
+    "description": "",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

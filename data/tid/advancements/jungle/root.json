@@ -4,7 +4,7 @@
       "item": "minecraft:mossy_cobblestone"
     },
     "title": "The Reliquary Outpost",
-    "description": "Treasure hidden high and low",
+    "description": "",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

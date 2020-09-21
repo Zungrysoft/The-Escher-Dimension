@@ -1,0 +1,41 @@
+{
+  "parent": "tid:finale/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "The Motherlode",
+    "description": "Find a chest in The Corridors",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/finale_experience"
+      }
+    },
+	"loot_2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/finale_potions"
+      }
+    },
+	"loot_3": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/finale_misc"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1",
+	  "loot_2",
+	  "loot_3"
+    ]
+  ]
+}

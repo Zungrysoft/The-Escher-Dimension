@@ -5,7 +5,7 @@
       "item": "minecraft:dark_oak_planks"
     },
     "title": "Underworld Canals",
-    "description": "Your watery grave",
+    "description": "",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

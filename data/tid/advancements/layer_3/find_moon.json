@@ -1,10 +1,10 @@
 {
-  "parent": "tid:layer_2/root",
+  "parent": "tid:layer_3/root",
   "display": {
     "icon": {
-      "item": "minecraft:soul_soil"
+      "item": "minecraft:end_stone"
     },
-    "title": "The Soul Sand Arenas",
+    "title": "The Moon Zone",
     "description": "",
     "frame": "task",
     "show_toast": false,

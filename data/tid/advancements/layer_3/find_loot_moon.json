@@ -1,0 +1,27 @@
+{
+  "parent": "tid:layer_3/find_moon",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Lunar Treasure",
+    "description": "Find a chest in The Moon Zone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/moon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}
