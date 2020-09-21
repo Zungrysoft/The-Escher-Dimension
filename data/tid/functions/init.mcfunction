@@ -53,6 +53,7 @@ scoreboard objectives setdisplay belowName deaths
 scoreboard objectives add health health "Health"
 scoreboard objectives setdisplay list health
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
+team add players
 
 #Start the particles loop
 function tid:general/particles

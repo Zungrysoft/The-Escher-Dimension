@@ -75,6 +75,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s
 execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/illusioner_detect
 
 #Gameplay stuff
+team join players @a
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
 execute as @a at @s run function tid:gameplay/float_orb
 execute as @a run function tid:gameplay/heart_scroll
