@@ -4,6 +4,7 @@ gamerule doTraderSpawning false
 #gamerule randomTickSpeed 5
 gamerule doWeatherCycle false
 gamerule doInsomnia false
+gamerule maxCommandChainLength 1000000000
 execute in tid:layer_1 run forceload add -7 -7 7 7
 #execute in tid:layer_2 run forceload add -7 -7 7 7
 execute in tid:layer_3 run forceload add -7 -7 7 7
