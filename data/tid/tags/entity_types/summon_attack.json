@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "minecraft:husk",
+	"minecraft:stray",
+	"minecraft:wither_skeleton",
+	"minecraft:drowned",
+	"minecraft:spider",
+	"minecraft:cave_spider",
+	"minecraft:blaze",
+	"minecraft:vindicator",
+	"minecraft:pillager",
+	"minecraft:illusioner",
+	"minecraft:evoker",
+	"minecraft:silverfish",
+	"minecraft:hoglin",
+	"minecraft:piglin",
+	"minecraft:piglin_brute",
+	"minecraft:magma_cube",
+	"minecraft:slime",
+	"minecraft:shulker",
+	"minecraft:witch",
+	"minecraft:zoglin",
+	"minecraft:zombie_villager"
+  ]
+}

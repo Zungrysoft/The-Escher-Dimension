@@ -80,6 +80,7 @@ execute as @a at @s run function tid:gameplay/float_orb
 execute as @a run function tid:gameplay/heart_scroll
 execute as @a at @s run function tid:gameplay/conditional_weapons
 execute as @a at @s run function tid:gameplay/oxidation_staff
+execute as @a at @s run function tid:gameplay/summoning_staff
 scoreboard players set @a damage_dealt 0
 scoreboard players set @a carrot_stick_use 0
 
@@ -95,6 +96,8 @@ execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid
 execute as @e[type=minecraft:zombie,tag=explosion_elemental] at @s run function tid:gameplay/ai_explosion_elemental
 #Alloy Elemental
 execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
+#Summoned Pigman
+execute as @e[type=minecraft:zombified_piglin,tag=summon] at @s run function tid:gameplay/ai_summon
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter
