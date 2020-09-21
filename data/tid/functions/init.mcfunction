@@ -28,6 +28,7 @@ scoreboard objectives add counter1 dummy
 scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add value dummy
+scoreboard objectives add heart_boost dummy
 scoreboard objectives add found_stronghold dummy
 scoreboard objectives add found_brick dummy
 scoreboard objectives add found_sand1 dummy
@@ -44,6 +45,7 @@ scoreboard objectives add adv_hellion_1 dummy
 scoreboard objectives add adv_hellion_2 dummy
 scoreboard objectives add adv_hellion_3 dummy
 scoreboard objectives add adv_hellion_4 dummy
+scoreboard objectives add carrot_stick_use minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add starting_gear dummy
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths
