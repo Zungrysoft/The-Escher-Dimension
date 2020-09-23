@@ -1,0 +1,27 @@
+{
+  "parent": "tid:layer_2/find_neon",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Fusion Treasure",
+    "description": "Find a chest in Fusion Central",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/neon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}

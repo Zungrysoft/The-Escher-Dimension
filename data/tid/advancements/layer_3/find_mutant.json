@@ -2,9 +2,9 @@
   "parent": "tid:layer_3/root",
   "display": {
     "icon": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:warped_wart_block"
     },
-    "title": "Fusion Central",
+    "title": "Mutant Sludge Pits",
     "description": "",
     "frame": "task",
     "show_toast": false,

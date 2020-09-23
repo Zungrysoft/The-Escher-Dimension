@@ -7,6 +7,10 @@ execute as @a[predicate=tid:in_the_end] run function tid:general/respawn
 execute in tid:layer_1 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_1] in tid:layer_1 if block 0 54 0 bedrock run function tid:dungeon/layer_1/layer_1_handler
 
+#Layer 2
+execute in tid:layer_2 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+execute if entity @a[predicate=tid:in_layer_2] in tid:layer_2 if block 0 54 0 bedrock run function tid:dungeon/layer_2/layer_2_handler
+
 #Layer 3
 execute in tid:layer_3 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 if block 0 54 0 bedrock run function tid:dungeon/layer_3/layer_3_handler
@@ -15,7 +19,11 @@ execute if entity @a[predicate=tid:in_layer_3] in tid:layer_3 if block 0 54 0 be
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
-#Jungle
+#Babirusan Port
+#execute in tid:layer_sin positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+#execute if entity @a[predicate=tid:in_layer_sin] in tid:layer_sin if block 0 192 0 bedrock run function tid:dungeon/sin/sin_handler
+
+#Reliquary Outpost
 execute in tid:layer_jungle positioned 0 192 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_jungle] in tid:layer_jungle if block 0 192 0 bedrock run function tid:dungeon/jungle/jungle_handler
 
@@ -26,6 +34,10 @@ execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if b
 #Test World
 execute in tid:layer_test positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_test] in tid:layer_test if block 0 182 0 bedrock run function tid:dungeon/test/test_handler
+
+#The Corridors
+#execute in tid:layer_finale positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+#execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 54 0 bedrock run function tid:dungeon/finale/finale_handler
 
 #Automatic Scoreboard Stuff
 execute as @e run function tid:update_coords
@@ -41,17 +53,21 @@ execute as @e[type=minecraft:area_effect_cloud,name="infernal_handler"] at @s ru
 execute as @e[type=minecraft:area_effect_cloud,name="sin_handler"] at @s run function tid:dungeon/sin/sin_handler
 
 #Entrance Messages
-execute as @a unless score @s found_stronghold matches 1.. at @s if block ~ ~-1 ~ cracked_stone_bricks if entity @e[name="stronghold2_entrance",distance=..30] run function tid:intro/stronghold2
-execute as @a unless score @s found_brick matches 1.. at @s if block ~ ~-1 ~ bricks if entity @e[name="brick_entrance",distance=..30] run function tid:intro/brick
-execute as @a unless score @s found_sand1 matches 1.. at @s if block ~ ~-1 ~ sandstone if entity @e[name="sand1_entrance",distance=..30] run function tid:intro/sand1
-execute as @a unless score @s found_sand2 matches 1.. at @s if block ~ ~-1 ~ red_sandstone if entity @e[name="sand2_entrance",distance=..30] run function tid:intro/sand2
-execute as @a unless score @s found_station matches 1.. at @s if block ~ ~-1 ~ red_nether_bricks if entity @e[name="station_entrance",distance=..30] run function tid:intro/station
-execute as @a unless score @s found_soulsand matches 1.. at @s if block ~ ~-1 ~ soul_soil if entity @e[name="soulsand_entrance",distance=..30] run function tid:intro/soulsand
-execute as @a unless score @s found_wildfire matches 1.. at @s if block ~ ~-1 ~ spruce_planks if entity @e[name="wildfire_entrance",distance=..30] run function tid:intro/wildfire
+execute as @a unless score @s found_stronghold matches 1.. at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
+execute as @a unless score @s found_brick matches 1.. at @s if entity @e[name="brick_entrance",distance=..5] run function tid:intro/brick
+execute as @a unless score @s found_canal matches 1.. at @s if entity @e[name="canal_entrance",distance=..5] run function tid:intro/canal
+execute as @a unless score @s found_soulsand matches 1.. at @s if entity @e[name="soulsand_entrance",distance=..5] run function tid:intro/soulsand
+execute as @a unless score @s found_ravine matches 1.. at @s if entity @e[name="ravine_entrance",distance=..5] run function tid:intro/ravine
+execute as @a unless score @s found_nature matches 1.. at @s if entity @e[name="nature_entrance",distance=..5] run function tid:intro/nature
+execute as @a unless score @s found_neon matches 1.. at @s if entity @e[name="neon_entrance",distance=..5] run function tid:intro/neon
+execute as @a unless score @s found_station matches 1.. at @s if entity @e[name="station_entrance",distance=..5] run function tid:intro/station
+execute as @a unless score @s found_moon matches 1.. at @s if entity @e[name="moon_entrance",distance=..5] run function tid:intro/moon
+execute as @a unless score @s found_mutant matches 1.. at @s if entity @e[name="mutant_entrance",distance=..5] run function tid:intro/mutant
+execute as @a unless score @s found_hellion matches 1.. at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
 execute as @a unless score @s found_sin matches 1.. at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
 execute as @a unless score @s found_chambers matches 1.. at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
-execute as @a unless score @s found_hellion matches 1.. at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
 execute as @a unless score @s found_jungle matches 1.. at @s if block ~ ~-1 ~ mossy_cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
+execute as @a unless score @s found_infernal matches 1.. at @s if block ~ ~-1 ~ #tid:misc/infernal_blocks if predicate tid:in_layer_infernal run function tid:intro/infernal
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
@@ -99,8 +115,8 @@ execute as @e[type=minecraft:zombie,tag=explosion_elemental] at @s run function 
 execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
 #Summoned Minions
 execute as @e[tag=summon] at @s run function tid:gameplay/ai_summon
-#Revenants
-execute as @e[type=minecraft:stray,tag=revenant] at @s run function tid:gameplay/ai_revenant
+#Glowing Monsters
+execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter

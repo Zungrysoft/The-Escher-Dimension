@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_3/find_neon",
+  "parent": "tid:layer_3/find_mutant",
   "display": {
     "icon": {
       "item": "minecraft:chest"
     },
-    "title": "Fusion Treasure",
-    "description": "Find a chest in Fusion Central",
+    "title": "Mutant Treasure",
+    "description": "Find a chest in the Mutant Sludge Pits",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
     "loot_1": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "tid:chests/neon"
+        "loot_table": "tid:chests/moon"
       }
     }
   },

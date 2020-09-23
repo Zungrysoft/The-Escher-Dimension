@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_3/find_loot_neon",
+  "parent": "tid:layer_3/find_loot_mutant",
   "display": {
     "icon": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:green_wool"
     },
-    "title": "Red Wool",
-    "description": "Craft red wool for the victory monument",
+    "title": "Green Wool",
+    "description": "Craft green wool for the victory monument",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_wool"
+            "item": "minecraft:green_wool"
           }
         ]
       }

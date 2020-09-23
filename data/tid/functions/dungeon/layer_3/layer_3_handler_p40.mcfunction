@@ -2,7 +2,7 @@
 fill -5 55 -5 5 59 5 air replace bedrock
 
 #Add the teleporter
-summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"teleporter\"",Color:3b,Tags:["starts_open"]}
+summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"teleporter\"",Color:11b,Tags:["starts_open"]}
 
 #These chunks are no longer needed
 forceload remove -64 -128 64 64

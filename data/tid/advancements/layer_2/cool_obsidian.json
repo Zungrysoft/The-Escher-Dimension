@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_2/find_neon",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "The States of Matter",
+    "description": "Stand on a lake of cooled obsidian",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
