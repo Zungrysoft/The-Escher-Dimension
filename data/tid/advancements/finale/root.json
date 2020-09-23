@@ -12,16 +12,8 @@
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },
   "criteria": {
-    "entered_dimension": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "tid:layer_finale"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "entered_dimension"
-    ]
-  ]
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
 }

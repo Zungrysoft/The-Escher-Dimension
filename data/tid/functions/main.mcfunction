@@ -53,21 +53,21 @@ execute as @e[type=minecraft:area_effect_cloud,name="infernal_handler"] at @s ru
 execute as @e[type=minecraft:area_effect_cloud,name="sin_handler"] at @s run function tid:dungeon/sin/sin_handler
 
 #Entrance Messages
-execute as @a unless score @s found_stronghold matches 1.. at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
-execute as @a unless score @s found_brick matches 1.. at @s if entity @e[name="brick_entrance",distance=..5] run function tid:intro/brick
-execute as @a unless score @s found_canal matches 1.. at @s if entity @e[name="canal_entrance",distance=..5] run function tid:intro/canal
-execute as @a unless score @s found_soulsand matches 1.. at @s if entity @e[name="soulsand_entrance",distance=..5] run function tid:intro/soulsand
-execute as @a unless score @s found_ravine matches 1.. at @s if entity @e[name="ravine_entrance",distance=..5] run function tid:intro/ravine
-execute as @a unless score @s found_nature matches 1.. at @s if entity @e[name="nature_entrance",distance=..5] run function tid:intro/nature
-execute as @a unless score @s found_neon matches 1.. at @s if entity @e[name="neon_entrance",distance=..5] run function tid:intro/neon
-execute as @a unless score @s found_station matches 1.. at @s if entity @e[name="station_entrance",distance=..5] run function tid:intro/station
-execute as @a unless score @s found_moon matches 1.. at @s if entity @e[name="moon_entrance",distance=..5] run function tid:intro/moon
-execute as @a unless score @s found_mutant matches 1.. at @s if entity @e[name="mutant_entrance",distance=..5] run function tid:intro/mutant
-execute as @a unless score @s found_hellion matches 1.. at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
-execute as @a unless score @s found_sin matches 1.. at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
-execute as @a unless score @s found_chambers matches 1.. at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
-execute as @a unless score @s found_jungle matches 1.. at @s if block ~ ~-1 ~ mossy_cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
-execute as @a unless score @s found_infernal matches 1.. at @s if block ~ ~-1 ~ #tid:misc/infernal_blocks if predicate tid:in_layer_infernal run function tid:intro/infernal
+execute as @a[advancements={tid:layer_1/found_stronghold2=false}] at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
+execute as @a[advancements={tid:layer_1/found_brick=false}] at @s if entity @e[name="brick_entrance",distance=..5] run function tid:intro/brick
+execute as @a[advancements={tid:layer_1/found_canal=false}] at @s if entity @e[name="canal_entrance",distance=..5] run function tid:intro/canal
+execute as @a[advancements={tid:layer_2/found_soulsand=false}] at @s if entity @e[name="soulsand_entrance",distance=..5] run function tid:intro/soulsand
+execute as @a[advancements={tid:layer_2/found_ravine=false}] at @s if entity @e[name="ravine_entrance",distance=..5] run function tid:intro/ravine
+execute as @a[advancements={tid:layer_2/found_nature=false}] at @s if entity @e[name="nature_entrance",distance=..5] run function tid:intro/nature
+execute as @a[advancements={tid:layer_2/found_neon=false}] at @s if entity @e[name="neon_entrance",distance=..5] run function tid:intro/neon
+execute as @a[advancements={tid:layer_3/found_station=false}] at @s if entity @e[name="station_entrance",distance=..5] run function tid:intro/station
+execute as @a[advancements={tid:layer_3/found_moon=false}] at @s if entity @e[name="moon_entrance",distance=..5] run function tid:intro/moon
+execute as @a[advancements={tid:layer_3/found_mutant=false}] at @s if entity @e[name="mutant_entrance",distance=..5] run function tid:intro/mutant
+execute as @a[advancements={tid:hellion/root=false}] at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
+execute as @a[advancements={tid:sin/root=false}] at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
+execute as @a[advancements={tid:sin/found_sin_chambers=false}] at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
+execute as @a[advancements={tid:jungle/root=false}] at @s if block ~ ~-1 ~ mossy_cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
+execute as @a[advancements={tid:infernal/root=false}] at @s if block ~ ~-1 ~ #tid:misc/infernal_blocks if predicate tid:in_layer_infernal run function tid:intro/infernal
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
