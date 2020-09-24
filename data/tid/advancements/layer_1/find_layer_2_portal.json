@@ -5,7 +5,7 @@
       "item": "minecraft:coal"
     },
     "title": "Cryptic Portal",
-    "description": "Find a coal portal",
+    "description": "Find a purpur portal",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
