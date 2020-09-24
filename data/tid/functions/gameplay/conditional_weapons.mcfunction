@@ -1,7 +1,7 @@
 #This file handles all of the weapons that only function under specific circumstances.
 
-#Takes the extreme weakness effect from the player first. The other commands give it back if it should still be active
-execute as @a[nbt={ActiveEffects:[{Amplifier:127b,Id:18b}]}] run effect clear @s weakness
+#Takes the damage reduction attribute from the player first. The other commands give it back if it should still be active
+attribute @s minecraft:generic.attack_damage modifier remove 21183d2f-4e05-4f9a-9e04-8ee579aab87f
 
 #Reset value
 scoreboard players set temp value 0
@@ -12,10 +12,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{skeleton_bane:1b}}}] unless entity 
 #Babirusan Shiv
 execute if entity @s[nbt={SelectedItem:{tag:{super_flint:1b}}}] unless data entity @s Inventory[{id:"minecraft:gold_ingot"}] run scoreboard players set temp value 1
 
-#Give the effect
-execute if score temp value matches 1 run effect give @s weakness 999999 127 true
-
-
+#Give the damage reduction attribute if applicable
+execute if score temp value matches 1 run attribute @s minecraft:generic.attack_damage modifier add 21183d2f-4e05-4f9a-9e04-8ee579aab87f nodamage -1000 add
 
 
 #Other stuff related to these weapons

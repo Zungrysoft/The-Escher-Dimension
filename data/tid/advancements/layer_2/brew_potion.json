@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:layer_2/find_neon",
+  "parent": "tid:layer_2/find_neon",
   "display": {
     "icon": {
       "item": "minecraft:potion"

@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:ravager",
-    "minecraft:enderman",
 	"minecraft:vex",
+	"minecraft:enderman",
 	"minecraft:phantom",
 	"minecraft:guardian",
 	"minecraft:elder_guardian"
