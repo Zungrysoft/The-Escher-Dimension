@@ -4,3 +4,5 @@ execute unless score @s failed matches 1.. if predicate tid:random_05 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~0 ~-2 ~-2 if blocks ~-1 ~-3 ~ ~2 ~6 ~1 1033 1 1001 all run function tid:dungeon/neon/select_stairs_north
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~0 ~-4 ~-2 if blocks ~-1 ~-3 ~ ~2 ~6 ~1 1033 1 1001 all run function tid:dungeon/neon/select_stairs_south
 execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~-4 ~-3 ~-9 if blocks ~ ~-3 ~ ~8 ~9 ~8 1033 1 1001 all run function tid:dungeon/neon/select_cross
+execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~0 ~-2 ~-3 if blocks ~-1 ~-3 ~ ~2 ~8 ~2 1033 1 1001 all run function tid:dungeon/neon/select_ladder_north
+execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~0 ~-7 ~-3 if blocks ~-1 ~-3 ~ ~2 ~8 ~2 1033 1 1001 all run function tid:dungeon/neon/select_ladder_south

@@ -4,6 +4,15 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/straight_west", posX: 0
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
+#Generate sidelines
+scoreboard players set temp value 0
+execute if predicate tid:random_50 run scoreboard players add temp value 1
+execute if predicate tid:random_50 run scoreboard players add temp value 2
+execute if predicate tid:random_50 run scoreboard players add temp value 4
+execute if predicate tid:random_50 run scoreboard players add temp value 8
+execute if predicate tid:random_60 positioned ~ ~ ~-4 if blocks ~ ~ ~ ~6 ~5 ~3 1033 1 1001 all run function tid:dungeon/neon/select_sideline_north
+execute if predicate tid:random_60 positioned ~ ~ ~2 if blocks ~ ~ ~ ~6 ~5 ~3 1033 1 1001 all run function tid:dungeon/neon/select_sideline_south
+
 #Mark this area on the map
 fill ~ 255 ~ ~6 255 ~1 minecraft:green_terracotta replace minecraft:purpur_block
 
