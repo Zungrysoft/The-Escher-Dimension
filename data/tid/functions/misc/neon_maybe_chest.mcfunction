@@ -36,17 +36,17 @@ execute if predicate tid:random_10 if block ~ ~ ~-1 purpur_block run setblock ~ 
 execute if predicate tid:random_10 if block ~ ~ ~1 purpur_block run setblock ~ ~ ~ smoker[facing=north]
 
 #Decide whether to generate a chest
-execute if predicate tid:random_10 if block ~-1 ~ ~ crimson_planks run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~1 ~ ~ crimson_planks run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~-1 crimson_planks run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~1 crimson_planks run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/station"}
+execute if predicate tid:random_10 if block ~-1 ~ ~ crimson_planks run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~1 ~ ~ crimson_planks run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~-1 crimson_planks run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~1 crimson_planks run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/neon"}
 
-execute if predicate tid:random_10 if block ~-1 ~ ~ purpur_pillar run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~1 ~ ~ purpur_pillar run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~-1 purpur_pillar run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~1 purpur_pillar run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/station"}
+execute if predicate tid:random_10 if block ~-1 ~ ~ purpur_pillar run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~1 ~ ~ purpur_pillar run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~-1 purpur_pillar run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~1 purpur_pillar run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/neon"}
 
-execute if predicate tid:random_10 if block ~-1 ~ ~ purpur_block run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~1 ~ ~ purpur_block run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~-1 purpur_block run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/station"}
-execute if predicate tid:random_10 if block ~ ~ ~1 purpur_block run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/station"}
+execute if predicate tid:random_10 if block ~-1 ~ ~ purpur_block run setblock ~ ~ ~ chest[facing=east]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~1 ~ ~ purpur_block run setblock ~ ~ ~ chest[facing=west]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~-1 purpur_block run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/neon"}
+execute if predicate tid:random_10 if block ~ ~ ~1 purpur_block run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/neon"}

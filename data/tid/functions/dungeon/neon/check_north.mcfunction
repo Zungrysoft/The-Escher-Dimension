@@ -1,5 +1,6 @@
-function tid:dungeon/stronghold2/room_checks
-execute unless score @s failed matches 1.. if predicate tid:random_04 positioned ~-6 ~-1 ~-13 if blocks ~ ~128 ~ ~12 ~135 ~12 1001 1 1001 all run function tid:dungeon/stronghold2/select_nexus
-execute unless score @s failed matches 1.. if predicate tid:random_06 positioned ~-2 ~-1 ~-9 if blocks ~ ~128 ~ ~4 ~133 ~8 1001 1 1001 all run function tid:dungeon/stronghold2/select_hall_north
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-2 ~-1 ~-5 if blocks ~ ~128 ~ ~4 ~133 ~4 1001 1 1001 all run function tid:dungeon/stronghold2/select_junction_north
-execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~-2 ~-7 ~-11 if blocks ~ ~128 ~ ~4 ~139 ~10 1001 1 1001 all run function tid:dungeon/stronghold2/select_stairwell_north
+function tid:dungeon/neon/room_checks
+execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~0 ~-2 ~-2 if blocks ~ ~-3 ~ ~1 ~3 ~1 1033 1 1001 all run function tid:dungeon/neon/select_outside
+execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~0 ~-2 ~-7 if blocks ~ ~-3 ~ ~1 ~3 ~6 1033 1 1001 all run function tid:dungeon/neon/select_straight_north
+execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~0 ~-2 ~-2 if blocks ~ ~-3 ~ ~1 ~6 ~1 1033 1 1001 all run function tid:dungeon/neon/select_stairs_north
+execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~0 ~-4 ~-2 if blocks ~ ~-3 ~ ~1 ~6 ~1 1033 1 1001 all run function tid:dungeon/neon/select_stairs_south
+execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~-4 ~-3 ~-9 if blocks ~ ~-3 ~ ~8 ~9 ~8 1033 1 1001 all run function tid:dungeon/neon/select_cross
