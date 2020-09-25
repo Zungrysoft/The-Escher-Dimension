@@ -1,20 +1,21 @@
 #Pick a random trade
 function tid:custom_mobs/villager_add_trade
-data modify storage tid temp1 set from entity @s 
+scoreboard players operation temp1 value = selection value
 function tid:custom_mobs/villager_add_trade
-scoreboard players operation temp2 value = temp value
+scoreboard players operation temp2 value = selection value
 function tid:custom_mobs/villager_add_trade
-scoreboard players operation temp3 value = temp value
+scoreboard players operation temp3 value = selection value
 function tid:custom_mobs/villager_add_trade
-scoreboard players operation temp4 value = temp value
+scoreboard players operation temp4 value = selection value
 function tid:custom_mobs/villager_add_trade
+scoreboard players operation temp5 value = selection value
 
 #Ensure no duplicate trades were picked. If so, start over.
 scoreboard players set reset value 0
-execute if score temp value = temp1 value run scoreboard players set reset value 1
-execute if score temp value = temp2 value run scoreboard players set reset value 1
-execute if score temp value = temp3 value run scoreboard players set reset value 1
-execute if score temp value = temp4 value run scoreboard players set reset value 1
+execute if score temp5 value = temp1 value run scoreboard players set reset value 1
+execute if score temp5 value = temp2 value run scoreboard players set reset value 1
+execute if score temp5 value = temp3 value run scoreboard players set reset value 1
+execute if score temp5 value = temp4 value run scoreboard players set reset value 1
 execute if score temp1 value = temp2 value run scoreboard players set reset value 1
 execute if score temp1 value = temp3 value run scoreboard players set reset value 1
 execute if score temp1 value = temp4 value run scoreboard players set reset value 1
@@ -56,8 +57,7 @@ execute if score temp value matches 6 run data modify entity @s VillagerData.pro
 execute if score temp value matches 7 run data modify entity @s VillagerData.profession set value "minecraft:leatherworker"
 execute if score temp value matches 8 run data modify entity @s VillagerData.profession set value "minecraft:librarian"
 execute if score temp value matches 9 run data modify entity @s VillagerData.profession set value "minecraft:nitwit"
-execute if score temp value matches 10 run data modify entity @s VillagerData.profession set value "minecraft:none"
-execute if score temp value matches 11 run data modify entity @s VillagerData.profession set value "minecraft:mason"
-execute if score temp value matches 12 run data modify entity @s VillagerData.profession set value "minecraft:shepherd"
-execute if score temp value matches 13 run data modify entity @s VillagerData.profession set value "minecraft:toolsmith"
+execute if score temp value matches 10 run data modify entity @s VillagerData.profession set value "minecraft:mason"
+execute if score temp value matches 11 run data modify entity @s VillagerData.profession set value "minecraft:shepherd"
+execute if score temp value matches 12..13 run data modify entity @s VillagerData.profession set value "minecraft:toolsmith"
 execute if score temp value matches 14.. run data modify entity @s VillagerData.profession set value "minecraft:weaponsmith"

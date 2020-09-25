@@ -5,7 +5,7 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/entrance_south", posX: 
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~10 ~154 ~15 minecraft:blue_wool replace minecraft:orange_wool
+fill ~ ~128 ~ ~10 ~154 ~15 minecraft:blue_wool
 
 #We're done here
 kill @s
