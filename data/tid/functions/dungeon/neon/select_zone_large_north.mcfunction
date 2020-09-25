@@ -19,5 +19,15 @@ summon minecraft:area_effect_cloud ~17 ~1 ~15 {Duration:99999999,CustomName:"\"n
 summon minecraft:area_effect_cloud ~9 ~1 ~29 {Duration:99999999,CustomName:"\"neon_zone_south\""}
 summon minecraft:area_effect_cloud ~9 ~1 ~2 {Duration:99999999,CustomName:"\"neon_zone_north\""}
 
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~2 ~8 ~15 {Duration:99999999,CustomName:"\"neon_zone_west\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~17 ~5 ~15 {Duration:99999999,CustomName:"\"neon_zone_east\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~9 ~7 ~29 {Duration:99999999,CustomName:"\"neon_zone_south\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~9 ~10 ~2 {Duration:99999999,CustomName:"\"neon_zone_north\""}
+
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~2 ~13 ~15 {Duration:99999999,CustomName:"\"neon_zone_west\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~17 ~9 ~15 {Duration:99999999,CustomName:"\"neon_zone_east\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~9 ~12 ~29 {Duration:99999999,CustomName:"\"neon_zone_south\""}
+execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~9 ~5 ~2 {Duration:99999999,CustomName:"\"neon_zone_north\""}
+
 #Count the room in the total
 scoreboard players remove neon_rooms value 1

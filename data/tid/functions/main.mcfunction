@@ -113,7 +113,7 @@ scoreboard players set @a carrot_stick_use 0
 
 #Handles custom monster effects
 #Fireflare
-execute as @e[type=minecraft:zombie,tag=fireflare] at @s if block ~ ~ ~ air run setblock ~ ~ ~ fire
+execute as @e[type=minecraft:zombie,tag=fireflare] at @s if block ~ ~ ~ air run setblock ~ ~ ~ fire[age=7]
 #Debris Demon
 execute as @e[type=minecraft:husk,tag=debris_demon] at @s run function tid:gameplay/ai_debris_demon
 #Oxidation Spirit

@@ -1,5 +1,5 @@
 #Pick a structure from this list
-execute if score temp value matches 0..1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_1", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
+execute if score temp value matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_1", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 execute if score temp value matches 2 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_2", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 execute if score temp value matches 3 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_3", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 execute if score temp value matches 4 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_4", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
@@ -14,6 +14,7 @@ execute if score temp value matches 12 run setblock ~ ~ ~ minecraft:structure_bl
 execute if score temp value matches 13 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_13", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 execute if score temp value matches 14 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_14", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 execute if score temp value matches 15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_15", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
+execute if score temp value matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/sideline_16", posX: 6, posY: 0, posZ: 3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b,rotation:"CLOCKWISE_180"}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
