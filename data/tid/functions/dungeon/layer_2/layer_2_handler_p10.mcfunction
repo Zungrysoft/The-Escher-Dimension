@@ -26,7 +26,7 @@ scoreboard players set neon_rooms value 30
 
 #Summon the entrance rooms and starting area
 function tid:dungeon/intro/generate_layer_2
-execute positioned 0 55 24 positioned ~-10 ~-27 ~0 run function tid:dungeon/neon/zone_build
+execute positioned 0 55 24 positioned ~-10 ~-37 ~0 run function tid:dungeon/neon/select_zone_large_west
 
 #execute positioned 0 55 -24 positioned ~-6 ~-5 ~-21 run function tid:dungeon/nature/select_entrance_north
 execute positioned 24 55 0 positioned ~1 ~-1 ~-6 run function tid:dungeon/soulsand/select_entrance_east
