@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:potion"
     },
-    "title": "Blinded with Science",
-    "description": "Brew a potion",
+    "title": "Chemistry Set",
+    "description": "Brew an awkward potion into another potion",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

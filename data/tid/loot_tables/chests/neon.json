@@ -1,0 +1,204 @@
+{
+    "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:purple_dye"
+                },
+				{
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:awkward\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:popped_chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "empty",
+                    "weight": 5
+                }
+            ]
+        },
+		{
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "bonus_rolls": 1,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:popped_chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:cooked_mutton",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:glowstone_dust",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:fire_resistance\"}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionColor:11382189,display:{Name:'[{\"text\":\"Mystery Potion\",\"italic\":false}]',Lore:['[{\"text\":\"Grants a random positive\",\"italic\":false,\"color\":\"blue\"}]','[{\"text\":\"potion effect\",\"italic\":false,\"color\":\"blue\"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

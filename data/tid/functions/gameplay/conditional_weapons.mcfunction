@@ -7,7 +7,7 @@ attribute @s minecraft:generic.attack_damage modifier remove 21183d2f-4e05-4f9a-
 scoreboard players set temp value 0
 
 #Skeleton Bane
-execute if entity @s[nbt={SelectedItem:{tag:{skeleton_bane:1b}}}] unless entity @e[type=skeleton,distance=0..10] unless entity @e[type=wither_skeleton,distance=0..10] unless entity @e[type=stray,distance=0..10] run scoreboard players set temp value 1
+execute if entity @s[nbt={SelectedItem:{tag:{skeleton_bane:1b}}}] unless entity @e[type=skeleton,distance=0..20] unless entity @e[type=wither_skeleton,distance=0..20] unless entity @e[type=stray,distance=0..20] run scoreboard players set temp value 1
 
 #Babirusan Shiv
 execute if entity @s[nbt={SelectedItem:{tag:{super_flint:1b}}}] unless data entity @s Inventory[{id:"minecraft:gold_ingot"}] run scoreboard players set temp value 1
