@@ -75,8 +75,8 @@ execute as @a[advancements={tid:layer_3/find_mutant=false}] at @s if entity @e[n
 execute as @a[advancements={tid:hellion/root=false}] at @s if block ~ ~-1 ~ quartz_bricks if predicate tid:in_layer_hellion run function tid:intro/hellion
 execute as @a[advancements={tid:sin/root=false}] at @s if block ~ ~-1 ~ polished_blackstone_bricks if predicate tid:in_layer_sin run function tid:intro/sin
 execute as @a[advancements={tid:sin/find_sin_chambers=false}] at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
-execute as @a[advancements={tid:jungle/root=false}] at @s if block ~ ~-1 ~ mossy_cobblestone if predicate tid:in_layer_jungle run function tid:intro/jungle
-execute as @a[advancements={tid:infernal/root=false}] at @s if block ~ ~-1 ~ #tid:misc/infernal_blocks if predicate tid:in_layer_infernal run function tid:intro/infernal
+execute as @a[advancements={tid:jungle/root=false}] at @s if block ~ ~-1 ~ #tid:jungle_blocks if predicate tid:in_layer_jungle run function tid:intro/jungle
+execute as @a[advancements={tid:infernal/root=false}] at @s if block ~ ~-1 ~ #tid:infernal_blocks if predicate tid:in_layer_infernal run function tid:intro/infernal
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
