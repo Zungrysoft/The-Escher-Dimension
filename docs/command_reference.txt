@@ -1,0 +1,129 @@
+/execute at @p run fill ~-15 ~-10 ~-15 ~15 ~15 ~15 air replace stone
+
+
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"stronghold2_entrance\""}
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"station_entrance\""}
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"station_north\""}
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"station_pillar\""}
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"jungle_tower_room\""}
+
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"soulsand_arena_detector\"",Tags:["haunted"]}
+/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"illusioner_detector\"",Tags:["haunted"]}
+
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/brick"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/stronghold2"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/station"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/station_secret",CustomName:"\"Secret Chest\""}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/soulsand"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/sin"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/sin_chambers"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/hellion"}
+/setblock ~ ~ ~ dropper{LootTable: "tid:chests/sin_dispenser"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/jungle"}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:skeleton"}, Weight: 1},{Entity: {id: "minecraft:creeper"}, Weight: 1}]}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:pillager"}, Weight: 1}]}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:wither_skeleton"}, Weight: 1}]}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:blaze"}, Weight: 3},{Entity: {id: "minecraft:wither_skeleton"}, Weight: 1}]}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 1s, RequiredPlayerRange: 100s, SpawnCount: 1s, MinSpawnDelay: 1800s, MaxSpawnDelay: 3600s, Delay: 170s, SpawnRange: 15s, SpawnPotentials: [{Entity: {id: "minecraft:pillager"}, Weight: 1}]}
+
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:piglin"}, Weight: 1}]}
+
+#Knockback Resistant Zombies
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 6s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:zombie", HandItems:[{id:brick,Count:1},{id:brick,Count:1}],HandDropChances:[0.50F,0.50F],ArmorItems:[{},{id:brick,Count:1},{id:brick,Count:1},{id:bricks,Count:1}],ArmorDropChances:[0F,0.50F,0.50F,0.00F],Attributes:[{Name:"generic.knockback_resistance",Base:1.0F}]}, Weight: 1}]}
+
+#Weakness Skeletons
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 6s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:skeleton",HandItems:[{id:bow,Count:1},{id:tipped_arrow,tag:{Potion:"minecraft:weakness"},Count:1}],HandDropChances:[0F,0.00F],ArmorItems:[{},{id:tipped_arrow,tag:{Potion:"minecraft:long_weakness"},Count:1},{id:tipped_arrow,tag:{Potion:"minecraft:long_weakness"},Count:1},{id:oak_planks,Count:1}],ArmorDropChances:[0F,0.50F,0.50F,0.00F]}, Weight: 1}]}
+
+#Fireflare
+summon minecraft:zombie ~ ~1 ~ {CustomName:"\"Fireflare\"", Health:4,ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:12b}],IsBaby:1,Fire:999999,ArmorItems:[{id:leather_boots,tag:{display:{color:16351261}},Count:1},{id:leather_leggings,tag:{display:{color:16351261}},Count:1},{id:leather_chestplate,tag:{display:{color:16351261}},Count:1},{id:magma_block,Count:1}],ArmorDropChances:[0.00F,0.00F,0.00F,0.00F],Tags:["fireflare"],DeathLootTable: ""}
+
+#Explosion Elemental
+summon minecraft:zombie ~ ~ ~ {CustomName:'[{"text":"Explosion Elemental"}]',HandItems:[{id:iron_sword,Count:1}],ArmorItems:[{id:leather_boots,tag:{display:{color:16723494}},Count:1},{id:leather_leggings,tag:{display:{color:16723494}},Count:1},{id:leather_chestplate,tag:{display:{color:1908001}},Count:1},{id:tnt,Count:1}],ArmorDropChances:[0.02F,0.02F,0.02F,1.00F],DeathLootTable: "tid:entities/explosion_elemental",ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:14b}],Tags:["tnt"]}
+
+#Oxidation Spirit
+summon minecraft:stray ~ ~ ~ {CustomName:'[{"text":"Oxidation Spirit"}]',HandItems:[{id:bow,Count:1}],ArmorItems:[{},{},{id:leather_chestplate,tag:{display:{color:16760367}},Count:1},{id:shroomlight,Count:1}],ArmorDropChances:[0.0F,0F,0F,0F],HandDropChances:[0F],ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:12b}],DeathLootTable: "tid:entities/oxidation_spirit"}
+
+#Debris Demon
+summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"\"Debris Demon\"",Health:30,HandItems:[{id:netherite_pickaxe,Count:1}],HandDropChances:[0.00F],ArmorItems:[{id:netherite_boots,Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:ancient_debris,Count:1}],ArmorDropChances:[0.00F,0.00F,0.00F,0.00F],Attributes:[{Name:"generic.max_health",Base:30F}],DeathLootTable: "tid:entities/debris_demon"}
+
+#Revenant
+summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Duration:999999999,Id:14b}],CustomName:'[{"text":"Neon Elemental"}]',Tags:["glowing"]}
+
+{HandItems:[{id:brick,Count:1},{id:brick,Count:1}],HandDropChances:[0.50F,0.50F],ArmorItems:[{},{id:brick,Count:1},{id:brick,Count:1},{id:bricks,Count:1}],ArmorDropChances:[0F,0.50F,0.50F,0.00F],Attributes:[{Name:"generic.knockback_resistance",Base:1.0F}]}
+
+/summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"stronghold_ruins\""}
+
+
+#Potion of Luck, Level 1 for 10 mins
+/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Duration:12000}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
+
+#Potion of Luck, Level 2 for 5 mins
+/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Amplifier:1,Duration:6000}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
+
+#Potion of Luck, Level 4 for 1 min
+/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Amplifier:3,Duration:1200}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
+
+#Potion of Dexterity
+/give @p minecraft:potion{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:'[{"text":"Potion of Dexterity","italic":false}]'}}
+
+#Potion of Rage
+/give @p potion{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:2}]}
+
+#Potion of Charisma
+/give @p potion{CustomPotionColor:54941,display:{Name:'[{"text":"Potion of Charisma","italic":false}]'},CustomPotionEffects:[{Id:32,Duration:6000,Amplifier:0},{Id:1,Duration:6000,Amplifier:0}]} 1
+
+#Potion of Grace
+/give @p potion{CustomPotionColor:7368959,display:{Name:'[{"text":"Potion of Grace","italic":false}]'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]} 1
+
+#Mystery Potion
+/give @p potion{CustomPotionColor:11382189,display:{Name:'[{"text":"Mystery Potion","italic":false}]',Lore:['[{"text":"Grants a random positive","italic":false,"color":"blue"}]','[{"text":"potion effect","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535} 1
+
+#Lucifer's Clogs (Soul Speed Boots)
+/give @p chainmail_boots{display:{Name:'[{"text":"Lucifer\'s Clogs","italic":false,"color":"red","bold":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4} 1
+
+#Heart Scroll
+/give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}
+
+#Rabid Shredder
+/give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1
+
+#Babirusan Shiv
+/give @p flint{display:{Name:'[{"text":"Babirusan Shiv","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Costs one Gold Ingot per swing.","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],super_flint:1b,Enchantments:[{}]} 1
+
+#Mysterious Orb
+/give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1
+
+#Blade of Dal-Marceus (skeleton bane)
+/give @p diamond_sword{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Only works if a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}
+
+#Oxidation Stick
+/give @p carrot_on_a_stick{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}
+
+#Summoning Staff
+/give @p carrot_on_a_stick{display:{Name:'[{"text":"Summoning Staff","italic":false,"color":"red","bold":true}]',Lore:['[{"text":"Costs 10 rotten flesh per use","italic":false,"color":"red"}]']},summoning_staff:1b,Enchantments:[{}]}
+ 
+#Oracle Rod
+/give @p blaze_rod{display:{Name:'[{"text":"Oracle Rod","italic":false,"color":"gold","bold":false}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]']},glow_stick:1b,Enchantments:[{}]}
+
+#Wizard Shell
+/give @p nautilus_shell{display:{Name:'[{"text":"Wizard Shell","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+20% Speed when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:"generic.movement_speed"},{AttributeName:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:"generic.movement_speed"}]} 1
+
+#Heavyweight
+/give @p nether_brick{display:{Name:'[{"text":"Heavyweight","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+100% Knockback Resistance when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:"generic.knockback_resistance"},{AttributeName:"generic.knockback_resistance",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:"generic.knockback_resistance"}]} 1
+
+#Sharpening Stone
+/give @p iron_ingot{display:{Name:'[{"text":"Sharpening Stone","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+2 Attack Damage when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:"generic.attack_damage"}]} 1
+
+{"text":"Balance Staff","italic":false}
+
+Name:'[{"text":"Balance Staff","italic":false}]'
