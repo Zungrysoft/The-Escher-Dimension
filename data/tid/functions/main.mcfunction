@@ -80,13 +80,9 @@ execute as @a[advancements={tid:infernal/root=false}] at @s if block ~ ~-1 ~ #ti
 
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
-execute as @e[type=minecraft:area_effect_cloud,name="station_pillar_crawl"] at @s run function tid:misc/station_pillar_crawl
 execute as @e[type=minecraft:area_effect_cloud,name="summon_redstone"] at @s run function tid:misc/summon_redstone
 execute as @e[type=minecraft:armor_stand,name="tnt_stick"] at @s run function tid:misc/summon_tnt_stick
-execute as @e[type=minecraft:armor_stand,name="station_pillar_base",nbt={OnGround:1b}] at @s run function tid:misc/station_pillar_base
 execute as @e[type=minecraft:area_effect_cloud,name="summon_mob"] at @s if entity @p[distance=0..18] run function tid:misc/summon_mob
-execute as @e[type=minecraft:firework_rocket,name="glowstone_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae run setblock ~ ~ ~ glowstone
-execute as @e[type=minecraft:firework_rocket,name="ghast_rocket",nbt={Life:59}] at @s if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run function tid:misc/ghast_rocket_generate
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 effect clear @a bad_omen

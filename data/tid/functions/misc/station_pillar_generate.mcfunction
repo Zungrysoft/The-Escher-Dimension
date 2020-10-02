@@ -3,5 +3,8 @@ setblock ~-1 ~-3 ~-1 minecraft:structure_block{name: "tid:station/pillar_top", p
 setblock ~-1 ~-2 ~-1 minecraft:redstone_block
 fill ~-1 ~125 ~-1 ~1 ~127 ~1 minecraft:blue_wool
 
-#Summon the armor stand that falls down toward the base
-summon minecraft:armor_stand ~ ~-5 ~ {CustomName:"\"station_pillar_base\""}
+#Start the success value at 0
+scoreboard players set temp value 0
+
+#Start crawling down
+execute positioned ~ ~-4 ~ run function tid:misc/station_pillar_crawl

@@ -21,18 +21,18 @@ execute as @e[name="debris_piece",type=armor_stand] at @s if block ~ ~ ~ air if 
 kill @e[name="debris_piece",type=armor_stand]
 
 #Scatter glowstone on the ceiling
-execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"glowstone_rocket_summon\""}
-execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"glowstone_rocket_summon\""}
-execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"glowstone_rocket_summon\""}
-spreadplayers ~16 ~16 1 16 under 128 false @e[name="glowstone_rocket_summon",type=armor_stand]
-execute as @e[name="glowstone_rocket_summon",type=armor_stand] at @s run summon minecraft:firework_rocket ~ ~ ~ {CustomName:"\"glowstone_rocket\"",LifeTime:60}
-kill @e[name="glowstone_rocket_summon",type=armor_stand]
+execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
+execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
+execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
+spreadplayers ~16 ~16 1 16 under 128 false @e[name="scatter",type=armor_stand]
+execute as @e[name="scatter",type=armor_stand] at @s run function tid:misc/station_ceiling_glowstone
+kill @e[name="scatter",type=armor_stand]
 
 #Scatter ghast spawners on the ceiling >:)
-execute if predicate tid:random_07 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"ghast_rocket_summon\""}
-spreadplayers ~16 ~16 1 16 under 128 false @e[name="ghast_rocket_summon",type=armor_stand]
-execute as @e[name="ghast_rocket_summon",type=armor_stand] at @s run summon minecraft:firework_rocket ~ ~ ~ {CustomName:"\"ghast_rocket\"",LifeTime:60}
-kill @e[name="ghast_rocket_summon",type=armor_stand]
+execute if predicate tid:random_07 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
+spreadplayers ~16 ~16 1 16 under 128 false @e[name="scatter",type=armor_stand]
+execute as @e[name="scatter",type=armor_stand] at @s run function tid:misc/station_ceiling_ghast_spawner
+kill @e[name="scatter",type=armor_stand]
 
 execute if predicate tid:random_10 run function tid:dungeon/station_generate_straggler
 
