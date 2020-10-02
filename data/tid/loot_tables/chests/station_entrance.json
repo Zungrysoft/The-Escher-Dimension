@@ -1,0 +1,39 @@
+{
+    "pools": [
+		{
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:blaze_rod",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Oracle Rod\",\"italic\":false,\"color\":\"gold\",\"bold\":false}]',Lore:['[{\"text\":\"May reveal dark secrets...\",\"italic\":false,\"color\":\"white\"}]']},glow_stick:1b,Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:nether_brick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -28,8 +28,8 @@ setblock -19 49 -19 glowstone
 setblock -14 44 -14 glowstone
 
 #Add torches to soulsand entrance
-setblock 24 57 -3 soul_wall_torch[facing=west]
-setblock 24 57 3 soul_wall_torch[facing=west]
+#setblock 24 57 -3 soul_wall_torch[facing=west]
+#setblock 24 57 3 soul_wall_torch[facing=west]
 
 #Build the item shop
 setblock 21 55 -30 minecraft:structure_block{name: "tid:intro/itemshop", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
@@ -39,3 +39,7 @@ execute positioned 21 55 -30 run fill ~ ~128 ~ ~3 ~131 ~4 blue_wool
 
 #Mark on the map
 fill -25 255 -25 25 255 25 stone
+
+#TEMP Add the teleporter
+summon minecraft:area_effect_cloud -4 36 -4 {Duration:99999999,CustomName:"\"teleporter\"",Color:2b}
+

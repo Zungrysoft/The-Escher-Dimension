@@ -132,7 +132,7 @@ execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter
 
 #Protects dye and wool items
-function tid:protect_dyes
+function tid:general/protect_dyes
 
 #Test the victory monument for completion
 execute in tid:layer_1 run function tid:general/test_victory_monument

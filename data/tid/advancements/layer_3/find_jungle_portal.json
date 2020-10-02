@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_1/find_brick",
+  "parent": "tid:layer_3/find_station",
   "display": {
     "icon": {
-      "item": "minecraft:coal"
+      "item": "minecraft:prismarine_shard"
     },
-    "title": "Cryptic Portal",
-    "description": "Find a coal portal",
+    "title": "Enigmatic Portal",
+    "description": "Find a prismarine portal",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

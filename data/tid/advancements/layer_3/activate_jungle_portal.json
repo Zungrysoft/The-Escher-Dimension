@@ -1,12 +1,12 @@
 {
-  "parent": "tid:layer_1/find_brick",
+  "parent": "tid:layer_3/find_jungle_portal",
   "display": {
     "icon": {
-      "item": "minecraft:coal"
+      "item": "minecraft:prismarine"
     },
-    "title": "Cryptic Portal",
-    "description": "Find a coal portal",
-    "frame": "task",
+    "title": "Treacherous Waters",
+    "description": "Activate the prismarine portal",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

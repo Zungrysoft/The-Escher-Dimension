@@ -1,4 +1,4 @@
-execute positioned -10 59 -38 if block ~ ~ ~ white_wool if block ~1 ~ ~ orange_wool if block ~2 ~ ~ magenta_wool if block ~4 ~ ~ yellow_wool if block ~10 ~ ~ purple_wool if block ~16 ~ ~ iron_block if block ~17 ~ ~ gold_block run function tid:general/victory_monument_complete
+execute positioned -10 59 -38 if block ~ ~ ~ white_wool if block ~1 ~ ~ orange_wool if block ~2 ~ ~ magenta_wool if block ~4 ~ ~ yellow_wool if block ~10 ~ ~ purple_wool if block ~11 ~ ~ blue_wool if block ~14 ~ ~ red_wool if block ~16 ~ ~ iron_block if block ~17 ~ ~ gold_block if block ~18 ~ ~ emerald_block run function tid:general/victory_monument_complete
 
 execute positioned -10 58 -37 positioned ~ ~ ~ if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=south]{Text2: '{"text":"White"}', Text3: '{"text":"Wool"}'}
 execute positioned -10 58 -37 positioned ~1 ~ ~ if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=south]{Text2: '{"text":"Orange"}', Text3: '{"text":"Wool"}'}

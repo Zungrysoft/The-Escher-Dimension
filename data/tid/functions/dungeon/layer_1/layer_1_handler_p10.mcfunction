@@ -24,6 +24,10 @@ scoreboard players set brick_rooms value 250
 scoreboard players set nature_rooms value 0
 #scoreboard players set nature_rooms value 250
 
+#Reset the scores for the teleporters
+scoreboard players set hellion_portals value 0
+scoreboard players set layer_2_portals value 0
+
 #Summon the entrance rooms and starting area
 execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/intro/select_entrance
 execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/intro/select_yard

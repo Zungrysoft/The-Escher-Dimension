@@ -15,6 +15,7 @@ function tid:misc/jungle_willow_scatter
 function tid:misc/water_stalag_scatter
 
 #Add in the underwater treasure
+scoreboard players set underwater_treasure_count value 0
 execute as @e[type=area_effect_cloud,name="underwater_treasure",sort=random] at @s run function tid:misc/underwater_treasure
 
 #If somehow, no evokers were generated, put one in a random spot so the player can kill it for the advancement

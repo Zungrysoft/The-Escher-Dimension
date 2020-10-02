@@ -4,7 +4,7 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "minecraft:basalt_deltas",
+      "biome": "tid:hellion",
       "lakes": false,
       "features": false,
       "layers": [

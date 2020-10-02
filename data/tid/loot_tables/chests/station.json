@@ -6,11 +6,30 @@
                 {
                     "type": "item",
                     "weight": 40,
-                    "name": "minecraft:purple_dye"
+                    "name": "minecraft:red_dye"
                 },
 				{
                     "type": "empty",
                     "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:prismarine_shard",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ]
                 }
             ]
         },

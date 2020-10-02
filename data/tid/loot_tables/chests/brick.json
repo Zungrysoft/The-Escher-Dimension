@@ -92,8 +92,8 @@
                 },
 				{
                     "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:compass"
+                    "weight": 6,
+                    "name": "minecraft:saddle"
                 },
 				{
                     "type": "item",
