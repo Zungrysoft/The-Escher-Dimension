@@ -1,0 +1,22 @@
+{
+  "parent": "tid:layer_2/find_loot_sand1",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": "X Marks the Spot",
+    "description": "Excavate in Corethab's Tomb",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

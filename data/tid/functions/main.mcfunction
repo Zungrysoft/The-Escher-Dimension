@@ -66,7 +66,8 @@ execute as @a[advancements={tid:layer_1/find_stronghold2=false}] at @s if entity
 execute as @a[advancements={tid:layer_1/find_brick=false}] at @s if entity @e[name="brick_entrance",distance=..5] run function tid:intro/brick
 execute as @a[advancements={tid:layer_1/find_canal=false}] at @s if entity @e[name="canal_entrance",distance=..5] run function tid:intro/canal
 execute as @a[advancements={tid:layer_2/find_soulsand=false}] at @s if entity @e[name="soulsand_entrance",distance=..5] run function tid:intro/soulsand
-execute as @a[advancements={tid:layer_2/find_ravine=false}] at @s if entity @e[name="ravine_entrance",distance=..5] run function tid:intro/ravine
+execute as @a[advancements={tid:layer_2/find_sand1=false}] at @s if entity @e[name="sand1_entrance",distance=..5] run function tid:intro/sand1
+execute as @a[advancements={tid:layer_2/find_sand2=false}] at @s if block ~ ~-1 ~ #tid:red_sandstone_blocks run function tid:intro/sand2
 execute as @a[advancements={tid:layer_2/find_nature=false}] at @s if entity @e[name="nature_entrance",distance=..5] run function tid:intro/nature
 execute as @a[advancements={tid:layer_2/find_neon=false}] at @s if entity @e[name="neon_entrance",distance=..5] run function tid:intro/neon
 execute as @a[advancements={tid:layer_3/find_station=false}] at @s if entity @e[name="station_entrance",distance=..5] run function tid:intro/station

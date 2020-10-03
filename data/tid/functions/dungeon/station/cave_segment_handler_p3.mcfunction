@@ -1,3 +1,7 @@
+#Convert all the stone in the cave into hyphae
+fill ~-1 ~-1 ~-1 ~32 ~20 ~32 warped_hyphae replace stone
+fill ~-1 ~21 ~-1 ~32 ~28 ~32 warped_hyphae replace stone
+
 #Scatter piles of gold
 execute if predicate tid:random_70 if score @s counter1 matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"gold_pile\""}
 execute if predicate tid:random_10 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"gold_pile\""}
@@ -36,9 +40,5 @@ kill @e[name="scatter",type=area_effect_cloud]
 
 #Add a marker so the generator knows to continue from here if not enough rooms generate
 summon minecraft:area_effect_cloud ~16 ~14 ~16 {Duration:99999999,CustomName:"\"station_straggler_start\""}
-
-#Convert all the stone in the cave into hyphae
-fill ~-1 ~-1 ~-1 ~32 ~20 ~32 warped_hyphae replace stone
-fill ~-1 ~21 ~-1 ~32 ~28 ~32 warped_hyphae replace stone
 
 kill @s

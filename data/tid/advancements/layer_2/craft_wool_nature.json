@@ -2,10 +2,10 @@
   "parent": "tid:layer_2/find_loot_nature",
   "display": {
     "icon": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:lime_wool"
     },
-    "title": "Pink Wool",
-    "description": "Craft pink wool for the victory monument",
+    "title": "Lime Wool",
+    "description": "Craft lime wool for the victory monument",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:pink_wool"
+            "item": "minecraft:lime_wool"
           }
         ]
       }

@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_2/find_loot_ravine",
+  "parent": "tid:layer_2/find_loot_sand2",
   "display": {
     "icon": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:pink_wool"
     },
-    "title": "Lime Wool",
-    "description": "Craft lime wool for the victory monument",
+    "title": "Pink Wool",
+    "description": "Craft pink wool for the victory monument",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lime_wool"
+            "item": "minecraft:pink_wool"
           }
         ]
       }

@@ -2,9 +2,9 @@
   "parent": "tid:layer_2/root",
   "display": {
     "icon": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:chiseled_red_sandstone"
     },
-    "title": "Rustic Ravine",
+    "title": "Zorethab's Tomb",
     "description": "",
     "frame": "task",
     "show_toast": false,

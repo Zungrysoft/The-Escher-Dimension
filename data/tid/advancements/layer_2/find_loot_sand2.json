@@ -1,0 +1,27 @@
+{
+  "parent": "tid:layer_2/find_sand2",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Zorethab's Treasure",
+    "description": "Find a chest in Zorethab's Tomb",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/sand2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}
