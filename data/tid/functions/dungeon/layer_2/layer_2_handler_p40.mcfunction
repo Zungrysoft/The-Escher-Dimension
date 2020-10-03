@@ -11,7 +11,8 @@ summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"tel
 kill @e[type=area_effect_cloud,name="neon_chest_locator"]
 
 #These chunks are no longer needed
-forceload remove -128 -196 128 64
+forceload remove -130 -130 130 0
+forceload remove -130 0 130 130
 forceload remove 1000 1000 1064 1064
 
 say Done!

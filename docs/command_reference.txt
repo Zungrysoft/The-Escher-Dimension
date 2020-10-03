@@ -25,6 +25,8 @@
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/hellion"}
 /setblock ~ ~ ~ dropper{LootTable: "tid:chests/sin_dispenser"}
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/jungle"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/sand1"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/sand2"}
 
 setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:skeleton"}, Weight: 1},{Entity: {id: "minecraft:creeper"}, Weight: 1}]}
 

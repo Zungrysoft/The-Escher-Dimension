@@ -1,7 +1,6 @@
 #Setup
 gamerule commandBlockOutput false
 gamerule doTraderSpawning false
-#gamerule randomTickSpeed 5
 gamerule doWeatherCycle false
 gamerule doInsomnia false
 gamerule maxCommandChainLength 1000000000

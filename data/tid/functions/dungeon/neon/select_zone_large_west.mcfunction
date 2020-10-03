@@ -5,7 +5,7 @@ fill ~1 ~2 ~1 ~30 ~23 ~18 air replace purpur_block
 fill ~1 ~1 ~1 ~30 ~1 ~18 lava replace purpur_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~31 ~143 ~19 minecraft:green_wool replace minecraft:orange_wool
+fill ~ ~128 ~ ~31 ~153 ~19 minecraft:green_wool replace minecraft:orange_wool
 
 #Mark this area on the map
 fill ~ 255 ~ ~31 255 ~19 minecraft:purpur_block replace minecraft:black_concrete
