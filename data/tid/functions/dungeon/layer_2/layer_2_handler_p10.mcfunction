@@ -32,9 +32,9 @@ scoreboard players set sand1_x_spot_build value 0
 function tid:dungeon/intro/generate_layer_2
 execute positioned 0 55 24 positioned ~-10 ~-37 ~0 run function tid:dungeon/neon/select_zone_large_west
 
-execute positioned 0 55 -24 positioned ~-6 ~-4 ~-18 run function tid:dungeon/sand1/select_room
+execute positioned 0 55 -24 positioned ~-6 ~-21 ~-31 run function tid:dungeon/sand1/select_entrance_north
 #execute positioned 24 55 0 positioned ~1 ~-1 ~-6 run function tid:dungeon/soulsand/select_entrance_east
-#execute positioned -24 55 0 positioned ~1 ~-1 ~-4 run function tid:dungeon/nature/select_entranace_west
+#execute positioned -24 55 0 positioned ~1 ~-1 ~-4 run function tid:dungeon/nature/select_entrance_west
 execute positioned 0 55 24 positioned ~-5 ~-14 ~1 run function tid:dungeon/neon/select_entrance_south
 
 #Done, now move to the next phase
