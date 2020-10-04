@@ -5,4 +5,4 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand2/hall_north", posX: 0, 
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area on the map
-fill ~ 255 ~ ~4 255 ~6 minecraft:red_sandstone replace minecraft:black_concrete
+#fill ~ 255 ~ ~4 255 ~6 minecraft:red_sandstone replace minecraft:black_concrete

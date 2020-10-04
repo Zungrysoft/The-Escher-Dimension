@@ -2,7 +2,7 @@
 setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand2/room", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Mark this area on the map
-fill ~ 255 ~ ~12 255 ~12 minecraft:red_sandstone replace minecraft:black_concrete
+#fill ~ 255 ~ ~12 255 ~12 minecraft:red_sandstone replace minecraft:black_concrete
 
 #Activate the structure block
 setblock ~ ~1 ~ minecraft:redstone_block

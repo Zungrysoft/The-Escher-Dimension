@@ -1,0 +1,16 @@
+#Pick the Room
+setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_50 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_25 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_20 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad5", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad6", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad7", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad8", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad9", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad10", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_09 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad11", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_08 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad12", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_07 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad13", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_07 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad14", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_06 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand1/quad15", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}

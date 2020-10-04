@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/find_loot_sand2",
+  "parent": "tid:layer_2/find_loot_sand1",
   "display": {
     "icon": {
       "item": "minecraft:pink_wool"

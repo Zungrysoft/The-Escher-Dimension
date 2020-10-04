@@ -25,11 +25,14 @@ scoreboard players set sand2_rooms value 100
 scoreboard players set nature_rooms value 250
 scoreboard players set neon_rooms value 30
 
+#Set some other starting values
+scoreboard players set sand1_x_spot_build value 0
+
 #Summon the entrance rooms and starting area
 function tid:dungeon/intro/generate_layer_2
 execute positioned 0 55 24 positioned ~-10 ~-37 ~0 run function tid:dungeon/neon/select_zone_large_west
 
-execute positioned 0 55 -24 positioned ~-6 ~-4 ~-18 run function tid:dungeon/sand2/select_room
+execute positioned 0 55 -24 positioned ~-6 ~-4 ~-18 run function tid:dungeon/sand1/select_room
 #execute positioned 24 55 0 positioned ~1 ~-1 ~-6 run function tid:dungeon/soulsand/select_entrance_east
 #execute positioned -24 55 0 positioned ~1 ~-1 ~-4 run function tid:dungeon/nature/select_entranace_west
 execute positioned 0 55 24 positioned ~-5 ~-14 ~1 run function tid:dungeon/neon/select_entrance_south

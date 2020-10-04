@@ -3,6 +3,7 @@ scoreboard players set north value 0
 scoreboard players set south value 0
 scoreboard players set east value 0
 scoreboard players set west value 0
+scoreboard players set event1 value 0
 
 #Ensure enough rooms generate at the start
 execute if score sand2_rooms value matches 90.. run scoreboard players set north value 1
@@ -38,9 +39,12 @@ execute if predicate tid:random_50 run scoreboard players set south value 1
 execute if predicate tid:random_50 run scoreboard players set east value 1
 execute if predicate tid:random_50 run scoreboard players set west value 1
 
+#Event rooms
+execute if score sand2_rooms value matches 100 positioned ~1 ~1 ~1 run function tid:dungeon/sand2/select_inside_event1
+
 #Decide a room based on all of this
 #Quad
-execute if score north value matches 1 if score south value matches 1 if score east value matches 1 if score west value matches 1 positioned ~1 ~1 ~1 run function tid:dungeon/sand2/select_inside_quad
+execute if score north value matches 1 if score south value matches 1 if score east value matches 1 if score west value matches 1 if score event1 value matches 0 positioned ~1 ~1 ~1 run function tid:dungeon/sand2/select_inside_quad
 
 #Tee north
 execute if score north value matches 1 if score south value matches 0 if score east value matches 1 if score west value matches 1 positioned ~1 ~1 ~1 run function tid:dungeon/sand2/select_inside_tee_north
