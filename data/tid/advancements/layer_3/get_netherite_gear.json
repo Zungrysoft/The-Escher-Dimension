@@ -1,0 +1,119 @@
+{
+  "parent": "tid:layer_3/mine_debris",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": "Ready for the Worst",
+    "description": "Upgrade a piece of gear into netherite",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword"
+          }
+        ]
+      }
+    },
+	"got_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_shovel"
+          }
+        ]
+      }
+    },
+	"got_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_pickaxe"
+          }
+        ]
+      }
+    },
+	"got_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_axe"
+          }
+        ]
+      }
+    },
+	"got_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_hoe"
+          }
+        ]
+      }
+    },
+	"got_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_helmet"
+          }
+        ]
+      }
+    },
+	"got_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_chestplate"
+          }
+        ]
+      }
+    },
+	"got_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_leggings"
+          }
+        ]
+      }
+    },
+	"got_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_sword",
+	  "got_shovel",
+	  "got_pickaxe",
+	  "got_axe",
+	  "got_hoe",
+	  "got_helmet",
+	  "got_chestplate",
+	  "got_leggings",
+	  "got_boots"
+    ]
+  ]
+}

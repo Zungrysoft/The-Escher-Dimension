@@ -6,13 +6,10 @@
     },
     "title": "Cavern Expedition",
     "description": "Find Ancient Debris in the outskirts of the station",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 30
   },
   "criteria": {
         "impossible": {

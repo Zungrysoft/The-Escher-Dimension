@@ -17,11 +17,25 @@
       "conditions": {
         "loot_table": "tid:chests/station"
       }
+    },
+	"loot_2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/station_secret"
+      }
+    },
+	"loot_3": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/station_fire_charges"
+      }
     }
   },
   "requirements": [
     [
-      "loot_1"
+      "loot_1",
+	  "loot_2",
+	  "loot_3"
     ]
   ]
 }
