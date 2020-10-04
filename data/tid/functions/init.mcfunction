@@ -3,6 +3,8 @@ gamerule commandBlockOutput false
 gamerule doTraderSpawning false
 gamerule doWeatherCycle false
 gamerule doInsomnia false
+gamerule disableRaids true
+gamerule doPatrolSpawning false
 gamerule maxCommandChainLength 1000000000
 execute in tid:layer_1 run forceload add -7 -7 7 7
 execute in tid:layer_2 run forceload add -7 -7 7 7
