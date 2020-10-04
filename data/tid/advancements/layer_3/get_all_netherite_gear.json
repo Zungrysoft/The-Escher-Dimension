@@ -6,7 +6,7 @@
       "nbt": "{Damage:0}"
     },
     "title": "Dungeon's Bane",
-    "description": "Upgrade your weapon, armor, and pickaxe",
+    "description": "Upgrade your weapon, your pickaxe, and all of your armor",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

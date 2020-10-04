@@ -2,12 +2,12 @@
 fill ~ ~ ~ ~ ~1 ~ air
 
 #Summon the stands
-summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"anchor\""}
-summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
-summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
-summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
-execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
-execute if predicate tid:random_50 run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"scatter\""}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"anchor\""}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"scatter\""}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"scatter\""}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"scatter\""}
+execute if predicate tid:random_50 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"scatter\""}
+execute if predicate tid:random_50 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"scatter\""}
 
 #Spread the stands around, then return them to the correct y value
 spreadplayers ~3 ~2 2 2 false @e[name="scatter"]

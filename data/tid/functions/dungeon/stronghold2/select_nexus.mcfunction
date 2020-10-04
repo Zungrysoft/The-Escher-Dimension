@@ -39,6 +39,9 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~128 ~ ~12 ~135 ~12 minecraft:blue_wool replace minecraft:orange_wool
 
+#Secret rooms
+execute if predicate tid:random_07 run function tid:dungeon/stronghold2/secret_place
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 
