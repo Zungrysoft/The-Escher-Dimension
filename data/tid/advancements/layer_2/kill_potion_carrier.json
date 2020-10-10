@@ -1,0 +1,36 @@
+{
+  "parent": "tid:layer_2/find_sand2",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": "Kill the Messenger",
+    "description": "Find and kill a Servant of Zorethab",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"potion_carrier\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ]
+}

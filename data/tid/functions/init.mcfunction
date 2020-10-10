@@ -55,5 +55,8 @@ function tid:general/particles
 #Start the advancement checks loop
 function tid:general/advancement_checks
 
+#Start the potion carrier loop
+function tid:gameplay/ai_potion_carrier
+
 
 
