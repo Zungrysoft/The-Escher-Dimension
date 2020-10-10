@@ -1,3 +1,8 @@
+#Each of these sections handles a teleporter to and from a dimension
+#The first line is the entrance teleporter to the start point of the new dimension
+#The second line is the exit teleporter back from the dimension to a random entrance teleporter
+#The third line is for exit teleporter if no entrance teleporters exist. It takes the player back to the start point of the dimension the entrance teleporter would normally be found in.
+
 #Teleporter to and from Hellion
 execute if score temp value matches 0 in tid:layer_hellion positioned 0 183 0 run function tid:general/teleporter_teleport_run
 execute if score temp value matches 1 in tid:layer_1 at @e[name="teleporter",nbt={Color:0},tag=open,limit=1,sort=random] positioned ~-1 ~ ~-1 run function tid:general/teleporter_teleport_run

@@ -16,7 +16,7 @@ execute at @e[type=minecraft:cod,predicate=tid:in_layer_jungle] run summon minec
 tp @e[type=minecraft:cod,predicate=tid:in_layer_jungle] 1 -100 1
 
 #Kill any Ghasts that spawn in Infernal Industries
-tp @e[type=minecraft:ghast,predicate=tid:in_layer_infernal] 1 -100 1
+#tp @e[type=minecraft:ghast,predicate=tid:in_layer_infernal] 1 -100 1
 
 #Handles spawning in Sin City
 execute as @e[type=minecraft:creeper,tag=!keep,predicate=tid:in_layer_sin] at @s run function tid:gameplay/district_spawns

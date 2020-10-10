@@ -1,0 +1,106 @@
+{
+  "parent": "tid:infernal/ride_strider",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Joust",
+    "description": "Kill a Skeleton, a Blaze, and a Ghast while riding a Strider",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "kill_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:skeleton"
+            },
+            "entity": "this"
+          }
+        ],
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:strider"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"kill_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:blaze"
+            },
+            "entity": "this"
+          }
+        ],
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:strider"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"kill_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:ghast"
+            },
+            "entity": "this"
+          }
+        ],
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:strider"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_skeleton"
+    ],
+    [
+      "kill_blaze"
+    ],
+    [
+      "kill_ghast"
+    ]
+  ]
+}

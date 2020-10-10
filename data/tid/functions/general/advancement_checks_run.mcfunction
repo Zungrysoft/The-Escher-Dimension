@@ -22,8 +22,12 @@ execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:6},tag=
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:4},distance=0..5] run advancement grant @s only tid:layer_3/find_infernal_portal
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:4},tag=open,distance=0..5] run advancement grant @s only tid:layer_3/activate_infernal_portal
 
-#Ride a Strider
-execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] run advancement grant @s only tid:hellion/ride_strider
+#Ride a Strider in Hellion
+execute store result score temp value run clear @s minecraft:warped_fungus_on_a_stick 0
+execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if score temp value matches 1.. run advancement grant @s only tid:hellion/ride_strider
+
+#Ride a Strider in Infernal
+execute if entity @s[predicate=tid:in_layer_infernal,predicate=tid:on_strider] if score temp value matches 1.. run advancement grant @s only tid:infernal/ride_strider
 
 #Circumnavigate Hellion
 #Track the player's movements in the four quadrants.
