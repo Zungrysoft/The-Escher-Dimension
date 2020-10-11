@@ -2,7 +2,7 @@
   "parent": "tid:layer_2/find_sand2",
   "display": {
     "icon": {
-      "item": "minecraft:potion"
+      "item": "minecraft:feather"
     },
     "title": "Kill the Messenger",
     "description": "Find and kill a Servant of Zorethab",

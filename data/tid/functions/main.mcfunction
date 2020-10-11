@@ -124,6 +124,8 @@ execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:
 execute as @e[tag=summon] at @s run function tid:gameplay/ai_summon
 #Glowing Monsters
 execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
+#Fountain of Flame
+execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:gameplay/ai_fire_fountain
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter

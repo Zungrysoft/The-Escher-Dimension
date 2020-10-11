@@ -2,10 +2,10 @@
   "parent": "tid:layer_2/kill_potion_carrier",
   "display": {
     "icon": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:blaze_rod"
     },
-    "title": "Burn Lanes",
-    "description": "Find and kill a Fire Fountain",
+    "title": "Inferno Combat",
+    "description": "Find and kill a Fountain of Flame",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
