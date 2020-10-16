@@ -1,8 +1,8 @@
 function tid:dungeon/hellion/room_checks
 function tid:update_coords
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-3 ~-1 ~1 if blocks ~ ~-127 ~ ~6 ~-123 ~6 1001 129 1001 all run function tid:dungeon/hellion/select_room
-execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-1 ~-1 ~1 if blocks ~ ~-127 ~ ~2 ~-123 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_south
-execute unless score @s failed matches 1.. if predicate tid:random_01 positioned ~-1 ~-4 ~1 if blocks ~ ~-127 ~ ~2 ~-123 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_north
+execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-3 ~-1 ~1 if blocks ~ ~-128 ~ ~6 ~-123 ~6 1001 129 1001 all run function tid:dungeon/hellion/select_room
+execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-1 ~-1 ~1 if blocks ~ ~-128 ~ ~2 ~-123 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_south
+execute unless score @s failed matches 1.. if predicate tid:random_01 positioned ~-1 ~-4 ~1 if blocks ~ ~-128 ~ ~2 ~-123 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_north
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-1 ~-1 ~1 if blocks ~ ~-128 ~ ~2 ~-124 ~2 1001 129 1001 all run function tid:dungeon/hellion/select_outside
 execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~-4 ~-2 ~1 if blocks ~ ~-128 ~ ~8 ~-112 ~8 1001 129 1001 all run function tid:dungeon/hellion/select_totem
 
