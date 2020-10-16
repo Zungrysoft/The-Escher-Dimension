@@ -47,7 +47,7 @@ execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if
 execute if entity @e[type=area_effect_cloud,name="adv_pyramid",distance=0..12] run advancement grant @s only tid:jungle/find_pyramid
 
 #Cool Obsidian
-execute if entity @s[advancements={tid:layer_2/cool_obsidian=false,tid:layer_2/find_neon=true}] run function tid:misc/advancement_cool_obsidian
+execute if entity @s[advancements={tid:layer_2/cool_obsidian=false,tid:layer_2/find_neon=true}] if block ~ ~-1 ~ obsidian run function tid:misc/advancement_cool_obsidian
 
 #Mine Ancient Debris in Damnation Station
 execute if score @s mine_debris matches 1.. if entity @s[predicate=tid:in_layer_3] run advancement grant @s only tid:layer_3/mine_debris

@@ -102,8 +102,9 @@ execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
 execute as @a at @s run function tid:gameplay/float_orb
 execute as @a run function tid:gameplay/heart_scroll
 execute as @a at @s run function tid:gameplay/conditional_weapons
-execute as @a at @s run function tid:gameplay/oxidation_staff
-execute as @a at @s run function tid:gameplay/summoning_staff
+execute as @a at @s run function tid:gameplay/staff_oxidation
+execute as @a at @s run function tid:gameplay/staff_summoning
+execute as @a at @s run function tid:gameplay/staff_block
 execute as @a at @s run function tid:gameplay/custom_potions
 scoreboard players set @a damage_dealt 0
 scoreboard players set @a carrot_stick_use 0

@@ -14,10 +14,10 @@ execute if score temp value matches 0 run scoreboard players set selection value
 execute if score temp value matches 1 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:40},sell:{id:diamond_sword,Count:1,tag:{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Only works if a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}}}
 execute if score temp value matches 1 run scoreboard players set selection value 1
 #Summoning Staff
-execute if score temp value matches 2 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:40},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Summoning Staff","italic":false,"color":"red","bold":true}]',Lore:['[{"text":"Costs 10 rotten flesh per use","italic":false,"color":"red"}]']},summoning_staff:1b,Enchantments:[{}]}}}
+execute if score temp value matches 2 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:40},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Summoning Staff","italic":false,"color":"red","bold":true}]',Lore:['[{"text":"Summons an undead ally","italic":false,"color":"aqua"}]','[{"text":"Costs 10 rotten flesh per use","italic":false,"color":"red"}]']},summoning_staff:1b,Enchantments:[{}]}}}
 execute if score temp value matches 2 run scoreboard players set selection value 2
 #Oxidation Stick
-execute if score temp value matches 3 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:64},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}}}
+execute if score temp value matches 3 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:64},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Summons an explosion","italic":false,"color":"aqua"}]','[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}}}
 execute if score temp value matches 3 run scoreboard players set selection value 3
 #Heart Scroll
 execute if score temp value matches 4 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}}}
@@ -44,10 +44,29 @@ execute if score temp value matches 10 run scoreboard players set selection valu
 execute if score temp value matches 11 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:4},sell:{id:potion,Count:1,tag:{CustomPotionColor:11382189,display:{Name:'[{"text":"Mystery Potion","italic":false}]',Lore:['[{"text":"Grants a random positive","italic":false,"color":"blue"}]','[{"text":"potion effect","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535}}}
 execute if score temp value matches 11 run scoreboard players set selection value 11
 #Sharpening Stone
-execute if score temp value matches 12.. run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:iron_ingot,Count:1,tag:{display:{Name:'[{"text":"Sharpening Stone","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+2 Attack Damage when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:"generic.attack_damage"}]}}}
-execute if score temp value matches 12.. run scoreboard players set selection value 12
-#Potion of Rage
-#execute if score temp value matches 13 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:mojang_banner_pattern,Count:1,tag:{}}}
+execute if score temp value matches 13 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:iron_ingot,Count:1,tag:{display:{Name:'[{"text":"Sharpening Stone","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+2 Attack Damage when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:"generic.attack_damage"}]}}}
+execute if score temp value matches 13 run scoreboard players set selection value 12
+#Item Name
+execute if score temp value matches 14.. run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Quartz Staff","italic":false,"color":"white","bold":true}]',Lore:['[{"text":"Aim to place Chiseled Quartz","italic":false,"color":"aqua"}]']},block_staff:1b,Enchantments:[{}]}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 13
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
+#Item Name
+#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
+execute if score temp value matches 14.. run scoreboard players set selection value 666
 
 
 

@@ -109,10 +109,13 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 /give @p diamond_sword{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Only works if a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}
 
 #Oxidation Stick
-/give @p carrot_on_a_stick{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}
+/give @p carrot_on_a_stick{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Summons an explosion","italic":false,"color":"aqua"}]','[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}
 
 #Summoning Staff
-/give @p carrot_on_a_stick{display:{Name:'[{"text":"Summoning Staff","italic":false,"color":"red","bold":true}]',Lore:['[{"text":"Costs 10 rotten flesh per use","italic":false,"color":"red"}]']},summoning_staff:1b,Enchantments:[{}]}
+/give @p carrot_on_a_stick{display:{Name:'[{"text":"Summoning Staff","italic":false,"color":"red","bold":true}]',Lore:['[{"text":"Summons an undead ally","italic":false,"color":"aqua"}]','[{"text":"Costs 10 rotten flesh per use","italic":false,"color":"red"}]']},summoning_staff:1b,Enchantments:[{}]}
+
+#Quartz Staff
+/give @p carrot_on_a_stick{display:{Name:'[{"text":"Quartz Staff","italic":false,"color":"white","bold":true}]',Lore:['[{"text":"Aim to place Chiseled Quartz","italic":false,"color":"aqua"}]']},block_staff:1b,Enchantments:[{}]}
  
 #Oracle Rod
 /give @p blaze_rod{display:{Name:'[{"text":"Oracle Rod","italic":false,"color":"gold","bold":false}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]']},glow_stick:1b,Enchantments:[{}]}
