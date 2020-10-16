@@ -8,7 +8,7 @@ execute if predicate tid:random_50 run scoreboard players add temp value 8
 
 #Add the trade
 #Food
-execute if score temp value matches 0 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:5}}
+execute if score temp value matches 0 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:7}}
 execute if score temp value matches 0 run scoreboard players set selection value 0
 #Blade of Dal-Marceus
 execute if score temp value matches 1 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:40},sell:{id:diamond_sword,Count:1,tag:{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Only works if a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}}}
@@ -46,7 +46,7 @@ execute if score temp value matches 11 run scoreboard players set selection valu
 #Sharpening Stone
 execute if score temp value matches 13 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:iron_ingot,Count:1,tag:{display:{Name:'[{"text":"Sharpening Stone","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+2 Attack Damage when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:"generic.attack_damage"}]}}}
 execute if score temp value matches 13 run scoreboard players set selection value 12
-#Item Name
+#Quartz Staff
 execute if score temp value matches 14.. run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Quartz Staff","italic":false,"color":"white","bold":true}]',Lore:['[{"text":"Aim to place Chiseled Quartz","italic":false,"color":"aqua"}]']},block_staff:1b,Enchantments:[{}]}}}
 execute if score temp value matches 14.. run scoreboard players set selection value 13
 #Item Name

@@ -1,0 +1,220 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:magenta_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:pink_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gray_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:light_gray_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:cyan_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:brown_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:green_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:red_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:black_dye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

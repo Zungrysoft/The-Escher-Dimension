@@ -1,0 +1,25 @@
+{
+  "parent": "tid:layer_1/find_loot_brick",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": "Dungeon Settlement",
+    "description": "Sleep in a bed. (Beds work in all dimensions)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slept_in_bed": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "slept_in_bed"
+    ]
+  ]
+}

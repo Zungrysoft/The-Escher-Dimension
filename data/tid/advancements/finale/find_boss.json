@@ -1,0 +1,20 @@
+{
+  "parent": "tid:finale/destroy_core",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_helmet",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Your Final Challenge",
+    "description": "Look up as it looks down upon you",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

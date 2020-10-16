@@ -68,18 +68,6 @@
                 },
 				{
                     "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:diamond_shovel",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:trident",
                     "functions": [

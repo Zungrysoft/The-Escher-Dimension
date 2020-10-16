@@ -1,0 +1,19 @@
+{
+  "parent": "tid:finale/find_loot",
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": "The Heart",
+    "description": "Destroy a Core",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

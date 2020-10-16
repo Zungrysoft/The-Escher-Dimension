@@ -27,6 +27,12 @@
 	"loot_3": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
+        "loot_table": "tid:chests/finale_dyes"
+      }
+    },
+	"loot_4": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
         "loot_table": "tid:chests/finale_misc"
       }
     }
@@ -35,7 +41,8 @@
     [
       "loot_1",
 	  "loot_2",
-	  "loot_3"
+	  "loot_3",
+	  "loot_4"
     ]
   ]
 }

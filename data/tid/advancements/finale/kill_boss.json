@@ -1,0 +1,22 @@
+{
+  "parent": "tid:finale/find_boss",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "Victory",
+    "description": "Claim Victory over The Infinite Dungeon",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 9999999
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
