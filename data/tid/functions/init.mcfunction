@@ -45,6 +45,7 @@ scoreboard objectives add health health "Health"
 scoreboard objectives setdisplay list health
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add mine_debris minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add use_map minecraft.used:minecraft.map
 team add players
 team add glow
 team modify glow color yellow

@@ -1,0 +1,19 @@
+{
+  "parent": "tid:infernal/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": "Known Locations",
+    "description": "Use a map to navigate the machinery",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

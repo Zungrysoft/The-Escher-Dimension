@@ -1,5 +1,5 @@
 {
-  "parent": "tid:infernal/root",
+  "parent": "tid:infernal/use_map",
   "display": {
     "icon": {
       "item": "minecraft:chest"
