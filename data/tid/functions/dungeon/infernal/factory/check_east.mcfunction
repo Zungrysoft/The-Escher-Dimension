@@ -1,0 +1,5 @@
+function tid:dungeon/infernal/factory/room_checks
+execute unless score @s failed matches 1.. if predicate tid:random_07 positioned ~1 ~-1 ~-5 if blocks ~ ~128 ~ ~14 ~136 ~10 1001 1 1033 all run function tid:dungeon/infernal/factory/select_nexus
+execute unless score @s failed matches 1.. if predicate tid:random_15 positioned ~1 ~-1 ~-2 if blocks ~ ~128 ~ ~4 ~134 ~4 1001 1 1033 all run function tid:dungeon/infernal/factory/select_cross
+execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~1 ~-1 ~0 if blocks ~ ~128 ~ ~2 ~144 ~0 1001 1 1033 all run function tid:dungeon/infernal/factory/select_ladder_east
+execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~1 ~-10 ~0 if blocks ~ ~128 ~ ~2 ~139 ~0 1001 1 1033 all run function tid:dungeon/infernal/factory/select_ladder_east

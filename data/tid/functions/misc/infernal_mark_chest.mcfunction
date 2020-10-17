@@ -1,1 +1,1 @@
-execute if predicate tid:random_80 run function tid:misc/infernal_mark_chest_run
+execute if predicate tid:random_25 run function tid:misc/infernal_mark_chest_run

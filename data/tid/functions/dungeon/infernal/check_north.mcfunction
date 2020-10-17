@@ -1,2 +1,3 @@
 function tid:dungeon/infernal/room_checks
 execute unless score @s failed matches 1.. if predicate tid:random_20 positioned ~-12 ~-9 ~-30 if blocks ~ ~128 ~ ~29 ~151 ~29 1001 1 1001 all run function tid:dungeon/infernal/select_sewer_north
+execute unless score @s failed matches 1.. if predicate tid:random_20 positioned ~-15 ~-10 ~-32 if blocks ~ ~128 ~ ~31 ~154 ~31 1001 1 1001 all run function tid:dungeon/infernal/select_factory

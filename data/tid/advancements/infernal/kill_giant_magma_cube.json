@@ -1,16 +1,18 @@
 {
-  "parent": "tid:infernal/root",
+  "parent": "tid:infernal/kill_debris_demon",
   "display": {
     "icon": {
-      "item": "minecraft:netherite_pickaxe",
-      "nbt": "{Damage:0}"
+      "item": "minecraft:magma_cream"
     },
-    "title": "You can run...",
-    "description": "Kill a Debris Demon",
-    "frame": "task",
+    "title": "Big Game Hunter",
+    "description": "Hunt and kill a giant Magma Cube",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "rewards": {
+    "experience": 100
   },
   "criteria": {
     "kill_mob": {
@@ -20,8 +22,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:husk",
-			  "nbt": "{Tags:[\"debris_demon\"]}"
+              "type": "minecraft:magma_cube",
+			  "nbt": "{Size:8}"
             },
             "entity": "this"
           }

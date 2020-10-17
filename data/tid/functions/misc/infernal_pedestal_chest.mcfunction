@@ -8,3 +8,4 @@ execute if predicate tid:random_02 run setblock ~ ~1 ~ chest[facing=east]{LootTa
 execute if predicate tid:random_02 run setblock ~ ~1 ~ chest[facing=west]{LootTable: "tid:chests/infernal"}
 
 execute if block ~ ~1 ~ chest run setblock ~ ~ ~ chiseled_nether_bricks
+execute if block ~ ~1 ~ chest run function tid:misc/infernal_mark_chest
