@@ -2,7 +2,7 @@
   "parent": "tid:layer_3/find_station",
   "display": {
     "icon": {
-      "item": "minecraft:blaze_rod",
+      "item": "minecraft:blaze_powder",
 	  "nbt": "{Enchantments:[{}]}"
     },
     "title": "What Lurks Within",

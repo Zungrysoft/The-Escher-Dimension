@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+			{
+              "function": "set_nbt",
+              "tag": "{display:{Name:\'[{\"text\":\"Glowing Powder\",\"italic\":false,\"color\":\"gold\",\"bold\":false}]\'},glow_powder:1b,Enchantments:[{}]}"
+            }
+          ],
+          "name": "minecraft:blaze_powder"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

@@ -120,6 +120,12 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 #Oracle Rod
 /give @p blaze_rod{display:{Name:'[{"text":"Oracle Rod","italic":false,"color":"gold","bold":false}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]']},glow_stick:1b,Enchantments:[{}]}
 
+#Glowing Powder
+/give @p blaze_powder{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}
+
+#Oracle's Helm
+/give @p leather_helmet{display:{Name:'[{"text":"Oracle\'s Helm","italic":false,"color":"gold"}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]'],color:16754688},HideFlags:64,glow_stick:1b,Enchantments:[{}]} 1
+
 #Wizard Shell
 /give @p nautilus_shell{display:{Name:'[{"text":"Wizard Shell","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+20% Speed when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:"generic.movement_speed"},{AttributeName:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:"generic.movement_speed"}]} 1
 

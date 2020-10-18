@@ -1,1 +1,1 @@
-summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Duration:999999999,Id:14b}],CustomName:'[{"text":"Revenant"}]',Tags:["glowing"]}
+summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Duration:999999999,Id:14b}],CustomName:'[{"text":"Revenant"}]',Tags:["glowing"],DeathLootTable: "tid:entities/revenant"}

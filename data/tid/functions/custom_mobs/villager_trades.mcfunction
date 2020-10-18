@@ -26,6 +26,9 @@ execute if score reset value matches 1 run tag @s remove new
 execute if score reset value matches 1 run tp @s 0 -100 0
 execute if score reset value matches 1 run function tid:custom_mobs/villager
 
+#Add in preset trades
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:12},buyB:{id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}},sell:{id:leather_helmet,Count:1,tag:{display:{Name:'[{"text":"Oracle\'s Helm","italic":false,"color":"gold"}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]'],color:16754688},HideFlags:64b,glow_stick:1b,Enchantments:[{}]}}}
+
 #Pick a random type
 scoreboard players set temp value 0
 execute if predicate tid:random_50 run scoreboard players add temp value 1
