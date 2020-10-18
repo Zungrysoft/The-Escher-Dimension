@@ -5,4 +5,4 @@ execute unless score @s failed matches 1.. if predicate tid:random_08 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_04 positioned ~0 ~-1 ~1 if blocks ~ ~128 ~ ~0 ~144 ~2 1001 1 1033 all run function tid:dungeon/infernal/factory/select_ladder_south
 execute unless score @s failed matches 1.. if predicate tid:random_04 positioned ~0 ~-10 ~1 if blocks ~ ~128 ~ ~0 ~139 ~2 1001 1 1033 all run function tid:dungeon/infernal/factory/select_ladder_south
 
-execute if score @s failed matches 1.. positioned ~0 ~-1 ~1 if blocks ~ ~128 ~ ~0 ~134 ~4 1001 1 1033 all run function tid:dungeon/infernal/factory/select_spacer_west
+execute if score @s failed matches 1.. positioned ~-2 ~-1 ~1 if blocks ~ ~128 ~ ~4 ~134 ~0 1001 1 1033 all run function tid:dungeon/infernal/factory/select_spacer_north
