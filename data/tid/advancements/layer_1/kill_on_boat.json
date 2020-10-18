@@ -1,12 +1,12 @@
 {
-  "parent": "tid:jungle/kill_illager",
+  "parent": "tid:layer_1/find_canal",
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:dark_oak_boat"
     },
-    "title": "Confront the Tower Boss",
-    "description": "Find and kill an Evoker",
-    "frame": "goal",
+    "title": "Batten Down the Hatches",
+    "description": "Kill a mob while riding a boat",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -18,8 +18,16 @@
         "entity": [
           {
             "condition": "minecraft:entity_properties",
+            "entity": "this"
+          }
+        ],
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:evoker"
+              "vehicle": {
+                "type": "minecraft:boat"
+              }
             },
             "entity": "this"
           }

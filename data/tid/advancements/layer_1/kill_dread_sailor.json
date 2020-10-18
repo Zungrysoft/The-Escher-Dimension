@@ -1,12 +1,12 @@
 {
-  "parent": "tid:jungle/kill_illager",
+  "parent": "tid:layer_1/kill_on_boat",
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:bone"
     },
-    "title": "Confront the Tower Boss",
-    "description": "Find and kill an Evoker",
-    "frame": "goal",
+    "title": "The Riverman",
+    "description": "Kill a Dread Sailor",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -19,7 +19,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:evoker"
+              "type": "minecraft:stray",
+			  "nbt": "{Tags:[\"dread_sailor\"]}"
             },
             "entity": "this"
           }

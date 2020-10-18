@@ -1,29 +1,32 @@
 {
-  "parent": "tid:infernal/ride_strider",
+  "parent": "tid:layer_1/kill_dread_sailor",
   "display": {
     "icon": {
-      "item": "minecraft:bow",
+      "item": "minecraft:seagrass",
       "nbt": "{Damage:0}"
     },
-    "title": "Joust",
-    "description": "Kill a Skeleton, a Blaze, and a Ghast while riding a Strider",
+    "title": "No Grave but the Sea",
+    "description": "Without leaving your boat, kill a zombie, skeleton, and creeper, each of whom are riding their own boats",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 300
+    "experience": 500
   },
   "criteria": {
-    "kill_skeleton": {
+    "kill_zombie": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:skeleton"
+              "type": "minecraft:zombie",
+			  "vehicle": {
+                "type": "minecraft:boat"
+              }
             },
             "entity": "this"
           }
@@ -33,7 +36,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:strider"
+                "type": "minecraft:boat"
               }
             },
             "entity": "this"
@@ -41,14 +44,17 @@
         ]
       }
     },
-	"kill_blaze": {
+	"kill_skeleton": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:blaze"
+              "type": "minecraft:skeleton",
+			  "vehicle": {
+                "type": "minecraft:boat"
+              }
             },
             "entity": "this"
           }
@@ -58,7 +64,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:strider"
+                "type": "minecraft:boat"
               }
             },
             "entity": "this"
@@ -66,14 +72,17 @@
         ]
       }
     },
-	"kill_ghast": {
+	"kill_creeper": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:ghast"
+              "type": "minecraft:creeper",
+			  "vehicle": {
+                "type": "minecraft:boat"
+              }
             },
             "entity": "this"
           }
@@ -83,7 +92,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:strider"
+                "type": "minecraft:boat"
               }
             },
             "entity": "this"
@@ -94,13 +103,13 @@
   },
   "requirements": [
     [
+      "kill_zombie"
+    ],
+	[
       "kill_skeleton"
     ],
-    [
-      "kill_blaze"
-    ],
-    [
-      "kill_ghast"
+	[
+      "kill_creeper"
     ]
   ]
 }

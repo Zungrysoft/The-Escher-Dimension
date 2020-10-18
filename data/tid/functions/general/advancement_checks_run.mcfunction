@@ -57,5 +57,11 @@ scoreboard players set @s mine_debris 0
 execute if score @s use_map matches 1.. if entity @s[predicate=tid:in_layer_infernal] run advancement grant @s only tid:infernal/use_map
 scoreboard players set @s use_map 0
 
+#Revoke the No Grave But The Sea advancement if the player leaves their boat without fully completing it
+execute if entity @s[predicate=!tid:on_boat,advancements={tid:layer_1/kill_all_on_boat=false}] run advancement revoke @s only tid:layer_1/kill_all_on_boat
+
+
+
+
 
 

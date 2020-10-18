@@ -6,13 +6,10 @@
     },
     "title": "Orange Wool",
     "description": "Craft orange wool for the victory monument",
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 30
   },
   "criteria": {
     "got_item": {

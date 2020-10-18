@@ -12,7 +12,7 @@
     "hidden": false
   },
   "rewards": {
-    "experience": 100
+    "experience": 50
   },
   "criteria": {
     "kill_mob": {
