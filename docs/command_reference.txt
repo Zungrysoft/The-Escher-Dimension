@@ -130,7 +130,10 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 /give @p iron_ingot{display:{Name:'[{"text":"Sharpening Stone","italic":false,"color":"light_purple"}]',Lore:['[{"text":"+2 Attack Damage when held","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:"generic.attack_damage"}]} 1
 
 #Jack of Spades (Knockback Shovel)
-/give @p iron_shovel{display:{Name:'[{"text":"Jack of Spades","italic":false,"bold":true,"color":"yellow"}]'},Enchantments:[{id:knockback,lvl:10}]} 1
+/give @p iron_shovel{display:{Name:'[{"text":"Jack of Spades","italic":false,"bold":true,"color":"yellow"}]'},Enchantments:[{id:knockback,lvl:5}]} 1
+
+#Superchilled Snowball
+/give @p snowball{bridge_snowball:1b,Enchantments:[{}],display:{Name:'[{"text":"Superchilled Snowball","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Leaves a trail of snow","italic":false,"color":"aqua"}]','[{"text":"behind it when thrown","italic":false,"color":"aqua"}]']}} 3
 
 {"text":"Balance Staff","italic":false}
 

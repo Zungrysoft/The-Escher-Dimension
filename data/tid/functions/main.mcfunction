@@ -106,6 +106,8 @@ execute as @a at @s run function tid:gameplay/staff_oxidation
 execute as @a at @s run function tid:gameplay/staff_summoning
 execute as @a at @s run function tid:gameplay/staff_block
 execute as @a at @s run function tid:gameplay/custom_potions
+execute as @e[type=snowball,nbt={Item:{tag:{bridge_snowball:1b}}}] at @s run function tid:gameplay/bridge_snowball
+execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:gameplay/bridge_snowball_place
 scoreboard players set @a damage_dealt 0
 scoreboard players set @a carrot_stick_use 0
 
