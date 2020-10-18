@@ -19,7 +19,7 @@ fill ~ ~128 ~ ~31 ~154 ~31 minecraft:void_air
 execute if entity @s[name="infernal_north"] at @s positioned ~-2 ~-1 ~-5 run function tid:dungeon/infernal/factory/select_cross
 execute if entity @s[name="infernal_south"] at @s positioned ~-2 ~-1 ~1 run function tid:dungeon/infernal/factory/select_cross
 execute if entity @s[name="infernal_east"] at @s positioned ~1 ~-1 ~-2 run function tid:dungeon/infernal/factory/select_cross
-execute if entity @s[name="infernal_west"] at @s positioned -5 ~-1 ~-2 run function tid:dungeon/infernal/factory/select_cross
+execute if entity @s[name="infernal_west"] at @s positioned ~-5 ~-1 ~-2 run function tid:dungeon/infernal/factory/select_cross
 
 #Count the room in the total
 scoreboard players remove infernal_rooms value 1
