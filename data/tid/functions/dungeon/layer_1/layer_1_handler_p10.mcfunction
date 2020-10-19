@@ -30,9 +30,9 @@ scoreboard players set hellion_portals value 0
 scoreboard players set layer_2_portals value 0
 
 #Summon the entrance rooms and starting area
-execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/intro/select_entrance
-execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/intro/select_yard
-execute positioned 0 55 -7 positioned ~-3 ~ ~-18 run function tid:dungeon/intro/select_hallway
+execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/layer_1/select_entrance
+execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/layer_1/select_yard
+execute positioned 0 55 -7 positioned ~-3 ~ ~-18 run function tid:dungeon/layer_1/select_hallway
 
 execute positioned 0 59 -45 positioned ~-6 ~-5 ~-21 run function tid:dungeon/stronghold2/select_entrance_north
 execute positioned -16 59 -42 positioned ~-22 ~-20 ~-7 run function tid:dungeon/brick/select_entrance_west

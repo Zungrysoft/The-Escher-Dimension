@@ -29,7 +29,7 @@ scoreboard players set neon_rooms value 30
 scoreboard players set sand1_x_spot_build value 0
 
 #Summon the entrance rooms and starting area
-function tid:dungeon/intro/generate_layer_2
+function tid:dungeon/layer_2/generate_intro
 execute positioned 0 55 24 positioned ~-10 ~-37 ~0 run function tid:dungeon/neon/select_zone_large_west
 
 execute positioned 0 55 -24 positioned ~-6 ~-21 ~-31 run function tid:dungeon/sand1/select_entrance_north

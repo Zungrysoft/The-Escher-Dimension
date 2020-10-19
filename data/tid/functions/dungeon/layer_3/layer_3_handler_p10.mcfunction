@@ -22,11 +22,14 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 scoreboard players set station_rooms value 350
 scoreboard players set layer_3_handler_counter value 55
 
-#Reset the scores for the teleporters
+#Reset various tracking scores
 scoreboard players set jungle_portals value 0
+scoreboard players set station_secrets value 0
 
-#Summon the entrance rooms
-execute positioned -16 42 -40 run function tid:dungeon/station/cave_expand
+#Summon the entrance rooms and starting area
+function tid:dungeon/layer_3/generate_intro
+
+execute positioned -16 42 -60 run function tid:dungeon/station/cave_expand
 
 #Done, now move to the next phase
 scoreboard players set layer_3_handler_phase value 11
