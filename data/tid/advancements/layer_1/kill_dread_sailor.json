@@ -19,7 +19,7 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:stray",
+              "type": "minecraft:skeleton",
 			  "nbt": "{Tags:[\"dread_sailor\"]}"
             },
             "entity": "this"

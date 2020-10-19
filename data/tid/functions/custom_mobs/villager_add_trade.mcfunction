@@ -32,7 +32,7 @@ execute if score temp value matches 5 run data modify entity @s Offers.Recipes a
 execute if score temp value matches 5 run scoreboard players set selection value 5
 
 #Potion of Rage
-execute if score temp value matches 6 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:4},sell:{id:potion,Count:1,tag:{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:2}]}}}
+execute if score temp value matches 6 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:4},sell:{id:potion,Count:1,tag:{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}}}
 execute if score temp value matches 6 run scoreboard players set selection value 6
 
 #Potion of Dexterity

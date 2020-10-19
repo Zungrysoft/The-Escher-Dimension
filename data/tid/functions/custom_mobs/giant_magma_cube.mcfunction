@@ -1,0 +1,1 @@
+summon magma_cube ~ ~ ~ {Size:8}

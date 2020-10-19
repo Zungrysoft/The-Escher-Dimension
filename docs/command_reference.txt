@@ -79,7 +79,7 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 /give @p minecraft:potion{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:'[{"text":"Potion of Dexterity","italic":false}]'}}
 
 #Potion of Rage
-/give @p potion{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:2}]}
+/give @p potion{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}
 
 #Potion of Charisma
 /give @p potion{CustomPotionColor:54941,display:{Name:'[{"text":"Potion of Charisma","italic":false}]'},CustomPotionEffects:[{Id:32,Duration:6000,Amplifier:0},{Id:1,Duration:6000,Amplifier:0}]} 1
