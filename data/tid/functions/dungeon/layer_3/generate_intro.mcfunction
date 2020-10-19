@@ -24,7 +24,7 @@ fill -16 55 -17 -17 58 25 air replace stone
 fill -21 55 -12 -22 58 25 air replace stone
 
 fill -3 55 24 -22 58 25 air replace stone
-fill -3 55 16 -22 58 20 air replace stone
+fill -3 55 16 -22 59 20 air replace stone
 fill -3 55 11 -22 58 12 air replace stone
 fill -8 55 6 -22 58 7 air replace stone
 fill -8 55 1 -22 58 2 air replace stone
