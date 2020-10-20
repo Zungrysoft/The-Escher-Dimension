@@ -1,4 +1,4 @@
-schedule function tid:general/particles .4s replace
+schedule function tid:general/particles 8t replace
 
 #Haunted chests
 execute as @e[type=area_effect_cloud,tag=haunted] at @s if entity @p[distance=0..20] run function tid:general/haunted_chest_particles

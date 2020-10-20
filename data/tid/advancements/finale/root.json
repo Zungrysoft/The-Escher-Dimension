@@ -9,7 +9,7 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/ancient_debris_side.png"
+    "background": "minecraft:textures/block/netherite_block.png"
   },
   "criteria": {
         "impossible": {

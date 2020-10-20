@@ -48,18 +48,8 @@ execute if entity @a[predicate=tid:in_layer_test] in tid:layer_test if block 0 1
 #execute in tid:layer_finale positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 #execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 54 0 bedrock run function tid:dungeon/finale/finale_handler
 
-#Automatic Scoreboard Stuff
-execute as @e run function tid:update_coords
-
-#Get rid of monsters outside the world
-#execute in tid:layer_1 as @e[type=!player,type=!item] if score @s y matches 128.. run tp @s 0 -100 0
-
 #Handle monster spawning replacement
 function tid:gameplay/replace_spawns
-
-#Dungeon Generation Checks
-execute as @e[type=minecraft:area_effect_cloud,name="infernal_handler"] at @s run function tid:dungeon/infernal/infernal_handler
-execute as @e[type=minecraft:area_effect_cloud,name="sin_handler"] at @s run function tid:dungeon/sin/sin_handler
 
 #Entrance Messages
 execute as @a[advancements={tid:layer_1/find_stronghold2=false}] at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
@@ -82,7 +72,6 @@ execute as @a[advancements={tid:infernal/root=false}] at @s if block ~ ~-1 ~ #ti
 #Other Misc Checks
 execute as @e[type=minecraft:area_effect_cloud,name="station_pillar"] at @s run function tid:misc/station_pillar
 execute as @e[type=minecraft:area_effect_cloud,name="summon_redstone"] at @s run function tid:misc/summon_redstone
-execute as @e[type=minecraft:armor_stand,name="tnt_stick"] at @s run function tid:misc/summon_tnt_stick
 execute as @e[type=minecraft:area_effect_cloud,name="summon_mob"] at @s if entity @p[distance=0..18] run function tid:misc/summon_mob
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
