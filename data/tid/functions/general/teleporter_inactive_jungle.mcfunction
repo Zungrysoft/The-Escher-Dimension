@@ -1,4 +1,4 @@
-execute if block ~1 ~1 ~1 #tid:prismarine_blocks if block ~1 ~1 ~2 #tid:prismarine_blocks if block ~2 ~1 ~1 #tid:prismarine_blocks if block ~2 ~1 ~2 #tid:prismarine_blocks if block ~1 ~2 ~1 #tid:prismarine_blocks if block ~1 ~2 ~2 #tid:prismarine_blocks if block ~2 ~2 ~1 #tid:prismarine_blocks if block ~2 ~2 ~2 #tid:prismarine_blocks run tag @s add open
+execute if block ~1 ~1 ~1 prismarine if block ~1 ~1 ~2 prismarine if block ~2 ~1 ~1 prismarine if block ~2 ~1 ~2 prismarine if block ~1 ~2 ~1 prismarine if block ~1 ~2 ~2 prismarine if block ~2 ~2 ~1 prismarine if block ~2 ~2 ~2 prismarine run tag @s add open
 
 execute positioned ~ ~ ~1 if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1: '{"text":"Place eight"}', Text2: '{"text":"prismarine blocks"}', Text3: '{"text":"here to open"}', Text4: '{"text":"this portal."}'}
 execute positioned ~ ~ ~2 if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1: '{"text":"Place eight"}', Text2: '{"text":"prismarine blocks"}', Text3: '{"text":"here to open"}', Text4: '{"text":"this portal."}'}

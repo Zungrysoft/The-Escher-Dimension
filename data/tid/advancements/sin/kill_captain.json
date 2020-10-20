@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/root",
+  "parent": "tid:sin/find_sin",
   "display": {
     "icon": {
       "item": "minecraft:shield"

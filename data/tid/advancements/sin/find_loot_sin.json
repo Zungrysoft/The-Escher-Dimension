@@ -1,11 +1,11 @@
 {
-  "parent": "tid:sin/root",
+  "parent": "tid:sin/find_sin",
   "display": {
     "icon": {
       "item": "minecraft:chest"
     },
-    "title": "Harbor Treasure",
-    "description": "Find a chest in The Babirusan Harbor",
+    "title": "City Treasure",
+    "description": "Find a chest in Sin City",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

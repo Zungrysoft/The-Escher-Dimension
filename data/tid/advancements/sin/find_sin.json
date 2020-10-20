@@ -2,9 +2,9 @@
   "parent": "tid:sin/root",
   "display": {
     "icon": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:chiseled_polished_blackstone"
     },
-    "title": "The Fire Chambers",
+    "title": "Sin City",
     "description": "",
     "frame": "task",
     "show_toast": false,

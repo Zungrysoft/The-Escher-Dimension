@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gilded_blackstone"
+      "item": "minecraft:golden_boots"
     },
-    "title": "Babirusan Harbor",
+    "title": "The Babirusan Undergrounds",
     "description": "",
     "frame": "task",
     "show_toast": false,

@@ -5,7 +5,7 @@
       "item": "minecraft:chest"
     },
     "title": "Chamber Treasure",
-    "description": "Find a chest in The Sinful Chambers",
+    "description": "Find a chest in The Fire Chambers",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
