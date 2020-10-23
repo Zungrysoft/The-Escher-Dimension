@@ -111,13 +111,13 @@
                 },
 				{
                     "type": "item",
-                    "weight": 10,
+                    "weight": 15,
                     "name": "minecraft:paper",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
+                                "min": 4,
                                 "max": 6
                             }
                         }

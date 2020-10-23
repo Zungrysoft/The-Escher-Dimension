@@ -2,8 +2,8 @@
 fill ~ ~ ~ ~ ~1 ~ air
 
 #Place the starter pile
-setblock ~ ~ ~ minecraft:structure_block{name: "tid:misc/coal_pile_base", posX: -2, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-setblock ~ ~1 ~ redstone_block
+setblock ~1 ~ ~ minecraft:structure_block{name: "tid:misc/coal_pile_base", posX: -3, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock ~1 ~1 ~ redstone_block
 
 #Add to the pile
 execute positioned ~ ~4 ~ run function tid:misc/coal_pile_extend
