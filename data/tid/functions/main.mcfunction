@@ -102,6 +102,7 @@ execute as @e[type=minecraft:stray,tag=oxidation_spirit] at @s run function tid:
 execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid:gameplay/oxidation_fireball
 #Explosion Elemental
 execute as @e[type=minecraft:zombie,tag=explosion_elemental] at @s run function tid:gameplay/ai_explosion_elemental
+execute as @e[type=tnt,tag=elemental] at @s run function tid:gameplay/ai_explosion_elemental_tnt
 #Alloy Elemental
 execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
 #Summoned Minions

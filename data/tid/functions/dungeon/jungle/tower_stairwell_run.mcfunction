@@ -2,7 +2,7 @@
 #Then get rid of any other evokers in this tower, so only one appears and at the highest valid floor
 execute store result score temp2 value if entity @e[type=area_effect_cloud,name="jungle_tower_room",distance=0..30]
 execute if score temp2 value matches 5.. run tp @e[type=evoker,distance=0..30] 0 -100 0
-execute if score temp2 value matches 5.. run summon evoker ~1 ~ ~ {PersistenceRequired:1}
+execute if score temp2 value matches 5.. run function tid:custom_mobs/evoker
 
 #Kill all rooms in this tower
 kill @e[type=area_effect_cloud,name="jungle_tower_room",distance=0..30]
