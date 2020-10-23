@@ -1,5 +1,6 @@
 scoreboard players add @s tries 1
 scoreboard players set @s failed 0
+function tid:update_coords
 
 execute if score @s tries matches 10.. if score neon_rooms value matches ..25 run scoreboard players set @s failed 1
 execute if score neon_rooms value matches ..0 run scoreboard players set @s failed 1

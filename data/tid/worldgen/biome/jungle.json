@@ -55,7 +55,7 @@
       },
 	  {
         "type": "minecraft:witch",
-        "weight": 70,
+        "weight": 25,
         "minCount": 1,
         "maxCount": 1
       },
