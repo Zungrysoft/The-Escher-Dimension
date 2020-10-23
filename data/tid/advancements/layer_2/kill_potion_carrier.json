@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:feather"
     },
-    "title": "Kill the Messenger",
+    "title": "Doctor, Doctor!",
     "description": "Find and kill a Servant of Zorethab",
     "frame": "task",
     "show_toast": true,

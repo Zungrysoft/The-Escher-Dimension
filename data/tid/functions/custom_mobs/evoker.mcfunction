@@ -1,0 +1,1 @@
+summon minecraft:evoker ~ ~ ~ {Health:80,PersistenceRequired:1,Attributes:[{Name:"generic.max_health",Base:80.0F}],Tags:["super_evoker"]}

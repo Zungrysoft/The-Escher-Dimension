@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:blaze_rod"
     },
-    "title": "Inferno Combat",
+    "title": "Can't You See I'm Burning?",
     "description": "Find and kill a Fountain of Flame",
     "frame": "task",
     "show_toast": true,

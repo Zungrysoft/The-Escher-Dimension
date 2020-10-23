@@ -4,7 +4,7 @@
     "type": "minecraft:flat",
     "seed": 60000,
     "settings": {
-      "biome": "tid:jungle_custom",
+      "biome": "tid:jungle",
       "lakes": false,
       "features": false,
 	  "sea_level": 188,

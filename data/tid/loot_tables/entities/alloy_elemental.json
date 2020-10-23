@@ -2,11 +2,11 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 8,
       "entries": [
         {
           "type": "minecraft:item",
-		  "weight": 15,
+		  "weight": 25,
           "name": "minecraft:iron_ingot"
         },
 		{

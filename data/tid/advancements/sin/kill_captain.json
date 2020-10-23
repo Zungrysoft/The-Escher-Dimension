@@ -20,7 +20,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:piglin_brute",
-			  "nbt": "{IsImmuneToZombification:1b}"
+			  "nbt": "{Tags:[\"captain\"]}"
             },
             "entity": "this"
           }

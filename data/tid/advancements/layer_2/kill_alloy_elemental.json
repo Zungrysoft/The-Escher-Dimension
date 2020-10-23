@@ -4,9 +4,9 @@
     "icon": {
       "item": "minecraft:diamond"
     },
-    "title": "Precious Gemstones",
-    "description": "Find and kill an Alloy Elemental",
-    "frame": "task",
+    "title": "Wheel of Fortune",
+    "description": "Kill an Alloy Elemental and have it drop diamonds",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -20,7 +20,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:zombie",
-			  "nbt": "{Tags:[\"alloy_elemental\"]}"
+			  "nbt": "{Tags:[\"alloy_elemental\"],DeathLootTable:\"tid:entities/alloy_elemental_diamond\"}"
             },
             "entity": "this"
           }

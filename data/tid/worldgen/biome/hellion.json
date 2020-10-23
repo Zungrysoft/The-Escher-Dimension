@@ -35,43 +35,8 @@
       "minecraft:nether_cave"
     ]
   },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:delta",
-      "minecraft:small_basalt_columns",
-      "minecraft:large_basalt_columns"
-    ],
-    [],
-    [],
-    [
-      "minecraft:basalt_blobs",
-      "minecraft:blackstone_blobs",
-      "minecraft:spring_delta",
-      "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
-      "minecraft:glowstone_extra",
-      "minecraft:glowstone",
-      "minecraft:brown_mushroom_nether",
-      "minecraft:red_mushroom_nether",
-      "minecraft:ore_magma",
-      "minecraft:spring_closed_double",
-      "minecraft:ore_gold_deltas",
-      "minecraft:ore_quartz_deltas",
-      "minecraft:ore_debris_large",
-      "minecraft:ore_debris_small"
-    ],
-    [
-      "minecraft:spring_lava_double"
-    ]
-  ],
-  "starts": [
-    "minecraft:ruined_portal_nether",
-    "minecraft:fortress"
-  ],
+  "features": [],
+  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -85,6 +50,12 @@
         "weight": 100,
         "minCount": 2,
         "maxCount": 5
+      }
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 150,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [

@@ -7,12 +7,10 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 1316378,
-    "fog_color": 1316378,
-    "water_color": 1677987,
-    "water_fog_color": 1677987,
-	"grass_color": 3173973,
-	"foliage_color": 3173973
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "surface_builder": "minecraft:grass",
   "carvers": {
@@ -33,9 +31,15 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 100,
+        "weight": 95,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -69,7 +73,7 @@
       },
 	  {
         "type": "minecraft:zombie_villager",
-        "weight": 100,
+        "weight": 20,
         "minCount": 1,
         "maxCount": 1
       }

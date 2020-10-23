@@ -6,8 +6,5 @@ execute if block ~ ~-1 ~ mossy_stone_bricks run summon minecraft:zombie ~ ~ ~ {H
 #Boomstick Basement
 execute if block ~ ~-1 ~ bricks run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:magenta_dye,Count:1}],HandDropChances:[1.00F]}
 
-#Nature
-execute if block ~ ~-1 ~ oak_planks run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:light_blue_dye,Count:1}],HandDropChances:[1.00F]}
-
-#Kill the source mob
-tp @s 1 -100 1
+#Underworld Canals
+execute if block ~ ~-1 ~ dark_oak_planks run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:light_blue_dye,Count:1}],HandDropChances:[1.00F]}

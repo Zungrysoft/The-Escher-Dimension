@@ -1,1 +1,1 @@
-summon minecraft:zombie ~ ~ ~ {Health:40,Attributes:[{Name:"generic.max_health",Base:40F}],CustomName:'[{"text":"Alloy Elemental"}]',ArmorDropChances:[0F,0F,0F,0F],ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:14b}],DeathLootTable: "tid:entities/alloy_elemental",Tags:["alloy_elemental"]}
+summon minecraft:zombie ~ ~ ~ {Health:1,Attributes:[{Name:"generic.max_health",Base:1F}],CustomName:'[{"text":"Alloy Elemental"}]',ArmorDropChances:[0F,0F,0F,0F],ActiveEffects: [{ShowParticles:0b,Duration:999999999,Id:14b}],Tags:["alloy_elemental"]}

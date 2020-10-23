@@ -1,0 +1,41 @@
+{
+  "scale": 0.2,
+  "effects": {
+	"music": {
+      "sound": "minecraft:music.nether.warped_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "sky_color": 16724480,
+    "fog_color": 0,
+    "water_color": 6640700,
+    "water_fog_color": 6640700,
+	"grass_color": 0,
+	"foliage_color": 0
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [],
+  "starts": [],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "nether",
+  "depth": 0.1
+}

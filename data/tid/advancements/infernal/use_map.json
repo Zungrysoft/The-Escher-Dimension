@@ -2,7 +2,7 @@
   "parent": "tid:infernal/root",
   "display": {
     "icon": {
-      "item": "minecraft:map"
+      "item": "minecraft:filled_map"
     },
     "title": "Known Locations",
     "description": "Use a map to navigate the machinery",

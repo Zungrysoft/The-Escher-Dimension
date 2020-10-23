@@ -6,14 +6,14 @@ gamerule doInsomnia false
 gamerule disableRaids true
 gamerule doPatrolSpawning false
 gamerule maxCommandChainLength 1000000000
-execute in tid:layer_1 run forceload add -7 -7 7 7
-execute in tid:layer_2 run forceload add -7 -7 7 7
-execute in tid:layer_3 run forceload add -7 -7 7 7
-execute in tid:layer_hellion run forceload add -7 -7 7 7
-execute in tid:layer_sin run forceload add -7 -7 7 7
-execute in tid:layer_jungle run forceload add -7 -7 7 7
-execute in tid:layer_infernal run forceload add -7 -7 7 7
-execute in tid:layer_finale run forceload add -7 -7 7 7
+execute in tid:layer_1 unless block 0 54 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_2 unless block 0 54 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_3 unless block 0 54 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_hellion unless block 0 184 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_sin unless block 0 184 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_jungle unless block 0 194 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_infernal unless block 0 54 0 bedrock run forceload add -7 -7 7 7
+execute in tid:layer_finale unless block 0 184 0 bedrock run forceload add -7 -7 7 7
 
 #Scoreboard
 scoreboard objectives add x dummy

@@ -2,7 +2,7 @@
   "parent": "tid:layer_2/root",
   "display": {
     "icon": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:chiseled_sandstone"
     },
     "title": "Corethab's Tomb",
     "description": "",

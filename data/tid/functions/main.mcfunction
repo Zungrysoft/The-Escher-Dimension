@@ -38,18 +38,10 @@ execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run s
 execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if block 0 54 0 bedrock run function tid:dungeon/infernal/infernal_handler
 
-#Test World
-execute in tid:layer_test positioned 0 182 0 unless block ~ ~ ~ bedrock run scoreboard players reset test_handler_phase
-execute in tid:layer_test positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
-execute if entity @a[predicate=tid:in_layer_test] in tid:layer_test if block 0 182 0 bedrock run function tid:dungeon/test/test_handler
-
 #The Corridors
-#execute in tid:layer_finale positioned 0 54 0 unless block ~ ~ ~ bedrock run scoreboard players reset finale_handler_phase
-#execute in tid:layer_finale positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
-#execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 54 0 bedrock run function tid:dungeon/finale/finale_handler
-
-#Handle monster spawning replacement
-function tid:gameplay/replace_spawns
+execute in tid:layer_finale positioned 0 185 0 unless block ~ ~ ~ bedrock run scoreboard players reset finale_handler_phase
+execute in tid:layer_finale positioned 0 185 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 185 0 bedrock run function tid:dungeon/finale/finale_handler
 
 #Entrance Messages
 execute as @a[advancements={tid:layer_1/find_stronghold2=false}] at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
@@ -118,6 +110,14 @@ execute as @e[tag=summon] at @s run function tid:gameplay/ai_summon
 execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 #Fountain of Flame
 execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:gameplay/ai_fire_fountain
+#Vexes
+execute as @e[type=vex] at @s run function tid:gameplay/ai_vex
+
+#Handle monster spawning replacement
+execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns
+
+#Remove Baby Zombies from the spawning pool
+tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1
 
 #Runs the teleporters
 execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:general/teleporter

@@ -7,7 +7,7 @@
   "respawn_anchor_works": true,
   "bed_works": true,
   "has_raids": false,
-  "has_skylight": false,
+  "has_skylight": true,
   "has_ceiling": false,
   "ambient_light": 0.03,
   "fixed_time": 6000,

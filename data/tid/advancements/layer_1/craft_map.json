@@ -2,7 +2,7 @@
   "parent": "tid:layer_1/find_loot_stronghold2",
   "display": {
     "icon": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:map"
     },
     "title": "Subterranean Cartographer",
     "description": "Find the materials needed to craft a map",
