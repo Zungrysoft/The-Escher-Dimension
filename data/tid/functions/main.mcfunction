@@ -128,5 +128,3 @@ function tid:general/protect_dyes
 
 #Test the victory monument for completion
 execute in tid:layer_1 run function tid:general/test_victory_monument
-
-execute in tid:layer_2 unless block 130 0 130 bedrock run say BADD

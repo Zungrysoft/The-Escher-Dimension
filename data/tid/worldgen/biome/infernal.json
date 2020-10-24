@@ -37,56 +37,8 @@
       "minecraft:canyon"
     ]
   },
-  "features": [
-    [],
-    [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
-    ],
-    [],
-    [
-      "minecraft:monster_room"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [],
-    [
-      "minecraft:forest_flower_vegetation",
-      "minecraft:birch_other",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
+  "features": [],
+  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -156,11 +108,9 @@
         "weight": 10,
         "minCount": 2,
         "maxCount": 4
-      },
+      }
     ],
-    "ambient": [
-      
-    ],
+    "ambient": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
