@@ -8,12 +8,12 @@ execute if score temp value matches 0 run setblock ~ ~ ~ end_stone_brick_wall
 execute if score temp value matches 0 run setblock ~ ~1 ~ potted_birch_sapling
 
 #Medium
-execute if score temp value matches 0 run setblock ~ ~ ~ end_stone_brick_wall
-execute if score temp value matches 0 run setblock ~ ~1 ~ end_stone_brick_wall
-execute if score temp value matches 0 run setblock ~ ~2 ~ potted_birch_sapling
+execute if score temp value matches 1 run setblock ~ ~ ~ end_stone_brick_wall
+execute if score temp value matches 1 run setblock ~ ~1 ~ end_stone_brick_wall
+execute if score temp value matches 1 run setblock ~ ~2 ~ potted_birch_sapling
 
 #Tall
-execute if score temp value matches 0 run setblock ~ ~ ~ end_stone_brick_wall
-execute if score temp value matches 0 run setblock ~ ~1 ~ end_stone_brick_wall
-execute if score temp value matches 0 run setblock ~ ~2 ~ end_stone_brick_wall
-execute if score temp value matches 0 run setblock ~ ~3 ~ potted_birch_sapling
+execute if score temp value matches 2 run setblock ~ ~ ~ end_stone_brick_wall
+execute if score temp value matches 2 run setblock ~ ~1 ~ end_stone_brick_wall
+execute if score temp value matches 2 run setblock ~ ~2 ~ end_stone_brick_wall
+execute if score temp value matches 2 run setblock ~ ~3 ~ potted_birch_sapling
