@@ -6,14 +6,14 @@
       "nbt": "{Damage:0}"
     },
     "title": "No Grave but the Sea",
-    "description": "Without leaving your boat, kill a zombie, skeleton, and creeper, each of whom are riding their own boats",
+    "description": "Without leaving your boat, kill a zombie, skeleton, and creeper, each of whom are riding their own boats  §d[Reward: 60 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 500
+    "loot": ["tid:advancements/emerald_60"]
   },
   "criteria": {
     "kill_zombie": {

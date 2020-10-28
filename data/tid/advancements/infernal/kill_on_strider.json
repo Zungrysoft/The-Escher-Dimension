@@ -6,14 +6,14 @@
       "nbt": "{Damage:0}"
     },
     "title": "Joust",
-    "description": "Kill a Skeleton, a Blaze, and a Ghast while riding a Strider",
+    "description": "Kill a Skeleton, a Blaze, and a Ghast while riding a Strider §d[Reward: 40 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 300
+    "loot": ["tid:advancements/emerald_40"]
   },
   "criteria": {
     "kill_skeleton": {

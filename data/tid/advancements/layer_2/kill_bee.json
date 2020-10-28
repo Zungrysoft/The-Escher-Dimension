@@ -2,7 +2,7 @@
   "parent": "tid:layer_2/find_nature",
   "display": {
     "icon": {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:honey_bottle"
     },
     "title": "A Force to Bee Reckoned With",
     "description": "Defend yourself against the Murder-Bees",

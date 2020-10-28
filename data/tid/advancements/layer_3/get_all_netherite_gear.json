@@ -6,14 +6,14 @@
       "nbt": "{Damage:0}"
     },
     "title": "Dungeon's Bane",
-    "description": "Upgrade your weapon, your pickaxe, and all of your armor",
+    "description": "Upgrade your weapon, your pickaxe, and all of your armor §d[Reward: 25 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 100
+    "loot": ["tid:advancements/emerald_25"]
   },
   "criteria": {
     "got_sword": {

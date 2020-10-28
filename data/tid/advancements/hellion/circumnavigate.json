@@ -5,14 +5,14 @@
       "item": "minecraft:magma_cream"
     },
     "title": "Around the World",
-    "description": "Circumnavigate the fortress on a Strider",
+    "description": "Circumnavigate the fortress on a Strider §d[Reward: 10 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 50
+    "loot": ["tid:advancements/emerald_10"]
   },
   "criteria": {
         "impossible": {

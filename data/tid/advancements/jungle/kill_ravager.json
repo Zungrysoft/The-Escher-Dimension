@@ -6,13 +6,10 @@
     },
     "title": "Slay the Beast",
     "description": "Kill a Ravager",
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 50
   },
   "criteria": {
     "kill_mob": {

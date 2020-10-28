@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

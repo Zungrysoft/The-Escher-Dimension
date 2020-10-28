@@ -5,14 +5,14 @@
       "item": "minecraft:magma_cream"
     },
     "title": "Big Game Hunter",
-    "description": "Hunt and kill a giant Magma Cube",
+    "description": "Hunt and kill a giant Magma Cube §d[Reward: 20 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 50
+    "loot": ["tid:advancements/emerald_20"]
   },
   "criteria": {
     "kill_mob": {

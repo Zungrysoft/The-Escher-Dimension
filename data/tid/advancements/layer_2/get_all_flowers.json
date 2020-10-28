@@ -5,14 +5,14 @@
       "item": "minecraft:cornflower"
     },
     "title": "Flower Power",
-    "description": "Collect every type of flower",
+    "description": "Collect every type of flower §d[Reward: 5 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 50
+    "loot": ["tid:advancements/emerald_5"]
   },
   "criteria": {
     "got_dandelion": {

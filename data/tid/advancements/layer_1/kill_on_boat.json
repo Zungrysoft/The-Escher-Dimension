@@ -5,7 +5,7 @@
       "item": "minecraft:dark_oak_boat"
     },
     "title": "Batten Down the Hatches",
-    "description": "Kill a mob while riding a boat",
+    "description": "Kill a monster while riding a boat",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,12 +15,6 @@
     "kill_mob": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this"
-          }
-        ],
 		"player": [
           {
             "condition": "minecraft:entity_properties",

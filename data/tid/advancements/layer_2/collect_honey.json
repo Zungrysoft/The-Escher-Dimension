@@ -1,0 +1,37 @@
+{
+  "parent": "tid:layer_2/kill_bee",
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": "Guerilla Beekeeping",
+    "description": "Collect thirty honeycomb §d[Reward: 10 Emeralds]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/emerald_10"]
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:honeycomb",
+			"count": {
+               "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

@@ -61,7 +61,6 @@ scoreboard players set @s use_map 0
 execute if entity @s[predicate=!tid:on_boat,advancements={tid:layer_1/kill_all_on_boat=false}] run advancement revoke @s only tid:layer_1/kill_all_on_boat
 
 #Grant certain non-renewable advancements to all players instead of just the one
-execute if entity @a[advancements={tid:layer_2/trade_honey=true}] run advancement grant @s only tid:layer_2/trade_honey
 execute if entity @a[advancements={tid:jungle/kill_ravager=true}] run advancement grant @s only tid:jungle/kill_ravager
 
 
