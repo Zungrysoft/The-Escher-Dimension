@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:chest"
     },
-    "title": "Nature Treasure",
-    "description": "Find a chest in Nature",
+    "title": "Homegrown Treasure",
+    "description": "Find a chest in The Lightless Gardens",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

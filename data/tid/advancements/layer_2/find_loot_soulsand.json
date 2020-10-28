@@ -5,7 +5,7 @@
       "item": "minecraft:chest"
     },
     "title": "Arena Treasure",
-    "description": "Find a chest in The Soul Sand Arenas",
+    "description": "Find a haunted chest in The Soul Sand Arenas",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
