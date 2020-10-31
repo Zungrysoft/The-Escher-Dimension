@@ -445,6 +445,11 @@
                     "weight": 3,
                     "name": "minecraft:diamond"
                 },
+				{
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:music_disc_far"
+                },
                 {
                     "type": "item",
                     "weight": 1,

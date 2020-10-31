@@ -59,6 +59,11 @@
                     "weight": 10,
                     "name": "minecraft:golden_apple"
                 },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:music_disc_wait"
+                },
                 {
                     "type": "item",
                     "weight": 15,

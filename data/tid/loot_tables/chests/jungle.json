@@ -274,6 +274,11 @@
                 },
 				{
                     "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:music_disc_chirp"
+                },
+				{
+                    "type": "item",
                     "weight": 5,
                     "name": "minecraft:name_tag",
                     "functions": [

@@ -6,39 +6,30 @@
                 {
                     "type": "item",
                     "weight": 666,
-                    "name": "minecraft:music_disc_13"
+                    "name": "minecraft:pink_dye"
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:music_disc_mellohi"
                 }
             ]
         },
         {
-            "rolls": {
-                "min": 2,
-                "max": 3
+            "rolls": 2,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
             },
-            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 15
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:ender_pearl"
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
+                    "weight": 4,
                     "name": "minecraft:iron_ingot",
                     "functions": [
                         {
@@ -50,9 +41,76 @@
                         }
                     ]
                 },
+				{
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": 2,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
                 {
                     "type": "item",
-                    "weight": 25,
+                    "weight": 4,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": 2,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": 2,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
                     "name": "minecraft:diamond",
                     "functions": [
                         {
@@ -65,50 +123,8 @@
                     ]
                 },
 				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:book",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:golden_apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": 2,
-            "bonus_rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:gold_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
+                    "type": "empty",
+                    "weight": 10
                 }
             ]
         }

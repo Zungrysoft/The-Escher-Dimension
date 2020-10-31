@@ -12,6 +12,16 @@
             ]
         },
 		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:music_disc_strad"
+                }
+            ]
+        },
+		{
             "rolls": {
                 "min": 2,
                 "max": 2

@@ -14,3 +14,5 @@ execute if block ~ ~ ~ end_stone if predicate tid:random_30 run setblock ~ ~2 ~ 
 #Chest
 execute if predicate tid:random_15 run setblock ~ ~ ~ chest[facing=north]{LootTable: "tid:chests/moon"}
 execute if predicate tid:random_15 run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/moon"}
+execute if block ~ ~ ~ chest run setblock ~ ~1 ~ air
+execute if block ~ ~ ~ chest run setblock ~ ~2 ~ air

@@ -97,6 +97,11 @@
                 },
 				{
                     "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:music_disc_stal"
+                },
+				{
+                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:redstone",
                     "functions": [
