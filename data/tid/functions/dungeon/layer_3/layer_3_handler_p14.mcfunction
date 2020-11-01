@@ -9,4 +9,7 @@ execute at @e[type=area_effect_cloud,name="station_straggler_start",sort=random,
 #The Moon Zone
 execute positioned 22 55 18 positioned ~0 ~-1 ~-8 run function tid:dungeon/moon/select_entrance_east
 
+#Mutant Sludge Pits
+execute positioned -22 55 18 positioned ~-16 ~-16 ~-6 run function tid:dungeon/mutant/select_entrance_west
+
 scoreboard players set layer_3_handler_phase value 20

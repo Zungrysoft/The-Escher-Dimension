@@ -19,9 +19,11 @@ fill 1033 1 1001 1064 27 1032 minecraft:purple_wool
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
-scoreboard players set station_rooms value 350
-scoreboard players set moon_rooms value 300
 scoreboard players set layer_3_handler_counter value 55
+scoreboard players set station_rooms value 350
+scoreboard players set moon_segments value 150
+scoreboard players set moon_rooms value 300
+scoreboard players set mutant_rooms value 200
 
 #Reset various tracking scores
 scoreboard players set jungle_portals value 0
