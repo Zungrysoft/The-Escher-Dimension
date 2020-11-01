@@ -1,5 +1,5 @@
 #If we're at the ceiling, create the spawner >:)
-execute if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run setblock ~ ~ ~ spawner{MaxNearbyEntities: 1s, RequiredPlayerRange: 70s, SpawnCount: 1s, MinSpawnDelay: 1800s, MaxSpawnDelay: 3600s, Delay: 2000s, SpawnRange: 15s, SpawnPotentials: [{Entity: {id: "minecraft:ghast"}, Weight: 1}]}
+execute if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run setblock ~ ~ ~ spawner{MaxNearbyEntities: 1s, RequiredPlayerRange: 70s, SpawnCount: 1s, MinSpawnDelay: 1800s, MaxSpawnDelay: 3600s, SpawnRange: 15s, SpawnPotentials: [{Entity: {id: "minecraft:ghast"}, Weight: 1}]}
 
 #If we're at the ceiling, light it up so the player knows exactly where it is
 execute if block ~ ~ ~ spawner run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 glowstone replace warped_hyphae

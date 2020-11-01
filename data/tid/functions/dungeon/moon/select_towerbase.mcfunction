@@ -1,9 +1,9 @@
 #Determine modulus of y position
 execute store result score temp value run data get entity @s Pos[1] 1
-scoreboard players set calc value 2
+scoreboard players set calc value 3
 scoreboard players operation temp value %= calc value
 execute store result score temp2 value run data get entity @s Pos[1] 1
-scoreboard players set calc value 8
+scoreboard players set calc value 7
 scoreboard players operation temp2 value %= calc value
 
 #Pick a structure from this list based on y position
@@ -15,7 +15,7 @@ execute if score temp2 value matches 0 run setblock ~ ~ ~ minecraft:structure_bl
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Check for the portal to Infernal Industries
-function tid:dungeon/moon/event1_check
+#function tid:dungeon/moon/event1_check
 
 #Summon the upward doorway
 summon minecraft:area_effect_cloud ~ ~9 ~ {Duration:99999999,CustomName:"\"moon_bridge_up\""}
