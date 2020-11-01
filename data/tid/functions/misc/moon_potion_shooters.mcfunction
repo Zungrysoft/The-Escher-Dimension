@@ -1,0 +1,14 @@
+#Delete the Command Block
+fill ~ ~ ~ ~ ~1 ~ polished_granite
+
+#Alternate spawners
+execute if predicate tid:random_05 run setblock ~1 ~ ~ spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:poison"}},Motion:[0.7d,0.2d,0.0d]}, Weight: 1}]}
+execute if predicate tid:random_05 run setblock ~-1 ~ ~ spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:healing"}},Motion:[-0.7d,0.2d,0.0d]}, Weight: 1}]}
+execute if predicate tid:random_05 run setblock ~ ~ ~1 spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:slowness"}},Motion:[0.0d,0.2d,0.7d]}, Weight: 1}]}
+execute if predicate tid:random_05 run setblock ~ ~ ~-1 spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:weakness"}},Motion:[0.0d,0.2d,-0.7d]}, Weight: 1}]}
+
+#Place the four spawners
+setblock ~1 ~ ~ spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Motion:[0.7d,0.2d,0.0d]}, Weight: 1}]}
+setblock ~-1 ~ ~ spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Motion:[-0.7d,0.2d,0.0d]}, Weight: 1}]}
+setblock ~ ~ ~1 spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Motion:[0.0d,0.2d,0.7d]}, Weight: 1}]}
+setblock ~ ~ ~-1 spawner{MaxNearbyEntities: 100s, RequiredPlayerRange: 15s, SpawnCount: 1s, MinSpawnDelay: 3s, MaxSpawnDelay: 3s, Delay: 1s, SpawnRange: 0s, SpawnPotentials: [{Entity: {id: "minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}},Motion:[0.0d,0.2d,-0.7d]}, Weight: 1}]}
