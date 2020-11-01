@@ -11,7 +11,7 @@ fill 1033 1 1033 1064 27 1064 minecraft:yellow_wool
 fill 1033 129 1033 1065 156 1065 minecraft:blue_wool
 #Storehouse for green wool
 fill 1000 1 1033 1032 28 1065 minecraft:bedrock
-fill 1001 1 1033 1032 27 1064 minecraft:green_wool
+fill 1001 1 1033 1032 27 1064 minecraft:orange_wool
 fill 1000 129 1032 1065 156 1065 minecraft:blue_wool
 #Storehouse for purple wool
 fill 1033 1 1000 1065 28 1032 minecraft:bedrock
@@ -20,10 +20,12 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
 scoreboard players set station_rooms value 350
+scoreboard players set moon_rooms value 300
 scoreboard players set layer_3_handler_counter value 55
 
 #Reset various tracking scores
 scoreboard players set jungle_portals value 0
+scoreboard players set infernal_portals value 0
 scoreboard players set station_secrets value 0
 
 #Summon the entrance rooms and starting area

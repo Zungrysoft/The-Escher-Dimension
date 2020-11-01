@@ -28,9 +28,15 @@ execute if predicate tid:random_08 positioned ~5 ~1 ~5 run function tid:misc/moo
 #Trapped room
 execute if predicate tid:random_20 if block ~5 ~ ~5 polished_granite positioned ~5 ~8 ~5 run function tid:misc/moon_potion_dropper
 
+#Polished Room
+execute if predicate tid:random_005 run fill ~ ~ ~ ~10 ~8 ~10 polished_granite replace granite
+
+#Open wall
+execute at @s run function tid:dungeon/moon/open_room
+
 #Mark this area on the map
 fill ~ 255 ~ ~10 255 ~10 minecraft:granite replace minecraft:end_stone
-fill ~ 255 ~ ~10 255 ~10 minecraft:granite replace minecraft:end_stone
+fill ~ 255 ~ ~10 255 ~10 minecraft:granite replace minecraft:black_concrete
 fill ~5 255 ~ ~5 255 ~10 minecraft:red_sandstone replace minecraft:granite
 fill ~ 255 ~5 ~10 255 ~5 minecraft:red_sandstone replace minecraft:granite
 

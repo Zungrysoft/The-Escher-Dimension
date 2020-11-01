@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_3/find_infernal_portal",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "title": "Welcome to the Machine",
+    "description": "Activate the iron portal",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

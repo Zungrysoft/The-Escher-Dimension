@@ -1,3 +1,7 @@
+#Delete the command block
+fill ~ ~1 ~ ~ ~ ~ air
+
+#Decide what to build
 scoreboard players set temp value 0
 execute if predicate tid:random_50 run scoreboard players add temp value 1
 execute if predicate tid:random_50 run scoreboard players add temp value 2
@@ -9,7 +13,7 @@ execute if score temp value matches 0..1 run setblock ~ ~1 ~ potted_birch_saplin
 
 #Hedge
 execute if score temp value matches 2..3 run setblock ~ ~ ~ polished_granite
-execute if score temp value matches 2..3 run fill ~ ~1 ~ ~ ~2 ~ acacia_leaves[persistent=true]
+execute if score temp value matches 2..3 run fill ~ ~1 ~ ~ ~2 ~ birch_leaves[persistent=true]
 
 #Spawner
 execute if score temp value matches 4..5 if predicate tid:random_33 run function tid:misc/moon_random_spawner

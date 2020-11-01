@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_3/find_moon",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": "Mechanical Portal",
+    "description": "Find an iron portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

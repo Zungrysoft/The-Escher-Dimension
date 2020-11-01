@@ -1,0 +1,80 @@
+{
+  "parent": "tid:hellion/circumnavigate",
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": "The Infinite Wastes",
+    "description": "Trust me, there's nothing out here",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "positive_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_hellion",
+		  "position": {
+            "x": {
+              "min": 250,
+              "max": 999
+            }
+          }
+        }
+      }
+    },
+	"positive_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_hellion",
+		  "position": {
+            "z": {
+              "min": 250,
+              "max": 999
+            }
+          }
+        }
+      }
+    },
+	"negative_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_hellion",
+		  "position": {
+            "x": {
+              "min": -999,
+              "max": -250
+            }
+          }
+        }
+      }
+    },
+	"negative_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_hellion",
+		  "position": {
+            "z": {
+              "min": -999,
+              "max": -250
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "positive_x",
+	  "positive_z",
+	  "negative_x",
+	  "negative_z"
+    ]
+  ]
+}
