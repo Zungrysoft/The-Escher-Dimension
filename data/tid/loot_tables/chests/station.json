@@ -196,20 +196,6 @@
                 },
 				{
                     "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:quartz",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
                     "weight": 6,
                     "name": "minecraft:tipped_arrow",
                     "functions": [

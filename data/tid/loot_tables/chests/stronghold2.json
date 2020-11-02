@@ -10,9 +10,50 @@
                 }
             ]
         },
+		{
+            "rolls": 1,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:quartz",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "empty",
+                    "weight": 10
+                }
+            ]
+        },
         {
             "rolls": {
-                "min": 3,
+                "min": 2,
                 "max": 5
             },
             "bonus_rolls": {
@@ -49,20 +90,6 @@
                             "count": {
                                 "min": 1,
                                 "max": 1
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:quartz",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 10
                             }
                         }
                     ]
@@ -105,20 +132,6 @@
                             "count": {
                                 "min": 1,
                                 "max": 3
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:paper",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 6
                             }
                         }
                     ]
