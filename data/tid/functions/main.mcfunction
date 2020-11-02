@@ -118,6 +118,8 @@ execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns
+#Handle monster spawning replacement
+execute as @e[type=cod,tag=!keep] at @s run function tid:gameplay/replace_water_spawns
 
 #Remove Baby Zombies from the spawning pool
 tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1

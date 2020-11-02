@@ -9,7 +9,10 @@ kill @e[type=area_effect_cloud,name="station_straggler_start"]
 kill @e[type=area_effect_cloud,name="moon_straggler_start"]
 
 #These chunks are no longer needed
-forceload remove -64 -128 64 64
+forceload remove 0 0 128 128
+forceload remove 0 0 128 -128
+forceload remove 0 0 -128 128
+forceload remove 0 0 -128 -128
 forceload remove 1000 1000 1064 1064
 
 say Done!

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:brick"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick"
+        }
+      ],
+      "functions": [
+        {
+		  "function": "set_nbt",
+		  "tag": "{display:{Name:\'[{\"text\":\"Heavyweight\",\"italic\":false,\"color\":\"light_purple\"}]',Lore:[\'[{\"text\":\"+75% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.75,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:0.75,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}]}"
+		}
+	  ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "parent": "tid:layer_3/find_mutant",
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "Crimes Against Nature",
+    "description": "Kill all ten types of mutant abominations §d[Reward: 20 Emeralds]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/emerald_20"]
+  },
+  "criteria": {
+    "mutant_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:silverfish",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:salmon",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:skeleton",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:bat",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:bee",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:spider",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:cow",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:sheep",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:pig",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:slime",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+	"mutant_phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "type": "minecraft:phantom",
+			  "nbt": "{Tags:[\"mutant\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mutant_zombie"
+    ],
+	[
+      "mutant_silverfish"
+    ],
+	[
+      "mutant_salmon"
+    ],
+	[
+      "mutant_skeleton"
+    ],
+	[
+      "mutant_bat"
+    ],
+	[
+      "mutant_bee"
+    ],
+	[
+      "mutant_spider"
+    ],
+	[
+      "mutant_cow",
+	  "mutant_sheep",
+	  "mutant_pig"
+    ],
+	[
+      "mutant_slime"
+    ],
+	[
+      "mutant_phantom"
+    ]
+  ]
+}

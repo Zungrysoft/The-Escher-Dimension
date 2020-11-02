@@ -1,0 +1,22 @@
+{
+  "parent": "tid:layer_1/find_stronghold2",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_bars"
+    },
+    "title": "Exterminator",
+    "description": "Kill ten silverfish in ten seconds §d[Reward: 25 Iron Ingots]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/kill_silverfish"]
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
