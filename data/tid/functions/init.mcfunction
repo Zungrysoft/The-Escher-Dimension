@@ -6,6 +6,7 @@ gamerule doInsomnia false
 gamerule disableRaids true
 gamerule doPatrolSpawning false
 gamerule maxCommandChainLength 1000000000
+setworldspawn 0 55 0
 
 #Do starting forceloads in all the dimensions
 #Layer 1
