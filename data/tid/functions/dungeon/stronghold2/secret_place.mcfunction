@@ -15,3 +15,6 @@ execute at @e[name="scatter"] if blocks ~-2 ~128 ~-3 ~2 ~131 ~2 1001 1 1001 all 
 #Kill the anchor and scatters
 kill @e[name="anchor"]
 kill @e[name="scatter"]
+
+#Track this secret
+scoreboard players add stronghold2_secrets value 1

@@ -21,13 +21,13 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 #Determine the number of rooms to generate
 scoreboard players set stronghold2_rooms value 250
 scoreboard players set brick_rooms value 250
-scoreboard players set nature_rooms value 0
-#scoreboard players set nature_rooms value 250
+#scoreboard players set canal_rooms value 250
 
 #Reset some other misc scoreboard values
 scoreboard players set monument_complete value 0
 scoreboard players set hellion_portals value 0
 scoreboard players set layer_2_portals value 0
+scoreboard players set stronghold2_secrets value 0
 
 #Summon the entrance rooms and starting area
 execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/layer_1/select_entrance

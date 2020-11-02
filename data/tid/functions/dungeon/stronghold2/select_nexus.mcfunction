@@ -40,7 +40,10 @@ setblock ~ ~1 ~ minecraft:redstone_block
 fill ~ ~128 ~ ~12 ~135 ~12 minecraft:blue_wool replace minecraft:orange_wool
 
 #Secret rooms
-execute if predicate tid:random_07 run function tid:dungeon/stronghold2/secret_place
+scoreboard players set temp value 0
+execute if predicate tid:random_07 run scoreboard players set temp value 1
+execute if predicate tid:random_25 if score stronghold2_secrets value matches ..1 run scoreboard players set temp value 1
+execute if score temp value matches 1 run function tid:dungeon/stronghold2/secret_place
 
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1

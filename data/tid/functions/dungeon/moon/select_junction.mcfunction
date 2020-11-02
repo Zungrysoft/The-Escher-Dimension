@@ -19,6 +19,12 @@ execute unless block ~ ~131 ~6 orange_wool run scoreboard players set south valu
 execute unless block ~-3 ~131 ~ orange_wool run scoreboard players set west value 0
 execute unless block ~6 ~131 ~ orange_wool run scoreboard players set east value 0
 
+#Remove all directions if this must be an endcap piece
+execute if score @s failed matches 1.. run scoreboard players set north value 0
+execute if score @s failed matches 1.. run scoreboard players set south value 0
+execute if score @s failed matches 1.. run scoreboard players set west value 0
+execute if score @s failed matches 1.. run scoreboard players set east value 0
+
 #Re-add doorway direction
 execute if entity @s[name="moon_bridge_north"] run scoreboard players set south value 1
 execute if entity @s[name="moon_bridge_south"] run scoreboard players set north value 1
