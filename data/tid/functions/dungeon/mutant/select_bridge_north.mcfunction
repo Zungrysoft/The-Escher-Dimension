@@ -1,7 +1,12 @@
+#Determine modulus of y position
+execute store result score temp value run data get entity @s Pos[1] 1
+scoreboard players set calc value 7
+scoreboard players operation temp value %= calc value
+
 #Pick a structure from this list
 setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:mutant/bridge_north_1", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_33 run setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:mutant/bridge_north_2", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_10 run setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:mutant/bridge_north_3", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score temp value matches 0..1 run setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:mutant/bridge_north_2", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score temp value matches 2 run setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:mutant/bridge_north_3", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~1 ~2 ~1 minecraft:redstone_block
