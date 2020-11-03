@@ -1,5 +1,5 @@
-#Grass Block
-execute if block ~ ~ ~ grass_block run function tid:dungeon/mutant/rng/grass_block
+#Prismarine Bricks
+execute if block ~ ~ ~ prismarine_bricks run function tid:dungeon/mutant/rng/prismarine_bricks
 
 #Dirt
 execute if block ~ ~ ~ dirt run function tid:dungeon/mutant/rng/dirt

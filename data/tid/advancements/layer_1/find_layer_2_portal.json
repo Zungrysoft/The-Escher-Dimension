@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_1/find_brick",
+  "parent": "tid:layer_1/find_loot_brick",
   "display": {
     "icon": {
       "item": "minecraft:coal"

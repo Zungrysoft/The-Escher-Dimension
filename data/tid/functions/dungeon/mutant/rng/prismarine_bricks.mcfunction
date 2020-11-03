@@ -1,5 +1,5 @@
-#Prismarine Bricks
-execute if predicate tid:random_90 run setblock ~ ~ ~ prismarine_bricks
+#Grass Block
+execute if predicate tid:random_10 if block ~ ~1 ~ air run setblock ~ ~ ~ grass_block
 
 #Magma
 execute if predicate tid:random_15 run setblock ~ ~ ~ magma_block
