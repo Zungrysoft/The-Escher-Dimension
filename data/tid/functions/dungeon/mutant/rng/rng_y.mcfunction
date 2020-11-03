@@ -20,6 +20,9 @@ execute if predicate tid:random_25 if block ~ ~ ~ dark_prismarine_stairs[facing=
 execute if predicate tid:random_25 if block ~ ~ ~ dark_prismarine_slab[type=top] run setblock ~ ~ ~ prismarine_brick_slab[type=top]
 execute if predicate tid:random_25 if block ~ ~ ~ dark_prismarine_slab[type=bottom] run setblock ~ ~ ~ prismarine_brick_slab[type=bottom]
 
+#Air
+execute if predicate tid:random_08 if block ~ ~ ~ air run function tid:dungeon/mutant/rng/air
+
 #Recurse
 scoreboard players add ycount value 1
 execute unless score ycount value > ymax value positioned ~ ~1 ~ run function tid:dungeon/mutant/rng/rng_y

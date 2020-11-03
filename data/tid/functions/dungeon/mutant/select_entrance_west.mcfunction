@@ -17,9 +17,6 @@ scoreboard players set ymax value 22
 scoreboard players set zmax value 13
 function tid:dungeon/mutant/rng/run_rng
 
-#Count the room in the total
-scoreboard players remove mutant_rooms value 1
-
 #We're done here
 kill @s
 
