@@ -23,7 +23,7 @@ scoreboard players set layer_3_handler_counter value 55
 scoreboard players set station_rooms value 350
 scoreboard players set moon_segments value 150
 scoreboard players set moon_rooms value 300
-scoreboard players set mutant_rooms value 200
+scoreboard players set mutant_rooms value 140
 
 #Reset various tracking scores
 scoreboard players set jungle_portals value 0

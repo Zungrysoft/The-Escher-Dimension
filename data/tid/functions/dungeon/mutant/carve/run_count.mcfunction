@@ -2,10 +2,13 @@
 scoreboard players remove temp value 1
 execute if score temp value matches 0.. run function tid:dungeon/mutant/carve/run_count
 
+#Summon entity to hold position
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["new"]}
+
 #Store current coords in variables
-execute store result score pos_x value run data get entity @s Pos[0]
-execute store result score pos_y value run data get entity @s Pos[1]
-execute store result score pos_z value run data get entity @s Pos[2]
+execute store result score pos_x value run data get entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[0]
+execute store result score pos_y value run data get entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[1]
+execute store result score pos_z value run data get entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[2]
 
 #Randomize offsets
 scoreboard players set offset_x value 0
@@ -45,15 +48,12 @@ scoreboard players operation pos_x value += offset_x value
 scoreboard players operation pos_y value += offset_y value
 scoreboard players operation pos_z value += offset_z value
 
-#Summon entity to hold position
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["new"]}
-
 #Write position into entity
 execute store result entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[0] double 1 run scoreboard players get pos_x value
 execute store result entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[1] double 1 run scoreboard players get pos_y value
 execute store result entity @e[type=area_effect_cloud,tag=new,limit=1] Pos[2] double 1 run scoreboard players get pos_z value
 
-#Execute at the entity
+#Execute at the entity 
 execute at @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/mutant/carve/medium
 
 #Kill entity
