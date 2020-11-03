@@ -1,8 +1,8 @@
 {
-  "parent": "tid:layer_3/find_mutant",
+  "parent": "tid:layer_3/levitate",
   "display": {
     "icon": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:phantom_membrane"
     },
     "title": "Crimes Against Nature",
     "description": "Kill all ten types of mutant abominations §d[Reward: 20 Emeralds]",
