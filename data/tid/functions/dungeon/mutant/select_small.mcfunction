@@ -16,6 +16,7 @@ summon minecraft:area_effect_cloud ~5 ~3 ~ {Duration:99999999,CustomName:"\"muta
 summon minecraft:area_effect_cloud ~5 ~3 ~10 {Duration:99999999,CustomName:"\"mutant_south\""}
 summon minecraft:area_effect_cloud ~ ~3 ~5 {Duration:99999999,CustomName:"\"mutant_west\""}
 summon minecraft:area_effect_cloud ~10 ~3 ~5 {Duration:99999999,CustomName:"\"mutant_east\""}
+summon minecraft:area_effect_cloud ~5 ~7 ~5 {Duration:99999999,CustomName:"\"mutant_up\""}
 
 #Count the room in the total
 scoreboard players remove mutant_rooms value 1
