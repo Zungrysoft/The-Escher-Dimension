@@ -2,7 +2,7 @@
   "parent": "tid:layer_3/find_mutant",
   "display": {
     "icon": {
-      "item": "minecraft:warped_roots"
+      "item": "minecraft:prismarine_crystals"
     },
     "title": "Psychic Dispensary",
     "description": "Float up through a vertical chute",

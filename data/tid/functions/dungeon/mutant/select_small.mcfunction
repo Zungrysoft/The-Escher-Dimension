@@ -15,7 +15,7 @@ execute if predicate tid:random_09 run setblock ~1 ~ ~1 minecraft:structure_bloc
 execute if predicate tid:random_08 unless entity @s[name="mutant_up"] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/small_4", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 unless entity @s[name="mutant_up"] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/small_6", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 unless entity @s[name="mutant_up"] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/small_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_08 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/small_10", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_08 unless entity @s[name="mutant_up"] run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/small_10", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~1 ~1 ~1 minecraft:redstone_block

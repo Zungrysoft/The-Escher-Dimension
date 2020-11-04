@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_wart_block
+setblock ~ ~ ~ clay

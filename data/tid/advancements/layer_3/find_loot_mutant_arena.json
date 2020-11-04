@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_3/find_mutant",
+  "parent": "tid:layer_3/find_loot_mutant",
   "display": {
     "icon": {
-      "item": "minecraft:chest"
+      "item": "minecraft:warped_door"
     },
-    "title": "Mutant Treasure",
-    "description": "Find a chest in the Mutant Sludge Pits",
+    "title": "Hell Hotel",
+    "description": "Open a chest in a mutant hotel",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
     "loot_1": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "tid:chests/mutant"
+        "loot_table": "tid:chests/mutant_arena"
       }
     }
   },
