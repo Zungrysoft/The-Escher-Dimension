@@ -11,9 +11,6 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "rewards": {
-    "experience": 30
-  },
   "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

@@ -1,0 +1,180 @@
+{
+  "parent": "tid:layer_2/root",
+  "criteria": {
+    "porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:porkchop"
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_porkchop"
+        }
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod"
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon"
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish"
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_cod"
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_salmon"
+        }
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beef"
+        }
+      }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_beef"
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:chicken"
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_chicken"
+        }
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rotten_flesh"
+        }
+      }
+    },
+    "spider_eye": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:spider_eye"
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit"
+        }
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_rabbit"
+        }
+      }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:rabbit_stew"
+        }
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mutton"
+        }
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cooked_mutton"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "porkchop",
+	  "cooked_porkchop",
+	  "cod",
+	  "salmon",
+	  "tropical_fish",
+	  "pufferfish",
+	  "cooked_cod",
+	  "cooked_salmon",
+	  "beef",
+	  "cooked_beef",
+	  "chicken",
+	  "cooked_chicken",
+	  "rotten_flesh",
+	  "spider_eye",
+	  "rabbit",
+	  "cooked_rabbit",
+	  "rabbit_stew",
+	  "mutton",
+	  "cooked_mutton"
+    ]
+  ]
+}
