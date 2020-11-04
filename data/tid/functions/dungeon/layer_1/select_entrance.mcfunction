@@ -4,6 +4,9 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:intro/entrance", posX: 0, po
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
+#Add ZungryWare's head
+replaceitem block 11 58 -37 container.22 minecraft:player_head{SkullOwner:ZungryWare}
+
 #Mark this area as generated
 fill ~ ~128 ~ ~32 ~148 ~37 minecraft:blue_wool
 

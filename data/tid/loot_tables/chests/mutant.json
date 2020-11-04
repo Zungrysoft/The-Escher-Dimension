@@ -119,6 +119,20 @@
 				{
                     "type": "item",
                     "weight": 25,
+                    "name": "minecraft:prismarine_shard",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 25,
                     "name": "minecraft:diamond",
                     "functions": [
                         {
