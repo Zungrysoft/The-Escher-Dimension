@@ -5,7 +5,7 @@ execute if block ~ ~ ~ prismarine_bricks run function tid:dungeon/mutant/rng/pri
 execute if block ~ ~ ~ dirt run function tid:dungeon/mutant/rng/dirt
 
 #Warped Planks
-execute if predicate tid:random_08 if block ~ ~ ~ warped_planks run function tid:dungeon/mutant/rng/warped_planks
+execute if predicate tid:random_04 if block ~ ~ ~ warped_planks run function tid:dungeon/mutant/rng/warped_planks
 
 #Dark Prismarine
 execute if predicate tid:random_25 if block ~ ~ ~ dark_prismarine run setblock ~ ~ ~ prismarine_bricks

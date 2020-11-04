@@ -5,25 +5,87 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 666,
+                    "weight": 20,
                     "name": "minecraft:green_dye"
+                },
+				{
+                    "type": "empty",
+                    "weight": 10
                 }
             ]
         },
 		{
-            "rolls": 3,
-            "bonus_rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
             "entries": [
                 {
                     "type": "item",
                     "weight": 10,
-                    "name": "minecraft:emerald",
+                    "name": "minecraft:warped_roots",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 0,
-                                "max": 2
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:warped_planks",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:twisting_vines",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:fern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:prismarine_bricks",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
                             }
                         }
                     ]
@@ -33,30 +95,23 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 2
             },
-            "bonus_rolls": 1,
+            "bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
             "entries": [
                 {
                     "type": "item",
                     "weight": 25,
-                    "name": "minecraft:scute"
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:creeper_spawn_egg"
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:kelp",
+                    "name": "minecraft:scute",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 4,
-                                "max": 8
+                                "min": 1,
+                                "max": 3
                             }
                         }
                     ]
@@ -64,76 +119,34 @@
 				{
                     "type": "item",
                     "weight": 25,
-                    "name": "minecraft:bamboo",
+                    "name": "minecraft:diamond",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 4,
-                                "max": 8
+                                "min": 1,
+                                "max": 3
                             }
                         }
                     ]
                 },
 				{
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:dark_oak_sapling",
+                    "weight": 8,
+                    "name": "minecraft:golden_carrot",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 4,
-                                "max": 8
+                                "min": 7,
+                                "max": 7
                             }
                         }
                     ]
                 },
 				{
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:jungle_sapling",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:fern",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:vine",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
+                    "weight": 15,
                     "name": "minecraft:dried_kelp",
                     "functions": [
                         {
@@ -147,26 +160,41 @@
                 },
 				{
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:lily_pad",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 25,
+                    "weight": 5,
                     "name": "minecraft:potion",
                     "functions": [
                         {
                             "function": "set_nbt",
                             "tag": "{Potion:\"minecraft:luck\"}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Potion of Levitation\",\"italic\":false}]\'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Arrow of Levitation\",\"italic\":false}]'},CustomPotionEffects:[{Id:25,Duration:75}]}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
                         }
                     ]
                 }

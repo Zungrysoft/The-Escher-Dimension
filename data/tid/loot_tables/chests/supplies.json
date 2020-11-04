@@ -1,42 +1,36 @@
 {
     "pools": [
-        {
-            "rolls": 1,
+		{
+            "rolls": 3,
+			"bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
             "entries": [
                 {
                     "type": "item",
-                    "weight": 666,
-                    "name": "minecraft:green_dye",
+                    "weight": 20,
+                    "name": "minecraft:coal",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 2
+                                "min": 4,
+                                "max": 6
                             }
                         }
                     ]
-                }
-            ]
-        },
-		{
-            "rolls": 6,
-            "bonus_rolls": 2,
-            "entries": [
-                {
+                },
+				{
                     "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:tipped_arrow",
+                    "weight": 20,
+                    "name": "minecraft:oak_planks",
                     "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Arrow of Levitation\",\"italic\":false}]'},CustomPotionEffects:[{Id:25,Duration:75}]}"
-                        },
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 4
+                                "min": 5,
+                                "max": 7
                             }
                         }
                     ]
@@ -44,7 +38,49 @@
 				{
                     "type": "item",
                     "weight": 10,
-                    "name": "minecraft:diamond",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:leather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:lapis_lazuli",
                     "functions": [
                         {
                             "function": "set_count",
@@ -57,42 +93,14 @@
                 },
 				{
                     "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:gold_ingot",
+                    "weight": 5,
+                    "name": "minecraft:arrow",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:redstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:emerald",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 4,
+                                "max": 6
                             }
                         }
                     ]

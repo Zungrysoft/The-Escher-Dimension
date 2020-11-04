@@ -90,6 +90,12 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 #Mystery Potion
 /give @p potion{CustomPotionColor:11382189,display:{Name:'[{"text":"Mystery Potion","italic":false}]',Lore:['[{"text":"Grants a random positive","italic":false,"color":"blue"}]','[{"text":"potion effect","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535} 1
 
+#Potion of Levitation
+give @p potion{CustomPotionColor:10747903,display:{Name:'[{"text":"Potion of Levitation","italic":false}]'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]} 1
+
+#Arrow of Levitation
+give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow of Levitation","italic":false}]'},CustomPotionEffects:[{Id:25,Duration:75}]} 1
+
 #Lucifer's Clogs (Soul Speed Boots)
 /give @p chainmail_boots{display:{Name:'[{"text":"Lucifer\'s Clogs","italic":false,"color":"red","bold":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4} 1
 
