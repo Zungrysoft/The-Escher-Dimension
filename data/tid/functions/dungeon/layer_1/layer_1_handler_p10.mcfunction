@@ -29,6 +29,17 @@ scoreboard players set hellion_portals value 0
 scoreboard players set layer_2_portals value 0
 scoreboard players set stronghold2_secrets value 0
 
+#Determine the global room selections
+scoreboard players set stronghold2_global value 0
+execute if predicate tid:random_50 run scoreboard players add stronghold2_global value 1
+execute if predicate tid:random_50 run scoreboard players add stronghold2_global value 2
+scoreboard players set brick_global value 0
+execute if predicate tid:random_50 run scoreboard players add brick_global value 1
+execute if predicate tid:random_50 run scoreboard players add brick_global value 2
+scoreboard players set canal_global value 0
+execute if predicate tid:random_50 run scoreboard players add canal_global value 1
+execute if predicate tid:random_50 run scoreboard players add canal_global value 2
+
 #Summon the entrance rooms and starting area
 execute positioned 0 55 -7 positioned ~-16 ~-1 ~-38 run function tid:dungeon/layer_1/select_entrance
 execute positioned 0 55 -7 positioned ~-15 ~-1 ~-25 run function tid:dungeon/layer_1/select_yard
