@@ -2,10 +2,10 @@
   "parent": "tid:layer_3/find_loot_mutant_arena",
   "display": {
     "icon": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:blue_wool"
     },
-    "title": "Green Wool",
-    "description": "Craft green wool for the victory monument",
+    "title": "Blue Wool",
+    "description": "Craft blue wool for the victory monument",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:green_wool"
+            "item": "minecraft:blue_wool"
           }
         ]
       }

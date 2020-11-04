@@ -2,10 +2,10 @@
   "parent": "tid:layer_3/find_loot_station",
   "display": {
     "icon": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:brown_wool"
     },
-    "title": "Red Wool",
-    "description": "Craft red wool for the victory monument",
+    "title": "Brown Wool",
+    "description": "Craft brown wool for the victory monument",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_wool"
+            "item": "minecraft:brown_wool"
           }
         ]
       }

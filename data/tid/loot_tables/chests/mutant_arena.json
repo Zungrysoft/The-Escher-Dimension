@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "weight": 666,
-                    "name": "minecraft:green_dye",
+                    "name": "minecraft:blue_dye",
                     "functions": [
                         {
                             "function": "set_count",
