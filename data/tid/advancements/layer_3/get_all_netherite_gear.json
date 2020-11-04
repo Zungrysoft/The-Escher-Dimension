@@ -13,7 +13,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_25"]
+    "loot": ["tid:advancements/get_all_netherite_gear"]
   },
   "criteria": {
     "got_sword": {

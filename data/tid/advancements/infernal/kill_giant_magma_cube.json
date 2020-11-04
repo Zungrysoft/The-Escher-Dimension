@@ -12,7 +12,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_20"]
+    "loot": ["tid:advancements/kill_giant_magma_cube"]
   },
   "criteria": {
     "kill_mob": {

@@ -13,7 +13,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_60"]
+    "loot": ["tid:advancements/kill_all_on_boat"]
   },
   "criteria": {
     "kill_zombie": {

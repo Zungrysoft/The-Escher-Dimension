@@ -12,7 +12,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_10"]
+    "loot": ["tid:advancements/circumnavigate"]
   },
   "criteria": {
         "impossible": {

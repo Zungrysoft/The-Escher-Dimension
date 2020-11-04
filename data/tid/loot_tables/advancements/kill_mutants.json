@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 50
+                            "count": 20
                         }
                     ]
                 }

@@ -12,7 +12,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_20"]
+    "loot": ["tid:advancements/kill_mutants"]
   },
   "criteria": {
     "mutant_zombie": {

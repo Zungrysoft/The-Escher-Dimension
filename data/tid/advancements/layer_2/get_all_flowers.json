@@ -12,7 +12,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_5"]
+    "loot": ["tid:advancements/get_all_flowers"]
   },
   "criteria": {
     "got_dandelion": {

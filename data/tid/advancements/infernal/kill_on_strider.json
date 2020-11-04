@@ -13,7 +13,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/emerald_40"]
+    "loot": ["tid:advancements/kill_on_strider"]
   },
   "criteria": {
     "kill_skeleton": {
