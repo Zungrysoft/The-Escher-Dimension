@@ -1,9 +1,6 @@
 #Grass
 execute if block ~ ~1 ~ air run setblock ~ ~ ~ grass_block
 
-#Prismarine Bricks
-execute if block ~ ~ ~ grass_block if predicate tid:random_03 run setblock ~ ~ ~ prismarine_bricks
-
 #Magma
 execute if block ~ ~ ~ grass_block if predicate tid:random_04 run setblock ~ ~ ~ magma_block
 execute if predicate tid:random_01 run setblock ~ ~ ~ magma_block
