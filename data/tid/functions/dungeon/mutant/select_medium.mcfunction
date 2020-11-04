@@ -1,12 +1,12 @@
 #Pick a structure from this list
-execute if score mutant_global value matches 0 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/medium_1", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score mutant_global value matches 1 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/medium_2", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score mutant_global value matches 2 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/medium_3", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score mutant_global value matches 3 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:mutant/medium_4", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score mutant_global value matches 0 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:mutant/medium_1", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score mutant_global value matches 1 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:mutant/medium_2", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score mutant_global value matches 2 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:mutant/medium_3", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score mutant_global value matches 3 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:mutant/medium_4", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
-setblock ~1 ~1 ~1 minecraft:redstone_block
-say MEDIUM
+setblock ~6 ~1 ~6 minecraft:redstone_block
+
 #Mark this area as generated
 fill ~ ~128 ~ ~12 ~145 ~12 minecraft:blue_wool
 
