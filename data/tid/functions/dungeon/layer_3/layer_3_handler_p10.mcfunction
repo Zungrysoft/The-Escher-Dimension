@@ -30,6 +30,17 @@ scoreboard players set jungle_portals value 0
 scoreboard players set infernal_portals value 0
 scoreboard players set station_secrets value 0
 
+#Determine the global room selections
+scoreboard players set station_global value 0
+execute if predicate tid:random_50 run scoreboard players add station_global value 1
+execute if predicate tid:random_50 run scoreboard players add station_global value 2
+scoreboard players set moon_global value 0
+execute if predicate tid:random_50 run scoreboard players add moon_global value 1
+execute if predicate tid:random_50 run scoreboard players add moon_global value 2
+scoreboard players set mutant_global value 0
+execute if predicate tid:random_50 run scoreboard players add mutant_global value 1
+execute if predicate tid:random_50 run scoreboard players add mutant_global value 2
+
 #Summon the entrance rooms and starting area
 function tid:dungeon/layer_3/generate_intro
 
