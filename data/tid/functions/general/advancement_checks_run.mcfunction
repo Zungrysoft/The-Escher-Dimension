@@ -57,12 +57,6 @@ scoreboard players set @s mine_debris 0
 execute if score @s use_map matches 1.. if entity @s[predicate=tid:in_layer_infernal] run advancement grant @s only tid:infernal/use_map
 scoreboard players set @s use_map 0
 
-#Vegetarian
-execute if entity @s[advancements={tid:layer_2/eat_meat=false},predicate=tid:in_layer_3] run advancement grant @s only tid:layer_3/vegetarian
-
-#Eat all foods (Alternate requirements)
-execute if entity @s[advancements={tid:layer_2/eat_meat=false,tid:layer_2/eat_vegetables=true}] run advancement grant @s only tid:layer_2/eat_all_foods
-
 #Exterminate Silverfish
 execute if score @s kill_silverfish matches 1.. run function tid:misc/advancement_kill_silverfish
 execute if score @s kill_silverfish matches 1.. run function tid:misc/advancement_kill_silverfish

@@ -3,3 +3,4 @@ execute unless score @s failed matches 1.. if predicate tid:random_01 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-2 ~-3 ~-7 if blocks ~ ~128 ~ ~4 ~136 ~6 1033 1 1033 all run function tid:dungeon/station/select_bridge_north
 execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~-2 ~-3 ~-25 if blocks ~ ~128 ~ ~4 ~136 ~24 1033 1 1033 all run function tid:dungeon/station/select_longbridge_north
 execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-2 ~-3 ~-5 if blocks ~ ~128 ~ ~4 ~136 ~4 1033 1 1033 all run function tid:dungeon/station/select_junction_north
+execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~-6 ~-3 ~-13 if blocks ~ ~128 ~ ~12 ~136 ~12 1033 1 1033 all run function tid:dungeon/station/select_platform
