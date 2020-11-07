@@ -11,8 +11,5 @@ execute positioned 22 55 18 positioned ~0 ~-1 ~-8 run function tid:dungeon/moon/
 
 #Mutant Sludge Pits
 execute positioned -22 55 18 positioned ~-16 ~-16 ~-6 run function tid:dungeon/mutant/select_entrance_west
-summon minecraft:area_effect_cloud -64 25 18 {Duration:99999999,CustomName:"\"mutant_north\""}
-summon minecraft:area_effect_cloud -64 25 18 {Duration:99999999,CustomName:"\"mutant_north\""}
-summon minecraft:area_effect_cloud -64 25 18 {Duration:99999999,CustomName:"\"mutant_north\""}
 
 scoreboard players set layer_3_handler_phase value 20
