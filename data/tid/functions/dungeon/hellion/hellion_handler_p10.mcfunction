@@ -15,6 +15,11 @@ function tid:misc/hellion_space_savers
 #Determine the number of rooms to generate
 scoreboard players set hellion_rooms value 350
 
+#Determine the global room selections
+scoreboard players set hellion_global value 0
+execute if predicate tid:random_50 run scoreboard players add hellion_global value 1
+execute if predicate tid:random_50 run scoreboard players add hellion_global value 2
+
 summon minecraft:area_effect_cloud 0 183 -7 {Duration:99999999,CustomName:"\"hellion_north\""}
 summon minecraft:area_effect_cloud 0 183 7 {Duration:99999999,CustomName:"\"hellion_south\""}
 summon minecraft:area_effect_cloud -7 183 0 {Duration:99999999,CustomName:"\"hellion_west\""}

@@ -30,10 +30,10 @@ execute if block ~7 ~1 ~3 air unless block ~7 ~ ~3 air unless block ~6 ~1 ~3 air
 execute if block ~7 ~1 ~3 air unless block ~7 ~ ~3 air unless block ~6 ~1 ~3 air run setblock ~6 ~2 ~3 crimson_door[facing=east,half=upper]
 
 #Merge rooms
-execute if block ~3 ~4 ~-1 quartz_pillar run fill ~1 ~1 ~ ~5 ~3 ~-1 air
-execute if block ~-1 ~4 ~3 quartz_pillar run fill ~ ~1 ~1 ~-1 ~3 ~5 air
-execute if block ~3 ~4 ~7 quartz_pillar run fill ~1 ~1 ~6 ~5 ~3 ~7 air
-execute if block ~7 ~4 ~3 quartz_pillar run fill ~6 ~1 ~1 ~7 ~3 ~5 air
+execute positioned ~3 ~1 ~3 positioned ~ ~ ~4 if block ~ ~3 ~ quartz_pillar run fill ~-2 ~ ~ ~2 ~2 ~-1 air
+execute positioned ~3 ~1 ~3 positioned ~ ~ ~-4 if block ~ ~3 ~ quartz_pillar run fill ~-2 ~ ~ ~2 ~2 ~1 air
+execute positioned ~3 ~1 ~3 positioned ~4 ~ ~ if block ~ ~3 ~ quartz_pillar run fill ~ ~ ~-2 ~-1 ~2 ~2 air
+execute positioned ~3 ~1 ~3 positioned ~-4 ~ ~ if block ~ ~3 ~ quartz_pillar run fill ~ ~ ~-2 ~1 ~2 ~2 air
 
 #Pillars
 clone ~ ~-129 ~ ~6 ~-173 ~6 ~ ~-45 ~ masked
