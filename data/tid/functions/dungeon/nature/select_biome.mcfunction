@@ -36,7 +36,7 @@ execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~62 ~8
 summon minecraft:area_effect_cloud ~62 ~8 ~51 {Duration:99999999,CustomName:"\"nature_east\""}
 
 #Select biome for generation
-summon minecraft:area_effect_cloud ~6 ~8 ~6 {Duration:99999999,CustomName:"\"biome_desert_handler\""}
+execute positioned ~6 ~8 ~6 run function tid:dungeon/nature/biome/start
 
 #Mark this area as generated
 fill ~1 ~128 ~1 ~31 ~154 ~31 minecraft:blue_wool replace minecraft:orange_wool
