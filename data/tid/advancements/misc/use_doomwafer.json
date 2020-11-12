@@ -1,0 +1,21 @@
+{
+  "rewards": {
+    "function": "tid:gameplay/use_doomwafer"
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie",
+		  "nbt": "{doomwafer:1}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat_food"
+    ]
+  ]
+}

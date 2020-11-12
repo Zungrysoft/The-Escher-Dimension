@@ -150,6 +150,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Superchilled Snowball
 /give @p snowball{bridge_snowball:1b,Enchantments:[{}],display:{Name:'[{"text":"Superchilled Snowball","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Leaves a trail of snow","italic":false,"color":"aqua"}]','[{"text":"behind it when thrown","italic":false,"color":"aqua"}]']}} 3
 
+#Dümwafer
+/give @p cookie{display:{Name:'[{"text":"Dümwafer","italic":false,"color":"dark_red","bold":false}]',Lore:['[{"text":"Kills all nearby monsters when eaten","italic":false,"color":"aqua"}]']},doomwafer:1,Enchantments:[{}]}
+
 {"text":"Balance Staff","italic":false}
 
 Name:'[{"text":"Balance Staff","italic":false}]'
