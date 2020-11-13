@@ -11,5 +11,5 @@
   "has_ceiling": false,
   "ambient_light": 0,
   "logical_height": 256,
-  "infiniburn": "minecraft:infiniburn_overworld"
+  "infiniburn": "tid:infiniburn"
 }
