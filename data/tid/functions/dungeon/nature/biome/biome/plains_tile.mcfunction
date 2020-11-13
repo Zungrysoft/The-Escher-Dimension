@@ -11,5 +11,5 @@ fill ~ ~-4 ~ ~ ~-22 ~ stone replace air
 
 #Maybe place grass
 execute if predicate tid:random_50 if block ~ ~ ~ grass_block run setblock ~ ~1 ~ grass
-execute if predicate tid:random_10 if block ~ ~ ~ grass_block run setblock ~ ~1 ~ tall_grass[half=lower]
+execute if predicate tid:random_05 if block ~ ~ ~ grass_block run setblock ~ ~1 ~ tall_grass[half=lower]
 execute if block ~ ~1 ~ tall_grass run setblock ~ ~2 ~ tall_grass[half=upper]

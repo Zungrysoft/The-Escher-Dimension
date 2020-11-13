@@ -561,24 +561,6 @@
                     "weight": 5,
                     "name": "minecraft:rabbit_foot"
                 },
-				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionColor:16752312,display:{Name:'[{\"text\":\"Arrow of Levitation\",\"italic\":false}]'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:0}]}"
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 3,
