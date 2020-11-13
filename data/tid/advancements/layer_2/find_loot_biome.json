@@ -1,0 +1,27 @@
+{
+  "parent": "tid:layer_2/find_loot_nature",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": "Dimensional Anomaly",
+    "description": "Find a chest in a biome section",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/nature_biome"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_1"
+    ]
+  ]
+}

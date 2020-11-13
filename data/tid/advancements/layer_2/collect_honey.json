@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/kill_bee",
+  "parent": "tid:layer_2/find_loot_honey",
   "display": {
     "icon": {
       "item": "minecraft:honeycomb"

@@ -3,6 +3,11 @@
         {
             "rolls": 1,
             "entries": [
+				{
+                    "type": "item",
+                    "weight": 500,
+                    "name": "minecraft:lime_dye"
+                },
                 {
                     "type": "item",
                     "weight": 50,

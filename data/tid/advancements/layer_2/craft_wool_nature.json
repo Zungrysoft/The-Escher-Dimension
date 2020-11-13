@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/find_loot_nature",
+  "parent": "tid:layer_2/find_loot_biome",
   "display": {
     "icon": {
       "item": "minecraft:lime_wool"

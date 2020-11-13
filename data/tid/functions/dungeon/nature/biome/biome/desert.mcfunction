@@ -1,5 +1,4 @@
 #Generate terrain
-scoreboard players set roughness value 400
-scoreboard players set falloff value 50
-scoreboard players set bias value 0
+scoreboard players set roughness value 8000
+scoreboard players set falloff value 55
 function tid:dungeon/nature/biome/terrain
