@@ -10,13 +10,9 @@ data modify block 2000 50 2000 CookTimeTotal set value 700
 data modify block 2000 50 2064 CookTimeTotal set value 700
 data modify block 2064 50 2000 CookTimeTotal set value 700
 data modify block 2064 50 2064 CookTimeTotal set value 700
-summon minecraft:area_effect_cloud 2000 50 2000 {Duration:99999999,Tags:["cursor"]}
 
 #Run the generator
 function tid:dungeon/nature/biome/terrain_generate
-
-#Delete the cursor
-kill @e[type=area_effect_cloud,tag=cursor]
 
 #Write the terrain
 scoreboard players set x value 0
