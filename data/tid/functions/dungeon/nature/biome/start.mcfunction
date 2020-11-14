@@ -4,7 +4,7 @@ execute if predicate tid:random_50 run scoreboard players add biome value 1
 execute if predicate tid:random_50 run scoreboard players add biome value 2
 execute if predicate tid:random_50 run scoreboard players add biome value 4
 execute if predicate tid:random_50 run scoreboard players add biome value 8
-scoreboard players set biome value 5
+scoreboard players set biome value 12
 execute if score biome value matches 0 run function tid:dungeon/nature/biome/biome/desert
 execute if score biome value matches 1 run function tid:dungeon/nature/biome/biome/plains
 execute if score biome value matches 2 run function tid:dungeon/nature/biome/biome/forest
@@ -16,8 +16,8 @@ execute if score biome value matches 7 run function tid:dungeon/nature/biome/bio
 execute if score biome value matches 8 run function tid:dungeon/nature/biome/biome/crimson
 execute if score biome value matches 9 run function tid:dungeon/nature/biome/biome/diorite
 execute if score biome value matches 10 run function tid:dungeon/nature/biome/biome/rift
-execute if score biome value matches 11 run function tid:dungeon/nature/biome/biome/
-execute if score biome value matches 12 run function tid:dungeon/nature/biome/biome/
+execute if score biome value matches 11 run function tid:dungeon/nature/biome/biome/fields
+execute if score biome value matches 12 run function tid:dungeon/nature/biome/biome/red_desert
 execute if score biome value matches 13 run function tid:dungeon/nature/biome/biome/
 execute if score biome value matches 14 run function tid:dungeon/nature/biome/biome/
 execute if score biome value matches 15 run function tid:dungeon/nature/biome/biome/
