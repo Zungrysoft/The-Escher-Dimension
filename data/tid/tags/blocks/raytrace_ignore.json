@@ -43,7 +43,7 @@
 	"minecraft:water",
 	"minecraft:lava",
 	"#minecraft:buttons",
-	"#minecraft:corals",
+	"#tid:corals",
 	"#minecraft:wall_corals",
 	"#minecraft:banners",
 	"#minecraft:carpets",

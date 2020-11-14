@@ -38,6 +38,7 @@
 	"minecraft:carrots",
 	"minecraft:potatoes",
 	"minecraft:beetroots",
-	"minecraft:snow"
+	"minecraft:snow",
+	"#tid:corals"
   ]
 }

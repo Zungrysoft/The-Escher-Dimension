@@ -4,4 +4,4 @@ scoreboard players set falloff value 20
 function tid:dungeon/nature/biome/terrain
 
 #Lava lake
-fill 2000 50 2000 2064 50 2064 lava replace clay
+fill 2006 50 2006 2057 50 2057 lava replace clay

@@ -4,4 +4,4 @@ scoreboard players set falloff value 40
 function tid:dungeon/nature/biome/terrain
 
 #Replace top layer of water with ice
-fill 2000 56 2000 2064 56 2064 ice replace water
+fill 2006 56 2006 2057 56 2057 ice replace water

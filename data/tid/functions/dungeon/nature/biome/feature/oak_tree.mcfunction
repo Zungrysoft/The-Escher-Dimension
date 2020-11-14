@@ -1,6 +1,9 @@
 #Place inital logs
 fill ~ ~ ~ ~ ~3 ~ oak_log
 
+#Remove grass underneath
+setblock ~ ~-1 ~ dirt
+
 #Decide on the height
 scoreboard players set choice value 0
 execute if predicate tid:random_50 run scoreboard players add choice value 1
