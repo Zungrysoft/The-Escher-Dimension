@@ -18,9 +18,9 @@ execute if score biome value matches 9 run function tid:dungeon/nature/biome/bio
 execute if score biome value matches 10 run function tid:dungeon/nature/biome/biome/rift
 execute if score biome value matches 11 run function tid:dungeon/nature/biome/biome/fields
 execute if score biome value matches 12 run function tid:dungeon/nature/biome/biome/red_desert
-execute if score biome value matches 13 run function tid:dungeon/nature/biome/biome/
-execute if score biome value matches 14 run function tid:dungeon/nature/biome/biome/
-execute if score biome value matches 15 run function tid:dungeon/nature/biome/biome/
+execute if score biome value matches 13 run function tid:dungeon/nature/biome/biome/tall_forest
+execute if score biome value matches 14 run function tid:dungeon/nature/biome/biome/taiga
+execute if score biome value matches 15 run function tid:dungeon/nature/biome/biome/mushroom
 
 #Place the pedestal
 summon minecraft:area_effect_cloud 2032 57 2032 {Duration:99999999,Tags:["scatter"]}

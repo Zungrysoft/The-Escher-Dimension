@@ -13,6 +13,6 @@ execute if score biome value matches 9 run function tid:dungeon/nature/biome/bio
 execute if score biome value matches 10 run function tid:dungeon/nature/biome/biome/rift_tile
 execute if score biome value matches 11 run function tid:dungeon/nature/biome/biome/fields_tile
 execute if score biome value matches 12 run function tid:dungeon/nature/biome/biome/red_desert_tile
-execute if score biome value matches 13 run function tid:dungeon/nature/biome/biome/_tile
-execute if score biome value matches 14 run function tid:dungeon/nature/biome/biome/_tile
-execute if score biome value matches 15 run function tid:dungeon/nature/biome/biome/_tile
+execute if score biome value matches 13 run function tid:dungeon/nature/biome/biome/tall_forest_tile
+execute if score biome value matches 14 run function tid:dungeon/nature/biome/biome/taiga_tile
+execute if score biome value matches 15 run function tid:dungeon/nature/biome/biome/mushroom_tile
