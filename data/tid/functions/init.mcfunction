@@ -74,6 +74,7 @@ scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add mine_debris minecraft.mined:minecraft.ancient_debris
 scoreboard objectives add use_map minecraft.used:minecraft.map
 scoreboard objectives add kill_silverfish minecraft.killed:minecraft.silverfish
+scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm
 team add players
 team add glow
 team modify glow color yellow
