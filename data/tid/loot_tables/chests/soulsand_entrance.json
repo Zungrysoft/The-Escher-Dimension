@@ -18,6 +18,16 @@
             ]
         },
 		{
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:crossbow"
+                }
+            ]
+        },
+		{
             "rolls": 10,
             "entries": [
                 {

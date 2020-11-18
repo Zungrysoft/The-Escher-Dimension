@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_1/victory_monument",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": "The Impossible Advancement",
+    "description": "This advancement is not obtainable in any way. I'm really sorry about that.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+      "impossible": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}

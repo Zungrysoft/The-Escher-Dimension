@@ -11,6 +11,11 @@ fill ~1 ~128 ~1 ~11 ~133 ~7 minecraft:blue_wool replace minecraft:orange_wool
 fill ~ 255 ~ ~12 255 ~8 minecraft:oak_planks replace minecraft:black_concrete
 fill ~ 255 ~4 ~12 255 ~4 minecraft:stone replace minecraft:oak_planks
 
+#Add the flowers in
+scoreboard players set xmax value 13
+scoreboard players set zmax value 9
+execute positioned ~ ~2 ~ run function tid:dungeon/nature/rng/flower_run_rng
+
 #Count the room in the total
 scoreboard players remove nature_rooms value 1
 
