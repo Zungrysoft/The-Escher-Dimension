@@ -19,15 +19,18 @@ execute if block ~ ~1 ~ podzol run setblock ~ ~2 ~ lilac[half=lower]
 execute if block ~ ~1 ~ podzol run setblock ~ ~3 ~ lilac[half=upper]
 
 #Foliage
-execute if predicate tid:random_20 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ grass
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ allium
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ blue_orchid
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ lily_of_the_valley
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ orange_tulip
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ pink_tulip
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ red_tulip
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ poppy
-execute if predicate tid:random_03 if block ~ ~1 ~ grass_block run setblock ~ ~2 ~ cornflower
+execute if predicate tid:random_20 if block ~ ~2 ~ air run setblock ~ ~2 ~ grass
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ allium
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ blue_orchid
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ lily_of_the_valley
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ orange_tulip
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ pink_tulip
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ red_tulip
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ poppy
+execute if predicate tid:random_03 if block ~ ~2 ~ air run setblock ~ ~2 ~ cornflower
 
 #Mini Trees
 execute if predicate tid:random_04 if block ~ ~1 ~ grass_block positioned ~ ~2 ~ if blocks ~ ~2 ~ ~ ~4 ~ 1033 1 1001 all run function tid:dungeon/nature/biome/feature/mini_tree
+
+#Canopy Trees
+execute if predicate tid:random_005 if block ~ ~1 ~ grass_block if block ~-1 ~1 ~ grass_block if block ~ ~1 ~-1 grass_block if block ~-1 ~1 ~-1 grass_block positioned ~ ~2 ~ if blocks ~-2 ~2 ~-2 ~ ~4 ~ 1033 1 1001 all run function tid:dungeon/nature/biome/feature/canopy_tree
