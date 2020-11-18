@@ -326,6 +326,16 @@
           "item": "minecraft:honey_bottle"
         }
       }
+    },
+	"cake": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:cake"
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -445,6 +455,9 @@
     ],
     [
       "honey_bottle"
+    ],
+	[
+      "cake"
     ]
   ]
 }

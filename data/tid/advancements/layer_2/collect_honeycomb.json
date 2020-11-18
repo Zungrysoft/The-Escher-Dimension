@@ -5,7 +5,7 @@
       "item": "minecraft:honeycomb"
     },
     "title": "Guerilla Beekeeping",
-    "description": "Collect thirty honeycomb §d[Reward: 10 Emeralds]",
+    "description": "Collect twenty honeycomb §d[Reward: 10 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -22,7 +22,7 @@
           {
             "item": "minecraft:honeycomb",
 			"count": {
-               "min": 16
+               "min": 20
             }
           }
         ]
