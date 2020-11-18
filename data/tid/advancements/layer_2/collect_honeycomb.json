@@ -1,10 +1,10 @@
 {
-  "parent": "tid:layer_2/find_loot_honey",
+  "parent": "tid:layer_2/kill_bee",
   "display": {
     "icon": {
       "item": "minecraft:honeycomb"
     },
-    "title": "Guerilla Beekeeping",
+    "title": "I'll Bee Taking This!",
     "description": "Collect twenty honeycomb §d[Reward: 10 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
