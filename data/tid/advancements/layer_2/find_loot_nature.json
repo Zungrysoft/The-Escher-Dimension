@@ -17,11 +17,18 @@
       "conditions": {
         "loot_table": "tid:chests/nature"
       }
+    },
+	"loot_2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/nature_honey"
+      }
     }
   },
   "requirements": [
     [
-      "loot_1"
+      "loot_1",
+	  "loot_2"
     ]
   ]
 }
