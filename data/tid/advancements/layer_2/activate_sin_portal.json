@@ -1,12 +1,12 @@
 {
-  "parent": "tid:layer_3/find_station",
+  "parent": "tid:layer_2/find_loot_nature",
   "display": {
     "icon": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:gilded_blackstone"
     },
-    "title": "Enigmatic Portal",
-    "description": "Find a prismarine portal",
-    "frame": "task",
+    "title": "Not A Hope In Hell",
+    "description": "Find and activate a blackstone portal",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

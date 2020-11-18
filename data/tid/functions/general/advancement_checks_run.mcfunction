@@ -11,7 +11,7 @@ execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:0},dist
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:0},tag=open,distance=0..5] run advancement grant @s only tid:layer_1/activate_hellion_portal
 
 #Find a Sin City Portal
-execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:8},distance=0..5] run advancement grant @s only tid:layer_2/find_sin_portal
+#execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:8},distance=0..5] run advancement grant @s only tid:layer_2/find_sin_portal
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:8},tag=open,distance=0..5] run advancement grant @s only tid:layer_2/activate_sin_portal
 
 #Find a Jungle Portal

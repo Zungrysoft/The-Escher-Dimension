@@ -1,4 +1,4 @@
-execute if block ~1 ~1 ~1 #blackstone_blocks if block ~1 ~1 ~2 #blackstone_blocks if block ~2 ~1 ~1 #blackstone_blocks if block ~2 ~1 ~2 #blackstone_blocks if block ~1 ~2 ~1 #blackstone_blocks if block ~1 ~2 ~2 #blackstone_blocks if block ~2 ~2 ~1 #blackstone_blocks if block ~2 ~2 ~2 #blackstone_blocks run tag @s add open
+execute if block ~1 ~1 ~1 #tid:blackstone_blocks if block ~1 ~1 ~2 #tid:blackstone_blocks if block ~2 ~1 ~1 #tid:blackstone_blocks if block ~2 ~1 ~2 #tid:blackstone_blocks if block ~1 ~2 ~1 #tid:blackstone_blocks if block ~1 ~2 ~2 #tid:blackstone_blocks if block ~2 ~2 ~1 #tid:blackstone_blocks if block ~2 ~2 ~2 #tid:blackstone_blocks run tag @s add open
 
 execute positioned ~ ~ ~1 if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1: '{"text":"Place eight"}', Text2: '{"text":"blackstone blocks"}', Text3: '{"text":"here to open"}', Text4: '{"text":"this portal."}'}
 execute positioned ~ ~ ~2 if block ~ ~ ~ air run setblock ~ ~ ~ oak_wall_sign[facing=west]{Text1: '{"text":"Place eight"}', Text2: '{"text":"blackstone blocks"}', Text3: '{"text":"here to open"}', Text4: '{"text":"this portal."}'}

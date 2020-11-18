@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_3/find_station",
+  "parent": "tid:layer_2/find_loot_neon",
   "display": {
     "icon": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:end_stone"
     },
-    "title": "Treacherous Waters",
-    "description": "Find and activate a prismarine portal",
+    "title": "Forge Onward",
+    "description": "Activate the end stone portal",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

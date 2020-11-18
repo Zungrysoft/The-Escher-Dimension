@@ -27,6 +27,7 @@ scoreboard players set neon_rooms value 30
 
 #Set some other starting values
 scoreboard players set sand1_x_spot_build value 0
+scoreboard players set sin_portals value 0
 
 #Summon the entrance rooms and starting area
 function tid:dungeon/layer_2/generate_intro

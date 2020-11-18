@@ -38,4 +38,4 @@ execute if score temp value matches 12 in tid:layer_finale positioned 0 55 0 run
 execute if score temp value matches 13 in tid:layer_1 positioned 0 55 0 run function tid:general/teleporter_teleport_run
 
 #Teleporter command for reference
-#/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"teleporter\"",Color:6b}
+#/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"teleporter\"",Color:8b}
