@@ -19,10 +19,10 @@ fill 1033 1 1001 1064 27 1032 minecraft:air
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
-scoreboard players set soulsand_rooms value 250
+scoreboard players set soulsand_rooms value 150
 scoreboard players set sand1_rooms value 10
 scoreboard players set sand2_rooms value 100
-scoreboard players set nature_rooms value 250
+scoreboard players set nature_rooms value 150
 scoreboard players set neon_rooms value 30
 
 #Set some other starting values
