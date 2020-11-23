@@ -1,13 +1,13 @@
 #Pick a random trade
-function tid:custom_mobs/villager_add_trade
+function tid:gameplay/ai_dealer_add_trade
 scoreboard players operation temp1 value = selection value
-function tid:custom_mobs/villager_add_trade
+function tid:gameplay/ai_dealer_add_trade
 scoreboard players operation temp2 value = selection value
-function tid:custom_mobs/villager_add_trade
+function tid:gameplay/ai_dealer_add_trade
 scoreboard players operation temp3 value = selection value
-function tid:custom_mobs/villager_add_trade
+function tid:gameplay/ai_dealer_add_trade
 scoreboard players operation temp4 value = selection value
-function tid:custom_mobs/villager_add_trade
+function tid:gameplay/ai_dealer_add_trade
 scoreboard players operation temp5 value = selection value
 
 #Ensure no duplicate trades were picked. If so, start over.
@@ -24,7 +24,7 @@ execute if score temp2 value = temp4 value run scoreboard players set reset valu
 execute if score temp3 value = temp4 value run scoreboard players set reset value 1
 execute if score reset value matches 1 run tag @s remove new
 execute if score reset value matches 1 run tp @s 0 -100 0
-execute if score reset value matches 1 run function tid:custom_mobs/villager
+execute if score reset value matches 1 run function tid:custom_mobs/dealer
 
 #Add in preset trades
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:12},buyB:{id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}},sell:{id:leather_helmet,Count:1,tag:{display:{Name:'[{"text":"Oracle\'s Helm","italic":false,"color":"gold"}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]'],color:16754688},HideFlags:64b,glow_stick:1b,Enchantments:[{}]}}}

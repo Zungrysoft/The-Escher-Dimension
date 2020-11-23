@@ -88,5 +88,8 @@ function tid:general/advancement_checks
 #Start the potion carrier loop
 function tid:gameplay/ai_potion_carrier
 
+#Start the dealer loop
+function tid:gameplay/ai_dealer_all
+
 
 

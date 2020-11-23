@@ -23,7 +23,7 @@ scoreboard players set soulsand_rooms value 150
 scoreboard players set sand1_rooms value 10
 scoreboard players set sand2_rooms value 100
 scoreboard players set nature_rooms value 150
-scoreboard players set neon_rooms value 30
+scoreboard players set neon_rooms value 18
 
 #Set some other starting values
 scoreboard players set sand1_x_spot_build value 0

@@ -153,6 +153,12 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Dümwafer
 /give @p cookie{display:{Name:'[{"text":"Dümwafer","italic":false,"color":"dark_red","bold":false}]',Lore:['[{"text":"Kills all nearby monsters when eaten","italic":false,"color":"aqua"}]']},doomwafer:1,Enchantments:[{}]}
 
+#Shredder Contract
+/give @p paper{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}
+
+#Shredder Arrow
+/give @p tipped_arrow{CustomPotionColor:16711680,display:{Name:'[{"text":"Shredder Arrow","italic":false,"color":"white"}]',Lore:['[{"text":"Deals triple damage","italic":false,"color":"aqua"}]','[{"text":"Only travels a short distance","italic":false,"color":"red"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}
+
 {"text":"Balance Staff","italic":false}
 
 Name:'[{"text":"Balance Staff","italic":false}]'

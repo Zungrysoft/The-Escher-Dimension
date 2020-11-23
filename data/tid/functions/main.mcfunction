@@ -92,6 +92,7 @@ execute as @e[type=snowball,nbt={Item:{tag:{bridge_snowball:1b}}}] at @s run fun
 execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:gameplay/bridge_snowball_place
 scoreboard players set @a damage_dealt 0
 scoreboard players set @a carrot_stick_use 0
+execute as @e[type=arrow,nbt={CustomPotionEffects:[{}]}] run data modify entity @s pickup set value 2
 
 #Handles custom monster effects
 #Fireflare

@@ -4,7 +4,7 @@ execute if predicate tid:random_50 run scoreboard players add temp value 1
 execute if predicate tid:random_50 run scoreboard players add temp value 2
 execute if predicate tid:random_50 run scoreboard players add temp value 4
 execute if predicate tid:random_50 run scoreboard players add temp value 8
-#execute if predicate tid:random_50 run scoreboard players add temp value 16
+execute if predicate tid:random_50 run scoreboard players add temp value 16
 
 #Add the trade
 #Food
@@ -68,12 +68,12 @@ execute if score temp value matches 14 run data modify entity @s Offers.Recipes 
 execute if score temp value matches 14 run scoreboard players set selection value 14
 
 #Superchilled Snowballs
-execute if score temp value matches 15.. run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:10},sell:{id:snowball,Count:3,tag:{bridge_snowball:1b,Enchantments:[{}],display:{Name:'[{"text":"Superchilled Snowball","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Leaves a trail of snow","italic":false,"color":"aqua"}]','[{"text":"behind it when thrown","italic":false,"color":"aqua"}]']}}}}
-execute if score temp value matches 15.. run scoreboard players set selection value 15
+execute if score temp value matches 15 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:10},sell:{id:snowball,Count:3,tag:{bridge_snowball:1b,Enchantments:[{}],display:{Name:'[{"text":"Superchilled Snowball","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Leaves a trail of snow","italic":false,"color":"aqua"}]','[{"text":"behind it when thrown","italic":false,"color":"aqua"}]']}}}}
+execute if score temp value matches 15 run scoreboard players set selection value 15
 
-#Item Name
-#execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
-#execute if score temp value matches 666 run scoreboard players set selection value 666
+#Manufacturing Contract: Shredder Arrows
+execute if score temp value matches 16.. run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:paper,Count:1,tag:{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}}}
+execute if score temp value matches 16.. run scoreboard players set selection value 16
 
 #Item Name
 #execute if score temp value matches 666 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:stone,Count:1,tag:{}}}
