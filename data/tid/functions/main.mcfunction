@@ -94,6 +94,7 @@ scoreboard players set @a damage_dealt 0
 scoreboard players set @a carrot_stick_use 0
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}]}] run data modify entity @s pickup set value 0
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] run function tid:gameplay/shredder_arrow
+execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] run function tid:gameplay/sniper_arrow
 
 #Handles custom monster effects
 #Fireflare

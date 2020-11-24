@@ -157,7 +157,10 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p paper{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}
 
 #Shredder Arrow
-/give @p tipped_arrow{CustomPotionColor:16711680,display:{Name:'[{"text":"Shredder Arrow","italic":false,"color":"white"}]',Lore:['[{"text":"Deals triple damage","italic":false,"color":"aqua"}]','[{"text":"Only travels a short distance","italic":false,"color":"red"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}
+/give @p tipped_arrow{CustomPotionColor:16711680,display:{Name:'[{"text":"Shredder Arrow","italic":false,"color":"white"}]',Lore:['[{"text":"Deals triple damage","italic":false,"color":"aqua"}]','[{"text":"Damage decreases with range","italic":false,"color":"red"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}
+
+#Sniper Arrow
+/give @p tipped_arrow{CustomPotionColor:10542775,display:{Name:'[{"text":"Sniper Arrow","italic":false,"color":"white"}]',Lore:['[{"text":"Damage increases with range","italic":false,"color":"aqua"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:2}],HideFlags:65535,sniper_arrow:1}
 
 #Fireworks
 #3 Charges
