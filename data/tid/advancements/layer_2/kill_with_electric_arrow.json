@@ -1,0 +1,23 @@
+{
+  "parent": "tid:layer_2/find_sand2",
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+	  "nbt": "{CustomPotionColor:16775214}"
+    },
+    "title": "The Power You're Supplying",
+    "description": "Shock six monsters with one Electric Arrow §d[Reward: 20 Gold Ingots]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/kill_with_electric_arrow"]
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
