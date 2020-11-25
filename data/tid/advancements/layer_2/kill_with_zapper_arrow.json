@@ -13,7 +13,7 @@
     "hidden": false
   },
   "rewards": {
-    "loot": ["tid:advancements/kill_with_electric_arrow"]
+    "loot": ["tid:advancements/kill_with_zapper_arrow"]
   },
   "criteria": {
         "impossible": {

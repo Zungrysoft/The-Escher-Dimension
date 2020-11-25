@@ -1,5 +1,8 @@
 #Pick a structure from this list
-setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score jungle_global value matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score jungle_global value matches 1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score jungle_global value matches 2 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score jungle_global value matches 3 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:jungle/towerbase_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block

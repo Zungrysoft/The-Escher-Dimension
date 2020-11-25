@@ -6,14 +6,10 @@ fill 1000 129 1000 1033 156 1033 minecraft:bedrock
 fill 1001 129 1001 1033 155 1033 minecraft:orange_wool
 fill 1000 1 0 1032 28 1032 minecraft:air
 
-#Spread the space savers in the (-, -) quadrant
-#function tid:misc/jungle_space_savers
-#function tid:misc/jungle_space_savers
-#function tid:misc/jungle_space_savers
-#function tid:misc/jungle_space_savers
-
-#Place the center-seeker
-#summon minecraft:area_effect_cloud 0 255 0 {Duration:99999999,CustomName:"\"center\""}
+#Determine the global room selection
+scoreboard players set jungle_global value 0
+execute if predicate tid:random_50 run scoreboard players add jungle_global value 1
+execute if predicate tid:random_50 run scoreboard players add jungle_global value 2
 
 #Determine the number of rooms to generate
 scoreboard players set jungle_rooms value 350
