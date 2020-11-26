@@ -1,2 +1,0 @@
-function tid:dungeon/sin/plat_check_tries
-execute unless score @s failed matches 1.. if predicate tid:random_50 if blocks ~-7 ~-129 ~1 ~7 ~-125 ~15 1 129 1 all if blocks ~-7 ~-2 ~1 ~7 ~-2 ~15 1 155 1 all run function tid:dungeon/sin/plat_select_small_south

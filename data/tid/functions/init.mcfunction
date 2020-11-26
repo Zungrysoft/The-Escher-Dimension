@@ -91,5 +91,5 @@ function tid:gameplay/ai_potion_carrier
 #Start the dealer loop
 function tid:gameplay/ai_dealer_all
 
-
-
+#Start the half-second loop
+function tid:half_second

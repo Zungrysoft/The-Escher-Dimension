@@ -23,17 +23,17 @@ execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run s
 execute in tid:layer_hellion positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_hellion] in tid:layer_hellion if block 0 182 0 bedrock run function tid:dungeon/hellion/hellion_handler
 
-#Babirusan Port
-#execute in tid:layer_sin positioned 0 182 0 unless block ~ ~ ~ bedrock run scoreboard players reset sin_handler_phase
-#execute in tid:layer_sin positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
-#execute if entity @a[predicate=tid:in_layer_sin] in tid:layer_sin if block 0 192 0 bedrock run function tid:dungeon/sin/sin_handler
+#Babirusan Undergrounds
+execute in tid:layer_sin positioned 0 182 0 unless block ~ ~ ~ bedrock run scoreboard players reset sin_handler_phase
+execute in tid:layer_sin positioned 0 182 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+execute if entity @a[predicate=tid:in_layer_sin] in tid:layer_sin if block 0 182 0 bedrock run function tid:dungeon/sin/sin_handler
 
 #Reliquary Outpost
 execute in tid:layer_jungle positioned 0 192 0 unless block ~ ~ ~ bedrock run scoreboard players reset jungle_handler_phase
 execute in tid:layer_jungle positioned 0 192 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_jungle] in tid:layer_jungle if block 0 192 0 bedrock run function tid:dungeon/jungle/jungle_handler
 
-#Infernal
+#Infernal Industries
 execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run scoreboard players reset infernal_handler_phase
 execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
 execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if block 0 54 0 bedrock run function tid:dungeon/infernal/infernal_handler

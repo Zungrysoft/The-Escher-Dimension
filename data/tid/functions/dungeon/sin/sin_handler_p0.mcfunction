@@ -1,4 +1,9 @@
-#Generate the base land for everything else to generate on.
-#say MASTER PHASE 0
+#Message
+say Waiting for chunks to load...
 
-execute unless entity @e[name="sin_land_north"] unless entity @e[name="sin_land_south"] unless entity @e[name="sin_land_east"] unless entity @e[name="sin_land_west"] unless entity @e[name="sin_pool_north"] unless entity @e[name="sin_pool_south"] unless entity @e[name="sin_pool_east"] unless entity @e[name="sin_pool_west"] run scoreboard players set @s phase 1
+#Load the chunks necessary for generation
+forceload add -100 -100 100 100
+forceload add 1000 1000 1064 1064
+
+#Now that chunks are loaded, move to next phase
+scoreboard players set sin_handler_phase value 10

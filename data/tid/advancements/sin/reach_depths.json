@@ -1,0 +1,35 @@
+{
+  "parent": "tid:sin/find_sin_chambers",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": "Blinding Heat",
+    "description": "Reach the lowest areas of The Fire Chambers",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "position": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_sin",
+		  "position": {
+            "y": {
+              "min": 128,
+              "max": 138
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "position"
+    ]
+  ]
+}

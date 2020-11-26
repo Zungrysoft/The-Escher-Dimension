@@ -38,7 +38,7 @@
           "height": 65
         },
 		{
-          "block": "minecraft:lava",
+          "block": "minecraft:magma_block",
           "height": 1
         }
       ],
