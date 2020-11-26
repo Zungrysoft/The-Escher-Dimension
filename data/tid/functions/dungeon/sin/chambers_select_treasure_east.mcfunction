@@ -7,8 +7,14 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~-128 ~ ~16 ~-121 ~14 minecraft:blue_wool
 
+#Randomize blocks in the room
+scoreboard players set xmax value 17
+scoreboard players set ymax value 8
+scoreboard players set zmax value 15
+function tid:dungeon/sin/rng/run_rng
+
 #Count the room in the total
-scoreboard players add @e[name="sin_chambers_roomcount",type=area_effect_cloud,limit=1] tries 1
+scoreboard players remove sin_chambers_rooms value 1
 
 #We're done here
 kill @s

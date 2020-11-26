@@ -8,6 +8,10 @@ execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_north",sort=ra
 execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_east",sort=random] at @s run function tid:dungeon/sin/chambers_check_east
 execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_south",sort=random] at @s run function tid:dungeon/sin/chambers_check_south
 execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_west",sort=random] at @s run function tid:dungeon/sin/chambers_check_west
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_down",sort=random] at @s run function tid:dungeon/sin/chambers_check_down
+
+#Run lava movers in sin_chambers
+execute as @e[type=minecraft:area_effect_cloud,name="lava_mover"] at @s run function tid:misc/lava_move
 
 #Once all of the rooms are done generating, move to the next phase
-execute unless entity @e[type=area_effect_cloud,name="sin_north"] unless entity @e[type=area_effect_cloud,name="sin_south"] unless entity @e[type=area_effect_cloud,name="sin_east"] unless entity @e[type=area_effect_cloud,name="sin_west"] unless entity @e[type=area_effect_cloud,name="sin_chambers_north"] unless entity @e[type=area_effect_cloud,name="sin_chambers_south"] unless entity @e[type=area_effect_cloud,name="sin_chambers_east"] unless entity @e[type=area_effect_cloud,name="sin_chambers_west"] run scoreboard players set sin_handler_phase value 30
+execute unless entity @e[type=area_effect_cloud,name="sin_north"] unless entity @e[type=area_effect_cloud,name="sin_south"] unless entity @e[type=area_effect_cloud,name="sin_east"] unless entity @e[type=area_effect_cloud,name="sin_west"] unless entity @e[type=area_effect_cloud,name="sin_chambers_north"] unless entity @e[type=area_effect_cloud,name="sin_chambers_south"] unless entity @e[type=area_effect_cloud,name="sin_chambers_east"] unless entity @e[type=area_effect_cloud,name="sin_chambers_west"] unless entity @e[type=area_effect_cloud,name="sin_chambers_down"] run scoreboard players set sin_handler_phase value 30

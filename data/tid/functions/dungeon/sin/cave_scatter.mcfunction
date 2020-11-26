@@ -2,7 +2,7 @@
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["new"]}
 
 #Set the number to generate
-scoreboard players set cave_count value 100
+scoreboard players set cave_count value 250
 
 #Start the recursion
 function tid:dungeon/sin/cave_scatter_recurse
