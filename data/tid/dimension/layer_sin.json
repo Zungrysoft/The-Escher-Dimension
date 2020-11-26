@@ -7,7 +7,7 @@
       "biome": "tid:sin",
       "lakes": false,
       "features": false,
-	  "sea_level": 178,
+	  "sea_level": 229,
       "layers": [
         {
           "block": "minecraft:bedrock",
@@ -30,16 +30,16 @@
           "height": 5
         },
 		{
-          "block": "minecraft:blackstone",
-          "height": 28
-        },
-		{
           "block": "minecraft:basalt",
-          "height": 7
+          "height": 30
         },
 		{
-          "block": "minecraft:water",
-          "height": 9
+          "block": "minecraft:blackstone",
+          "height": 65
+        },
+		{
+          "block": "minecraft:lava",
+          "height": 1
         }
       ],
       "structures": {
