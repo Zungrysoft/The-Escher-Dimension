@@ -1,6 +1,6 @@
 /execute at @p run fill ~-15 ~-10 ~-15 ~15 ~15 ~15 air replace stone
 
-
+/spreadplayers 0 0 40 80 under 200 false @s
 
 /summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"stronghold2_entrance\""}
 

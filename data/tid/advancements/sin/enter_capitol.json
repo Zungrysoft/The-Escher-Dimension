@@ -1,0 +1,19 @@
+{
+  "parent": "tid:sin/kill_captain",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "title": "Downtown Underground",
+    "description": "Enter a district's capitol building",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 666,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"The Plague Missile\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]',Lore:['[{\"text\":\"6 charges\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"Inflicts wither on monsters it passes\",\"italic\":false,\"color\":\"aqua\"}]']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 0b, Colors: [I; 2199296]}, {Type: 0b, Colors: [I; 0]}, {Type: 0b, Colors: [I; 0]}, {Type: 0b, Colors: [I; 0]}, {Type: 0b, Colors: [I; 0]}, {Type: 0b, Colors: [I; 0]}]}}"
+                        },
+						{
+                            "function": "set_count",
+                            "count": 40
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

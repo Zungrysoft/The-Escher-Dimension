@@ -1,0 +1,49 @@
+{
+  "parent": "tid:layer_1/use_fireworks",
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Rocket Queen",
+    "description": "Kill five monsters with a single Firework Rocket §d[Reward: 40 Plague Missiles]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/kill_with_fireworks"]
+  },
+  "criteria": {
+    "two_birds": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "type": "minecraft:creeper"
+              },
+              "entity": "this"
+            }
+          ],
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "type": "minecraft:creeper"
+              },
+              "entity": "this"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "two_birds"
+    ]
+  ]
+}
