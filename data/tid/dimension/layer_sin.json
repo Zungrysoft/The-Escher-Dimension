@@ -26,15 +26,19 @@
           "height": 2
         },
 		{
-          "block": "minecraft:netherrack",
-          "height": 5
+          "block": "minecraft:basalt",
+          "height": 1
         },
 		{
-          "block": "minecraft:basalt",
-          "height": 30
+          "block": "minecraft:netherrack",
+          "height": 4
         },
 		{
           "block": "minecraft:blackstone",
+          "height": 30
+        },
+		{
+          "block": "minecraft:nether_wart_block",
           "height": 65
         },
 		{
