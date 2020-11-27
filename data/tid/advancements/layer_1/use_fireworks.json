@@ -2,8 +2,7 @@
   "parent": "tid:layer_1/find_loot_canal",
   "display": {
     "icon": {
-      "item": "minecraft:firework_star",
-	  "nbt": "{Explosion:{Colors:[I; 16556087]}}"
+      "item": "minecraft:gunpowder"
     },
     "title": "Pyrotechnician",
     "description": "Shoot fireworks out of a crossbow",

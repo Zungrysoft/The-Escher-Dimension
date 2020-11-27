@@ -97,6 +97,7 @@ execute as @e[type=arrow,nbt={CustomPotionEffects:[{}],inGround:1b}] at @s run f
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] at @s run function tid:gameplay/shredder_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] at @s run function tid:gameplay/sniper_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:3b}]}] at @s run function tid:gameplay/zapper_arrow
+scoreboard players reset @a fireworks_kills
 
 #Handles custom monster effects
 #Fireflare

@@ -65,7 +65,7 @@ scoreboard objectives add adv_hellion_2 dummy
 scoreboard objectives add adv_hellion_3 dummy
 scoreboard objectives add adv_hellion_4 dummy
 scoreboard objectives add carrot_stick_use minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add starting_gear dummy
+scoreboard objectives add fireworks_kills dummy
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths
 scoreboard objectives add health health "Health"
