@@ -36,10 +36,10 @@ execute if predicate tid:random_50 run scoreboard players add sin_chambers_globa
 scoreboard players set sin_rooms value 300
 scoreboard players set sin_chambers_rooms value 200
 
-summon minecraft:area_effect_cloud 0 183 -7 {Duration:99999999,CustomName:"\"sin_north\""}
-summon minecraft:area_effect_cloud 0 183 7 {Duration:99999999,CustomName:"\"sin_south\""}
-summon minecraft:area_effect_cloud -7 183 0 {Duration:99999999,CustomName:"\"sin_west\""}
-summon minecraft:area_effect_cloud 7 183 0 {Duration:99999999,CustomName:"\"sin_east\""}
+#Generate the districts and capitols
+function tid:dungeon/sin/scatter_districts
+execute as @e[tag=sin_district] at @s run summon minecraft:area_effect_cloud ~ ~20 ~ {Duration:99999999,CustomName:"\"sin_north\""}
+execute as @e[tag=sin_district] at @s run tp @s ~ 200 ~
 
 #Done, now move to the next phase
 scoreboard players set sin_handler_phase value 20

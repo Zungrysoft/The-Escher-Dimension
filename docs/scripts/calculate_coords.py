@@ -2,9 +2,9 @@
 autocalc = 1
 
 #Room sizes
-w = 13
-h = 6
-l = 9
+w = 5
+h = 5
+l = 5
 
 #Door positions
 north = [0, 0, 0]
