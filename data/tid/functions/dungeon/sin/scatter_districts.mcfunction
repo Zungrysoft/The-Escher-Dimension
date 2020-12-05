@@ -1,11 +1,51 @@
-#Generate the district entities
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:0b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:1b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:2b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:3b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:4b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:5b,Tags:["sin_district","new"]}
-summon area_effect_cloud 0 0 0 {Duration:99999999,Color:8b,Tags:["sin_district","new"]}
+#Generate the district entities and scatter them
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:0b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
 
-#Spread them throughout the caverns
-spreadplayers 0 0 60 110 under 200 false @e[tag=sin_district]
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:1b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:2b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:3b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:4b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:5b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:6b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:7b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:8b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:9b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:10b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:11b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:12b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:13b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:14b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:15b,Tags:["sin_district","new"]}
+execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position
+
+#Remove all remaining markers
+kill @e[type=area_effect_cloud,tag=scatter_marker]
