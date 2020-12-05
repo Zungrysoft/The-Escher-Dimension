@@ -70,7 +70,7 @@ execute if score district_color value matches 7 if predicate tid:random_25 run s
 setblock ~-2 ~ ~-2 minecraft:redstone_block
 
 #Mark this area as generated
-fill ~-2 ~-128 ~-2 ~2 ~-119 ~2 minecraft:blue_wool
+fill ~-2 ~-128 ~-2 ~2 ~-119 ~2 air
 
 #Set the color based on the district it's in
 execute if score district_color value matches 0 run fill ~-2 ~-1 ~-2 ~2 ~11 ~2 white_concrete replace light_blue_concrete

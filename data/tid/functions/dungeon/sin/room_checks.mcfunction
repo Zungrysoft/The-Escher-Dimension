@@ -14,4 +14,8 @@ execute if entity @s[name="sin_west"] unless block ~-5 ~ ~ air run scoreboard pl
 execute if entity @s[name="sin_east"] unless block ~5 ~ ~ air run scoreboard players set @s failed 1
 execute if entity @s[name="sin_down"] unless block ~ ~-5 ~ air run scoreboard players set @s failed 1
 
+#Determine resident district for determining room checks
+execute if entity @s[tag=!decided] store result score @s counter1 run data get entity @e[tag=sin_district,sort=nearest,limit=1] Color 1
+execute if entity @s[tag=!decided] run tag @s add decided
+
 execute if score @s failed matches 1.. run kill @s
