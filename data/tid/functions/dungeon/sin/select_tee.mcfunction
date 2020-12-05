@@ -1,3 +1,6 @@
+#Determine district
+execute positioned ~2 ~ ~2 run function tid:dungeon/sin/get_nearest_district
+
 #Pick a structure from this list
 execute if entity @s[name="sin_north"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_north", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if entity @s[name="sin_south"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_south", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
@@ -11,7 +14,6 @@ setblock ~ ~1 ~ minecraft:redstone_block
 fill ~ ~-128 ~ ~4 ~-124 ~4 air
 
 #Recolor the concrete blocks in the room
-execute positioned ~2 ~ ~2 run function tid:dungeon/sin/get_nearest_district
 execute if score district_color value matches 0 run fill ~ ~4 ~ ~4 ~4 ~4 white_concrete replace light_blue_concrete
 execute if score district_color value matches 1 run fill ~ ~4 ~ ~4 ~4 ~4 orange_concrete replace light_blue_concrete
 execute if score district_color value matches 2 run fill ~ ~4 ~ ~4 ~4 ~4 magenta_concrete replace light_blue_concrete
@@ -27,6 +29,9 @@ execute if score district_color value matches 12 run fill ~ ~4 ~ ~4 ~4 ~4 brown_
 execute if score district_color value matches 13 run fill ~ ~4 ~ ~4 ~4 ~4 green_concrete replace light_blue_concrete
 execute if score district_color value matches 14 run fill ~ ~4 ~ ~4 ~4 ~4 red_concrete replace light_blue_concrete
 execute if score district_color value matches 15 run fill ~ ~4 ~ ~4 ~4 ~4 black_concrete replace light_blue_concrete
+
+#Remove any walls between this room and the one it generated from
+function tid:dungeon/sin/remove_walls
 
 #Count the room in the total
 scoreboard players remove sin_rooms value 1

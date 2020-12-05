@@ -33,7 +33,7 @@ execute if predicate tid:random_50 run scoreboard players add sin_chambers_globa
 execute if predicate tid:random_50 run scoreboard players add sin_chambers_global value 2
 
 #Determine the number of rooms to generate
-scoreboard players set sin_rooms value 300
+scoreboard players set sin_rooms value 400
 scoreboard players set sin_chambers_rooms value 200
 
 #Generate the districts and capitols

@@ -12,5 +12,6 @@ execute if entity @s[name="sin_north"] unless block ~ ~ ~-5 air run scoreboard p
 execute if entity @s[name="sin_south"] unless block ~ ~ ~5 air run scoreboard players set @s failed 1
 execute if entity @s[name="sin_west"] unless block ~-5 ~ ~ air run scoreboard players set @s failed 1
 execute if entity @s[name="sin_east"] unless block ~5 ~ ~ air run scoreboard players set @s failed 1
+execute if entity @s[name="sin_down"] unless block ~ ~-5 ~ air run scoreboard players set @s failed 1
 
 execute if score @s failed matches 1.. run kill @s

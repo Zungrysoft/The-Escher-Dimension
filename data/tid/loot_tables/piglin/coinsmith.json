@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:barter",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 16.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				}
+			]
+		}
+	]
+}
