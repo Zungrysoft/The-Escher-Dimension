@@ -9,7 +9,7 @@ execute at @e[type=area_effect_cloud,tag=scatter_marker,limit=1,sort=furthest] r
 execute if predicate tid:random_80 at @e[type=area_effect_cloud,tag=scatter_marker,limit=1,sort=random] run tp @s ~ ~ ~
 
 #Kill all other nearby scatter markers so another district capitol doesn't generate too close
-execute at @s run kill @e[type=area_effect_cloud,tag=scatter_marker,distance=0..85]
+execute at @s run kill @e[type=area_effect_cloud,tag=scatter_marker,distance=0..80]
 
 #Remove the new tag
 tag @s remove new

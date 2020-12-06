@@ -10,7 +10,7 @@ execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~-128 ~ ~10 ~-120 ~10 air
+fill ~ ~-128 ~ ~10 ~-121 ~10 air
 
 #Add support pillar
 execute positioned ~ ~-1 ~ run clone ~ 41 ~ ~10 ~-128 ~10 ~ 169 ~ masked

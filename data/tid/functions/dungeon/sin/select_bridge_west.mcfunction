@@ -8,7 +8,7 @@ setblock ~6 ~ ~2 minecraft:structure_block{name: "tid:sin/bridge_west_1", posX: 
 setblock ~6 ~1 ~2 minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~-128 ~ ~12 ~-122 ~4 air
+fill ~ ~-126 ~ ~12 ~-122 ~4 air
 
 #Add support pillar
 execute positioned ~5 ~-1 ~ run clone ~ 41 ~ ~2 ~-128 ~4 ~ 169 ~ masked

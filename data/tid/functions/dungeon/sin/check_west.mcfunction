@@ -5,3 +5,6 @@ execute unless score @s failed matches 1.. if predicate tid:random_03 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_03 positioned ~-11 ~-1 ~-5 if blocks ~ ~-128 ~ ~10 ~-120 ~10 1001 1 1001 all run function tid:dungeon/sin/select_room
 
 execute unless score @s failed matches 1.. if predicate tid:random_15 if score @s counter1 matches 8 positioned ~-4 ~-1 ~0 if blocks ~ ~-128 ~ ~3 ~-120 ~0 1001 1 1001 all run function tid:dungeon/sin/select_thinstairs_west
+
+#End piece
+execute if score @s failed matches 1.. if predicate tid:random_10 positioned ~-2 ~-1 ~-2 if blocks ~ ~-128 ~ ~4 ~-125 ~1 1001 1 1001 all run function tid:dungeon/sin/select_end_west

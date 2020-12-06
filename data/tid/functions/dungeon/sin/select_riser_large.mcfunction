@@ -8,7 +8,7 @@ setblock ~8 ~1 ~8 minecraft:structure_block{name: "tid:sin/riser_large_1", posX:
 setblock ~8 ~2 ~8 minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~-128 ~ ~8 ~-119 ~8 air
+fill ~ ~-128 ~ ~16 ~-119 ~16 air
 
 #Recolor the concrete blocks in the room
 execute if score district_color value matches 0 run fill ~ ~ ~ ~16 ~9 ~16 white_concrete replace light_blue_concrete
