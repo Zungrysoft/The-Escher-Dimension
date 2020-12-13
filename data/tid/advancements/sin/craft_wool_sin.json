@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/distract_piglin",
+  "parent": "tid:sin/barter_with_piglin",
   "display": {
     "icon": {
       "item": "minecraft:gray_wool"

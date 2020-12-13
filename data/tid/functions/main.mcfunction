@@ -99,6 +99,7 @@ execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] at @
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:3b}]}] at @s run function tid:gameplay/zapper_arrow
 scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
+execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
 
 #Handles custom monster effects
 #Fireflare

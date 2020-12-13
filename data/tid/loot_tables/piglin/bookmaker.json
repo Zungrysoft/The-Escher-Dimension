@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:barter",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 3,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:gold_block"
+				},
+				{
+					"type": "empty",
+					"weight": 40
+				}
+			]
+		}
+	]
+}

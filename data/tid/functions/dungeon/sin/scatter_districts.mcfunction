@@ -1,3 +1,7 @@
+#Remove all invalid starting points
+execute as @e[type=area_effect_cloud,tag=scatter_marker] run function tid:update_coords
+execute as @e[type=area_effect_cloud,tag=scatter_marker] run kill @s
+
 #Generate the district entities and scatter them
 execute if predicate tid:random_60 run summon area_effect_cloud 0 0 0 {Duration:99999999,Color:0b,Tags:["sin_district","new"]}
 execute as @e[type=area_effect_cloud,tag=new,limit=1] run function tid:dungeon/sin/scatter_districts_position

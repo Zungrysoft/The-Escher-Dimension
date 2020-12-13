@@ -40,6 +40,26 @@
 					"entity": "this"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"quality": -2,
+					"name": "tid:piglin/bookmaker"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"nbt": "{Tags:[\"bookmaker\"]}"
+					},
+					"entity": "this"
+				}
+			]
 		}
 	]
 }

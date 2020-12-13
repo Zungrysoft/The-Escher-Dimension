@@ -1,0 +1,64 @@
+{
+  "parent": "tid:sin/barter_with_piglin",
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": "Artisinal Crafts",
+    "description": "Barter with a Piglin Tradesman",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "barter": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:gold_ingot"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:piglin",
+			  "nbt": "{Tags:[\"tradesman\"]}",
+              "flags": {
+                "is_baby": false
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "barter_directly": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:gold_ingot"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:piglin",
+			  "nbt": "{Tags:[\"tradesman\"]}",
+              "flags": {
+                "is_baby": false
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "barter",
+      "barter_directly"
+    ]
+  ]
+}

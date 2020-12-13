@@ -12,7 +12,7 @@
     "hidden": false
   },
   "criteria": {
-    "distract_piglin": {
+    "barter": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "item": {
@@ -32,7 +32,7 @@
         ]
       }
     },
-    "distract_piglin_directly": {
+    "barter_directly": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
@@ -55,8 +55,8 @@
   },
   "requirements": [
     [
-      "distract_piglin",
-      "distract_piglin_directly"
+      "barter",
+      "barter_directly"
     ]
   ]
 }
