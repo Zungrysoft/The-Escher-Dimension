@@ -102,6 +102,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Heart Scroll
 /give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}
 
+#Heart Scroll
+/give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}
+
 #Rabid Shredder
 /give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1
 

@@ -34,7 +34,7 @@ setblock -14 44 -14 glowstone
 #Build the item shop
 setblock 21 55 -30 minecraft:structure_block{name: "tid:intro/itemshop", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 setblock 21 56 -30 minecraft:redstone_block
-execute positioned 23 55 -27 run function tid:custom_mobs/villager
+execute positioned 23 55 -27 run function tid:custom_mobs/dealer
 execute positioned 21 55 -30 run fill ~ ~128 ~ ~3 ~131 ~4 blue_wool
 
 #Mark on the map

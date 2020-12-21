@@ -1,3 +1,6 @@
+#Generate Damnation Station bramble
+execute as @e[type=area_effect_cloud,name="station_bramble_marker"] at @s run function tid:dungeon/station/bramble/scatter
+
 #Remove the cage
 fill -5 55 -5 5 59 5 air replace bedrock
 

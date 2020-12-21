@@ -9,17 +9,17 @@ spreadplayers ~16 ~16 1 16 under 128 false @e[name="gold_pile",type=area_effect_
 execute as @e[name="gold_pile",type=area_effect_cloud] at @s if block ~ ~-1 ~ warped_hyphae run function tid:misc/gold_pile
 kill @e[name="gold_pile"]
 
-#Scatter blocks of glowstone
-execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
-execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
-execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
-execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
-spreadplayers ~16 ~16 1 16 under 128 false @e[name="glowstone_piece",type=area_effect_cloud]
-execute as @e[name="glowstone_piece",type=area_effect_cloud] at @s if block ~ ~ ~ air if block ~ ~-1 ~ warped_hyphae run setblock ~ ~ ~ glowstone
-kill @e[name="glowstone_piece",type=area_effect_cloud]
+#Scatter blocks of glowstone on the floor
+#execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
+#execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
+#execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
+#execute if predicate tid:random_30 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"glowstone_piece\""}
+#spreadplayers ~16 ~16 1 16 under 128 false @e[name="glowstone_piece",type=area_effect_cloud]
+#execute as @e[name="glowstone_piece",type=area_effect_cloud] at @s if block ~ ~ ~ air if block ~ ~-1 ~ warped_hyphae run setblock ~ ~ ~ glowstone
+#kill @e[name="glowstone_piece",type=area_effect_cloud]
 
-#Scatter blocks of glowstone
-execute if predicate tid:random_20 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"debris_piece\""}
+#Scatter blocks of ancient debris
+execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"debris_piece\""}
 spreadplayers ~16 ~16 1 16 under 128 false @e[name="debris_piece",type=area_effect_cloud]
 execute as @e[name="debris_piece",type=area_effect_cloud] at @s if block ~ ~ ~ air if block ~ ~-1 ~ warped_hyphae run setblock ~ ~ ~ ancient_debris
 kill @e[name="debris_piece",type=area_effect_cloud]

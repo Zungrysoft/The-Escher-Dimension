@@ -9,7 +9,7 @@ execute if entity @a[nbt={Inventory:[{Slot:-106b,tag:{glow_stick:1b}}]},distance
 execute if entity @a[nbt={Inventory:[{Slot:103b,tag:{glow_stick:1b}}]},distance=0..15] run scoreboard players set temp value 1
 
 #Run the particles
-execute if score temp value matches 1 run particle dust 1.0 1.0 0.1 2.0 ~3.6 ~3 ~
-execute if score temp value matches 1 run particle dust 1.0 1.0 0.1 2.0 ~ ~3 ~3.6
-execute if score temp value matches 1 run particle dust 1.0 1.0 0.1 2.0 ~-3.6 ~3 ~
-execute if score temp value matches 1 run particle dust 1.0 1.0 0.1 2.0 ~ ~3 ~-3.6
+execute if score temp value matches 1 run particle flame ~3.7 ~3 ~ 0.1 0.1 0.1 0 1
+execute if score temp value matches 1 run particle flame ~ ~3 ~3.7 0.1 0.1 0.1 0 1
+execute if score temp value matches 1 run particle flame ~-3.7 ~3 ~ 0.1 0.1 0.1 0 1
+execute if score temp value matches 1 run particle flame ~ ~3 ~-3.7 0.1 0.1 0.1 0 1

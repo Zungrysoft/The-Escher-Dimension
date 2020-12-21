@@ -1,6 +1,6 @@
 #Kills any cave segments that managed to generate after the master has moved on
-execute unless score @s phase matches 1.. if score @e[tag=station_handler,limit=1] phase matches 1.. run scoreboard players set @s phase 666
-execute unless score @s phase matches 1.. if score @e[tag=station_handler,limit=1] phase matches 1.. run kill @s
+execute unless score @s phase matches 1.. if score station_handler_phase value matches 1.. run scoreboard players set @s phase 666
+execute unless score @s phase matches 1.. if score station_handler_phase value matches 1.. run kill @s
 
 #Phase 0: Try to generate cave segments.
 execute unless score @s phase matches 1.. run function tid:dungeon/station/cave_segment_handler_p0
