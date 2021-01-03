@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_1/find_stronghold2",
+  "parent": "tid:layer_1/craft_map",
   "display": {
     "icon": {
       "item": "minecraft:iron_bars"

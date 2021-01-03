@@ -124,6 +124,8 @@ execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:ga
 execute as @e[type=vex] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
 execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
+#Ice Blaze
+execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns
