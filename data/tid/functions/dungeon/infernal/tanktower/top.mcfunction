@@ -7,4 +7,4 @@ execute if predicate tid:random_50 unless block ~ ~7 ~7 air run scoreboard playe
 
 #Set the mode to continue with
 scoreboard players set tanktower_mode value 5
-execute if score temp value matches 1 run scoreboard players set tanktower_mode value 0
+execute if score temp value matches 1 run scoreboard players set tanktower_mode value 6
