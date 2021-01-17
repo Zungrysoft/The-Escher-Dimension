@@ -27,9 +27,33 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
 scoreboard players set infernal_rooms value 1000
+scoreboard players set power_drills value 5
 
 #Spread the starting structures
-
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
 
 #summon minecraft:area_effect_cloud 0 55 -7 {Duration:99999999,CustomName:"\"infernal_north\""}
 #summon minecraft:area_effect_cloud 0 55 7 {Duration:99999999,CustomName:"\"infernal_south\""}

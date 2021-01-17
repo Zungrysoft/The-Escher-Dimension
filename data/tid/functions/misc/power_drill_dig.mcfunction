@@ -5,11 +5,7 @@ playsound minecraft:item.trident.thunder block @a
 function tid:misc/power_drill_scan
 
 #Spawn some particles
-#particle dust 0.9 0.9 0.9 4 ~ ~ ~
-#particle dust 0.9 0.9 0.9 4 ~1 ~1 ~
-#particle dust 0.9 0.9 0.9 4 ~ ~1 ~1
-#particle dust 0.9 0.9 0.9 4 ~-1 ~1 ~
-#particle dust 0.9 0.9 0.9 4 ~ ~1 ~-1
+particle minecraft:flame ~ ~0.9 ~ 0.6 0.6 0.6 0 25
 
 #Reduce the number of charges left and reset the timer
 scoreboard players remove @s tries 1

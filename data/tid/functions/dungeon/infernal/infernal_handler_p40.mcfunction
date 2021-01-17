@@ -11,6 +11,9 @@ execute as @e[type=area_effect_cloud,name="sewer_outflow_south"] at @s run funct
 execute as @e[type=area_effect_cloud,name="sewer_outflow_east"] at @s run function tid:dungeon/infernal/sewer_outflow_check_east
 execute as @e[type=area_effect_cloud,name="sewer_outflow_west"] at @s run function tid:dungeon/infernal/sewer_outflow_check_west
 
+#Populate explosive drills
+execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_populate
+
 #Add in the bonus chest
 setblock 6 55 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Completely Incomprehensible, is it not? Miles of machinery, once pulsing and pounding, now reduced to an island of wreckage and scrap. What was this machinery for? Did it ever serve a purpose? Because now the only purpose it serves is as a home for the most vile "}','{"text":"creatures you have faced yet. Get busy salvaging, or get busy dying to the beasts that crawl all over this once-active facility."}'], title: "Welcome to the Machine", author: "ZungryWare", resolved: 1b}}, {Slot: 15b, id: "minecraft:netherite_ingot", Count :1b}]}
 
