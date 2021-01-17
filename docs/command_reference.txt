@@ -27,6 +27,7 @@
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/jungle"}
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/sand1"}
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/sand2"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/infernal"}
 
 setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:skeleton"}, Weight: 1},{Entity: {id: "minecraft:creeper"}, Weight: 1}]}
 
@@ -89,6 +90,9 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 
 #Mystery Potion
 /give @p potion{CustomPotionColor:11382189,display:{Name:'[{"text":"Mystery Potion","italic":false}]',Lore:['[{"text":"Grants a random positive","italic":false,"color":"blue"}]','[{"text":"potion effect","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535} 1
+
+#Volcanic Potion
+/give @p potion{CustomPotionColor:16763481,display:{Name:'[{"text":"Volcanic Potion","italic":false,"color":"gold"}]'},CustomPotionEffects:[{Id:11,Duration:3600,Amplifier:4},{Id:12,Duration:3600},{Id:5,Duration:3600,Amplifier:1},{Id:6,Duration:0,Amplifier:2}]} 1
 
 #Potion of Levitation
 give @p potion{CustomPotionColor:10747903,display:{Name:'[{"text":"Potion of Levitation","italic":false}]'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]} 1

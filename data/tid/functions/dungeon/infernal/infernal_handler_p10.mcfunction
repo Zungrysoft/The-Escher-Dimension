@@ -26,10 +26,13 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 #function tid:misc/infernal_space_savers
 
 #Determine the number of rooms to generate
-scoreboard players set infernal_rooms value 10
+scoreboard players set infernal_rooms value 1000
 
-summon minecraft:area_effect_cloud 0 55 -7 {Duration:99999999,CustomName:"\"infernal_north\""}
-summon minecraft:area_effect_cloud 0 55 7 {Duration:99999999,CustomName:"\"infernal_south\""}
+#Spread the starting structures
+
+
+#summon minecraft:area_effect_cloud 0 55 -7 {Duration:99999999,CustomName:"\"infernal_north\""}
+#summon minecraft:area_effect_cloud 0 55 7 {Duration:99999999,CustomName:"\"infernal_south\""}
 #summon minecraft:area_effect_cloud -7 55 0 {Duration:99999999,CustomName:"\"infernal_west\""}
 #summon minecraft:area_effect_cloud 7 55 0 {Duration:99999999,CustomName:"\"infernal_east\""}
 

@@ -92,4 +92,4 @@ function tid:gameplay/ai_potion_carrier
 function tid:gameplay/ai_dealer_all
 
 #Start the half-second loop
-function tid:half_second
+function tid:tick_half_second
