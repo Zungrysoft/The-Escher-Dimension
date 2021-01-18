@@ -1,0 +1,56 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "bonus_rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:coarse_dirt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lava_bucket"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond"
+                },
+				{
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:ancient_debris"
+                }
+            ]
+        }
+    ]
+}
