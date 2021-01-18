@@ -24,11 +24,11 @@ fill ~ ~128 ~ ~6 ~134 ~6 blue_wool
 
 #Randomly switch types
 execute if predicate tid:random_40 if score tanktower_mode value matches 3 run scoreboard players set tanktower_mode value 4
-execute if predicate tid:random_25 unless score tanktower_mode value matches 3..5 run scoreboard players set tanktower_mode value 0
-execute if predicate tid:random_15 unless score tanktower_mode value matches 3..5 run scoreboard players set tanktower_mode value 1
-execute if predicate tid:random_15 unless score tanktower_mode value matches 3..5 run scoreboard players set tanktower_mode value 2
-execute if predicate tid:random_15 unless score tanktower_mode value matches 3..5 run scoreboard players set tanktower_mode value 3
-execute if predicate tid:random_10 unless score tanktower_mode value matches 3..5 run scoreboard players set tanktower_mode value 99
+execute if predicate tid:random_25 unless score tanktower_mode value matches 3..6 run scoreboard players set tanktower_mode value 0
+execute if predicate tid:random_15 unless score tanktower_mode value matches 3..6 run scoreboard players set tanktower_mode value 1
+execute if predicate tid:random_15 unless score tanktower_mode value matches 3..6 run scoreboard players set tanktower_mode value 2
+execute if predicate tid:random_15 unless score tanktower_mode value matches 3..6 run scoreboard players set tanktower_mode value 3
+execute if predicate tid:random_10 unless score tanktower_mode value matches 3..6 run scoreboard players set tanktower_mode value 99
 execute if score tanktower_mode value matches 6 if predicate tid:random_10 run scoreboard players set tanktower_mode value 1
 execute if score tanktower_mode value matches 6 if predicate tid:random_10 run scoreboard players set tanktower_mode value 2
 execute if score tanktower_mode value matches 6 run scoreboard players set tanktower_mode value 0

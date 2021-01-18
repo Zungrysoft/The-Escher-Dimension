@@ -19,12 +19,6 @@ fill 1033 1 1000 1065 28 1032 minecraft:bedrock
 fill 1033 1 1001 1064 27 1032 minecraft:air
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
-#Spread the space savers in the (-, -) quadrant
-#function tid:misc/infernal_space_savers
-#function tid:misc/infernal_space_savers
-#function tid:misc/infernal_space_savers
-#function tid:misc/infernal_space_savers
-
 #Determine the number of rooms to generate
 scoreboard players set infernal_rooms value 1000
 scoreboard players set power_drills value 5

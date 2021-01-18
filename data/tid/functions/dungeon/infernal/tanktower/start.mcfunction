@@ -6,5 +6,5 @@ execute if predicate tid:random_25 run scoreboard players add tanktower_segments
 execute if predicate tid:random_25 run scoreboard players add tanktower_segments value 5
 
 #Start generating
-execute positioned ~ ~5 ~ run function tid:dungeon/infernal/tanktower/base
+execute positioned ~-3 ~5 ~-3 run function tid:dungeon/infernal/tanktower/base
 
