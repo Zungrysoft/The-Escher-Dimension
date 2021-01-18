@@ -1,0 +1,39 @@
+#First, determine where the two factories will go
+function tid:dungeon/infernal/scatter_factories
+
+#Then do all of the other structures
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure
+function tid:dungeon/infernal/scatter_structure

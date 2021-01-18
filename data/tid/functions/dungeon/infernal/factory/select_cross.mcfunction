@@ -6,7 +6,7 @@ execute if predicate tid:random_04 run setblock ~ ~ ~ minecraft:structure_block{
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~4 ~134 ~4 air
+fill ~ ~128 ~ ~4 ~134 ~4 blue_wool
 
 #We're done here
 kill @s

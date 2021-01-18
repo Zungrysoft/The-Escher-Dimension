@@ -19,7 +19,7 @@ execute if score temp value matches 1 run fill ~ ~ ~ ~ ~1 ~ air
 execute if score temp value matches 0 run fill ~ ~ ~ ~ ~1 ~ nether_bricks
 
 #Mark this area as generated
-fill ~ ~128 ~ ~14 ~136 ~10 air
+fill ~ ~128 ~ ~14 ~136 ~10 blue_wool
 
 #We're done here
 kill @s

@@ -8,6 +8,7 @@ execute if predicate tid:random_01 run setblock ~ ~ ~ potted_dandelion
 execute if predicate tid:random_05 run setblock ~ ~ ~ potted_dead_bush
 execute if predicate tid:random_05 run setblock ~ ~ ~ potted_crimson_roots
 execute if predicate tid:random_01 run setblock ~ ~ ~ potted_wither_rose
+execute if predicate tid:random_10 run setblock ~ ~ ~ flower_pot
 
 execute if predicate tid:random_05 run setblock ~ ~ ~ piston[facing=east]
 execute if predicate tid:random_05 run setblock ~ ~ ~ piston[facing=west]

@@ -5,7 +5,7 @@ setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:infernal/factory/bigcross_
 setblock ~1 ~1 ~1 minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~6 ~134 ~6 air
+fill ~ ~128 ~ ~6 ~134 ~6 blue_wool
 
 #We're done here
 kill @s

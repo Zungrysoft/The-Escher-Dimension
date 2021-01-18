@@ -5,7 +5,7 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/factory/ladder_east
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Mark this area as generated
-fill ~ ~128 ~ ~2 ~139 ~0 air
+fill ~ ~128 ~ ~2 ~139 ~0 blue_wool
 
 #Add the stepping block
 execute unless block ~-1 ~9 ~ air run setblock ~ ~9 ~ nether_bricks
