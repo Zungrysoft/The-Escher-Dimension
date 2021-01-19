@@ -21,17 +21,15 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
 scoreboard players set infernal_rooms value 1000
+scoreboard players set infernal_glassbridge_rooms value 30
 scoreboard players set power_drills value 5
 scoreboard players set elytras value 2
 
-#Spread the starting structures
-function tid:dungeon/infernal/scatter_structures
+#Spread the factories
+function tid:dungeon/infernal/scatter_factories
 
-#summon minecraft:area_effect_cloud 0 55 -7 {Duration:99999999,CustomName:"\"infernal_north\""}
-#summon minecraft:area_effect_cloud 0 55 7 {Duration:99999999,CustomName:"\"infernal_south\""}
-#summon minecraft:area_effect_cloud -7 55 0 {Duration:99999999,CustomName:"\"infernal_west\""}
-#summon minecraft:area_effect_cloud 7 55 0 {Duration:99999999,CustomName:"\"infernal_east\""}
+#Add the starting bridge piece
+summon minecraft:area_effect_cloud 0 55 -7 {Duration:99999999,CustomName:"\"infernal_glassbridge_north\""}
 
 #Done, now move to the next phase
-scoreboard players set infernal_handler_phase value 20
-
+scoreboard players set infernal_handler_phase value 18

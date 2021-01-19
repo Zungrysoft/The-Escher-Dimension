@@ -25,5 +25,8 @@ execute if predicate tid:random_50 positioned ~9 ~15 ~9 run setblock ~5 ~ ~-7 ai
 execute if predicate tid:random_50 positioned ~9 ~15 ~9 run setblock ~-3 ~ ~-7 air
 execute if predicate tid:random_50 positioned ~9 ~15 ~9 run setblock ~-5 ~ ~-7 air
 
+#Mark it on the map
+execute positioned ~9 ~ ~9 run function tid:misc/infernal_mark_chest_elytra
+
 #Count the number of elytras generated
 scoreboard players remove elytras value 1
