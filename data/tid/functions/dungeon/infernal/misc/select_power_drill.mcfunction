@@ -9,7 +9,3 @@ fill ~ ~128 ~ ~26 ~143 ~26 minecraft:blue_wool
 
 #Count the number of drills generated
 scoreboard players remove power_drills value 1
-
-#We're done here
-kill @s
-

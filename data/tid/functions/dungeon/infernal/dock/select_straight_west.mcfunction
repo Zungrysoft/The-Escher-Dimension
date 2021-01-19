@@ -11,7 +11,7 @@ fill ~1 ~128 ~ ~7 ~134 ~5 minecraft:blue_wool
 fill ~ 255 ~ ~8 255 ~5 minecraft:stone_bricks replace minecraft:black_concrete
 
 #Reserve the space between the pieces
-execute at @s run fill ~-2 ~127 ~-2 ~2 ~133 ~2 blue_wool
+execute at @s run fill ~-2 ~127 ~-2 ~3 ~133 ~3 blue_wool
 
 #Randomize
 scoreboard players set xmax value 9

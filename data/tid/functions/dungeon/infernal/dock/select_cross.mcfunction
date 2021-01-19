@@ -1,7 +1,7 @@
 #Pick a structure from this list
 setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/dock/cross_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_20 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/dock/cross_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/dock/cross_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/dock/cross_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
@@ -13,7 +13,7 @@ fill ~1 ~128 ~1 ~6 ~136 ~6 minecraft:blue_wool
 fill ~ 255 ~ ~7 255 ~7 minecraft:stone_bricks replace minecraft:black_concrete
 
 #Reserve the space between the pieces
-execute at @s run fill ~-2 ~127 ~-2 ~2 ~133 ~2 blue_wool
+execute at @s run fill ~-2 ~127 ~-2 ~3 ~133 ~3 blue_wool
 
 #Randomize
 scoreboard players set xmax value 8

@@ -21,7 +21,8 @@ fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
 scoreboard players set infernal_rooms value 1000
-scoreboard players set power_drills value 6
+scoreboard players set power_drills value 5
+scoreboard players set elytras value 2
 
 #Spread the starting structures
 function tid:dungeon/infernal/scatter_structures

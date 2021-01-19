@@ -26,8 +26,8 @@ spreadplayers ~ ~ 12 40 false @e[type=area_effect_cloud,tag=scatter]
 execute as @e[type=area_effect_cloud,tag=scatter] at @s run function tid:dungeon/infernal/factory/extension
 
 #Modifiers
-execute if predicate tid:random_90 run function tid:dungeon/infernal/factory/mod_underbelly
-execute if predicate tid:random_90 run function tid:dungeon/infernal/factory/mod_shafts
+execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_underbelly
+execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_shafts
 
 #Place the starting doorways
 summon minecraft:area_effect_cloud ~ 22 ~ {Duration:99999999,CustomName:"\"infernal_factory_north\""}
