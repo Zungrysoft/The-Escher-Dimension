@@ -104,22 +104,43 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p chainmail_boots{display:{Name:'[{"text":"Lucifer\'s Clogs","italic":false,"color":"red","bold":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4} 1
 
 #Heart Scroll
-/give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}
+/give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535,health_scroll:1b}
 
-#Heart Scroll
-/give @p mojang_banner_pattern{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},HideFlags:65535}
+#Speed Scroll
+/give @p mojang_banner_pattern{display:{Name:'[{"text":"Speed Scroll","italic":false,"color":"teal"}]'},HideFlags:65535,speed_scroll:1b}
+
+#Bond Scroll
+/give @p mojang_banner_pattern{display:{Name:'[{"text":"Bond Scroll","italic":false,"color":"dark_aqua"}]',,Lore:['[{"text":"Throw into lava to activate","italic":false,"color":"white"}]']},HideFlags:65535,bond_scroll:1b}
 
 #Rabid Shredder
 /give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1
 
+#Treasure Hunter
+/give @p golden_sword{display:{Name:'[{"text":"Treasure Hunter","italic":false,"bold":false,"color":"gold"}]',Lore:['[{"text":"Super Looting","italic":false,"color":"aqua"}]','[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:looting,lvl:30},{id:sharpness,lvl:32}],Damage:32,RepairCost:664,HideFlags:1} 1
+
 #Babirusan Shiv
 /give @p flint{display:{Name:'[{"text":"Babirusan Shiv","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Costs one Gold Ingot per swing.","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],super_flint:1b,Enchantments:[{}]} 1
+
+#Golden Applebottom Jeans
+/give @p golden_leggings{display:{Name:'[{"text":"Golden Applebottom Jeans","italic":false,"bold":true,"color":"gold"}]',Lore:['[{"text":"Upon touching lava, this item","italic":false,"color":"aqua"}]','[{"text":"will break and grant fire resistance","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:10}],lava_saver_leggings:1b} 1
+
+#Safety Helmet
+/give @p chainmail_helmet{display:{Name:'[{"text":"Safety Helmet","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"If your health goes below 6, this item","italic":false,"color":"aqua"}]','[{"text":"will break and heal you to full health","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:10}],safety_helmet:1b} 1
+
+#Healing Axe
+/give @p iron_axe{display:{Name:'[{"text":"Silver Slim\'s Chopper","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Restores hunger on hit","italic":false,"color":"aqua"}]']},healing_axe:1b} 1
+
+#Healing Pickaxe
+/give @p iron_pickaxe{display:{Name:'[{"text":"Silver Slim\'s Digger","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Restores hunger when you","italic":false,"color":"aqua"}]','[{"text":"break a monster spawner","italic":false,"color":"aqua"}]']},healing_pickaxe:1b} 1
+
+#Igneous Pickaxe
+/give @p stone_pickaxe{display:{Name:'[{"text":"Igneous Pickaxe","italic":false,"color":"red","bold":true}]',Lore:['[{"text":" 15 Attack Damage","italic":false,"color":"green"}]','[{"text":"Deals zero damage unless a there is","italic":false,"color":"red"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"red"}]']},Enchantments:[{id:fire_aspect,lvl:2},{id:efficiency,lvl:3},{id:unbreaking,lvl:10}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:15,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_speed"}],HideFlags:2,igneous:1b}
 
 #Mysterious Orb
 /give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1
 
 #Blade of Dal-Marceus (skeleton bane)
-/give @p diamond_sword{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Only works if a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}
+/give @p diamond_sword{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Deals zero damage unless a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}
 
 #Oxidation Stick
 /give @p carrot_on_a_stick{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Summons an explosion","italic":false,"color":"aqua"}]','[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}

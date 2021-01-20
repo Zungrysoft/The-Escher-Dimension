@@ -79,19 +79,10 @@ execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s
 
 #Gameplay stuff
 team join players @a
+execute as @a at @s run function tid:gameplay/item_checks
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
-execute as @a at @s run function tid:gameplay/float_orb
-execute as @a run function tid:gameplay/heart_scroll
-execute as @a at @s run function tid:gameplay/conditional_weapons
-execute as @a at @s run function tid:gameplay/staff_oxidation
-execute as @a at @s run function tid:gameplay/staff_summoning
-execute as @a at @s run function tid:gameplay/staff_block
-execute as @a at @s run function tid:gameplay/custom_potions
-execute as @a at @s run function tid:gameplay/no_sprint
 execute as @e[type=snowball,nbt={Item:{tag:{bridge_snowball:1b}}}] at @s run function tid:gameplay/bridge_snowball
 execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:gameplay/bridge_snowball_place
-scoreboard players set @a damage_dealt 0
-scoreboard players set @a carrot_stick_use 0
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}]}] run data modify entity @s pickup set value 0
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}],inGround:1b}] at @s run function tid:gameplay/arrow_fizzle
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] at @s run function tid:gameplay/shredder_arrow
