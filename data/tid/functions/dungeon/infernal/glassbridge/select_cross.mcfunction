@@ -11,7 +11,7 @@ fill ~ ~128 ~ ~10 ~143 ~10 minecraft:blue_wool
 fill ~ 255 ~ ~10 255 ~10 minecraft:nether_bricks replace minecraft:black_concrete
 
 #Add marker
-summon minecraft:area_effect_cloud ~5 ~6 ~5 {Duration:99999999,CustomName:"\"glassbridge_marker\""}
+summon minecraft:area_effect_cloud ~5 ~6 ~5 {Duration:99999999,CustomName:"\"glassbridge_cross_marker\""}
 
 #Add pillars
 execute positioned ~ ~-1 ~ run function tid:dungeon/infernal/glassbridge/pillar_cross
