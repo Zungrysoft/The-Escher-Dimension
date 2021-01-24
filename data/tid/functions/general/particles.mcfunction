@@ -6,6 +6,9 @@ execute as @e[type=area_effect_cloud,tag=haunted] at @s if entity @p[distance=0.
 #Station Secret
 execute as @e[type=minecraft:area_effect_cloud,name="station_secret"] at @s run function tid:misc/station_secret_particles
 
+#Legendary items
+execute as @e[type=item,nbt={Item:{tag:{Unbreakable:1}}}] at @s run particle minecraft:firework ~ ~.5 ~ 0 0 0 0.04 2
+
 #Particle effect on dyes
 execute as @e[type=item,nbt={Item:{id:"minecraft:white_dye"}}] at @s run particle dust 1.0 1.0 1.0 2.0 ~ ~.25 ~
 execute as @e[type=item,nbt={Item:{id:"minecraft:orange_dye"}}] at @s run particle dust 1.0 0.5 0.0 2.0 ~ ~.25 ~

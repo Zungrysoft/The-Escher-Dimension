@@ -31,9 +31,9 @@ execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod
 
 #Place the starting doorways
 summon minecraft:area_effect_cloud ~ 22 ~ {Duration:99999999,CustomName:"\"infernal_factory_north\""}
-summon minecraft:area_effect_cloud ~ 40 ~ {Duration:99999999,CustomName:"\"infernal_factory_south\""}
-summon minecraft:area_effect_cloud ~ 60 ~ {Duration:99999999,CustomName:"\"infernal_factory_west\""}
-summon minecraft:area_effect_cloud ~ 80 ~ {Duration:99999999,CustomName:"\"infernal_factory_east\""}
+summon minecraft:area_effect_cloud ~ 38 ~ {Duration:99999999,CustomName:"\"infernal_factory_south\""}
+summon minecraft:area_effect_cloud ~ 54 ~ {Duration:99999999,CustomName:"\"infernal_factory_west\""}
+summon minecraft:area_effect_cloud ~ 70 ~ {Duration:99999999,CustomName:"\"infernal_factory_east\""}
 
 #We're done here
 kill @s

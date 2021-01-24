@@ -1,0 +1,107 @@
+{
+    "pools": [
+        {
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/legendary_item"
+				}
+			]
+		},
+		{
+            "rolls": 3,
+            "bonus_rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:nether_bricks",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:basalt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:andesite",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:polished_andesite",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:gray_stained_glass",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:cracked_stone_bricks",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -12,9 +12,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{skeleton_bane:1b}}}] unless entity 
 #Babirusan Shiv
 execute if entity @s[nbt={SelectedItem:{tag:{super_flint:1b}}}] unless data entity @s Inventory[{id:"minecraft:gold_ingot"}] run scoreboard players set cancel value 1
 
-#Igneous Pickaxe
-execute if entity @s[nbt={SelectedItem:{tag:{igneous:1b}}}] run function tid:gameplay/igneous_check
-
 #Give the damage reduction attribute if applicable
 execute if score cancel value matches 1 run attribute @s minecraft:generic.attack_damage modifier add 21183d2f-4e05-4f9a-9e04-8ee579aab87f nodamage -1000 add
 

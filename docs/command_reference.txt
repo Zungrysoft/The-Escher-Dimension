@@ -116,7 +116,7 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1
 
 #Treasure Hunter
-/give @p golden_sword{display:{Name:'[{"text":"Treasure Hunter","italic":false,"bold":false,"color":"gold"}]',Lore:['[{"text":"Super Looting","italic":false,"color":"aqua"}]','[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:looting,lvl:30},{id:sharpness,lvl:32}],Damage:32,RepairCost:664,HideFlags:1} 1
+/give @p golden_sword{display:{Name:'[{"text":"Treasure Hunter","italic":false,"bold":false,"color":"gold"}]',Lore:['[{"text":"Super Looting","italic":false,"color":"aqua"}]','[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:looting,lvl:30},{id:sharpness,lvl:41}],Damage:32,RepairCost:664,HideFlags:1} 1
 
 #Babirusan Shiv
 /give @p flint{display:{Name:'[{"text":"Babirusan Shiv","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Costs one Gold Ingot per swing.","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],super_flint:1b,Enchantments:[{}]} 1
@@ -133,8 +133,11 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Healing Pickaxe
 /give @p iron_pickaxe{display:{Name:'[{"text":"Silver Slim\'s Digger","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Restores hunger when you","italic":false,"color":"aqua"}]','[{"text":"break a monster spawner","italic":false,"color":"aqua"}]']},healing_pickaxe:1b} 1
 
-#Igneous Pickaxe
-/give @p stone_pickaxe{display:{Name:'[{"text":"Igneous Pickaxe","italic":false,"color":"red","bold":true}]',Lore:['[{"text":" 15 Attack Damage","italic":false,"color":"green"}]','[{"text":"Deals zero damage unless a there is","italic":false,"color":"red"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"red"}]']},Enchantments:[{id:fire_aspect,lvl:2},{id:efficiency,lvl:3},{id:unbreaking,lvl:10}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:15,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_speed"}],HideFlags:2,igneous:1b}
+#Igneous Blade
+/give @p stone_sword{display:{Name:'[{"text":"Igneous Blade","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Deals +5 damage if a there is","italic":false,"color":"green"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"green"}]']},Unbreakable:1,igneous:1b}
+
+#Igneous Armor
+/give @p leather_chestplate{display:{Name:'[{"text":"Igneous Armor","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Grants +5 damage if a there is","italic":false,"color":"green"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"green"}]'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}
 
 #Mysterious Orb
 /give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1

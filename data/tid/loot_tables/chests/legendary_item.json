@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Digger\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},healing_pickaxe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Chopper\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},healing_axe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Deals +5 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"a living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,igneous:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +3 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"a living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:16763481,display:{Name:\'[{\"text\":\"Volcanic Potion\",\"italic\":false,\"color\":\"gold\"}]\'},CustomPotionEffects:[{Id:11,Duration:3600,Amplifier:4},{Id:12,Duration:3600},{Id:5,Duration:3600,Amplifier:1},{Id:6,Duration:0,Amplifier:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:chainmail_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Safety Helmet\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"If your health goes below 6, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and heal you to full health\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],safety_helmet:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:golden_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Golden Applebottom Jeans\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Upon touching lava, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and grant fire resistance\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],lava_saver_leggings:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Treasure Hunter\",\"italic\":false,\"bold\":false,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Super Looting\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Cannot be repaired\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{id:looting,lvl:30},{id:sharpness,lvl:41}],Damage:32,RepairCost:664,HideFlags:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
