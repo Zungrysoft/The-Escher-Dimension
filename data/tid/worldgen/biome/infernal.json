@@ -42,19 +42,7 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:zombie",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "minecraft:skeleton",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
@@ -78,8 +66,8 @@
         "maxCount": 4
       },
 	  {
-        "type": "minecraft:cave_spider",
-        "weight": 25,
+        "type": "minecraft:spider",
+        "weight": 20,
         "minCount": 1,
         "maxCount": 2
       },
@@ -91,13 +79,13 @@
       },
 	  {
         "type": "minecraft:zombie_villager",
-        "weight": 10,
+        "weight": 100,
         "minCount": 1,
         "maxCount": 1
       },
 	  {
         "type": "minecraft:ghast",
-        "weight": 50,
+        "weight": 120,
         "minCount": 1,
         "maxCount": 1
       }

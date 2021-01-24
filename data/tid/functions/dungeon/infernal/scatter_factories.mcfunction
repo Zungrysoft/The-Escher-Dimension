@@ -19,7 +19,7 @@ execute if score temp2 value matches 2 run summon minecraft:area_effect_cloud -5
 execute if score temp2 value matches 3 run summon minecraft:area_effect_cloud -100 0 -50 {Duration:99999999,CustomName:"\"factory_marker\""}
 
 #Put an explosive drill directly above one of the factories
-execute at @e[type=area_effect_cloud,name="factory_marker",limit=1,sort=random] positioned ~-13 111 ~-13 if blocks ~ ~128 ~ ~26 ~143 ~26 1001 1 1001 all run function tid:dungeon/infernal/misc/select_power_drill
+execute at @e[type=area_effect_cloud,name="factory_marker",limit=1,sort=random] positioned ~-13 111 ~-13 run function tid:dungeon/infernal/misc/select_power_drill
 
 #Build the factories
 execute as @e[type=area_effect_cloud,name="factory_marker"] at @s run function tid:dungeon/infernal/factory/start

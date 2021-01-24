@@ -32,18 +32,51 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Deals +5 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"a living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Deals +4 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,igneous:1b}"
 						}
 					]
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 33,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 33,
 					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +3 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"a living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 33,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 33,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
 						}
 					]
 				},

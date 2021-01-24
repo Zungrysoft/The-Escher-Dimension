@@ -127,6 +127,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Safety Helmet
 /give @p chainmail_helmet{display:{Name:'[{"text":"Safety Helmet","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"If your health goes below 6, this item","italic":false,"color":"aqua"}]','[{"text":"will break and heal you to full health","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:10}],safety_helmet:1b} 1
 
+#Barbed Pickaxe
+/give @p diamond_pickaxe{display:{Name:'[{"text":"Barbed Pickaxe","italic":false,"bold":false,"color":"gold"}]'},Enchantments:[{id:sharpness,lvl:7}]}
+
 #Healing Axe
 /give @p iron_axe{display:{Name:'[{"text":"Silver Slim\'s Chopper","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Restores hunger on hit","italic":false,"color":"aqua"}]']},healing_axe:1b} 1
 
@@ -134,10 +137,10 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p iron_pickaxe{display:{Name:'[{"text":"Silver Slim\'s Digger","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Restores hunger when you","italic":false,"color":"aqua"}]','[{"text":"break a monster spawner","italic":false,"color":"aqua"}]']},healing_pickaxe:1b} 1
 
 #Igneous Blade
-/give @p stone_sword{display:{Name:'[{"text":"Igneous Blade","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Deals +5 damage if a there is","italic":false,"color":"green"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"green"}]']},Unbreakable:1,igneous:1b}
+/give @p stone_sword{display:{Name:'[{"text":"Igneous Blade","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Deals +4 damage for each","italic":false,"color":"green"}]','[{"text":"living creature on fire nearby","italic":false,"color":"green"}]']},Unbreakable:1,igneous:1b}
 
 #Igneous Armor
-/give @p leather_chestplate{display:{Name:'[{"text":"Igneous Armor","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Grants +5 damage if a there is","italic":false,"color":"green"}]','[{"text":"a living creature on fire nearby","italic":false,"color":"green"}]'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}
+/give @p leather_chestplate{display:{Name:'[{"text":"Igneous Armor","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Grants +2 damage for each","italic":false,"color":"green"}]','[{"text":"living creature on fire nearby","italic":false,"color":"green"}]'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}
 
 #Mysterious Orb
 /give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1
