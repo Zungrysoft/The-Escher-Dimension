@@ -14,9 +14,9 @@ fill 1033 129 1033 1065 156 1065 minecraft:blue_wool
 fill 1000 1 1033 1032 28 1065 minecraft:bedrock
 fill 1001 1 1033 1032 27 1064 minecraft:green_wool
 fill 1000 129 1032 1065 156 1065 minecraft:blue_wool
-#Storehouse for purple wool
+#Storehouse for air
 fill 1033 1 1000 1065 28 1032 minecraft:bedrock
-fill 1033 1 1001 1064 27 1032 minecraft:purple_wool
+fill 1033 1 1001 1064 27 1032 minecraft:air
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate

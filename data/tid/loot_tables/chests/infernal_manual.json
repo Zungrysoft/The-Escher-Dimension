@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{pages: [\'{\"text\":\"Activate the explosive drill by placing one iron block in each of the four slots.\n\nOnce activated, stand back!\n\nDo not enter the blasting pit while the drill is active!\"}\'], title: \"Explosive Drill Manual\", author: \"Infernal Industries Safety Department\", resolved: 1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -14,9 +14,6 @@ execute as @e[type=area_effect_cloud,name="sewer_outflow_west"] at @s run functi
 #Populate explosive drills
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_populate
 
-#Scatter chests around
-function tid:misc/infernal_scatter_chests
-
 #Kill markers
 kill @e[type=minecraft:area_effect_cloud,name="dock_marker"]
 kill @e[type=minecraft:area_effect_cloud,name="tower_marker"]

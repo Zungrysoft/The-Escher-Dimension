@@ -7,10 +7,6 @@ execute positioned ~ ~128 ~ run fill ~-15 ~39 ~-15 ~15 ~66 ~15 yellow_wool
 execute positioned ~ ~128 ~ run fill ~-15 ~67 ~-15 ~15 ~94 ~15 yellow_wool
 execute positioned ~ ~128 ~ run fill ~-15 ~11 ~-15 ~15 ~20 ~15 blue_wool
 
-#Topper
-#Doesn't look that great, so we'll only use it rarely
-execute if predicate tid:random_05 positioned ~-15 ~93 ~-15 run function tid:dungeon/infernal/factory/select_topper
-
 #Mark it on the map
 fill ~-15 255 ~-15 ~15 255 ~15 stone_bricks replace black_concrete
 
@@ -33,6 +29,9 @@ execute as @e[type=area_effect_cloud,tag=scatter] at @s run function tid:dungeon
 execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_underbelly
 execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_shafts
 execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_crosscut
+
+#Topper
+execute if predicate tid:random_15 positioned ~-15 ~94 ~-15 run function tid:dungeon/infernal/factory/select_topper
 
 #Place the starting doorways
 summon minecraft:area_effect_cloud ~ 22 ~ {Duration:99999999,CustomName:"\"infernal_factory_north\""}
