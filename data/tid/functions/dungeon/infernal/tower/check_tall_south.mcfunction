@@ -1,5 +1,8 @@
 function tid:dungeon/infernal/tower/room_checks
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-3 ~-1 ~0 if blocks ~ ~128 ~ ~6 ~132 ~6 1001 1 1001 all run function tid:dungeon/infernal/tower/select_short_small
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-6 ~-1 ~0 if blocks ~ ~128 ~ ~12 ~132 ~8 1001 1 1001 all run function tid:dungeon/infernal/tower/select_short_long
+execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-3 ~-2 ~0 if blocks ~ ~128 ~ ~6 ~136 ~6 1001 1 1001 all run function tid:dungeon/infernal/tower/select_tall_small
+execute unless score @s failed matches 1.. if predicate tid:random_10 if block ~7 ~-2 ~ #tid:infernal_blocks positioned ~-6 ~-2 ~ if blocks ~ ~128 ~ ~12 ~136 ~12 1001 1 1001 all run function tid:dungeon/infernal/tower/select_tall_medium
 
-execute unless score @s failed matches 1.. if predicate tid:random_10 unless entity @e[type=area_effect_cloud,name="tower_marker",distance=0..15] positioned ~-3 ~-1 ~0 if blocks ~ ~128 ~ ~6 ~136 ~6 1001 1 1001 all run function tid:dungeon/infernal/tower/select_short_stairs
+scoreboard players set success value 0
+execute unless score @s failed matches 1.. if predicate tid:random_10 run function tid:dungeon/infernal/tower/check_stairs
+execute if predicate tid:random_33 if score success value matches 1 positioned ~-3 ~-2 ~0 if blocks ~ ~128 ~ ~6 ~140 ~6 1001 1 1001 all run function tid:dungeon/infernal/tower/select_tall_stairs_short
+execute if score success value matches 1 positioned ~-3 ~-2 ~0 if blocks ~ ~128 ~ ~6 ~144 ~6 1001 1 1001 all run function tid:dungeon/infernal/tower/select_tall_stairs_tall

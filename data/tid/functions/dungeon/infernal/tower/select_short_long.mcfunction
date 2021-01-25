@@ -36,6 +36,12 @@ summon minecraft:area_effect_cloud ~12 ~1 ~5 {Duration:99999999,CustomName:"\"in
 execute if score temp value matches 1 at @s run setblock ~ ~-1 ~ cracked_nether_bricks
 execute at @s run function tid:dungeon/infernal/tower/open_room
 
+#Build pillars beneath this room
+execute positioned ~2 ~-1 ~2 run function tid:misc/infernal_tower_pillar
+execute positioned ~2 ~-1 ~6 run function tid:misc/infernal_tower_pillar
+execute positioned ~10 ~-1 ~2 run function tid:misc/infernal_tower_pillar
+execute positioned ~10 ~-1 ~6 run function tid:misc/infernal_tower_pillar
+
 #Randomize
 scoreboard players set xmax value 13
 scoreboard players set ymax value 5

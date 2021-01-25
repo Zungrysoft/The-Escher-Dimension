@@ -94,7 +94,7 @@ execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turre
 
 #Handles custom monster effects
 #Fireflare
-execute as @e[type=minecraft:zombie,tag=fireflare] at @s if block ~ ~ ~ air run setblock ~ ~ ~ fire[age=7]
+execute as @e[type=minecraft:zombie,tag=fireflare] at @s run function tid:gameplay/ai_fireflare
 #Debris Demon
 execute as @e[type=minecraft:husk,tag=debris_demon] at @s run function tid:gameplay/ai_debris_demon
 #Oxidation Spirit

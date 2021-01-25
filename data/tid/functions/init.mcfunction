@@ -55,6 +55,7 @@ scoreboard objectives add down dummy
 scoreboard objectives add tries dummy
 scoreboard objectives add failed dummy
 scoreboard objectives add succeeded dummy
+scoreboard objectives add initialize dummy
 scoreboard objectives add counter1 dummy
 scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
