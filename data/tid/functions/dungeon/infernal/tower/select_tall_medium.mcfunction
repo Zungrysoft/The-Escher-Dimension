@@ -11,6 +11,8 @@ execute if predicate tid:random_25 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_25 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/tall_medium_6", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/tall_medium_7", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/tall_medium_8", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_09 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/tall_medium_9", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/tall_medium_10", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block

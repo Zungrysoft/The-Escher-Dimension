@@ -2,7 +2,7 @@
 fill ~ ~ ~ ~ ~1 ~ air
 
 #Monster spawner
-execute if predicate tid:random_03 run function tid:misc/infernal_factory_random_spawner
+execute if predicate tid:random_03 run function tid:misc/infernal_tower_random_spawner
 
 #Dirt pile
 execute if predicate tid:random_03 run function tid:misc/infernal_dirt_pile
