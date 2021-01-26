@@ -91,6 +91,7 @@ execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:3b}]}] at @
 scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
 execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
+execute as @a at @s run function tid:gameplay/shield_curse
 
 #Handles custom monster effects
 #Fireflare
@@ -107,6 +108,9 @@ execute as @e[type=tnt,tag=elemental] at @s run function tid:gameplay/ai_explosi
 execute as @e[type=minecraft:zombie,tag=alloy_elemental] at @s run function tid:gameplay/ai_alloy_elemental
 #Summoned Minions
 execute as @e[tag=summon] at @s run function tid:gameplay/ai_summon
+#War Pigs
+execute as @e[type=minecraft:zombified_piglin,tag=war_pig] at @s run function tid:gameplay/ai_war_pig
+execute as @e[type=minecraft:arrow,tag=war_pig_fireball] at @s run function tid:gameplay/ai_war_pig_fireball
 #Glowing Monsters
 execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 #Fountain of Flame

@@ -55,12 +55,14 @@ scoreboard objectives add down dummy
 scoreboard objectives add tries dummy
 scoreboard objectives add failed dummy
 scoreboard objectives add succeeded dummy
-scoreboard objectives add initialize dummy
+scoreboard objectives add init dummy
 scoreboard objectives add counter1 dummy
 scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
+scoreboard objectives add power dummy
 scoreboard objectives add value dummy
 scoreboard objectives add heart_boost dummy
+scoreboard objectives add shield_curse dummy
 scoreboard objectives add adv_hellion_1 dummy
 scoreboard objectives add adv_hellion_2 dummy
 scoreboard objectives add adv_hellion_3 dummy
@@ -77,6 +79,7 @@ scoreboard objectives add use_map minecraft.used:minecraft.map
 scoreboard objectives add kill_silverfish minecraft.killed:minecraft.silverfish
 scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add mine_spawner minecraft.mined:minecraft.spawner
+scoreboard objectives add use_shield minecraft.used:minecraft.shield
 team add players
 team add glow
 team modify glow color yellow
