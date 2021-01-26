@@ -3,7 +3,8 @@ scoreboard players set @s phase 0
 scoreboard players set @s counter1 0
 
 #Sound effect
-playsound minecraft:item.firecharge.use hostile @a ~ ~ ~ 1 1.2
+playsound minecraft:item.firecharge.use hostile @a ~ ~ ~ 0.8 1.2
+playsound minecraft:item.crossbow.shoot hostile @a ~ ~ ~ 1.2 0.7
 
 #Store the coords of the target player
 #But we have to figure out who the target player is
@@ -66,11 +67,17 @@ execute store result storage temp fireball.Motion[1] double .01 run scoreboard p
 execute store result storage temp fireball.Motion[2] double .01 run scoreboard players get z1 value
 
 #Summon the fireball and merge the data into it
-summon arrow ~ ~1.4 ~ {Motion:[0d,0d,0d],NoGravity:1,PierceLevel:50,damage:4,Tags:["war_pig_fireball","new"]}
+summon arrow ~ ~1.4 ~ {Motion:[0d,0d,0d],NoGravity:1,PierceLevel:50,Tags:["war_pig_fireball","new"]}
 data modify entity @e[type=arrow,limit=1,tag=new] {} merge from storage temp fireball
-tag @e[type=arrow,limit=1,tag=new] remove new
+
+#Set the fireball's damage
+execute if entity @s[tag=power_low] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 6
+execute if entity @s[tag=power_medium] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 14
+execute if entity @s[tag=power_high] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 20
+execute if entity @s[tag=power_super] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 32
 
 #Cleanup
 data remove storage temp fireball
+tag @e[type=arrow,limit=1,tag=new] remove new
 
 #Can I please go back to a programming language where this kind of thing can be done in like six lines of code?

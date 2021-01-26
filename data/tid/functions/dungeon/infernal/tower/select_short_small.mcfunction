@@ -4,7 +4,7 @@ execute at @s if block ~ ~-1 ~ cracked_nether_bricks run scoreboard players set 
 
 #Pick a structure from this list
 setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/short_small_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/short_small_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/short_small_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:infernal/tower/short_small_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked

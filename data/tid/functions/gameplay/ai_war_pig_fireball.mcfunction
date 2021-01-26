@@ -6,3 +6,6 @@ execute if score @s counter1 matches 40.. run function tid:gameplay/fireball_fiz
 
 #Fizzle the fireball out if it hits a wall
 execute if entity @s[nbt={inGround:1b}] run function tid:gameplay/fireball_fizzle
+
+#Particles
+particle flame ~ ~ ~ 0.1 0.1 0.1 0 1
