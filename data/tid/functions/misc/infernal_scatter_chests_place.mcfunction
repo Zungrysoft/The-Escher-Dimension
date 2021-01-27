@@ -7,4 +7,3 @@ execute if predicate tid:random_25 if block ~ ~ ~-1 air unless blocks ~1 ~ ~1 ~-
 
 #Mark it on the map
 execute if block ~ ~ ~ chest run function tid:misc/infernal_mark_chest
-execute if block ~ ~ ~ chest run say CHEST MADE
