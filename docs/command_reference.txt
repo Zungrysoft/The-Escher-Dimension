@@ -28,6 +28,7 @@
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/sand1"}
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/sand2"}
 /setblock ~ ~ ~ chest{LootTable: "tid:chests/infernal"}
+/setblock ~ ~ ~ chest{LootTable: "tid:chests/ice"}
 
 setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 170s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:skeleton"}, Weight: 1},{Entity: {id: "minecraft:creeper"}, Weight: 1}]}
 
