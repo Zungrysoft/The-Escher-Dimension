@@ -1,8 +1,8 @@
 {
-  "parent": "tid:layer_1/find_canal",
+  "parent": "tid:jungle/root",
   "display": {
     "icon": {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:jungle_boat"
     },
     "title": "Batten Down the Hatches",
     "description": "Kill a monster while riding a boat",
@@ -25,7 +25,10 @@
             },
             "entity": "this"
           }
-        ]
+        ],
+		"location": {
+	      "dimension": "tid:layer_jungle"
+        }
       }
     }
   },

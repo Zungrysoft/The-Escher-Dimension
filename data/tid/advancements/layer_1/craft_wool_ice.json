@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_1/find_loot_canal",
+  "parent": "tid:layer_1/find_loot_ice",
   "display": {
     "icon": {
       "item": "minecraft:light_blue_wool"

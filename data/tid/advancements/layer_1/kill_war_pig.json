@@ -1,0 +1,35 @@
+{
+  "parent": "tid:layer_1/find_ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "title": "Snowpiercer",
+    "description": "Kill a War Pig while dodging their arrows",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+			  "nbt": "{Tags:[\"war_pig\"]}"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_mob"
+    ]
+  ]
+}

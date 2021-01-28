@@ -18,7 +18,7 @@ clone ~ ~-174 ~ ~14 ~-218 ~11 ~ ~-90 ~ masked
 fill ~ ~-46 ~ ~14 ~-90 ~11 mossy_cobblestone replace orange_wool
 
 #Used to detect the advancement for this building
-summon minecraft:area_effect_cloud ~7 ~5 ~5 {Duration:99999999,CustomName:"\"adv_pyramid\""}
+#summon minecraft:area_effect_cloud ~7 ~5 ~5 {Duration:99999999,CustomName:"\"adv_pyramid\""}
 
 #Run the randomizer
 scoreboard players set xmax value 17

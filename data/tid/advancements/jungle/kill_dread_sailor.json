@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_1/kill_on_boat",
+  "parent": "tid:jungle/kill_on_boat",
   "display": {
     "icon": {
       "item": "minecraft:bone"

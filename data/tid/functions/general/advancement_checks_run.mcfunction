@@ -44,7 +44,7 @@ execute if entity @s[predicate=!tid:on_strider] run scoreboard players set @s ad
 execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if score @s adv_hellion_1 matches 1 if score @s adv_hellion_2 matches 1 if score @s adv_hellion_3 matches 1 if score @s adv_hellion_4 matches 1 run advancement grant @s only tid:hellion/circumnavigate
 
 #Find a Jungle Pyramid
-execute if entity @e[type=area_effect_cloud,name="adv_pyramid",distance=0..12] run advancement grant @s only tid:jungle/find_pyramid
+#execute if entity @e[type=area_effect_cloud,name="adv_pyramid",distance=0..12] run advancement grant @s only tid:jungle/find_pyramid
 
 #Find a Sin City Capitol
 execute positioned ~ 200 ~ if entity @e[type=area_effect_cloud,tag=sin_district,distance=0..10] run advancement grant @s only tid:sin/enter_capitol

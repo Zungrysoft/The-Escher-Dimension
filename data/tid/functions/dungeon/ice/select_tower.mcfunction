@@ -23,7 +23,7 @@ fill ~ 255 ~ ~13 255 ~13 minecraft:light_blue_concrete replace minecraft:black_c
 #Summon doorways
 summon minecraft:area_effect_cloud ~6 ~1 ~ {Duration:99999999,CustomName:"\"ice_north\"",Tags:["tower"]}
 summon minecraft:area_effect_cloud ~6 ~7 ~13 {Duration:99999999,CustomName:"\"ice_south\"",Tags:["tower"]}
-summon minecraft:area_effect_cloud ~ ~4 ~1 {Duration:99999999,CustomName:"\"ice_west\"",Tags:["tower"]}
+summon minecraft:area_effect_cloud ~ ~4 ~6 {Duration:99999999,CustomName:"\"ice_west\"",Tags:["tower"]}
 summon minecraft:area_effect_cloud ~13 ~10 ~6 {Duration:99999999,CustomName:"\"ice_east\"",Tags:["tower"]}
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_down\"",Tags:["tower"]}
 summon minecraft:area_effect_cloud ~ ~12 ~ {Duration:99999999,CustomName:"\"ice_up\"",Tags:["tower"]}

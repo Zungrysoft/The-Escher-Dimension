@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_1/find_canal",
+  "parent": "tid:layer_1/find_ice",
   "display": {
     "icon": {
       "item": "minecraft:chest"
     },
-    "title": "Canal Treasure",
-    "description": "Find a chest in the Underworld Canals",
+    "title": "Icy Treasure",
+    "description": "Find a chest in The Deep Cold",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,13 +15,20 @@
     "loot_1": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "tid:chests/canal"
+        "loot_table": "tid:chests/ice"
+      }
+    },
+	"loot_2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/ice_top"
       }
     }
   },
   "requirements": [
     [
-      "loot_1"
+      "loot_1",
+	  "loot_2"
     ]
   ]
 }

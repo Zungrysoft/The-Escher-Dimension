@@ -13,6 +13,9 @@ summon minecraft:area_effect_cloud ~6 ~-1 ~ {Duration:99999999,CustomName:"\"ice
 #Place snow
 execute positioned ~1 ~4 ~1 run function tid:misc/ice_snow_pile
 
+#Remove bottom step from above piece
+execute positioned ~6 ~5 ~-2 run fill ~ ~ ~ ~1 ~ ~1 air replace cobblestone_slab
+
 #Surround in ice
 fill ~-1 ~-1 ~-1 ~10 ~5 ~10 packed_ice replace stone
 

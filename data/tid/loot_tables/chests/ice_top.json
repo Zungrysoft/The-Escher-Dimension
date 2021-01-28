@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 3,
+			"bonus_rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Sparker\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"3 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 4b, Colors: [I; 16774912]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16774912]}]}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
