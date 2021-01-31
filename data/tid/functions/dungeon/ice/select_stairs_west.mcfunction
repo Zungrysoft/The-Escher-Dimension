@@ -15,12 +15,12 @@ summon minecraft:area_effect_cloud ~ ~4 ~1 {Duration:99999999,CustomName:"\"ice_
 summon minecraft:area_effect_cloud ~5 ~1 ~1 {Duration:99999999,CustomName:"\"ice_east\""}
 
 #Surround in ice
-fill ~-1 ~-1 ~-1 ~4 ~6 ~6 packed_ice replace stone
+fill ~-1 ~-1 ~-1 ~6 ~6 ~4 packed_ice replace stone
 
 #Carve caves and randomize
-scoreboard players set xmax value 4
+scoreboard players set xmax value 6
 scoreboard players set ymax value 6
-scoreboard players set zmax value 6
+scoreboard players set zmax value 4
 execute if predicate tid:random_50 run function tid:dungeon/ice/carve/run
 function tid:dungeon/ice/rng/run_rng
 

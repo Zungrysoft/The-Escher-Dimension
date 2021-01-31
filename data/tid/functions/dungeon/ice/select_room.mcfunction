@@ -20,7 +20,7 @@ summon minecraft:area_effect_cloud ~ ~2 ~5 {Duration:99999999,CustomName:"\"ice_
 summon minecraft:area_effect_cloud ~11 ~2 ~5 {Duration:99999999,CustomName:"\"ice_east\""}
 
 #Ice pillar
-execute if score ice_global value matches 1..2 if predicate tid:random_05 positioned ~5 ~2 ~5 run function tid:misc/ice_stalag_up
+execute if score ice_global value matches 1 if predicate tid:random_05 positioned ~5 ~2 ~5 run function tid:misc/ice_stalag_up
 
 #Surround in ice
 fill ~-1 ~-1 ~-1 ~12 ~7 ~12 packed_ice replace stone

@@ -27,7 +27,7 @@ execute if predicate tid:random_20 run function tid:dungeon/ice/carve/run
 function tid:dungeon/ice/rng/run_rng
 
 #Count the room in the total
-scoreboard players remove ice_rooms value 1
+execute if predicate tid:random_33 run scoreboard players remove ice_rooms value 1
 
 #We're done here
 kill @s
