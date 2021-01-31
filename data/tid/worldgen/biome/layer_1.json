@@ -43,7 +43,7 @@
       },
       {
         "type": "minecraft:creeper",
-        "weight": 100,
+        "weight": 60,
         "minCount": 4,
         "maxCount": 4
       },
@@ -55,7 +55,7 @@
       },
 	  {
         "type": "minecraft:zombie_villager",
-        "weight": 20,
+        "weight": 30,
         "minCount": 1,
         "maxCount": 1
       }

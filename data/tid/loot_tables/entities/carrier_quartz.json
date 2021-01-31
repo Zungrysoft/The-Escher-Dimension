@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+		{
+          "type": "minecraft:item",
+		  "weight": 666,
+          "name": "minecraft:quartz"
+        }
+      ]
+    }
+  ]
+}

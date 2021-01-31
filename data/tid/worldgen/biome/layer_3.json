@@ -45,7 +45,7 @@
       },
       {
         "type": "minecraft:creeper",
-        "weight": 100,
+        "weight": 30,
         "minCount": 4,
         "maxCount": 4
       },

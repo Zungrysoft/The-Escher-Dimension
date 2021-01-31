@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-			"rolls": 2,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -12,10 +12,6 @@
 		},
 		{
             "rolls": 3,
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
             "entries": [
                 {
                     "type": "item",

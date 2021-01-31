@@ -1,0 +1,36 @@
+{
+  "parent": "tid:layer_1/find_loot_ice",
+  "display": {
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "title": "King of the Cats",
+    "description": "Rescue and tame a Cat",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+	    "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:cat"
+            },
+            "entity": "this"
+          }
+        ]
+	  
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ]
+}

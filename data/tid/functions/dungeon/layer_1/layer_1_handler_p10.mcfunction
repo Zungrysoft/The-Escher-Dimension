@@ -47,13 +47,7 @@ execute positioned 0 55 -7 positioned ~-3 ~ ~-18 run function tid:dungeon/layer_
 
 execute positioned 0 59 -45 positioned ~-6 ~-5 ~-21 run function tid:dungeon/stronghold2/select_entrance_north
 execute positioned -16 59 -42 positioned ~-22 ~-20 ~-7 run function tid:dungeon/brick/select_entrance_west
-#execute positioned 16 59 -42 positioned ~1 ~-1 ~-4 run function tid:dungeon/nature/select_hall_west
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
-execute positioned 50 59 -42 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"ice_north\""}
+execute positioned 16 59 -42 positioned ~1 ~-6 ~-6 run function tid:dungeon/ice/select_entrance_east
 
 #Done, now move to the next phase
 scoreboard players set layer_1_handler_phase value 20
