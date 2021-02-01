@@ -12,6 +12,7 @@ scoreboard players set generated_diamond_stalag value 0
 scoreboard players set generated_iron_stalag value 0
 scoreboard players set generated_lapis_stalag value 0
 scoreboard players set finale_stalag_type value 0
+scoreboard players reset victory value
 
 #Generate the entrance room
 execute positioned -12 140 -12 run function tid:dungeon/finale/select_entrance

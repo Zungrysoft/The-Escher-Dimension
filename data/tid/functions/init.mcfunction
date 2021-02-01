@@ -42,6 +42,12 @@ scoreboard players set temp value 1
 execute in tid:layer_finale if block 0 184 0 bedrock run scoreboard players set temp value 0
 execute if score temp value matches 1 in tid:layer_finale run forceload add -7 -7 7 7
 
+#Bossbars
+bossbar add boss "The Doom Pillar"
+bossbar set minecraft:boss max 6
+bossbar set minecraft:boss style notched_6
+bossbar set minecraft:boss color purple
+
 #Scoreboard
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
@@ -75,6 +81,7 @@ scoreboard objectives add health health "Health"
 scoreboard objectives setdisplay list health
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add mine_debris minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add mine_core minecraft.mined:minecraft.crying_obsidian
 scoreboard objectives add use_map minecraft.used:minecraft.map
 scoreboard objectives add kill_silverfish minecraft.killed:minecraft.silverfish
 scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm

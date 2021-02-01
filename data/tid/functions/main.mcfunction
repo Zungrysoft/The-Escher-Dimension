@@ -53,6 +53,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="summon_mob"] at @s if entit
 execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run function tid:misc/power_drill_check
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 effect clear @a bad_omen
+execute if score victory value matches 1 run function tid:general/victory_tick
 
 #Haunted Chests
 #Soulsand Arena
@@ -77,6 +78,7 @@ scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
 execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
 execute as @a at @s run function tid:gameplay/shield_curse
+execute as @e[type=area_effect_cloud,name="finale_boss_core"] at @s run function tid:misc/finale_core
 
 #Handles custom monster effects
 #Fireflare
@@ -101,7 +103,7 @@ execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 #Fountain of Flame
 execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:gameplay/ai_fire_fountain
 #Vexes
-execute as @e[type=vex] at @s run function tid:gameplay/ai_vex
+execute as @e[type=vex,tag=!keep] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
 execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
 #Ice Blaze

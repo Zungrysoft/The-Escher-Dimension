@@ -1,0 +1,9 @@
+#Decide which spawner to place
+
+#Phantom
+execute if predicate tid:random_33 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:phantom"}, Weight: 1}]}
+#Blaze
+execute if predicate tid:random_33 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 2000s, MaxSpawnDelay: 3000s, Delay: 100s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:blaze"}, Weight: 1}]}
+
+#Bee
+execute if block ~ ~ ~ air run setblock ~ ~ ~ beehive{Bees: [{EntityData: {NoGravity: 1b, Brain: {memories: {}}, HurtByTimestamp: 0, FlowerPos: {X: -10, Y: 236, Z: -126}, HasStung: 0b, Attributes: [{Base: 48.0d, Modifiers: [{Operation: 1, UUID: [I; 1144742675, -255704231, -1600200215, -407347992], Amount: -0.011767833114623106d, Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}, {Base: 0.30000001192092896d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], CannotEnterHiveTicks: 0, PersistenceRequired: 0b, id: "minecraft:bee", Age: 0, TicksSincePollination: 0, AngerTime: 0, Motion: [-0.06304389264581814d, -0.12700041100629542d, 0.08734920724868059d], Health: 10.0f, HasNectar: 1b, LeftHanded: 0b, Air: 300s, OnGround: 0b, Rotation: [44.45723f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-10.724714586371334d, 235.45001962646148d, -124.26472744460683d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CropsGrownSincePollination: 0, CanPickUpLoot: 0b, HurtTime: 0s, HivePos: {X: -13, Y: 235, Z: -124}}, MinOccupationTicks: 2400, TicksInHive: 105}]}

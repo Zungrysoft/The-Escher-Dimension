@@ -59,6 +59,10 @@ execute if entity @s[advancements={tid:layer_2/cool_obsidian=false,tid:layer_2/f
 execute if score @s mine_debris matches 1.. if entity @s[predicate=tid:in_layer_3] run advancement grant @s only tid:layer_3/mine_debris
 scoreboard players set @s mine_debris 0
 
+#Mine Crying Obsidian
+execute if score @s mine_core matches 1.. if entity @s[predicate=tid:in_layer_finale] run advancement grant @s only tid:finale/destroy_core
+scoreboard players set @s mine_core 0
+
 #Use a map in Infernal Industries
 execute if score @s use_map matches 1.. if entity @s[predicate=tid:in_layer_infernal] run advancement grant @s only tid:infernal/use_map
 scoreboard players set @s use_map 0

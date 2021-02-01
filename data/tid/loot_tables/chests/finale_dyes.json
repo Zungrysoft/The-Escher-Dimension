@@ -1,8 +1,7 @@
 {
     "pools": [
         {
-            "rolls": 5,
-            "bonus_rolls": 1,
+            "rolls": 15,
             "entries": [
                 {
                     "type": "item",
