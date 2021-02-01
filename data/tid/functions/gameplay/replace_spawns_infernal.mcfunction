@@ -19,7 +19,7 @@ execute if score temp value matches 11..14 run summon minecraft:creeper ~ ~ ~ {p
 execute if score temp value matches 15..28 run function tid:custom_mobs/war_pig_4
 
 #Dye Zombie
-execute if score temp value matches 29..30 run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:black_dye,Count:1}],HandDropChances:[1.00F],Tags:["keep"]}
+execute if score temp value matches 29..30 run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:black_dye,Count:1}],HandDropChances:[2F]}
 
 #Giant Magma Cube (Also checks if there is enough space)
 execute if score temp value matches 31 if block ~1 ~ ~ air if block ~-1 ~ ~ air if block ~ ~ ~1 air if block ~ ~ ~-1 air if block ~2 ~ ~2 air if block ~-2 ~ ~2 air if block ~2 ~ ~-2 air if block ~-2 ~ ~-2 air if block ~2 ~4 ~2 air if block ~-2 ~4 ~2 air if block ~2 ~4 ~-2 air if block ~-2 ~4 ~-2 air if block ~ ~4 ~ air if block ~ ~3 ~ air if block ~ ~2 ~ air run function tid:custom_mobs/giant_magma_cube

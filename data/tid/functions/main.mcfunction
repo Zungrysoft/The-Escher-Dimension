@@ -39,9 +39,9 @@ execute in tid:layer_infernal positioned 0 54 0 unless block ~ ~ ~ bedrock run f
 execute if entity @a[predicate=tid:in_layer_infernal] in tid:layer_infernal if block 0 54 0 bedrock run function tid:dungeon/infernal/infernal_handler
 
 #The Corridors
-execute in tid:layer_finale positioned 0 185 0 unless block ~ ~ ~ bedrock run scoreboard players reset finale_handler_phase
-execute in tid:layer_finale positioned 0 185 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
-execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 185 0 bedrock run function tid:dungeon/finale/finale_handler
+execute in tid:layer_finale positioned 0 142 0 unless block ~ ~ ~ bedrock run scoreboard players reset finale_handler_phase
+execute in tid:layer_finale positioned 0 142 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+execute if entity @a[predicate=tid:in_layer_finale] in tid:layer_finale if block 0 142 0 bedrock run function tid:dungeon/finale/finale_handler
 
 #Entrance Messages
 function tid:intro/check

@@ -12,4 +12,4 @@ execute if score temp value matches 1..3 if predicate tid:random_50 positioned ~
 execute if score temp value matches 1..3 if predicate tid:random_50 positioned ~-.5 ~ ~ run function tid:custom_mobs/oxidation_spirit
 
 #Dye Zombie
-execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:yellow_dye,Count:1}],HandDropChances:[1.00F]}
+execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:yellow_dye,Count:1}],HandDropChances:[2F]}

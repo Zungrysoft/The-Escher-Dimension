@@ -16,4 +16,4 @@ execute if score temp value matches 3..6 run function tid:custom_mobs/fire_fount
 execute if score temp value matches 7 if predicate tid:random_10 run function tid:custom_mobs/alloy_elemental
 
 #Dye Zombie
-execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:pink_dye,Count:1}],HandDropChances:[1.00F]}
+execute if predicate tid:random_07 run summon minecraft:zombie ~ ~ ~.5 {HandItems:[{id:pink_dye,Count:1}],HandDropChances:[2F]}

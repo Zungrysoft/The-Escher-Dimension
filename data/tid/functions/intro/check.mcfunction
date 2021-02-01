@@ -14,3 +14,4 @@ execute as @a[advancements={tid:sin/find_sin=false}] at @s if predicate tid:in_l
 execute as @a[advancements={tid:sin/find_sin_chambers=false}] at @s if entity @e[name="sin_chambers_entrance",distance=..7] run function tid:intro/sin_chambers
 execute as @a[advancements={tid:jungle/root=false}] at @s if predicate tid:in_layer_jungle if block ~ ~-1 ~ #tid:jungle_blocks run function tid:intro/jungle
 execute as @a[advancements={tid:infernal/root=false}] at @s if predicate tid:in_layer_infernal if block ~ ~-1 ~ #tid:infernal_blocks run function tid:intro/infernal
+execute as @a[advancements={tid:finale/root=false}] at @s if predicate tid:in_layer_finale if block ~ ~-1 ~ netherite_block run function tid:intro/finale

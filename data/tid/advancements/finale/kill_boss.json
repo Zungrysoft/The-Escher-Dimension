@@ -1,5 +1,5 @@
 {
-  "parent": "tid:finale/find_boss",
+  "parent": "tid:finale/destroy_core",
   "display": {
     "icon": {
       "item": "minecraft:cake"

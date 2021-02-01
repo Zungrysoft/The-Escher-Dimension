@@ -1,5 +1,5 @@
 {
-  "parent": "tid:finale/destroy_core",
+  "parent": "tid:finale/find_loot",
   "display": {
     "icon": {
       "item": "minecraft:netherite_helmet",

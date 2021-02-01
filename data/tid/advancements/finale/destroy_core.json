@@ -1,5 +1,5 @@
 {
-  "parent": "tid:finale/find_loot",
+  "parent": "tid:finale/find_boss",
   "display": {
     "icon": {
       "item": "minecraft:crying_obsidian"
