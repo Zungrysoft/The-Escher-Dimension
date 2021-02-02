@@ -1,9 +1,6 @@
 #Empty the boss's health bar
 bossbar set minecraft:boss value 0
 
-#Grant immunity to everyone
-effect give @a minecraft:resistance 60 4
-
 #Set the victory flag
 scoreboard players set victory value 1
 

@@ -34,7 +34,7 @@ execute if score temp value matches 11 in tid:layer_1 at @e[name="teleporter",nb
 execute if score temp value matches 11 in tid:layer_1 unless entity @e[name="teleporter",nbt={Color:10},tag=open,limit=1,sort=random] positioned 0 55 0 run function tid:general/teleporter_teleport_run
 
 #Teleporter to and from The Corridors
-execute if score temp value matches 12 in tid:layer_finale positioned 0 55 0 run function tid:general/teleporter_teleport_run
+execute if score temp value matches 12 in tid:layer_finale positioned 0 143 0 run function tid:general/teleporter_teleport_run
 execute if score temp value matches 13 in tid:layer_1 positioned 0 55 0 run function tid:general/teleporter_teleport_run
 
 #Teleporter command for reference

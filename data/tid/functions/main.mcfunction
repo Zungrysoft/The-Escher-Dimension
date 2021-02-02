@@ -54,6 +54,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run fun
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 effect clear @a bad_omen
 execute if score victory value matches 1 run function tid:general/victory_tick
+execute as @e[type=armor_stand,tag=spawncloud] at @s run function tid:general/spawncloud
 
 #Haunted Chests
 #Soulsand Arena
