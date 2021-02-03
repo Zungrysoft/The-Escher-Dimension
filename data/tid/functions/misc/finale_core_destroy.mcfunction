@@ -16,5 +16,8 @@ execute if score boss_health value matches 2 run bossbar set minecraft:boss valu
 execute if score boss_health value matches 1 run bossbar set minecraft:boss value 1
 execute if score boss_health value matches 0 run function tid:general/victory
 
+#Remove the sea lantern
+fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 obsidian replace sea_lantern
+
 #Kill marker
 kill @s

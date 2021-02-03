@@ -1,8 +1,28 @@
 #Determine district
 execute positioned ~2 ~ ~6 run function tid:dungeon/sin/get_nearest_district
 
-#Pick a structure from this list
+#Universal Structures
 setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_1", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
+#Exclusive Structures
+#Blue
+execute if score district_color value matches 11 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_2", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Pink
+execute if score district_color value matches 6 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_3", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Purple
+execute if score district_color value matches 10 if predicate tid:random_33 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_4", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Yellow
+execute if score district_color value matches 4 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_5", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Lime
+execute if score district_color value matches 5 if predicate tid:random_80 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_5", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Magenta
+execute if score district_color value matches 2 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_6", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Green
+execute if score district_color value matches 13 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_6", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Gray
+execute if score district_color value matches 7 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_7", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Cyan
+execute if score district_color value matches 9 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_7", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~2 ~1 ~6 minecraft:redstone_block
@@ -30,6 +50,10 @@ execute if score district_color value matches 12 run fill ~ ~ ~ ~4 ~6 ~12 brown_
 execute if score district_color value matches 13 run fill ~ ~ ~ ~4 ~6 ~12 green_concrete replace light_blue_concrete
 execute if score district_color value matches 14 run fill ~ ~ ~ ~4 ~6 ~12 red_concrete replace light_blue_concrete
 execute if score district_color value matches 15 run fill ~ ~ ~ ~4 ~6 ~12 black_concrete replace light_blue_concrete
+
+#Recolor the stained glass in the room
+execute if score district_color value matches 4 run fill ~ ~ ~ ~4 ~6 ~12 yellow_stained_glass replace light_blue_stained_glass
+execute if score district_color value matches 5 run fill ~ ~ ~ ~4 ~6 ~12 lime_stained_glass replace light_blue_stained_glass
 
 #Remove any walls between this room and the one it generated from
 function tid:dungeon/sin/remove_walls
