@@ -38,7 +38,7 @@ scoreboard players set sin_chambers_rooms value 200
 
 #Generate the districts and capitols
 execute positioned 0 256 0 run function tid:dungeon/sin/scatter_districts
-execute at @e[tag=sin_district] run function tid:dungeon/sin/select_room
+execute at @e[tag=sin_district] positioned ~-9 ~ ~-9 run function tid:dungeon/sin/select_capitol
 execute as @e[tag=sin_district] at @s run tp @s ~ 200 ~
 
 #Done, now move to the next phase
