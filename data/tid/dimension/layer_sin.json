@@ -27,11 +27,11 @@
         },
 		{
           "block": "minecraft:netherrack",
-          "height": 5
+          "height": 6
         },
 		{
           "block": "minecraft:blackstone",
-          "height": 30
+          "height": 29
         },
 		{
           "block": "minecraft:basalt",

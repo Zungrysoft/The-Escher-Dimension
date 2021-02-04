@@ -1,12 +1,12 @@
 {
-  "parent": "tid:sin/kill_captain",
+  "parent": "tid:sin/enter_capitol",
   "display": {
     "icon": {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:spruce_trapdoor"
     },
-    "title": "Downtown Underground",
-    "description": "Enter a district's capitol building",
-    "frame": "task",
+    "title": "Hell Beneath",
+    "description": "Descend a well",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

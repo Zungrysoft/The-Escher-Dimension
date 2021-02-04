@@ -8,6 +8,10 @@ execute if predicate tid:random_50 run scoreboard players add temp value 2
 execute if predicate tid:random_50 run scoreboard players add temp value 4
 execute if predicate tid:random_50 run scoreboard players add temp value 8
 
+#Make sure there is at least one captain near each capitol building
+#If there is a capitol but no captain nearby, this spawn should probably be a captain
+execute if predicate tid:random_50 unless entity @e[type=piglin_brute,tag=captain,distance=0..30] positioned ~ 200 ~ if entity @e[type=area_effect_cloud,tag=sin_district,distance=0..15] run scoreboard players set temp value 15
+
 #Townsfolk
 execute if score temp value matches 0..5 run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,HandItems:[{id:golden_pickaxe,Count:1}],HandDropChances:[0F],CannotHunt:1,Tags:["villager","new"]}
 
