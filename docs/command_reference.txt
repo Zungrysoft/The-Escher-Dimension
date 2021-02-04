@@ -71,21 +71,11 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 
 /summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"stronghold_ruins\""}
 
-
-#Potion of Luck, Level 1 for 10 mins
-/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Duration:12000}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
-
-#Potion of Luck, Level 2 for 5 mins
-/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Amplifier:1,Duration:6000}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
-
-#Potion of Luck, Level 4 for 1 min
-/give @p minecraft:potion{CustomPotionEffects:[{Id:26,Amplifier:3,Duration:1200}],CustomPotionColor:2225664,display:{Name:'[{"text":"Potion of Luck","italic":false}]'}}
-
 #Potion of Dexterity
 /give @p minecraft:potion{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:'[{"text":"Potion of Dexterity","italic":false}]'}}
 
 #Potion of Rage
-/give @p potion{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:600,Amplifier:3},{Id:3,Duration:600,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}
+/give @p potion{CustomPotionColor:0,display:{Name:'[{"text":"Potion of Rage","italic":false}]'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}
 
 #Potion of Charisma
 /give @p potion{CustomPotionColor:54941,display:{Name:'[{"text":"Potion of Charisma","italic":false}]'},CustomPotionEffects:[{Id:32,Duration:6000,Amplifier:0},{Id:1,Duration:6000,Amplifier:0}]} 1
@@ -105,6 +95,12 @@ give @p potion{CustomPotionColor:10747903,display:{Name:'[{"text":"Potion of Lev
 #Arrow of Levitation
 give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow of Levitation","italic":false}]'},CustomPotionEffects:[{Id:25,Duration:75}]} 1
 
+#Potion of Haste
+/give @p potion{CustomPotionColor:16776960,display:{Name:'[{"text":"Potion of Haste","italic":false}]'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:1}]} 1
+
+#Potion of Resistance
+/give @p potion{CustomPotionColor:51153,display:{Name:'[{"text":"Potion of Resistance","italic":false}]'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]} 1
+
 #Lucifer's Clogs (Soul Speed Boots)
 /give @p chainmail_boots{display:{Name:'[{"text":"Lucifer\'s Clogs","italic":false,"color":"red","bold":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4} 1
 
@@ -116,6 +112,12 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 
 #Bond Scroll
 /give @p mojang_banner_pattern{display:{Name:'[{"text":"Bond Scroll","italic":false,"color":"dark_aqua"}]',,Lore:['[{"text":"Throw into lava to activate","italic":false,"color":"white"}]']},HideFlags:65535,bond_scroll:1b}
+
+#Azriel's Timepiece
+/give @p clock{display:{Name:'[{"text":"Azriel\'s Timepiece","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts slowness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],slow_clock:1b}
+
+#Azriel's Timepiece
+/give @p compass{display:{Name:'[{"text":"Azriel\'s Wayfinder","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts weakness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],weakness_compass:1b}
 
 #Rabid Shredder
 /give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1

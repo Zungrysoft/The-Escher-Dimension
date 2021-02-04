@@ -11,6 +11,8 @@ function tid:gameplay/safety_helmet
 function tid:gameplay/healing_pickaxe
 function tid:gameplay/igneous
 function tid:gameplay/igneous_armor
+function tid:gameplay/slow_clock
+function tid:gameplay/weakness_compass
 
 scoreboard players set @s damage_dealt 0
 scoreboard players set @s carrot_stick_use 0

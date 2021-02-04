@@ -1,0 +1,240 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strength\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_leaping\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:turtle_master\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_regeneration\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_regeneration\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_swiftness\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_swiftness\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 60,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:fire_resistance\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:slow_falling\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:luck\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:long_water_breathing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:\'[{\"text\":\"Potion of Dexterity\",\"italic\":false}]\'}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Potion of Rage\",\"italic\":false}]\'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:7368959,display:{Name:\'[{\"text\":\"Potion of Grace\",\"italic\":false}]\'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:11382189,display:{Name:\'[{\"text\":\"Mystery Potion\",\"italic\":false}]\',Lore:[\'[{\"text\":\"Grants a random positive\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"potion effect\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Potion of Levitation\",\"italic\":false}]\'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:16776960,display:{Name:\'[{\"text\":\"Potion of Haste\",\"italic\":false}]\'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:1}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:51153,display:{Name:\'[{\"text\":\"Potion of Resistance\",\"italic\":false}]\'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

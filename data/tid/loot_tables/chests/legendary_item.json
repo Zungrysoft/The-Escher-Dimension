@@ -115,12 +115,34 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 70,
 					"name": "minecraft:golden_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
 							"tag": "{display:{Name:\'[{\"text\":\"Treasure Hunter\",\"italic\":false,\"bold\":false,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Super Looting\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Cannot be repaired\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{id:looting,lvl:30},{id:sharpness,lvl:41}],Damage:32,RepairCost:664,HideFlags:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Timepiece\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},Enchantments:[{}],slow_clock:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:compass",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},Enchantments:[{}],weakness_compass:1b}"
 						}
 					]
 				}
