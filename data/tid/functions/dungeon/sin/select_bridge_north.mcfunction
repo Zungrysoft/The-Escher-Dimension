@@ -18,7 +18,7 @@ execute if score district_color value matches 5 if predicate tid:random_80 run s
 #Magenta
 execute if score district_color value matches 2 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_6", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Green
-execute if score district_color value matches 13 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_6", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 13 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_5", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Gray
 execute if score district_color value matches 7 run setblock ~2 ~ ~6 minecraft:structure_block{name: "tid:sin/bridge_north_7", posX: -2, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Cyan
@@ -54,6 +54,7 @@ execute if score district_color value matches 15 run fill ~ ~ ~ ~4 ~6 ~12 black_
 #Recolor the stained glass in the room
 execute if score district_color value matches 4 run fill ~ ~ ~ ~4 ~6 ~12 yellow_stained_glass replace light_blue_stained_glass
 execute if score district_color value matches 5 run fill ~ ~ ~ ~4 ~6 ~12 lime_stained_glass replace light_blue_stained_glass
+execute if score district_color value matches 13 run fill ~ ~ ~ ~4 ~6 ~12 green_stained_glass replace light_blue_stained_glass
 
 #Remove any walls between this room and the one it generated from
 function tid:dungeon/sin/remove_walls

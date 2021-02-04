@@ -44,6 +44,12 @@ execute if score district_color value matches 15 if entity @s[name="sin_south"] 
 execute if score district_color value matches 15 if entity @s[name="sin_west"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_west_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if score district_color value matches 15 if entity @s[name="sin_east"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_east_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Yellow
+execute if score district_color value matches 4 if entity @s[name="sin_north"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_north_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 4 if entity @s[name="sin_south"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_south_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 4 if entity @s[name="sin_west"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_west_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 4 if entity @s[name="sin_east"] run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/tee_east_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
