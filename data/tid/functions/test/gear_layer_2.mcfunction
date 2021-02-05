@@ -28,3 +28,4 @@ give @a crossbow
 give @a water_bucket
 give @a minecraft:potion{Potion:"strong_strength"}
 give @a minecraft:potion{Potion:"strong_healing"}
+give @a gold_ingot 10

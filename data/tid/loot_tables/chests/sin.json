@@ -1,336 +1,397 @@
 {
-    "pools": [
-        {
-            "rolls": 2,
-            "bonus_rolls": 0,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:blackstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:stick",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:basalt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
+	"pools": [
+		{
+			"rolls": 2,
+			"bonus_rolls": 0,
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:gray_dye"
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 3,
-                "max": 5
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:netherite_scrap"
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:polished_blackstone_bricks",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:clock"
-                },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:gold_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:iron_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:cod",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:leather",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:porkchop",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:basalt",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:gray_dye"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"bonus_rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:flint",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:clock"
+				},
 				{
-                    "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:coal",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:crimson_fungus",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:gilded_blackstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:leather",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:fishing_rod"
-                },
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:porkchop",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:golden_apple"
-                },
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:fishing_rod",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:flint",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "minecraft:crimson_fungus",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:ink_sac",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 14
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 14
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "tid:chests/lanterns"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/potion"
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:gilded_blackstone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:ghast_tear"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_helmet",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
 							"levels": 30,
 							"treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:diamond"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_helmet"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_chestplate"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_leggings"
-                },
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_boots"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_shovel"
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:golden_axe"
-                },
-				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_sword"
-                },
-				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_pickaxe"
-                },
-				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_hoe"
-                },
-				{
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:book",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_chestplate",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
 							"levels": 30,
 							"treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:'[{\"text\":\"Potion of Dexterity\",\"italic\":false}]'}}"
-                        }
-                    ]
-                },
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:enchanted_book",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{StoredEnchantments:[{id:fire_aspect,lvl:2}]}"
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_leggings",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:enchanted_book",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{StoredEnchantments:[{id:fortune,lvl:1}]}"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_boots",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_shovel",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:golden_axe",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_pickaxe",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_hoe",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:fire_aspect,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:fortune,lvl:1}]}"
+						}
+					]
+				}
+			]
+		}
+	]
 }

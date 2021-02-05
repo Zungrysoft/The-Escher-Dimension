@@ -1,6 +1,9 @@
 setblock ~ ~ ~ lava
 tp @s ~ ~ ~
 fill ~1 ~ ~1 ~-1 ~-1 ~-1 blackstone replace polished_blackstone_brick_stairs
+fill ~1 ~ ~1 ~-1 ~-1 ~-1 blackstone replace polished_blackstone_brick_slab
+fill ~1 ~ ~1 ~-1 ~-1 ~-1 blackstone replace blackstone_stairs
+fill ~1 ~ ~1 ~-1 ~-1 ~-1 blackstone replace blackstone_slab
 scoreboard players set @s succeeded 1
 setblock ~ ~-130 ~ blue_wool
 

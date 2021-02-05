@@ -4,24 +4,25 @@
 			"rolls": 1,
 			"entries": [
 				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 20,
+					"name": "tid:chests/potion"
+				},
+				{
 					"type": "item",
-					"weight": 666,
-					"name": "minecraft:blue_dye",
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
+					"weight": 25,
+					"name": "minecraft:gray_dye"
 				}
 			]
 		},
 		{
-			"rolls": 6,
-			"bonus_rolls": 2,
+			"rolls": 3,
+			"bonus_rolls": 1,
 			"entries": [
 				{
 					"type": "item",
@@ -30,13 +31,13 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Arrow of Levitation\",\"italic\":false}]'},CustomPotionEffects:[{Id:25,Duration:75}]}"
+							"tag": "{CustomPotionColor:16711680,display:{Name:\'[{\"text\":\"Shredder Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Deals triple damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Damage decreases with range\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}"
 						},
 						{
 							"function": "set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 8,
+								"max": 16
 							}
 						}
 					]
@@ -57,7 +58,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 15,
+					"weight": 40,
 					"name": "minecraft:gold_ingot",
 					"functions": [
 						{
@@ -72,13 +73,13 @@
 				{
 					"type": "item",
 					"weight": 10,
-					"name": "minecraft:redstone",
+					"name": "minecraft:lapis_lazuli",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 5,
-								"max": 10
+								"min": 1,
+								"max": 1
 							}
 						}
 					]

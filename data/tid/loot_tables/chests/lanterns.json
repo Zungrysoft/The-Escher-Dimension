@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 8,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "minecraft:chain"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:lantern"
+				}
+			]
+		}
+	]
+}

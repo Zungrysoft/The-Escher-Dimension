@@ -22,7 +22,7 @@ execute if score temp value matches 6 run summon minecraft:piglin ~ ~ ~ {IsImmun
 execute if score temp value matches 7..10 run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,HandItems:[{id:golden_sword,Count:1}],ArmorItems:[{},{},{id:leather_chestplate,Count:1}],HandDropChances:[0F],ArmorDropChances:[0F,0F,0F],CannotHunt:1,Tags:["villager","new"]}
 
 #Ranger
-execute if score temp value matches 11..14 run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,HandItems:[{id:crossbow,Count:1}],ArmorItems:[{},{},{id:leather_chestplate,Count:1},{id:leather_helmet,Count:1}],HandDropChances:[0F],ArmorDropChances:[0F,0F,0F,0F],CannotHunt:1,Tags:["villager","new"]}
+execute if score temp value matches 11..14 run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,HandItems:[{id:crossbow,Count:1}],ArmorItems:[{},{},{id:leather_chestplate,Count:1},{}],HandDropChances:[0F],ArmorDropChances:[0F,0F,0F,0F],CannotHunt:1,Tags:["villager","new"]}
 
 #Captain
 execute if score temp value matches 15 run summon minecraft:piglin_brute ~ ~ ~ {IsImmuneToZombification:1,HandItems:[{id:golden_axe,Count:1},{id:shield,Count:1}],ArmorItems:[{id:leather_boots,Count:1},{id:leather_leggings,Count:1},{id:leather_chestplate,Count:1},{id:leather_helmet,Count:1}],HandDropChances:[0F,0.2F],ArmorDropChances:[0F,0F,0F,0F],CannotHunt:1,Tags:["captain","new"]}

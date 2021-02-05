@@ -1,280 +1,111 @@
 {
-    "pools": [
+	"pools": [
 		{
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:magenta_dye"
-                },
+			"rolls": 1,
+			"entries": [
 				{
-                    "type": "empty",
-                    "weight": 10
-                }
-            ]
-        },
-        {
-            "rolls": 3,
-            "bonus_rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:brick",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:oak_planks",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:weakness\"}"
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 2,
-                "max": 3
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				},
 				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:coal",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 12
-                            }
-                        }
-                    ]
-                },
+					"type": "minecraft:loot_table",
+					"weight": 20,
+					"name": "tid:chests/potion"
+				},
 				{
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:saddle"
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"bonus_rolls": 1,
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:music_disc_stal"
-                },
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:10542775,display:{Name:\'[{\"text\":\"Sniper Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Damage increases with range\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:2}],HideFlags:65535,sniper_arrow:1}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:redstone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:iron_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:pumpkin_pie",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:diamond"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:leather_helmet",
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:diamond",
 					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 8
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:leather_chestplate",
-					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 8
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:leather_leggings",
-					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 8
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:leather_boots",
-					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 8
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:stone_pickaxe",
-					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 14
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:stone_axe",
-					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 14
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:stone_sword",
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:gold_ingot",
 					"functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 1,
-                                "max": 8
-                            },
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:turtle_master\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:strong_healing\"}"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

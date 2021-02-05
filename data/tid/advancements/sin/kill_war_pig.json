@@ -1,10 +1,10 @@
 {
-  "parent": "tid:layer_1/find_ice",
+  "parent": "tid:sin/find_sin_chambers",
   "display": {
     "icon": {
       "item": "minecraft:iron_chestplate"
     },
-    "title": "Snowpiercer",
+    "title": "Fire Piercer",
     "description": "Kill a War Pig while dodging their arrows",
     "frame": "task",
     "show_toast": true,

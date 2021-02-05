@@ -1,223 +1,281 @@
 {
-  "type": "minecraft:barter",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{}]}"
-            }
-          ],
-          "name": "minecraft:flint"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
-            }
-          ],
-          "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
-            }
-          ],
-          "name": "minecraft:splash_potion"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 9.0,
-                "max": 36.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:iron_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:gray_dye"
-        },
+	"type": "minecraft:barter",
+	"pools": [
 		{
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:music_disc_pigstep"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5.0,
-                "max": 12.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:glowstone_dust"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 6.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:magma_cream"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8.0,
-                "max": 24.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:string"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:fire_charge"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8.0,
-                "max": 16.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:gravel"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4.0,
-                "max": 10.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:leather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4.0,
-                "max": 16.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:nether_brick"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "name": "minecraft:obsidian"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:crying_obsidian"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4.0,
-                "max": 16.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:soul_sand"
-        }
-      ]
-    }
-  ]
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:flint",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 20,
+					"name": "tid:chests/potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:gray_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:music_disc_pigstep"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:glowstone_dust",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:string",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 12,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:netherrack",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:chiseled_polished_blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:magma_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:lava_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:flint_and_steel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:chain",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 16,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 20,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:porkchop",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }
