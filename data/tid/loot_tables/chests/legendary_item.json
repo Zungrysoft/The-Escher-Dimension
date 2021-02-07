@@ -324,7 +324,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 10000000,
+					"weight": 100,
 					"name": "minecraft:bow",
 					"functions": [
 						{
