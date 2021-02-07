@@ -321,6 +321,17 @@
 							"tag": "{display:{Name:\'[{\"text\":\"Ascent Falchion\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Inflicts levitation on a\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"random monster on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}"
 						}
 					]
+				},
+				{
+					"type": "item",
+					"weight": 10000000,
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}]}"
+						}
+					]
 				}
 			]
 		}
