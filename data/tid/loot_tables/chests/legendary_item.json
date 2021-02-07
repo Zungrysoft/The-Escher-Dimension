@@ -131,7 +131,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed and haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_chest_kill_mob:1b,eff_grant_haste_weak:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_chest_kill_mob:1b,eff_grant_haste_strong:1b}"
 						}
 					]
 				},
@@ -142,7 +142,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed and haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_head_kill_mob:1b,eff_grant_haste_weak:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_head_kill_mob:1b,eff_grant_haste_strong:1b}"
 						}
 					]
 				},
@@ -153,7 +153,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Rapid Sandals\",\"italic\":false,\"bold\":true,\"color\":\"aqua\"}]\',Lore:[\'[{\"text\":\"Grants speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\'],color:16711259},Unbreakable:1,HideFlags:64,act_feet_kill_mob:1b,eff_grant_speed_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Rapid Sandals\",\"italic\":false,\"bold\":true,\"color\":\"aqua\"}]\',Lore:[\'[{\"text\":\"Grants speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\'],color:16711259},Unbreakable:1,HideFlags:64,act_feet_kill_mob:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -203,7 +203,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 30,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -214,7 +214,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 33,
+					"weight": 10,
 					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
@@ -225,7 +225,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 33,
+					"weight": 10,
 					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
@@ -236,7 +236,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 33,
+					"weight": 10,
 					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
@@ -247,7 +247,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 33,
+					"weight": 10,
 					"name": "minecraft:leather_boots",
 					"functions": [
 						{
@@ -303,17 +303,6 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:clock",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Timepiece\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,Enchantments:[{}],slow_clock:1b}"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 100,
 					"name": "minecraft:compass",
 					"functions": [
 						{
@@ -325,11 +314,11 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:diamond",
+					"name": "minecraft:diamond_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Firebird Diamond\",\"italic\":false,\"bold\":true,\"color\":\"aqua\"}]\',Lore:[\'[{\"text\":\"When held, inflicts levitation\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"on nearby burning creatures\",\"italic\":false,\"color\":\"green\"}]\']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Ascent Falchion\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Inflicts levitation on a\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"random monster on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}"
 						}
 					]
 				},

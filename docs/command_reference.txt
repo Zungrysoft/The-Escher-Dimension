@@ -117,10 +117,10 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p mojang_banner_pattern{display:{Name:'[{"text":"Bond Scroll","italic":false,"color":"dark_aqua"}]',,Lore:['[{"text":"Throw into lava to activate","italic":false,"color":"white"}]']},HideFlags:65535,bond_scroll:1b}
 
 #Azriel's Timepiece
-/give @p clock{display:{Name:'[{"text":"Azriel\'s Timepiece","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts slowness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],slow_clock:1b}
+/give @p clock{display:{Name:'[{"text":"Azriel\'s Timepiece","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts slowness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],Unbreakable:1,slow_clock:1b}
 
-#Azriel's Timepiece
-/give @p compass{display:{Name:'[{"text":"Azriel\'s Wayfinder","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts weakness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],weakness_compass:1b}
+#Azriel's Wayfinder
+/give @p compass{display:{Name:'[{"text":"Azriel\'s Wayfinder","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts weakness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},Enchantments:[{}],Unbreakable:1,weakness_compass:1b}
 
 #Rabid Shredder
 /give @p crossbow{display:{Name:'[{"text":"Rabid Shredder","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Cannot be repaired","italic":false,"color":"red"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664} 1
@@ -162,7 +162,7 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 /give @p leather_boots{display:{color:6610140,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Cleats ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Restores hunger upon killing","italic":false,"color":"green"}]','[{"text":"a piglin.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_piglin:1b,eff_grant_saturation_strong:1b}
 
 #Firebird Diamond
-/give @p diamond{display:{Name:'[{"text":"Firebird Diamond","italic":false,"bold":true}]',Lore:['[{"text":"When held, inflicts levitation","italic":false,"color":"green"}]','[{"text":"on nearby burning creatures.","italic":false,"color":"green"}]']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}
+/give @p diamond{display:{Name:'[{"text":"Firebird Diamond","italic":false,"bold":true,"color":"aqua"}]',Lore:['[{"text":"When held, inflicts levitation","italic":false,"color":"green"}]','[{"text":"on nearby burning creatures.","italic":false,"color":"green"}]']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}
 
 #Float Sword
 /give @p diamond_sword{display:{Name:'[{"text":"Ascent Falchion","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Inflicts levitation on a","italic":false,"color":"aqua"}]','[{"text":"random monster on kill","italic":false,"color":"aqua"}]']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}

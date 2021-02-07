@@ -19,7 +19,7 @@ fill 1033 1 1001 1064 27 1032 minecraft:purple_wool
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
 #Determine the number of rooms to generate
-scoreboard players set stronghold2_rooms value 250
+scoreboard players set stronghold2_rooms value 300
 scoreboard players set brick_rooms value 250
 scoreboard players set ice_rooms value 250
 

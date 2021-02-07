@@ -44,3 +44,6 @@ execute if predicate tid:random_001 run setblock ~ ~ ~ minecraft:structure_block
 
 #Activate it
 setblock ~ ~1 ~ redstone_block
+
+#Remove ores
+execute if predicate tid:random_70 run fill ~-1 ~ ~-1 ~1 ~4 ~1 stone_bricks replace #tid:ores

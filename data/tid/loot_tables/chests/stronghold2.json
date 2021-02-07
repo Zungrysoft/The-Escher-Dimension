@@ -1,230 +1,201 @@
 {
-    "pools": [
+	"pools": [
 		{
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:orange_dye"
-                }
-            ]
-        },
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:orange_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "tid:chests/legendary_item"
+				}
+			]
+		},
 		{
-            "rolls": 1,
+			"rolls": 1,
 			"bonus_rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:paper",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:quartz",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 7
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				},
 				{
-                    "type": "empty",
-                    "weight": 10
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 2,
-                "max": 5
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:ender_pearl"
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:leather",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:iron_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 1
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:bread",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:quartz",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:lapis_lazuli",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 5
+			},
+			"bonus_rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:coal",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 12
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:diamond"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_helmet"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_chestplate"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_leggings"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_boots"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_pickaxe"
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_axe"
-                },
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:ender_pearl"
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_sword"
-                },
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:leather",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:book",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 10,
-							"treasure": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:swiftness\"}"
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:luck\"}"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:apple",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 15
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:stone_bricks",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 15,
+								"max": 25
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:swiftness\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "tid:chests/potion"
+				}
+			]
+		}
+	]
 }
