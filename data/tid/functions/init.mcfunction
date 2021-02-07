@@ -67,7 +67,10 @@ scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add power dummy
 scoreboard objectives add value dummy
-scoreboard objectives add heart_boost dummy
+scoreboard objectives add health_boost dummy
+scoreboard objectives add speed_boost dummy
+scoreboard objectives add damage_boost dummy
+scoreboard objectives add armor_boost dummy
 scoreboard objectives add shield_curse dummy
 scoreboard objectives add adv_hellion_1 dummy
 scoreboard objectives add adv_hellion_2 dummy

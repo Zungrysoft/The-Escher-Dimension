@@ -324,7 +324,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 70,
+					"weight": 100,
 					"name": "minecraft:diamond",
 					"functions": [
 						{

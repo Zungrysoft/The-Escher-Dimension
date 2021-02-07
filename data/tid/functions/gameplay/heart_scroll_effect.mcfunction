@@ -1,25 +1,25 @@
 #Grant the effect
-effect clear @p minecraft:health_boost
-execute if score temp value matches 1 run effect give @p minecraft:health_boost 999999 0 true
-execute if score temp value matches 2 run effect give @p minecraft:health_boost 999999 1 true
-execute if score temp value matches 3 run effect give @p minecraft:health_boost 999999 2 true
-execute if score temp value matches 4 run effect give @p minecraft:health_boost 999999 3 true
-execute if score temp value matches 5 run effect give @p minecraft:health_boost 999999 4 true
-execute if score temp value matches 6 run effect give @p minecraft:health_boost 999999 5 true
-execute if score temp value matches 7 run effect give @p minecraft:health_boost 999999 6 true
-execute if score temp value matches 8 run effect give @p minecraft:health_boost 999999 7 true
-execute if score temp value matches 9 run effect give @p minecraft:health_boost 999999 8 true
-execute if score temp value matches 10 run effect give @p minecraft:health_boost 999999 9 true
-execute if score temp value matches 11 run effect give @p minecraft:health_boost 999999 10 true
-execute if score temp value matches 12 run effect give @p minecraft:health_boost 999999 11 true
-execute if score temp value matches 13 run effect give @p minecraft:health_boost 999999 12 true
-execute if score temp value matches 14 run effect give @p minecraft:health_boost 999999 13 true
-execute if score temp value matches 15 run effect give @p minecraft:health_boost 999999 14 true
-execute if score temp value matches 16 run effect give @p minecraft:health_boost 999999 15 true
-execute if score temp value matches 17 run effect give @p minecraft:health_boost 999999 16 true
-execute if score temp value matches 18 run effect give @p minecraft:health_boost 999999 17 true
-execute if score temp value matches 19 run effect give @p minecraft:health_boost 999999 18 true
-execute if score temp value matches 20.. run effect give @p minecraft:health_boost 999999 19 true
+attribute @s minecraft:generic.max_health modifier remove 7c183d2f-4e05-4f9a-ae04-8ee579aab17f
+execute if score temp value matches 1 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 2 add
+execute if score temp value matches 2 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 4 add
+execute if score temp value matches 3 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 6 add
+execute if score temp value matches 4 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 8 add
+execute if score temp value matches 5 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 10 add
+execute if score temp value matches 6 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 12 add
+execute if score temp value matches 7 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 14 add
+execute if score temp value matches 8 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 16 add
+execute if score temp value matches 9 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 18 add
+execute if score temp value matches 10 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 20 add
+execute if score temp value matches 11 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 22 add
+execute if score temp value matches 12 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 24 add
+execute if score temp value matches 13 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 26 add
+execute if score temp value matches 14 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 28 add
+execute if score temp value matches 15 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 30 add
+execute if score temp value matches 16 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 32 add
+execute if score temp value matches 17 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 34 add
+execute if score temp value matches 18 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 36 add
+execute if score temp value matches 19 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 38 add
+execute if score temp value matches 20.. run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 40 add
 
 #Update the score value
-scoreboard players operation @s heart_boost = temp value
+scoreboard players operation @s health_boost = temp value

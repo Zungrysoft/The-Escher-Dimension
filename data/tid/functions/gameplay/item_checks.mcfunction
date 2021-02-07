@@ -1,4 +1,7 @@
 function tid:gameplay/heart_scroll
+function tid:gameplay/speed_scroll
+function tid:gameplay/damage_scroll
+function tid:gameplay/armor_scroll
 function tid:gameplay/float_orb
 function tid:gameplay/conditional_weapons
 function tid:gameplay/staff_oxidation

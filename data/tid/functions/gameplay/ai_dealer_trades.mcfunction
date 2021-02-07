@@ -1,33 +1,22 @@
 #Pick a random trade
 function tid:gameplay/ai_dealer_add_trade
-scoreboard players operation temp1 value = selection value
+scoreboard players operation selection1 value = temp value
 function tid:gameplay/ai_dealer_add_trade
-scoreboard players operation temp2 value = selection value
+scoreboard players operation selection2 value = temp value
 function tid:gameplay/ai_dealer_add_trade
-scoreboard players operation temp3 value = selection value
-function tid:gameplay/ai_dealer_add_trade
-scoreboard players operation temp4 value = selection value
-function tid:gameplay/ai_dealer_add_trade
-scoreboard players operation temp5 value = selection value
+scoreboard players operation selection3 value = temp value
 
 #Ensure no duplicate trades were picked. If so, start over.
 scoreboard players set reset value 0
-execute if score temp5 value = temp1 value run scoreboard players set reset value 1
-execute if score temp5 value = temp2 value run scoreboard players set reset value 1
-execute if score temp5 value = temp3 value run scoreboard players set reset value 1
-execute if score temp5 value = temp4 value run scoreboard players set reset value 1
-execute if score temp1 value = temp2 value run scoreboard players set reset value 1
-execute if score temp1 value = temp3 value run scoreboard players set reset value 1
-execute if score temp1 value = temp4 value run scoreboard players set reset value 1
-execute if score temp2 value = temp3 value run scoreboard players set reset value 1
-execute if score temp2 value = temp4 value run scoreboard players set reset value 1
-execute if score temp3 value = temp4 value run scoreboard players set reset value 1
+execute if score selection1 value = selection2 value run scoreboard players set reset value 1
+execute if score selection1 value = selection3 value run scoreboard players set reset value 1
+execute if score selection2 value = selection3 value run scoreboard players set reset value 1
 execute if score reset value matches 1 run tag @s remove new
-execute if score reset value matches 1 run tp @s 0 -100 0
+execute if score reset value matches 1 run tp @s ~ -100 ~
 execute if score reset value matches 1 run function tid:custom_mobs/dealer
 
 #Add in preset trades
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:12},buyB:{id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}},sell:{id:leather_helmet,Count:1,tag:{display:{Name:'[{"text":"Oracle\'s Helm","italic":false,"color":"gold"}]',Lore:['[{"text":"May reveal dark secrets...","italic":false,"color":"white"}]'],color:16754688},HideFlags:64b,glow_stick:1b,Enchantments:[{}]}}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[2].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}}
 
 #Pick a random type
 scoreboard players set temp value 0

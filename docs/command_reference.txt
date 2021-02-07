@@ -164,6 +164,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Firebird Diamond
 /give @p diamond{display:{Name:'[{"text":"Firebird Diamond","italic":false,"bold":true}]',Lore:['[{"text":"When held, inflicts levitation","italic":false,"color":"green"}]','[{"text":"on nearby burning creatures.","italic":false,"color":"green"}]']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}
 
+#Float Sword
+/give @p diamond_sword{display:{Name:'[{"text":"Ascent Falchion","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Inflicts levitation on a","italic":false,"color":"aqua"}]','[{"text":"random monster on kill","italic":false,"color":"aqua"}]']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}
+
 #Mysterious Orb
 /give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1
 
