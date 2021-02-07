@@ -29,3 +29,6 @@ execute if score temp value matches 15 run summon minecraft:piglin_brute ~ ~ ~ {
 
 #Reclothe this piglin based on their district
 execute as @e[tag=new] run function tid:gameplay/replace_sin_spawns_district_color
+
+#If no bookies exist, maybe spawn another one
+execute if predicate tid:random_003 unless entity @e[type=piglin,tag=bookmaker] run function tid:custom_mobs/piglin_bookie

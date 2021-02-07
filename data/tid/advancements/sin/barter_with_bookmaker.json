@@ -1,15 +1,15 @@
 {
-  "parent": "tid:sin/barter_with_tradesman",
+  "parent": "tid:sin/barter_with_piglin",
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:spectral_arrow"
     },
     "title": "High Roller",
     "description": "Gamble with a Piglin Bookie",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "barter": {

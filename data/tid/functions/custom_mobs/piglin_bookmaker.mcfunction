@@ -1,0 +1,1 @@
+summon minecraft:piglin ~ ~ ~ {CustomName:"\"Piglin Bookie\"",IsImmuneToZombification:1,HandItems:[{id:spectral_arrow,Count:1},{}],ArmorItems:[{id:golden_boots,Count:1},{id:golden_leggings,Count:1},{id:golden_chestplate,Count:1},{}],HandDropChances:[0F,0F],ArmorDropChances:[0.1F,0.1F,0.1F,0F],CannotHunt:1,PersistenceRequired:1,Tags:["bookmaker"]}

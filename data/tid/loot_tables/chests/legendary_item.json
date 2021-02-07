@@ -321,17 +321,6 @@
 							"tag": "{display:{Name:\'[{\"text\":\"Ascent Falchion\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Inflicts levitation on a\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"random monster on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}"
 						}
 					]
-				},
-				{
-					"type": "item",
-					"weight": 100,
-					"name": "minecraft:iron_sword",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Coldsteel Glaive\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness and slowness\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"on enemies at max range\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,tip_sword:1b}"
-						}
-					]
 				}
 			]
 		}
