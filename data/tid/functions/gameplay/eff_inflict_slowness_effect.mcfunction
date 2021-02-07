@@ -1,5 +1,5 @@
 #Inflict slowness
-effect give @s minecraft:slowness 5 2
+effect give @s minecraft:slowness 5 1
 
 #Sound effect
 playsound minecraft:entity.wither.hurt player @a ~ ~ ~ 1.1 2

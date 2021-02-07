@@ -1,5 +1,5 @@
 #Inflict levitation
-effect give @s minecraft:levitation 5 2
+effect give @s minecraft:levitation 5 0
 
 #Sound effect
 playsound minecraft:item.bottle.fill_dragonbreath player @a ~ ~ ~ 1 2

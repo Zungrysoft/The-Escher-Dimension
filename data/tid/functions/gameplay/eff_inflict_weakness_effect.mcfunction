@@ -1,5 +1,5 @@
 #Inflict weakness
-effect give @s minecraft:weakness 5 2
+effect give @s minecraft:weakness 5 1
 
 #Sound effect
 playsound minecraft:entity.ender_dragon.hurt player @a ~ ~ ~ 1.1 1.8

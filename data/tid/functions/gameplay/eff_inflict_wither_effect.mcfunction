@@ -1,5 +1,5 @@
 #Inflict wither
-effect give @s minecraft:wither 5 2
+effect give @s minecraft:wither 5 1
 
 #Sound effect
 playsound minecraft:entity.blaze.hurt player @a ~ ~ ~ 1 1.7

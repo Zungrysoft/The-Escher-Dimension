@@ -2,7 +2,7 @@
 playsound minecraft:entity.evoker.prepare_attack player @a ~ ~ ~ 1 2
 
 #Effect
-effect give @p minecraft:speed 10 1
+effect give @p minecraft:speed 10 0
 
 #Particles
-particle dust 0.8 0.9 1 1 ~ ~1 ~ 0.5 1 0.5 0 50
+particle dust 0.8 0.9 1 1 ~ ~1 ~ 0.5 1 0.5 0 30
