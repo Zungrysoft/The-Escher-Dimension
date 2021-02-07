@@ -25,3 +25,4 @@ give @a torch 64
 give @a oak_planks 32
 give @a cobblestone 64
 give @a crossbow
+loot give @a loot tid:chests/legendary_item

@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Digger\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},healing_pickaxe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Digger\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_grant_saturation_strong:1b}"
 						}
 					]
 				},
@@ -21,7 +21,95 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Chopper\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},healing_axe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Chopper\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_grant_saturation_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Lacerator\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_grant_saturation_medium:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Grants strength when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_chest_mine_spawner:1b,eff_grant_strength_strong:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cap\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_head_mine_spawner:1b,eff_grant_saturation_strong:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Clogs\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_feet_mine_spawner:1b,eff_inflict_weakness_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Trapper Delver\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_inflict_slowness_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Swift Exit\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_grant_speed_strong:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Witherpick\",\"italic\":false,\"bold\":true,\"color\":\"dark_gray\"}]\',Lore:[\'[{\"text\":\"Inflicts wither on a random\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monster on hit or when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner.\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,act_melee_mine_spawner:1b,eff_inflict_wither_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Incendiary Pickaxe\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Sets fire to all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_inflict_fire_aoe:1b}"
 						}
 					]
 				},
@@ -143,6 +231,28 @@
 						{
 							"function": "set_nbt",
 							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},Enchantments:[{}],weakness_compass:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 70,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Firebird Diamond\",\"italic\":false,\"bold\":true}]\',Lore:[\'[{\"text\":\"When held, inflicts levitation\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"on nearby burning creatures\",\"italic\":false,\"color\":\"green\"}]\']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Coldsteel Glaive\",\"italic\":false}]\',Lore:[\'[{\"text\":\"Inflicts slowness on enemies\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"at max range\",\"italic\":false,\"color\":\"green\"}]\']},tip_sword:1b}"
 						}
 					]
 				}

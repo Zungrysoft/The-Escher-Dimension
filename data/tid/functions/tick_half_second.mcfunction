@@ -11,3 +11,6 @@ effect give @e[type=minecraft:spider,predicate=tid:in_layer_infernal] minecraft:
 
 #Display the final boss bar
 execute if score finale_handler_phase value matches 666 run bossbar set minecraft:boss players @a[predicate=tid:in_layer_finale,advancements={tid:finale/find_boss=true}]
+
+#Esoteric armor bonus
+execute as @a at @s run function tid:gameplay/esoteric_armor

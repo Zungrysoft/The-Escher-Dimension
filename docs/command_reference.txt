@@ -98,8 +98,11 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Potion of Haste
 /give @p potion{CustomPotionColor:16776960,display:{Name:'[{"text":"Potion of Haste","italic":false}]'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:1}]} 1
 
-#Potion of Resistance
-/give @p potion{CustomPotionColor:51153,display:{Name:'[{"text":"Potion of Resistance","italic":false}]'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]} 1
+#Potion of Endurance
+/give @p potion{CustomPotionColor:51153,display:{Name:'[{"text":"Potion of Endurance","italic":false}]'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]} 1
+
+#Alcohol
+/give @p potion{CustomPotionColor:7229740,display:{Name:'[{"text":"Potion of Intoxication","italic":false}]'},CustomPotionEffects:[{Id:26,Duration:1200,Amplifier:2},{Id:9,Duration:1200,Amplifier:0}]} 1
 
 #Lucifer's Clogs (Soul Speed Boots)
 /give @p chainmail_boots{display:{Name:'[{"text":"Lucifer\'s Clogs","italic":false,"color":"red","bold":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4} 1
@@ -149,11 +152,26 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Igneous Armor
 /give @p leather_chestplate{display:{Name:'[{"text":"Igneous Armor","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Grants +2 damage for each","italic":false,"color":"green"}]','[{"text":"living creature on fire nearby","italic":false,"color":"green"}]'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}
 
+#Esoteric set
+/give @p leather_helmet{display:{color:6610140,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Headwear ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Grants strength upon killing","italic":false,"color":"green"}]','[{"text":"a skeleton.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_skeleton:1b,eff_grant_strength_weak:1b}
+
+/give @p leather_chestplate{display:{color:14474340,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Vest ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Grants Haste upon killing","italic":false,"color":"green"}]','[{"text":"a blaze.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_blaze:1b,eff_grant_haste_strong:1b}
+
+/give @p leather_leggings{display:{color:13133000,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Leggings ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Grants speed upon killing","italic":false,"color":"green"}]','[{"text":"a creeper.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_creeper:1b,eff_grant_haste_strong:1b}
+
+/give @p leather_boots{display:{color:6610140,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Cleats ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Restores hunger upon killing","italic":false,"color":"green"}]','[{"text":"a piglin.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_piglin:1b,eff_grant_saturation_strong:1b}
+
+#Firebird Diamond
+/give @p diamond{display:{Name:'[{"text":"Firebird Diamond","italic":false,"bold":true}]',Lore:['[{"text":"When held, inflicts levitation","italic":false,"color":"green"}]','[{"text":"on nearby burning creatures.","italic":false,"color":"green"}]']},Enchantments:[{id:fire_aspect,lvl:1}],fire_diamond:1b}
+
 #Mysterious Orb
 /give @p heart_of_the_sea{display:{Name:'[{"text":"Mysterious Orb","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Costs iron to use","italic":false,"color":"red"}]','[{"text":"in other dimensions","italic":false,"color":"red"}]']},float_orb:1b} 1
 
 #Blade of Dal-Marceus (skeleton bane)
 /give @p diamond_sword{display:{Name:'[{"text":"Blade of Dal-Marceus","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Deals zero damage unless a skeleton is nearby","italic":false,"color":"red"}]']},AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:10,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:"generic.attack_damage"}],skeleton_bane:1b}
+
+#Coldsteel Glaive
+/give @p iron_sword{display:{Name:'[{"text":"Coldsteel Glaive","italic":false}]',Lore:['[{"text":"Inflicts slowness on enemies","italic":false,"color":"green"}]','[{"text":"at max range","italic":false,"color":"green"}]']},tip_sword:1b} 1
 
 #Oxidation Stick
 /give @p carrot_on_a_stick{display:{Name:'[{"text":"Oxidation Stick","italic":false,"color":"yellow","bold":true}]',Lore:['[{"text":"Summons an explosion","italic":false,"color":"aqua"}]','[{"text":"Costs 4 gunpowder per use","italic":false,"color":"red"}]']},oxidation_staff:1b,Enchantments:[{}]}

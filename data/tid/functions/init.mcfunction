@@ -79,6 +79,8 @@ scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths
 scoreboard objectives add health health "Health"
 scoreboard objectives setdisplay list health
+scoreboard objectives add pending_hunger dummy
+scoreboard objectives add kill_mob totalKillCount
 scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add mine_debris minecraft.mined:minecraft.ancient_debris
 scoreboard objectives add mine_core minecraft.mined:minecraft.crying_obsidian
@@ -87,6 +89,13 @@ scoreboard objectives add kill_silverfish minecraft.killed:minecraft.silverfish
 scoreboard objectives add sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add mine_spawner minecraft.mined:minecraft.spawner
 scoreboard objectives add use_shield minecraft.used:minecraft.shield
+scoreboard objectives add kill_creeper minecraft.killed:minecraft.creeper
+scoreboard objectives add kill_blaze minecraft.killed:minecraft.blaze
+scoreboard objectives add kill_skeleton minecraft.killed:minecraft.skeleton
+scoreboard objectives add kill_wither_skel minecraft.killed:minecraft.wither_skeleton
+scoreboard objectives add kill_piglin minecraft.killed:minecraft.piglin
+scoreboard objectives add kill_brute minecraft.killed:minecraft.piglin_brute
+scoreboard objectives add kill_zpig minecraft.killed:minecraft.zombified_piglin
 team add players
 team add glow
 team modify glow color yellow

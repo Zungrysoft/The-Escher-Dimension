@@ -21,7 +21,7 @@ execute if score cancel value matches 1 run attribute @s minecraft:generic.attac
 #Babirusan Shiv
 execute if score @s damage_dealt matches 1.. if entity @s[nbt={SelectedItem:{tag:{super_flint:1b}}}] run clear @p gold_ingot 1
 
-#Silver Slim's Chopper
-execute if score @s damage_dealt matches 1.. if entity @s[nbt={SelectedItem:{tag:{healing_axe:1b}}}] if predicate tid:random_25 run function tid:gameplay/restore_hunger
+#Tip Sword
+execute if score @s damage_dealt matches 1.. if entity @s[nbt={SelectedItem:{tag:{tip_sword:1b}}}] as @e[type=#tid:living,distance=3..6,nbt=!{HurtTime:0s}] at @s run function tid:gameplay/tip_sword_effect
 
 #The damage_dealt scoreboard value is reset in item_checks, so other functions can use it

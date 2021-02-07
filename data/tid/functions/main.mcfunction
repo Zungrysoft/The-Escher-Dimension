@@ -79,6 +79,7 @@ scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
 execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
 execute as @a at @s run function tid:gameplay/shield_curse
+execute as @a at @s run function tid:gameplay/pending_hunger
 execute as @e[type=area_effect_cloud,name="finale_boss_core"] at @s run function tid:misc/finale_core
 
 #Handles custom monster effects

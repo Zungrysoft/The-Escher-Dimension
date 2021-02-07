@@ -29,3 +29,6 @@ give @a water_bucket
 give @a minecraft:potion{Potion:"strong_strength"}
 give @a minecraft:potion{Potion:"strong_healing"}
 give @a minecraft:potion{Potion:"strong_healing"}
+loot give @a loot tid:chests/legendary_item
+loot give @a loot tid:chests/legendary_item
+loot give @a loot tid:chests/legendary_item
