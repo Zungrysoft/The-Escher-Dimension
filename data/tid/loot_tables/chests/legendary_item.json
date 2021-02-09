@@ -203,6 +203,39 @@
 				},
 				{
 					"type": "item",
+					"weight": 40,
+					"name": "minecraft:diamond_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Gravedigger\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_weakness_target:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:diamond_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:diamond_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 30,
 					"name": "minecraft:stone_sword",
 					"functions": [
@@ -313,7 +346,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 80,
 					"name": "minecraft:diamond_sword",
 					"functions": [
 						{
@@ -329,7 +362,106 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}]}"
+							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],Unbreakable:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Sharpening Stone\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+3 Attack Damage when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:\"generic.attack_damage\"}],Unbreakable:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:nether_brick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Superweight\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+100% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}],Unbreakable:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:nautilus_shell",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Wizard Shell\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+30% Speed when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Angel Feather\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17876,394,-35750],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17877,394,-35750],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17878,394,-35750],Slot:mainhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17879,394,-35750],Slot:offhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,17871,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,17870,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,17872,394,-35750],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,17873,394,-35750],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1,Enchantments:[{}],HideFlags:2}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:quartz",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Charge Crystal\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12149,5353,4524,-10746],Slot:mainhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12179,5353,4524,-10716],Slot:offhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12159,5353,4524,-10726],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12169,5353,4524,-10736],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1,Enchantments:[{}],HideFlags:2}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Dümwafer\",\"italic\":false,\"color\":\"dark_red\",\"bold\":false}]\',Lore:[\'[{\"text\":\"Kills all nearby monsters when eaten\",\"italic\":false,\"color\":\"aqua\"}]\']},doomwafer:1,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Quartz Staff\",\"italic\":false,\"color\":\"white\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to place Chiseled Quartz\",\"italic\":false,\"color\":\"aqua\"}]\']},Recipes:[],Unbreakable:1,tome_block:1b,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Ember Staff\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to set an area on fire\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs 3 fire charges per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],Unbreakable:1,tome_ember:1b,Enchantments:[{}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Volley of Fireballs in the\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"cardinal direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],Unbreakable:1,tome_fireball:1b,Enchantments:[{}]}"
 						}
 					]
 				}

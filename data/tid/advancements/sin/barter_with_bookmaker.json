@@ -5,7 +5,7 @@
       "item": "minecraft:spectral_arrow"
     },
     "title": "High Roller",
-    "description": "Gamble with a Piglin Bookie",
+    "description": "Gamble with a Piglin Croupier",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
