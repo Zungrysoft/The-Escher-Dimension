@@ -15,6 +15,10 @@ execute if entity @s[nbt={SelectedItem:{tag:{eff_grant_strength_weak:1b}}}] run 
 execute if entity @s[nbt={SelectedItem:{tag:{eff_grant_speed_strong:1b}}}] run function tid:gameplay/eff_grant_speed_strong
 execute if entity @s[nbt={SelectedItem:{tag:{eff_grant_speed_weak:1b}}}] run function tid:gameplay/eff_grant_speed_weak
 
+#Resistance
+execute if entity @s[nbt={SelectedItem:{tag:{eff_grant_resistance_strong:1b}}}] run function tid:gameplay/eff_grant_resistance_strong
+execute if entity @s[nbt={SelectedItem:{tag:{eff_grant_resistance_weak:1b}}}] run function tid:gameplay/eff_grant_resistance_weak
+
 #Inflict Wither
 execute if entity @s[nbt={SelectedItem:{tag:{eff_inflict_wither_target:1b}}}] run function tid:gameplay/eff_inflict_wither_target
 execute if entity @s[nbt={SelectedItem:{tag:{eff_inflict_wither_aoe:1b}}}] run function tid:gameplay/eff_inflict_wither_aoe

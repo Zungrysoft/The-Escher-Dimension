@@ -9,7 +9,6 @@ function tid:gameplay/no_sprint
 function tid:gameplay/lava_saver_leggings
 function tid:gameplay/safety_helmet
 function tid:gameplay/igneous
-function tid:gameplay/igneous_armor
 function tid:gameplay/slow_clock
 function tid:gameplay/weakness_compass
 function tid:gameplay/fire_diamond
