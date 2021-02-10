@@ -16,6 +16,6 @@ execute positioned -10 59 -38 run setblock ~14 ~ ~ red_wool
 execute positioned -10 59 -38 run setblock ~15 ~ ~ black_wool
 execute positioned -10 59 -38 run setblock ~16 ~ ~ iron_block
 execute positioned -10 59 -38 run setblock ~17 ~ ~ gold_block
-execute positioned -10 59 -38 run setblock ~18 ~ ~ emerald_block
+execute positioned -10 59 -38 run setblock ~18 ~ ~ lapis_block
 execute positioned -10 59 -38 run setblock ~19 ~ ~ diamond_block
 execute positioned -10 59 -38 run setblock ~20 ~ ~ netherite_block

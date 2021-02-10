@@ -8,6 +8,10 @@ execute if predicate tid:random_15 run setblock ~3 ~ ~ minecraft:structure_block
 execute if predicate tid:random_15 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_7", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_8", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_9", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_07 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_10", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_06 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_11", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_12", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~3 ~ ~ minecraft:structure_block{name: "tid:intro/hallway_13", posX: -3, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~3 ~1 ~ minecraft:redstone_block

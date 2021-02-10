@@ -1,0 +1,31 @@
+{
+  "parent": "tid:layer_1/get_gold_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_block"
+    },
+    "title": "Lapis Lazuli Block",
+    "description": "Obtain a Lapis Lazuli Block for the victory monument",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

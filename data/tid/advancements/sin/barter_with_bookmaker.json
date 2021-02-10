@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/barter_with_piglin",
+  "parent": "tid:sin/enter_capitol",
   "display": {
     "icon": {
       "item": "minecraft:spectral_arrow"

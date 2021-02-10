@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_1/root",
+  "parent": "tid:layer_1/get_netherite_block",
   "display": {
     "icon": {
       "item": "minecraft:glowstone"

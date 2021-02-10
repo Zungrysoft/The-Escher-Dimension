@@ -1,0 +1,31 @@
+{
+  "parent": "tid:layer_1/get_diamond_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_block"
+    },
+    "title": "Netherite Block",
+    "description": "Obtain a Netherite Block for the victory monument",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

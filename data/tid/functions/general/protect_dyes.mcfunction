@@ -32,4 +32,4 @@ execute if entity @s[type=item,nbt={Item:{id:"minecraft:green_wool"}}] at @s run
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:red_wool"}}] at @s run function tid:general/protect_item
 execute if entity @s[type=item,nbt={Item:{id:"minecraft:black_wool"}}] at @s run function tid:general/protect_item
 
-execute if entity @s[type=item,nbt={Item:{tag:{Unbreakable:1}}}] at @s run function tid:general/protect_item
+execute if entity @s[type=item,nbt={Item:{tag:{legendary:1b}}}] at @s run function tid:general/protect_item

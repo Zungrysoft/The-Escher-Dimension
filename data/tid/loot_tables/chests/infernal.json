@@ -214,7 +214,40 @@
                             }
                         }
                     ]
-                }
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "tid:chests/legendary_item"
+				}
 			]
 		},
 		{

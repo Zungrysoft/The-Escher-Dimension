@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Digger\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_grant_saturation_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Digger\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_mine_spawner:1b,eff_grant_saturation_strong:1b}"
 						}
 					]
 				},
@@ -21,7 +21,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Chopper\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_grant_saturation_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Chopper\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_grant_saturation_weak:1b}"
 						}
 					]
 				},
@@ -32,7 +32,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Lacerator\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_grant_saturation_medium:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silver Slim\\'s Lacerator\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Restores hunger on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_kill_mob:1b,eff_grant_saturation_medium:1b}"
 						}
 					]
 				},
@@ -43,7 +43,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Grants strength when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_chest_mine_spawner:1b,eff_grant_strength_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Grants strength when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_mine_spawner:1b,eff_grant_strength_strong:1b}"
 						}
 					]
 				},
@@ -54,7 +54,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cap\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_head_mine_spawner:1b,eff_grant_saturation_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cap\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_mine_spawner:1b,eff_grant_saturation_strong:1b}"
 						}
 					]
 				},
@@ -65,7 +65,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Clogs\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_feet_mine_spawner:1b,eff_inflict_weakness_aoe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Clogs\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_mine_spawner:1b,eff_inflict_weakness_aoe:1b}"
 						}
 					]
 				},
@@ -76,7 +76,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Trapper Delver\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_inflict_slowness_aoe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Trapper Delver\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_mine_spawner:1b,eff_inflict_slowness_aoe:1b}"
 						}
 					]
 				},
@@ -87,7 +87,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Final Exit\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_grant_speed_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Final Exit\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_mine_spawner:1b,eff_grant_speed_strong:1b}"
 						}
 					]
 				},
@@ -98,7 +98,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Witherpick\",\"italic\":false,\"bold\":true,\"color\":\"dark_gray\"}]\',Lore:[\'[{\"text\":\"Inflicts wither on a random\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monster on hit or when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner.\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,act_melee_mine_spawner:1b,eff_inflict_wither_random:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Witherpick\",\"italic\":false,\"bold\":true,\"color\":\"dark_gray\"}]\',Lore:[\'[{\"text\":\"Inflicts wither on a random\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monster on hit or when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner.\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,act_melee_mine_spawner:1b,eff_inflict_wither_random:1b}"
 						}
 					]
 				},
@@ -109,7 +109,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Incendiary Pickaxe\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Sets fire to all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_mine_spawner:1b,eff_inflict_fire_aoe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Incendiary Pickaxe\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Sets fire to all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_mine_spawner:1b,eff_inflict_fire_aoe:1b}"
 						}
 					]
 				},
@@ -120,7 +120,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Flamethrower Sword\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Sets fire to a random\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monster on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_fire_random:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Flamethrower Sword\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Sets fire to a random\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monster on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
@@ -131,7 +131,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_chest_kill_mob:1b,eff_grant_haste_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_kill_mob:1b,eff_grant_haste_strong:1b}"
 						}
 					]
 				},
@@ -142,7 +142,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_head_kill_mob:1b,eff_grant_haste_strong:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Speed King\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants haste on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_kill_mob:1b,eff_grant_haste_strong:1b}"
 						}
 					]
 				},
@@ -153,7 +153,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Rapid Sandals\",\"italic\":false,\"bold\":true,\"color\":\"aqua\"}]\',Lore:[\'[{\"text\":\"Grants speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\'],color:16711259},Unbreakable:1,HideFlags:64,act_feet_kill_mob:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Rapid Sandals\",\"italic\":false,\"bold\":true,\"color\":\"aqua\"}]\',Lore:[\'[{\"text\":\"Grants speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\'],color:16711259},legendary:1b,HideFlags:64,act_feet_kill_mob:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -186,7 +186,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Oldowan\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Oldowan\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
 						}
 					]
 				},
@@ -197,7 +197,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Crippling Axe\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_weakness_target:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Crippling Axe\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_weakness_target:1b}"
 						}
 					]
 				},
@@ -208,7 +208,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Gravedigger\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_weakness_target:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Gravedigger\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_weakness_target:1b}"
 						}
 					]
 				},
@@ -219,7 +219,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
 						}
 					]
 				},
@@ -230,7 +230,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_deal_damage:1b,eff_inflict_slowness_target:1b}"
 						}
 					]
 				},
@@ -241,7 +241,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Deals +4 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Deals +4 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\']},legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -252,7 +252,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -263,7 +263,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -274,7 +274,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -285,7 +285,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Grants +2 damage if a there is\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]\'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -340,7 +340,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},Unbreakable:1,Enchantments:[{}],weakness_compass:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},legendary:1b,Enchantments:[{}],weakness_compass:1b}"
 						}
 					]
 				},
@@ -351,7 +351,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Ascent Falchion\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Inflicts levitation on a\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"random monster on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Unbreakable:1,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Ascent Falchion\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Inflicts levitation on a\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"random monster on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_kill_mob:1b,eff_inflict_levitation_random:1b}"
 						}
 					]
 				},
@@ -362,7 +362,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],Unbreakable:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],legendary:1b}"
 						}
 					]
 				},
@@ -373,7 +373,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Sharpening Stone\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+3 Attack Damage when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:\"generic.attack_damage\"}],Unbreakable:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"Sharpening Stone\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+3 Attack Damage when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:\"generic.attack_damage\"}],legendary:1b}"
 						}
 					]
 				},
@@ -384,7 +384,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Superweight\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+100% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}],Unbreakable:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"Superweight\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+100% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}],legendary:1b}"
 						}
 					]
 				},
@@ -395,7 +395,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Wizard Shell\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+30% Speed when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"Wizard Shell\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+30% Speed when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b}"
 						}
 					]
 				},
@@ -406,7 +406,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Angel Feather\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17876,394,-35750],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17877,394,-35750],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17878,394,-35750],Slot:mainhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17879,394,-35750],Slot:offhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,17871,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,17870,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,17872,394,-35750],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,17873,394,-35750],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1,Enchantments:[{}],HideFlags:2}"
+							"tag": "{display:{Name:\'[{\"text\":\"Angel Feather\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Max Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17876,394,-35750],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12109,17877,394,-35750],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12129,17878,394,-35750],Slot:mainhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17879,394,-35750],Slot:offhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12149,17871,394,-35750],Slot:offhand,Name:\"generic.max_health\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12169,17870,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12179,17872,394,-35750],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12189,17873,394,-35750],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{}],HideFlags:2}"
 						}
 					]
 				},
@@ -417,7 +417,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Charge Crystal\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12149,5353,4524,-10746],Slot:mainhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12179,5353,4524,-10716],Slot:offhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12159,5353,4524,-10726],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12169,5353,4524,-10736],Slot:offhand,Name:\"generic.movement_speed\"}],Unbreakable:1,Enchantments:[{}],HideFlags:2}"
+							"tag": "{display:{Name:\'[{\"text\":\"Charge Crystal\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12149,5353,4524,-10746],Slot:mainhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12179,5353,4524,-10716],Slot:offhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12159,5353,4524,-10726],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12169,5353,4524,-10736],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{}],HideFlags:2}"
 						}
 					]
 				},
@@ -428,7 +428,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Wither Pod\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Your attacks inflict wither\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-12449,9207,35743,-18414],Slot:offhand,Name:\"generic.attack_damage\"}],HideFlags:2,act_offhand_deal_damage:1b,eff_inflict_wither_target:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Wither Pod\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Your attacks inflict wither\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-12449,9207,35743,-18414],Slot:offhand,Name:\"generic.attack_damage\"}],HideFlags:2,act_offhand_deal_damage:1b,eff_inflict_wither_target:1b}"
 						}
 					]
 				},
@@ -439,7 +439,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Illegal Substances\",\"italic\":false,\"color\":\"gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +15% Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants speed on kill\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.15,Operation:1,UUID:[I;-12239,27707,436,-55414],Slot:offhand,Name:\"generic.movement_speed\"}],HideFlags:2,act_offhand_kill_mob:1b,eff_grant_speed_strong:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Illegal Substances\",\"italic\":false,\"color\":\"gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +15% Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants speed on kill\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.15,Operation:1,UUID:[I;-12239,27707,436,-55414],Slot:offhand,Name:\"generic.movement_speed\"}],HideFlags:2,act_offhand_kill_mob:1b,eff_grant_speed_strong:1b}"
 						}
 					]
 				},
@@ -450,7 +450,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Flash Powder\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"speed and strength and inflicts\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"slowness on all nearby monsters\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],act_offhand_mine_spawner:1b,eff_grant_speed_strong:1b,eff_grant_strength_strong:1b,eff_inflict_slowness_aoe:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Flash Powder\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"speed and strength and inflicts\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"slowness on all nearby monsters\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],act_offhand_mine_spawner:1b,eff_grant_speed_strong:1b,eff_grant_strength_strong:1b,eff_inflict_slowness_aoe:1b}"
 						}
 					]
 				},
@@ -461,7 +461,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Armor Shard\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants resistance on kill\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,6231,4391,-12064],Slot:offhand,Name:\"generic.armor_toughness\"}],act_offhand_kill_mob:1b,eff_grant_resistance_weak:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Armor Shard\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants resistance on kill\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,6231,4391,-12064],Slot:offhand,Name:\"generic.armor_toughness\"}],act_offhand_kill_mob:1b,eff_grant_resistance_weak:1b}"
 						}
 					]
 				},
@@ -472,7 +472,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Fire Badge\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants strength upon killing a blaze\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-12119,4845,42825,-9591],Slot:offhand,Name:\"generic.attack_damage\"}],act_offhand_kill_blaze:1b,eff_grant_strength_strong:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Fire Badge\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Grants strength upon killing a blaze\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-12119,4845,42825,-9591],Slot:offhand,Name:\"generic.attack_damage\"}],act_offhand_kill_blaze:1b,eff_grant_strength_strong:1b}"
 						}
 					]
 				},
@@ -483,7 +483,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Absorption Membrane\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +4 Armor Toughness\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -2 Attack Damage\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;-12119,10537,43255,-61074],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-12119,30137,43255,-61074],Slot:offhand,Name:\"generic.armor_toughness\"}]}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Absorption Membrane\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +4 Armor Toughness\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -2 Attack Damage\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;-12119,10537,43255,-61074],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-12119,30137,43255,-61074],Slot:offhand,Name:\"generic.armor_toughness\"}]}"
 						}
 					]
 				},
@@ -494,7 +494,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Corethab\\\'s Bone\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +4 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -6 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-6,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.max_health\"}]}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Corethab\\\'s Bone\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +4 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -6 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-6,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.max_health\"}]}"
 						}
 					]
 				},
@@ -505,7 +505,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Corethab\\'s Tooth\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +6 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -12 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-12119,2118,44148,-3216],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-12,Operation:0,UUID:[I;-12119,2118,44148,-2206],Slot:offhand,Name:\"generic.max_health\"}]}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Corethab\\'s Tooth\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +6 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -12 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-12119,2118,44148,-3216],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-12,Operation:0,UUID:[I;-12119,2118,44148,-2206],Slot:offhand,Name:\"generic.max_health\"}]}"
 						}
 					]
 				},
@@ -516,7 +516,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Zorethab\\'s Tooth\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -18 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;-12119,2108,44148,-8236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-18,Operation:0,UUID:[I;-12119,2018,44148,-7236],Slot:offhand,Name:\"generic.max_health\"}]}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Zorethab\\'s Tooth\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"  -18 Max Health\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;-12119,2108,44148,-8236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-18,Operation:0,UUID:[I;-12119,2018,44148,-7236],Slot:offhand,Name:\"generic.max_health\"}]}"
 						}
 					]
 				},
@@ -527,7 +527,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{Unbreakable:1,display:{Name:\'[{\"text\":\"Highly Flammable Glue\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Sets fire to a random monster on hit\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Inflicts slowness on hit\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,10845,45552,-21690],Slot:offhand,Name:\"generic.max_health\"}],act_offhand_deal_damage:1b,eff_inflict_slowness_target:1b,eff_inflict_fire_random:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Highly Flammable Glue\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Sets fire to a random monster on hit\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Inflicts slowness on hit\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,10845,45552,-21690],Slot:offhand,Name:\"generic.max_health\"}],act_offhand_deal_damage:1b,eff_inflict_slowness_target:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
@@ -549,7 +549,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Quartz Staff\",\"italic\":false,\"color\":\"white\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to place Chiseled Quartz\",\"italic\":false,\"color\":\"aqua\"}]\']},Recipes:[],Unbreakable:1,tome_block:1b,Enchantments:[{}]}"
+							"tag": "{display:{Name:\'[{\"text\":\"Quartz Staff\",\"italic\":false,\"color\":\"white\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to place Chiseled Quartz\",\"italic\":false,\"color\":\"aqua\"}]\']},Recipes:[],legendary:1b,tome_block:1b,Enchantments:[{}]}"
 						}
 					]
 				},
@@ -560,7 +560,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Ember Staff\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to set an area on fire\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs 3 fire charges per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],Unbreakable:1,tome_ember:1b,Enchantments:[{}]}"
+							"tag": "{display:{Name:\'[{\"text\":\"Ember Staff\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to set an area on fire\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs 3 fire charges per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],legendary:1b,tome_ember:1b,Enchantments:[{}]}"
 						}
 					]
 				},
@@ -571,7 +571,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Volley of Fireballs in the\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"cardinal direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],Unbreakable:1,tome_fireball:1b,Enchantments:[{}]}"
+							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Volley of Fireballs in the\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"cardinal direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},Recipes:[],legendary:1b,tome_fireball:1b,Enchantments:[{}]}"
 						}
 					]
 				}
