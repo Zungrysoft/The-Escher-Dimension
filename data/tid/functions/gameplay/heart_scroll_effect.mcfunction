@@ -1,5 +1,10 @@
 #Grant the effect
 attribute @s minecraft:generic.max_health modifier remove 7c183d2f-4e05-4f9a-ae04-8ee579aab17f
+execute if score temp value matches ..-5 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost -10 add
+execute if score temp value matches -4 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost -8 add
+execute if score temp value matches -3 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost -6 add
+execute if score temp value matches -2 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost -4 add
+execute if score temp value matches -1 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost -2 add
 execute if score temp value matches 1 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 2 add
 execute if score temp value matches 2 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 4 add
 execute if score temp value matches 3 run attribute @s minecraft:generic.max_health modifier add 7c183d2f-4e05-4f9a-ae04-8ee579aab17f health_boost 6 add

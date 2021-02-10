@@ -1,5 +1,10 @@
 #Grant the effect
 attribute @s minecraft:generic.movement_speed modifier remove 7c183dac-4e05-4f1a-ae04-8ee579aab17f
+
+execute if score temp value matches ..-4 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost -0.8 multiply
+execute if score temp value matches -3 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost -0.6 multiply
+execute if score temp value matches -2 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost -0.4 multiply
+execute if score temp value matches -1 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost -0.2 multiply
 execute if score temp value matches 1 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost 0.2 multiply
 execute if score temp value matches 2 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost 0.4 multiply
 execute if score temp value matches 3 run attribute @s minecraft:generic.movement_speed modifier add 7c183dac-4e05-4f1a-ae04-8ee579aab17f speed_boost 0.6 multiply

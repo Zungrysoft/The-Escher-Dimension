@@ -236,7 +236,51 @@
 				},
 				{
 					"type": "item",
-					"weight": 30,
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Mobility Monarch\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_melee_kill_mob:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Chain Lightning\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Grants strength and speed on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_melee_kill_mob:1b,eff_grant_speed_weak:1b,eff_grant_strength_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100000,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Apocalypse Dagger\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"On kill, inflicts wither, fire, slowness, and\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"weakness each to a random monster\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_melee_kill_mob:1b,eff_inflict_wither_random:1b,eff_inflict_fire_random:1b,eff_inflict_slowness_random:1b,eff_inflict_weakness_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Silth Gunnet\\'s Halberd\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Grants resistance on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-20% speed when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,speed_penalty:1b,act_melee_kill_mob:1b,eff_grant_resistance_weak:2b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -258,7 +302,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 20,
 					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
@@ -269,7 +313,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 20,
 					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
