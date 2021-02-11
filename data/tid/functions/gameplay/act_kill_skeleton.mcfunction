@@ -1,9 +1,9 @@
 #Make the check
-execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{act_head_kill_skeleton:1b}}]}] if score @s kill_skeleton matches 1.. run function tid:gameplay/effect_grant_head
-execute if entity @s[nbt={SelectedItem:{tag:{act_melee_kill_skeleton:1b}}}] if score @s kill_skeleton matches 1.. run function tid:gameplay/effect_grant_melee
+execute if score @s kill_skeleton matches 1.. if entity @s[predicate=tid:item/act_mainhand_kill_skeleton] run function tid:gameplay/effect_grant_mainhand
+execute if score @s kill_skeleton matches 1.. if entity @s[predicate=tid:item/act_head_kill_skeleton] run function tid:gameplay/effect_grant_head
 
-execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{act_head_kill_skeleton:1b}}]}] if score @s kill_wither_skel matches 1.. run function tid:gameplay/effect_grant_head
-execute if entity @s[nbt={SelectedItem:{tag:{act_melee_kill_skeleton:1b}}}] if score @s kill_wither_skel matches 1.. run function tid:gameplay/effect_grant_melee
+execute if score @s kill_wither_skel matches 1.. if entity @s[predicate=tid:item/act_mainhand_kill_skeleton] run function tid:gameplay/effect_grant_mainhand
+execute if score @s kill_wither_skel matches 1.. if entity @s[predicate=tid:item/act_head_kill_skeleton] run function tid:gameplay/effect_grant_head
 
 #Reset the scores
 scoreboard players reset @s kill_skeleton

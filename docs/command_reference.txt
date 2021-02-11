@@ -257,6 +257,21 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Highly Flammable Glue
 /give @p slime_ball{Unbreakable:1,display:{Name:'[{"text":"Highly Flammable Glue","italic":false,"color":"gold","bold":true}]',Lore:['[{"text":"When held in offhand:","italic":false,"color":"white"}]','[{"text":"  +2 Health","italic":false,"color":"white"}]','[{"text":"  Sets fire to a random monster on hit","italic":false,"color":"white"}]','[{"text":"  Inflicts slowness on hit","italic":false,"color":"white"}]']},Enchantments:[{}],HideFlags:2,AttributeModifiers:[{AttributeName:"generic.max_health",Amount:2,Operation:0,UUID:[I;-12119,10845,45552,-21690],Slot:offhand,Name:"generic.max_health"}],act_offhand_deal_damage:1b,eff_inflict_slowness_target:1b,eff_inflict_fire_random:1b} 1
 
+#Shields
+#Royal Guard
+/give @p shield{display:{Name:'[{"text":"Royal Guard","italic":false,"color":"dark_aqua"}]'},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:-1,Operation:0,UUID:[I;-12119,15652,20317,-30306],Slot:offhand,Name:"generic.attack_damage"},{AttributeName:"generic.max_health",Amount:4,Operation:0,UUID:[I;-12119,15651,20317,-31206],Slot:offhand,Name:"generic.max_health"}],BlockEntityTag: {Patterns: [{Pattern: "ms", Color: 7}, {Pattern: "sc", Color: 15}, {Pattern: "br", Color: 9}, {Pattern: "tl", Color: 9}, {Pattern: "flo", Color: 15}, {Pattern: "bo", Color: 15}], Base: 0},HideFlags:32,legendary:1b} 1
+
+#Firebreath Shield
+/give @p shield{display:{Name:'[{"text":"Firebreath Shield","italic":false,"color":"red"}]'},Enchantments:[{id:thorns,lvl:4},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.max_health",Amount:-4,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:"generic.max_health"},{AttributeName:"generic.attack_damage",Amount:1,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:"generic.attack_damage"}],Damage: 0, BlockEntityTag: {Patterns: [{Pattern: "drs", Color: 14}, {Pattern: "tr", Color: 14}, {Pattern: "cbo", Color: 4}, {Pattern: "flo", Color: 14}, {Pattern: "bo", Color: 15}], Base: 4},HideFlags:32,legendary:1b} 1
+
+#Battery Ballast
+/give @p shield{display:{Name:'[{"text":"Battery Ballast","italic":false,"bold":true,"color":"yellow"}]',Lore:['[{"text":"Grants strength upon blocking","italic":false,"color":"white"}]','[{"text":"damage when held in offhand","italic":false,"color":"white"},{"text":"","italic":false,"color":"dark_purple"}]']},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.max_health",Amount:-6,Operation:0,UUID:[I;-12009,27674,22320,-55348],Slot:offhand,Name:"generic.max_health"}],BlockEntityTag: {Patterns: [{Pattern: "ss", Color: 15}, {Pattern: "gra", Color: 11}, {Pattern: "gru", Color: 11}, {Pattern: "mr", Color: 3}, {Pattern: "cbo", Color: 4}, {Pattern: "sc", Color: 4}], Base: 3},HideFlags:32,legendary:1b,act_offhand_block_damage:1b,eff_grant_strength_weak:1b} 1
+
+#Superneon Shield
+/give @p shield{display:{Name:'[{"text":"Superneon Shield","italic":false,"color":"blue","bold":true}]',Lore:['[{"text":"Grants speed upon blocking damage when held in offhand","italic":false,"color":"white"}]']},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:-1,Operation:0,UUID:[I;-12119,27597,212053,-55194],Slot:offhand,Name:"generic.attack_damage"}],BlockEntityTag: {Patterns: [{Pattern: "bts", Color: 15}, {Pattern: "tts", Color: 15}, {Pattern: "mr", Color: 15}, {Pattern: "mc", Color: 3}, {Pattern: "sc", Color: 3}, {Pattern: "flo", Color: 15}], Base: 7},legendary:1b,HideFlags:32,act_offhand_block_damage:1b,eff_grant_speed_strong:1b} 1
+
+/give @p shield{display:{Name:'[{"text":"Shield of Balt Ghadlef","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Sets all nearby monsters on fire upon","italic":false,"color":"white"}]','[{"text":"blocking damage when held in offhand","italic":false,"color":"white"}]']},Enchantments:[{id:thorns,lvl:2},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.max_health",Amount:-14,Operation:0,UUID:[I;-12119,31531,212750,-63062],Slot:offhand,Name:"generic.max_health"}],BlockEntityTag: {Patterns: [{Pattern: "ss", Color: 15}, {Pattern: "gra", Color: 15}, {Pattern: "gru", Color: 15}, {Pattern: "cbo", Color: 14}, {Pattern: "bo", Color: 15}], Base: 0},HideFlags:32,legendary:1b,act_offhand_block_damage:1b,eff_inflict_fire_aoe:1b} 1
+
 #Shredder Contract
 /give @p paper{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}
 
@@ -268,6 +283,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 
 #Zapper Arrow
 /give @p tipped_arrow{CustomPotionColor:16775214,display:{Name:'[{"text":"Electric Arrow","italic":false,"color":"white"}]',Lore:['[{"text":"Electrocutes nearby monsters","italic":false,"color":"aqua"}]','[{"text":"after a certain travel time","italic":false,"color":"aqua"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:3}],HideFlags:65535,zapper_arrow:1}
+
+#Wrath Arrow
+/give @p tipped_arrow{CustomPotionColor:16358941,display:{Name:'[{"text":"Arrow of Wrath","italic":false,"color":"white"}]',Lore:['[{"text":"Causes victim to release fireballs","italic":false,"color":"aqua"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:2,Amplifier:4}],HideFlags:65535}
 
 #Fireworks
 #3 Charges

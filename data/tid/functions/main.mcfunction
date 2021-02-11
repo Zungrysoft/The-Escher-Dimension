@@ -67,6 +67,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s
 #Gameplay stuff
 team join players @a
 execute as @a at @s run function tid:gameplay/item_checks
+function tid:gameplay/custom_potions
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
 execute as @e[type=snowball,nbt={Item:{tag:{bridge_snowball:1b}}}] at @s run function tid:gameplay/bridge_snowball
 execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:gameplay/bridge_snowball_place

@@ -1,5 +1,5 @@
 #Particle trail
-execute if score temp value matches ..75 run particle minecraft:cloud
+#execute if score temp value matches ..155 run particle minecraft:cloud
 
 #Distance tracking
 scoreboard players remove temp value 1

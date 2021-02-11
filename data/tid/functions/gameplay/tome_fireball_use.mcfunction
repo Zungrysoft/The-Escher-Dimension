@@ -10,9 +10,9 @@ summon minecraft:small_fireball ~ ~1 ~ {Tags:["f2","new"]}
 summon minecraft:small_fireball ~ ~1 ~ {Tags:["f3","new"]}
 
 #Set the ownership of the fireballs
-data modify entity @e[type=area_effect_cloud,tag=f1,limit=1] Owner set from entity @s UUID
-data modify entity @e[type=area_effect_cloud,tag=f2,limit=1] Owner set from entity @s UUID
-data modify entity @e[type=area_effect_cloud,tag=f3,limit=1] Owner set from entity @s UUID
+data modify entity @e[type=small_fireball,tag=f1,limit=1] Owner set from entity @s UUID
+data modify entity @e[type=small_fireball,tag=f2,limit=1] Owner set from entity @s UUID
+data modify entity @e[type=small_fireball,tag=f3,limit=1] Owner set from entity @s UUID
 
 #Determine which direction the player is aiming in
 execute store result score temp2 value run data get entity @s Rotation[0]

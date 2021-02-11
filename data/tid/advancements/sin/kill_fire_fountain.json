@@ -1,10 +1,10 @@
 {
-  "parent": "tid:layer_2/kill_potion_carrier",
+  "parent": "tid:sin/find_sin_chambers",
   "display": {
     "icon": {
       "item": "minecraft:blaze_rod"
     },
-    "title": "Can't You See I'm Burning?",
+    "title": "Burn Lanes",
     "description": "Find and kill a Fountain of Flame",
     "frame": "task",
     "show_toast": true,

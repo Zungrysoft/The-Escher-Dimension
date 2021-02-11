@@ -1,5 +1,5 @@
 #Particle trail
-execute if score temp value matches ..75 run particle minecraft:cloud
+execute if score temp value matches ..75 run particle minecraft:flame
 
 #Distance tracking
 scoreboard players remove temp value 1
@@ -15,5 +15,5 @@ execute if score temp2 value matches 0 positioned ^ ^ ^-1 run function tid:gamep
 #If we have run out of range, play the fail sound
 execute if score temp2 value matches 2 at @s run function tid:gameplay/fail_sound
 
-#If the ember is transparent, and we haven't run out of range, keep going
+#If the block is transparent, and we haven't run out of range, keep going
 execute if score temp2 value matches 1 positioned ^ ^ ^.5 run function tid:gameplay/tome_ember_recurse

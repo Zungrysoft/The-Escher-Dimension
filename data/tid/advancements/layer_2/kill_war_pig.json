@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/find_sin_chambers",
+  "parent": "tid:layer_2/find_soulsand",
   "display": {
     "icon": {
       "item": "minecraft:iron_chestplate"

@@ -1,0 +1,16 @@
+{
+	"condition":"minecraft:alternative",
+	"terms":[
+		{
+			"condition":"minecraft:entity_properties",
+			"entity":"this",
+			"predicate":{
+				"equipment":{
+					"legs":{
+						"nbt":"{act_legs_kill_piglin:1b}"
+					}
+				}
+			}
+		}
+	]
+}

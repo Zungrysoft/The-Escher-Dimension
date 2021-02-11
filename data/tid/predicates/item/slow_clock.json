@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"item": "minecraft:clock",
+						"nbt": "{slow_clock:1b}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"item": "minecraft:clock",
+						"nbt": "{slow_clock:1b}"
+					}
+				}
+			}
+		}
+	]
+}

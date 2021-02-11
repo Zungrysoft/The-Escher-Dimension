@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/kill_fire_fountain",
+  "parent": "tid:layer_2/kill_potion_carrier",
   "display": {
     "icon": {
       "item": "minecraft:diamond"

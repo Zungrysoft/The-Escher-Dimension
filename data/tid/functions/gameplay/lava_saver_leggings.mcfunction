@@ -1,1 +1,1 @@
-execute if entity @s[nbt={Inventory:[{Slot:101b, tag:{lava_saver_leggings:1b}}]}] if block ~ ~ ~ lava run function tid:gameplay/lava_saver_leggings_break
+execute if entity @s[predicate=tid:item/lava_saver_leggings] if block ~ ~ ~ lava run function tid:gameplay/lava_saver_leggings_break

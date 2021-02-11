@@ -1,5 +1,6 @@
 #Particle trail
-execute if score temp value matches ..75 run particle minecraft:dust 1 0 0 1
+execute if score temp value matches ..75 if predicate tid:random_50 run particle minecraft:dust 0 0 0 2
+execute if score temp value matches ..75 if predicate tid:random_50 run particle minecraft:dust 1 1 0 2
 
 #Distance tracking
 scoreboard players remove temp value 1

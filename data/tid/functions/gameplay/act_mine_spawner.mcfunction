@@ -1,10 +1,10 @@
 #Make the check
-execute if entity @s[nbt={SelectedItem:{tag:{act_melee_mine_spawner:1b}}}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_melee
-execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{act_head_mine_spawner:1b}}]}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_head
-execute if entity @s[nbt={Inventory:[{Slot:102b, tag:{act_chest_mine_spawner:1b}}]}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_chest
-execute if entity @s[nbt={Inventory:[{Slot:101b, tag:{act_legs_mine_spawner:1b}}]}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_legs
-execute if entity @s[nbt={Inventory:[{Slot:100b, tag:{act_feet_mine_spawner:1b}}]}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_feet
-execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{act_offhand_mine_spawner:1b}}]}] if score @s mine_spawner matches 1.. run function tid:gameplay/effect_grant_offhand
+execute if entity @s[predicate=tid:item/act_mainhand_mine_spawner] run function tid:gameplay/effect_grant_mainhand
+execute if entity @s[predicate=tid:item/act_feet_mine_spawner] run function tid:gameplay/effect_grant_feet
+execute if entity @s[predicate=tid:item/act_legs_mine_spawner] run function tid:gameplay/effect_grant_legs
+execute if entity @s[predicate=tid:item/act_chest_mine_spawner] run function tid:gameplay/effect_grant_chest
+execute if entity @s[predicate=tid:item/act_head_mine_spawner] run function tid:gameplay/effect_grant_head
+execute if entity @s[predicate=tid:item/act_offhand_mine_spawner] run function tid:gameplay/effect_grant_offhand
 
 #Reset the scores
 scoreboard players reset @s mine_spawner

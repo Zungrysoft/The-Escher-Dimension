@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/find_soulsand",
+  "parent": "tid:layer_2/kill_war_pig",
   "display": {
     "icon": {
       "item": "minecraft:blackstone"

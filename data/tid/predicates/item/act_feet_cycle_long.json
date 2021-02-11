@@ -1,0 +1,16 @@
+{
+	"condition":"minecraft:alternative",
+	"terms":[
+		{
+			"condition":"minecraft:entity_properties",
+			"entity":"this",
+			"predicate":{
+				"equipment":{
+					"feet":{
+						"nbt":"{act_feet_cycle_long:1b}"
+					}
+				}
+			}
+		}
+	]
+}

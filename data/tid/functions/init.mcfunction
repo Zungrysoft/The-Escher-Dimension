@@ -49,6 +49,7 @@ bossbar set minecraft:boss style notched_6
 bossbar set minecraft:boss color purple
 
 #Scoreboard
+scoreboard objectives add value dummy
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
@@ -66,7 +67,6 @@ scoreboard objectives add counter1 dummy
 scoreboard objectives add counter2 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add power dummy
-scoreboard objectives add value dummy
 scoreboard objectives add health_boost dummy
 scoreboard objectives add speed_boost dummy
 scoreboard objectives add damage_boost dummy
@@ -76,8 +76,10 @@ scoreboard objectives add adv_hellion_1 dummy
 scoreboard objectives add adv_hellion_2 dummy
 scoreboard objectives add adv_hellion_3 dummy
 scoreboard objectives add adv_hellion_4 dummy
+scoreboard objectives add block_damage minecraft.custom:minecraft.damage_blocked_by_shield
 scoreboard objectives add tome_use minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add item_used dummy
+scoreboard objectives add igneous dummy
 scoreboard objectives add fireworks_kills dummy
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay belowName deaths

@@ -6,4 +6,5 @@ execute if predicate tid:random_50 run scoreboard players add temp value 4
 execute if predicate tid:random_50 run scoreboard players add temp value 8
 
 #War Pig 2
-execute if score temp value matches 0..15 run function tid:custom_mobs/war_pig_2
+execute if score temp value matches 0..10 run function tid:custom_mobs/war_pig_2
+execute if score temp value matches 11..15 run function tid:custom_mobs/fire_fountain
