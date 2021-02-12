@@ -1,5 +1,5 @@
 #Sound Effect
-playsound minecraft:entity.illusioner.prepare_blindness player @a ~ ~ ~ 1 2
+playsound minecraft:entity.illusioner.prepare_blindness player @a ~ ~ ~ 0.5 2
 
 #Effect
 effect give @p minecraft:strength 10 0

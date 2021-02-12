@@ -1,5 +1,5 @@
 #Sound Effect
-playsound minecraft:entity.evoker.prepare_attack player @a ~ ~ ~ 1 2
+playsound minecraft:entity.evoker.prepare_attack player @a ~ ~ ~ 0.5 2
 
 #Effect
 effect give @p minecraft:speed 10 1

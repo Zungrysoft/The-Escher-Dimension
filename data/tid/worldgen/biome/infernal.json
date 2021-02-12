@@ -23,6 +23,7 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
+	"ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "sky_color": 14443570,
     "fog_color": 14443570,
     "water_color": 6381142,

@@ -1,5 +1,5 @@
 #Sound Effect
-playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 1 2
+playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 0.5 2
 
 #Effect
 effect give @p minecraft:haste 10 1

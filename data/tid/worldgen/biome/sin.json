@@ -7,6 +7,13 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
+	"music": {
+      "sound": "minecraft:music.nether.crimson_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+	"ambient_sound": "minecraft:ambient.crimson_forest.loop",
     "sky_color": 16697434,
     "fog_color": 16697434,
     "water_color": 4607618,

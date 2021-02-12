@@ -12,7 +12,7 @@ fill ~ ~-128 ~ ~18 ~-124 ~18 minecraft:blue_wool
 #Randomize blocks in the room
 scoreboard players set xmax value 19
 scoreboard players set ymax value 5
-scoreboard players set zmax value 9
+scoreboard players set zmax value 19
 function tid:dungeon/sin/chambers/rng/run_rng
 
 #Summon doorways
