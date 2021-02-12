@@ -10,6 +10,10 @@ setblock 6 183 6 chest[facing=west]{Items: [{Slot: 11b, id: "minecraft:written_b
 #Scatter pedestals around
 function tid:dungeon/sin/scatter_pedestals
 
+#Carve the caverns in The Fire Chambers
+say Carving More Caves...
+function tid:dungeon/sin/chambers/cave_scatter
+
 #These chunks are no longer needed
 forceload remove -100 -100 100 100
 forceload remove 1000 1000 1064 1064

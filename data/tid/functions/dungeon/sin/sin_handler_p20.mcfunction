@@ -6,11 +6,11 @@ execute as @e[type=minecraft:area_effect_cloud,name="sin_west",sort=random] at @
 execute as @e[type=minecraft:area_effect_cloud,name="sin_up",sort=random] at @s run function tid:dungeon/sin/check_up
 execute as @e[type=minecraft:area_effect_cloud,name="sin_down",sort=random] at @s run function tid:dungeon/sin/check_down
 
-execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_north",sort=random] at @s run function tid:dungeon/sin/chambers_check_north
-execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_east",sort=random] at @s run function tid:dungeon/sin/chambers_check_east
-execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_south",sort=random] at @s run function tid:dungeon/sin/chambers_check_south
-execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_west",sort=random] at @s run function tid:dungeon/sin/chambers_check_west
-execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_down",sort=random] at @s run function tid:dungeon/sin/chambers_check_down
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_north",sort=random] at @s run function tid:dungeon/sin/chambers/check_north
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_east",sort=random] at @s run function tid:dungeon/sin/chambers/check_east
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_south",sort=random] at @s run function tid:dungeon/sin/chambers/check_south
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_west",sort=random] at @s run function tid:dungeon/sin/chambers/check_west
+execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_down",sort=random] at @s run function tid:dungeon/sin/chambers/check_down
 
 #Run lava movers in sin_chambers
 execute as @e[type=minecraft:area_effect_cloud,name="lava_mover"] at @s run function tid:misc/lava_move

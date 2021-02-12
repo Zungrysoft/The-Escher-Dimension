@@ -12,8 +12,8 @@ setblock ~ ~1 ~ minecraft:redstone_block
 fill ~ ~-128 ~ ~8 ~-124 ~8 air
 
 #Add support pillar
-execute positioned ~ ~-1 ~ run clone ~ 41 ~ ~8 ~-128 ~8 ~ 169 ~ masked
-execute positioned ~ ~-1 ~ run fill ~ 168 ~ ~8 ~ ~8 polished_blackstone_bricks replace orange_wool
+clone ~ 41 ~ ~8 ~-128 ~8 ~ 169 ~ masked
+fill ~ 168 ~ ~8 ~-1 ~8 polished_blackstone_bricks replace orange_wool
 
 #Add in the deco structure
 execute positioned ~4 ~3 ~4 run function tid:dungeon/sin/select_deco_medium

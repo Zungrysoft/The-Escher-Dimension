@@ -681,7 +681,18 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Jack of Spades\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\'},Enchantments:[{id:knockback,lvl:5}],legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Jack of Spades\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\'},Enchantments:[{id:knockback,lvl:5},{id:efficiency,lvl:5}],legendary:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Queen of Spades\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\'},Enchantments:[{id:sharpness,lvl:10},{id:efficiency,lvl:5}],legendary:1b}"
 						}
 					]
 				}

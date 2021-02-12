@@ -7,6 +7,8 @@ setblock ~6 ~ ~2 minecraft:structure_block{name: "tid:sin/bridge_west_1", posX: 
 #Exclusive Structures
 #Blue
 execute if score district_color value matches 11 run setblock ~6 ~ ~2 minecraft:structure_block{name: "tid:sin/bridge_west_2", posX: -6, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Red
+execute if score district_color value matches 14 run setblock ~6 ~ ~2 minecraft:structure_block{name: "tid:sin/bridge_west_2", posX: -6, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Pink
 execute if score district_color value matches 6 run setblock ~6 ~ ~2 minecraft:structure_block{name: "tid:sin/bridge_west_3", posX: -6, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Purple
