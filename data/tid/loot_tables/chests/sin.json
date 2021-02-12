@@ -259,11 +259,6 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "minecraft:ghast_tear"
-				},
-				{
-					"type": "item",
-					"weight": 1,
 					"name": "minecraft:golden_helmet",
 					"functions": [
 						{

@@ -11,7 +11,7 @@ execute if score temp4 value matches 0 at @e[type=area_effect_cloud,tag=scatter_
 execute unless score temp4 value matches 0 at @e[type=area_effect_cloud,tag=scatter_marker,limit=1,sort=random] run tp @s ~ ~ ~
 
 #Kill all other nearby scatter markers so another district capitol doesn't generate too close
-execute at @s as @e[type=area_effect_cloud,tag=scatter_marker,distance=..75] run kill @s
+execute at @s as @e[distance=..75,type=area_effect_cloud,tag=scatter_marker] run kill @s
 
 #Remove the new tag
 tag @s remove new

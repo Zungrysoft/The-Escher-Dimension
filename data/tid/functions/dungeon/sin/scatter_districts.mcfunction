@@ -1,7 +1,7 @@
 #Remove all invalid starting points
 execute as @e[type=area_effect_cloud,tag=scatter_marker] run function tid:update_coords
-execute as @e[type=area_effect_cloud,tag=scatter_marker] unless score @s x matches -90..90 run kill @s
-execute as @e[type=area_effect_cloud,tag=scatter_marker] unless score @s z matches -90..90 run kill @s
+execute as @e[type=area_effect_cloud,tag=scatter_marker] unless score @s x matches -80..80 run kill @s
+execute as @e[type=area_effect_cloud,tag=scatter_marker] unless score @s z matches -80..80 run kill @s
 execute as @e[type=area_effect_cloud,tag=scatter_marker] if score @s x matches -20..20 if score @s z matches -20..20 run kill @s
 
 #Generate the district entities and scatter them

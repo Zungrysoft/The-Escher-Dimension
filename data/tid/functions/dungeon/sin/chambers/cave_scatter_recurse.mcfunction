@@ -1,6 +1,6 @@
 #Count down
 scoreboard players remove cave_count value 1
-say h
+
 #Scatter position
 tp @e[type=area_effect_cloud,tag=new,limit=1] -32 138 -32
 #162 Max

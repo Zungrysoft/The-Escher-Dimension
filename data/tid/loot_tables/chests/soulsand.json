@@ -206,20 +206,6 @@
                 },
 				{
                     "type": "item",
-                    "weight": 20,
-                    "name": "minecraft:leather",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
                     "weight": 30,
                     "name": "minecraft:tipped_arrow",
                     "functions": [
@@ -269,36 +255,21 @@
                     "weight": 1,
                     "name": "minecraft:chainmail_leggings"
                 },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_shovel"
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:iron_axe"
-                },
 				{
                     "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_sword"
-                },
-				{
-                    "type": "item",
-                    "weight": 4,
+                    "weight": 3,
                     "name": "minecraft:book",
                     "functions": [
                         {
                             "function": "enchant_with_levels",
-							"levels": 30,
+							"levels": 5,
 							"treasure": true
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 8,
+                    "weight": 3,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -315,17 +286,6 @@
                         {
                             "function": "set_nbt",
                             "tag": "{display:{Name:'[{\"text\":\"Rabid Shredder\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Cannot be repaired\",\"italic\":false,\"color\":\"red\"}]']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5},{id:piercing,lvl:10}],Damage:286,RepairCost:664}"
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:chainmail_boots",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'[{\"text\":\"Lucifer\\'s Clogs\",\"italic\":false,\"color\":\"red\",\"bold\":true}]'},Enchantments:[{id:soul_speed,lvl:4},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4}"
                         }
                     ]
                 },
@@ -350,7 +310,35 @@
                             "tag": "{StoredEnchantments:[{id:quick_charge,lvl:3}]}"
                         }
                     ]
-                }
+                },
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "tid:chests/legendary_item"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Firestorm\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"5 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 0b, Colors: [I; 15221057]}, {Type: 0b, Colors: [I; 15761987]}, {Type: 0b, Colors: [I; 16753725]}, {Type: 0b, Colors: [I; 16761889]}, {Type: 0b, Colors: [I; 15924992]}]}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 13
+							}
+						}
+					]
+				}
             ]
         }
     ]

@@ -1,5 +1,6 @@
 #Delete the command block
-fill ~ ~1 ~ ~ ~ ~ air
+fill ~ ~1 ~ ~ ~ ~ air replace redstone_block
+fill ~ ~1 ~ ~ ~ ~ air replace command_block
 
 #Randomly place gold nearby
 execute if predicate tid:random_50 positioned ~ ~ ~ unless block ~ ~-1 ~ air if block ~ ~ ~ air run setblock ~ ~ ~ gilded_blackstone

@@ -14,6 +14,13 @@ function tid:dungeon/sin/scatter_pedestals
 say Carving More Caves...
 function tid:dungeon/sin/chambers/cave_scatter
 
+#Place the chests in The Fire Chambers
+execute as @e[type=area_effect_cloud,name="sin_chambers_chest_north"] at @s run function tid:misc/sin_chambers_chest_north
+execute as @e[type=area_effect_cloud,name="sin_chambers_chest_south"] at @s run function tid:misc/sin_chambers_chest_south
+execute as @e[type=area_effect_cloud,name="sin_chambers_chest_west"] at @s run function tid:misc/sin_chambers_chest_west
+execute as @e[type=area_effect_cloud,name="sin_chambers_chest_east"] at @s run function tid:misc/sin_chambers_chest_east
+execute as @e[type=area_effect_cloud,name="sin_chambers_chest_any"] at @s run function tid:misc/sin_chambers_chest_any
+
 #These chunks are no longer needed
 forceload remove -100 -100 100 100
 forceload remove 1000 1000 1064 1064

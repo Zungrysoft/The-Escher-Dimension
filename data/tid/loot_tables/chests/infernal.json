@@ -299,20 +299,6 @@
                         }
                     ]
                 },
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:nether_wart",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
 				{
                     "type": "item",
                     "weight": 10,
@@ -340,7 +326,25 @@
                             }
                         }
                     ]
-                }
+                },
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Starfighter\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"9 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}]}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 9
+							}
+						}
+					]
+				}
             ]
         }
     ]

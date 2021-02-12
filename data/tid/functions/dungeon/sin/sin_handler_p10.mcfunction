@@ -34,7 +34,7 @@ execute if predicate tid:random_50 run scoreboard players add sin_chambers_globa
 
 #Determine the number of rooms to generate
 scoreboard players set sin_rooms value 400
-scoreboard players set sin_chambers_rooms value 400
+scoreboard players set sin_chambers_rooms value 600
 
 #Generate the districts and capitols
 execute positioned 0 256 0 run function tid:dungeon/sin/scatter_districts

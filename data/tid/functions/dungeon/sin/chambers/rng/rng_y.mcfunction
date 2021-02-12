@@ -16,4 +16,4 @@ execute if predicate tid:random_05 if score y_absolute value matches ..137 if bl
 #Recurse
 scoreboard players add ycount value 1
 scoreboard players add y_absolute value 1
-execute unless score ycount value > ymax value positioned ~ ~1 ~ run function tid:dungeon/sin/chambers/rng/rng_y
+execute unless score ycount value >= ymax value positioned ~ ~1 ~ run function tid:dungeon/sin/chambers/rng/rng_y

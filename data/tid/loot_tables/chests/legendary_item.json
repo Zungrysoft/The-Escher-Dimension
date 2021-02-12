@@ -695,6 +695,24 @@
 							"tag": "{display:{Name:\'[{\"text\":\"Queen of Spades\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\'},Enchantments:[{id:sharpness,lvl:10},{id:efficiency,lvl:5}],legendary:1b}"
 						}
 					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Snowblower\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"12 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}, {Type: 4b, Colors: [I; 16777215]}]}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 9,
+								"max": 11
+							}
+						}
+					]
 				}
 			]
 		}

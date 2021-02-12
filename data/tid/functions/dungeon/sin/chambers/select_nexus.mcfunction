@@ -7,6 +7,9 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~-128 ~ ~10 ~-113 ~10 minecraft:blue_wool
 
+#Room features
+function tid:misc/sin_chambers_nexus
+
 #Randomize blocks in the room
 scoreboard players set xmax value 11
 scoreboard players set ymax value 16
@@ -17,5 +20,5 @@ function tid:dungeon/sin/chambers/rng/run_rng
 scoreboard players remove sin_chambers_rooms value 1
 
 #We're done here
-kill @s
+#kill @s
 

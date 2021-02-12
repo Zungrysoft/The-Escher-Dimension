@@ -1,187 +1,205 @@
 {
-    "pools": [
-        {
-            "rolls": 3,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:red_dye"
-                },
-				{
-                    "type": "empty",
-                    "weight": 10
-                }
-            ]
-        },
+	"pools": [
 		{
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:emerald",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
+			"rolls": 3,
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:emerald_block"
-                },
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:red_dye"
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:experience_bottle",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "bonus_rolls": {
-                "min": 0,
-                "max": 1
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:ender_pearl"
-                },
-				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:golden_apple"
-                },
-                {
-                    "type": "item",
-                    "weight": 30,
-                    "name": "minecraft:experience_bottle",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 10
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:birch_sapling",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 7,
-                                "max": 9
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 15,
-                    "name": "minecraft:end_stone",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 7,
-                                "max": 9
-                            }
-                        }
-                    ]
-                }
+					"type": "empty",
+					"weight": 10
+				}
 			]
 		},
 		{
-            "rolls": {
-                "min": -3,
-                "max": 3
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 1
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 150,
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:harming\"}"
-                        }
-                    ]
-                },
+			"rolls": 1,
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:healing\"}"
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 8
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:weakness\"}"
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:emerald_block"
+				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:slowness\"}"
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:splash_potion",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:invisibility\"}"
-                        }
-                    ]
-                }
+					"type": "item",
+					"weight": 7,
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:birch_sapling",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 7,
+								"max": 9
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 7,
+								"max": 9
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The Blue Baron\",\"italic\":false,\"bold\":true,\"color\":\"dark_blue\"}]\',Lore:[\'[{\"text\":\"9 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Colors: [I; 4142588]}, {Type: 2b, Colors: [I; 48076]}, {Type: 2b, Colors: [I; 4142588]}, {Type: 2b, Colors: [I; 4229]}, {Type: 2b, Colors: [I; 4142588]}, {Type: 2b, Colors: [I; 48076]}, {Type: 2b, Colors: [I; 4229]}, {Type: 2b, Colors: [I; 4142588]}, {Type: 2b, Colors: [I; 4142588]}]}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 8
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -3,
+				"max": 3
+			},
+			"bonus_rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 150,
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:harming\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:healing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:weakness\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:slowness\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:invisibility\"}"
+						}
+					]
+				}
 			]
 		}
-    ]
+	]
 }
