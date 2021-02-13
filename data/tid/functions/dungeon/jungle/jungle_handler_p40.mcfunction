@@ -5,7 +5,8 @@ fill -5 193 -5 5 197 5 air replace bedrock
 summon minecraft:area_effect_cloud -6 193 -6 {Duration:99999999,CustomName:"\"teleporter\"",Color:7b,Tags:["starts_open"]}
 
 #Add in the bonus chest
-setblock 6 193 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Search high and low for treasure!"}','{"text":"§lEvoker Changes:§r\\n-Evoker now has 80 health. (40 hearts.)\\n-Vexes now have 6 health. (3 hearts.)\\n-Vexes die instantly if no Evokers are alive within 25 blocks."}'], title: "The Cultists' Refuge", author: "ZungryWare", resolved: 1b}},{Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water_breathing"}}]}
+#setblock 6 193 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Search high and low for treasure!"}','{"text":"§lEvoker Changes:§r\\n-Evoker now has 80 health. (40 hearts.)\\n-Vexes now have 6 health. (3 hearts.)\\n-Vexes die instantly if no Evokers are alive within 25 blocks."}'], title: "The Cultists' Refuge", author: "ZungryWare", resolved: 1b}},{Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water_breathing"}}]}
+setblock 6 193 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"The Illager Masonry Cult has built an outpost on these old ruins. It serves as a harbor for traveling cultists between raiding villages. The natural beasts above and below the waters will tear you up if you are not careful."}','{"text":"Tread lightly and avoid the towers unless you want to come face to face with the cult leaders."}'], title: "The Masonry Headquarters", author: "ZungryWare", resolved: 1b}},{Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:water_breathing"}}]}
 
 #Add in willows
 scoreboard players set willow_count value 1600

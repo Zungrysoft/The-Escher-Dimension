@@ -21,50 +21,53 @@ execute if predicate tid:random_05 run setblock ~-2 ~-1 ~-2 minecraft:structure_
 execute if predicate tid:random_05 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_17", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_05 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_18", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_02 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_19", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_20", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_04 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_21", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_22", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_23", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_24", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_25", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_26", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_27", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_01 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_28", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Generate some buildings more often based on the district
-#Gilded Tower in Black
+#Black
 execute if score district_color value matches 15 if predicate tid:random_15 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Cross Monolith in Black
 execute if score district_color value matches 15 if predicate tid:random_33 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_5", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Cross Monolith in White
+#White
 execute if score district_color value matches 0 if predicate tid:random_33 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_5", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Birch Tree in Lime
-execute if score district_color value matches 5 if predicate tid:random_33 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_lime_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Jungle Tree in Brown
-execute if score district_color value matches 12 if predicate tid:random_10 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_brown_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Fire Patch in Orange
+#Lime
+execute if score district_color value matches 5 if predicate tid:random_25 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_lime_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 5 if predicate tid:random_25 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_lime_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 5 if predicate tid:random_25 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_lime_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Orange
 execute if score district_color value matches 1 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_8", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Lava Well in Orange
 execute if score district_color value matches 1 if predicate tid:random_33 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Mythic Tower in Orange
 execute if score district_color value matches 1 if predicate tid:random_10 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_orange_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Fountain in Blue
+#Blue
 execute if score district_color value matches 11 if predicate tid:random_15 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_11", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Rocky Fountain in Blue
 execute if score district_color value matches 11 if predicate tid:random_15 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_blue_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Spiral Fountain in Blue
 execute if score district_color value matches 11 if predicate tid:random_15 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_blue_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Four-Way Path in Magenta
+#Magenta
 execute if score district_color value matches 2 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_12", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Pyramid in Magenta
 execute if score district_color value matches 2 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_13", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Fire pit in Green
+#Green
 execute if score district_color value matches 13 if predicate tid:random_66 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_14", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Glided Pit in Gray
+#Gray
 execute if score district_color value matches 7 if predicate tid:random_33 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_16", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Glazed Monolith in Purple
-execute if score district_color value matches 10 if predicate tid:random_66 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_purple_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Crimson Planters in Red
-execute if score district_color value matches 14 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_red_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Crimson Pillars in Red
-execute if score district_color value matches 14 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_red_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Warped Planters in Cyan
-execute if score district_color value matches 9 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_cyan_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Warped Pillars in Cyan
-execute if score district_color value matches 9 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_cyan_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-#Caged Block in Gray
 execute if score district_color value matches 7 if predicate tid:random_25 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_19", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Purple
+execute if score district_color value matches 10 if predicate tid:random_66 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_purple_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Red
+execute if score district_color value matches 14 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_red_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 14 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_red_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Cyan
+execute if score district_color value matches 9 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_cyan_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score district_color value matches 9 if predicate tid:random_20 run setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_cyan_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
+setblock ~-2 ~-1 ~-2 minecraft:structure_block{name: "tid:sin/deco_medium_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
 
 #Activate whichever structure block was picked
 setblock ~-2 ~ ~-2 minecraft:redstone_block
@@ -90,5 +93,5 @@ execute if score district_color value matches 14 run fill ~-2 ~-1 ~-2 ~2 ~11 ~2 
 execute if score district_color value matches 15 run fill ~-2 ~-1 ~-2 ~2 ~11 ~2 black_concrete replace light_blue_concrete
 
 #We're done here
-kill @s
+#kill @s
 

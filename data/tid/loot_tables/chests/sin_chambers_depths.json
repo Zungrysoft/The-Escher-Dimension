@@ -7,6 +7,20 @@
 					"type": "item",
 					"weight": 20,
 					"name": "minecraft:light_gray_dye"
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 7,
+								"max": 12
+							}
+						}
+					]
 				}
 			]
 		},

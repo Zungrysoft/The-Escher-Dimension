@@ -1,6 +1,9 @@
 #Phase 0: Wait for chunks to load
 execute unless score sin_handler_phase value matches 1.. run function tid:dungeon/sin/sin_handler_p0
 
+#Phase 11: Scatter City Capitols
+execute if score sin_handler_phase value matches 11 run function tid:dungeon/sin/sin_handler_p11
+
 #Phase 10: Run cave generation and initial setup
 execute if score sin_handler_phase value matches 10 run function tid:dungeon/sin/sin_handler_p10
 

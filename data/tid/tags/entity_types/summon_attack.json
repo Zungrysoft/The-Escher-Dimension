@@ -23,6 +23,7 @@
 	"minecraft:shulker",
 	"minecraft:witch",
 	"minecraft:zoglin",
-	"minecraft:zombie_villager"
+	"minecraft:zombie_villager",
+	"minecraft:zombified_piglin"
   ]
 }

@@ -1,13 +1,15 @@
 #Determine district
-execute positioned ~ ~ ~ run function tid:dungeon/sin/get_nearest_district
+execute positioned ~5 ~ ~5 run function tid:dungeon/sin/get_nearest_district
 
 #Universal Structures
 setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_50 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if predicate tid:random_33 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_50 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_25 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_20 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_5", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_7", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_11", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_12", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Exclusive Structures
 #Light Gray
@@ -35,6 +37,8 @@ execute if score district_color value matches 11 if predicate tid:random_20 run 
 execute if score district_color value matches 3 if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_9", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Rare Structures
+execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_10", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_13", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_02 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/room_6", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked

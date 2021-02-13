@@ -6,4 +6,4 @@ execute unless entity @s[tag=powered] run data modify entity @s PierceLevel set 
 
 #Make it fizzle if it goes too far
 scoreboard players add @s counter1 1
-execute if score @s counter1 matches 2.. run function tid:gameplay/arrow_fizzle
+execute if score @s counter1 matches 3.. run function tid:gameplay/arrow_fizzle
