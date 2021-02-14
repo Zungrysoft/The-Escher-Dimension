@@ -20,6 +20,14 @@ execute if score district_color value matches 4 run setblock ~2 ~ ~5 minecraft:s
 execute if score district_color value matches 13 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_4", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Black
 execute if score district_color value matches 15 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_4", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Brown
+execute if score district_color value matches 12 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_5", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Light Blue
+execute if score district_color value matches 3 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_5", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Magenta
+execute if score district_color value matches 2 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_6", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Pink
+execute if score district_color value matches 6 run setblock ~2 ~ ~5 minecraft:structure_block{name: "tid:sin/stairs_north_7", posX: -2, posY: 0, posZ: -5, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~2 ~1 ~5 minecraft:redstone_block
