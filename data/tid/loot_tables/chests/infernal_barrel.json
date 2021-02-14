@@ -42,12 +42,12 @@
                 },
 				{
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "name": "minecraft:diamond"
                 },
 				{
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:ancient_debris"
                 }
             ]

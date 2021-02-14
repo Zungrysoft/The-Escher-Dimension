@@ -24,6 +24,7 @@ scoreboard players set infernal_rooms value 1000
 scoreboard players set infernal_glassbridge_rooms value 30
 scoreboard players set power_drills value 5
 scoreboard players set elytras value 2
+scoreboard players set infernal_secrets value 2
 
 #Reserve the space above the spawn so lava doesn't pour onto it
 fill -7 179 -7 7 254 7 blue_wool 
