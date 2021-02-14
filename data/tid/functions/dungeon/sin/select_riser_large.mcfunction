@@ -4,6 +4,9 @@ execute positioned ~8 ~ ~8 run function tid:dungeon/sin/get_nearest_district
 #Pick a structure from this list
 setblock ~8 ~1 ~8 minecraft:structure_block{name: "tid:sin/riser_large_1", posX: -8, posY: -1, posZ: -8, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Light Blue
+execute if score district_color value matches 3 run setblock ~8 ~1 ~8 minecraft:structure_block{name: "tid:sin/riser_large_2", posX: -8, posY: -1, posZ: -8, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
 #Activate whichever structure block was picked
 setblock ~8 ~2 ~8 minecraft:redstone_block
 

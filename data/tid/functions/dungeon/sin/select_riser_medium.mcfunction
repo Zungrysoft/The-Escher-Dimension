@@ -10,6 +10,8 @@ execute if score district_color value matches 4 run setblock ~6 ~1 ~6 minecraft:
 execute if score district_color value matches 5 if predicate tid:random_70 run setblock ~6 ~1 ~6 minecraft:structure_block{name: "tid:sin/riser_medium_2", posX: -6, posY: -1, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 #Pink
 execute if score district_color value matches 6 if predicate tid:random_50 run setblock ~6 ~1 ~6 minecraft:structure_block{name: "tid:sin/riser_medium_2", posX: -6, posY: -1, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+#Orange
+execute if score district_color value matches 1 if predicate tid:random_80 run setblock ~6 ~1 ~6 minecraft:structure_block{name: "tid:sin/riser_medium_3", posX: -6, posY: -1, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~6 ~2 ~6 minecraft:redstone_block
