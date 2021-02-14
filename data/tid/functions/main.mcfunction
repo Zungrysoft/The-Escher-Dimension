@@ -110,7 +110,9 @@ execute as @e[type=vex,tag=!keep] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
 execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
 #Ice Blaze
-execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
+#execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
+#Farie Summoner
+execute as @e[type=zombie,tag=farie_summoner] at @s run function tid:gameplay/ai_farie_summoner
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns

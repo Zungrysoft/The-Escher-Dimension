@@ -1,56 +1,70 @@
 {
-    "pools": [
-        {
-            "rolls": 5,
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 50,
-                    "name": "minecraft:coarse_dirt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
+	"pools": [
+		{
+			"rolls": 5,
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:coarse_dirt",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:lava_bucket"
-                },
+					"type": "empty",
+					"weight": 300
+				},
 				{
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:diamond"
-                },
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
 				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ancient_debris"
-                }
-            ]
-        }
-    ]
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:bucket"
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:ancient_debris"
+				}
+			]
+		}
+	]
 }

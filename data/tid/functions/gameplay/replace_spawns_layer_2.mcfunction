@@ -6,8 +6,8 @@ execute if predicate tid:random_50 if block ~ ~-1 ~ soul_soil run summon minecra
 execute if predicate tid:random_50 if block ~ ~-1 ~ soul_soil run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:blackstone,Count:1}],HandDropChances:[2F]}
 
 #Lightless Gardens
-execute if predicate tid:random_50 if block ~ ~-1 ~ smooth_stone_slab run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:lime_dye,Count:1}],HandDropChances:[2F]}
-execute if predicate tid:random_50 if block ~ ~-1 ~ oak_planks run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:lime_dye,Count:1}],HandDropChances:[2F]}
+execute if predicate tid:random_25 if block ~ ~-1 ~ smooth_stone_slab run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:lime_dye,Count:1}],HandDropChances:[2F]}
+execute if predicate tid:random_25 if block ~ ~-1 ~ oak_planks run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:lime_dye,Count:1}],HandDropChances:[2F]}
 
 #Fusion Central
 execute if predicate tid:random_50 if block ~ ~-1 ~ dark_prismarine run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:purple_dye,Count:1}],HandDropChances:[2F]}
