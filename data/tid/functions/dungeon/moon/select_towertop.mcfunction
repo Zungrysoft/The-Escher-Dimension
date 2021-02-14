@@ -18,6 +18,9 @@ setblock ~2 ~1 ~2 minecraft:redstone_block
 #Mark this area as generated
 fill ~ ~128 ~ ~7 ~133 ~7 minecraft:blue_wool
 
+#Fill moon stone around the edge
+fill ~-1 ~-1 ~-1 ~8 ~6 ~8 end_stone replace stone
+
 #Count the room in the total
 scoreboard players remove moon_rooms value 1
 

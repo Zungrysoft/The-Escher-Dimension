@@ -15,10 +15,13 @@ execute if score temp2 value matches 0 run setblock ~ ~ ~ minecraft:structure_bl
 setblock ~ ~1 ~ minecraft:redstone_block
 
 #Check for the portal to Infernal Industries
-#function tid:dungeon/moon/event1_check
+function tid:dungeon/moon/event1_check
 
 #Summon the upward doorway
 summon minecraft:area_effect_cloud ~ ~9 ~ {Duration:99999999,CustomName:"\"moon_bridge_up\""}
+
+#Summon the upward doorway
+summon minecraft:area_effect_cloud ~4 ~2 ~4 {Duration:99999999,CustomName:"\"moon_tower_marker\""}
 
 #Mark this area on the map
 fill ~ 255 ~ ~7 255 ~7 minecraft:granite replace minecraft:end_stone
@@ -28,6 +31,9 @@ fill ~ 255 ~3 ~7 255 ~4 minecraft:red_sandstone replace minecraft:granite
 
 #Mark this area as generated
 fill ~ ~128 ~ ~7 ~136 ~7 minecraft:blue_wool
+
+#Fill moon stone around the edge
+fill ~-1 ~-1 ~-1 ~8 ~9 ~8 end_stone replace stone
 
 #Count the room in the total
 scoreboard players remove moon_rooms value 1

@@ -22,6 +22,9 @@ fill ~1 255 ~ ~2 255 ~7 minecraft:red_sandstone replace minecraft:granite
 #Mark this area as generated
 fill ~ ~128 ~ ~3 ~134 ~7 minecraft:blue_wool
 
+#Fill moon stone around the edge
+fill ~-1 ~-1 ~-1 ~4 ~7 ~8 end_stone replace stone
+
 #Count the room in the total
 scoreboard players remove moon_rooms value 1
 

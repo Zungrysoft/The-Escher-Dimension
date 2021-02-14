@@ -1,3 +1,7 @@
+say Shaping Lunar Surface...
+
+execute positioned 100 3 40 run function tid:dungeon/moon/carve
+
 say Generating Dungeons...
 
 #Damnation Station
@@ -13,6 +17,6 @@ execute positioned 22 55 18 positioned ~0 ~-1 ~-8 run function tid:dungeon/moon/
 execute positioned -22 55 18 positioned ~-16 ~-16 ~-6 run function tid:dungeon/mutant/select_entrance_west
 
 #Safeguard spawn nexus against Mutant caves
-fill 22 60 -27 -23 54 26 cobblestone replace stone
+fill 22 60 -27 -23 54 29 cobblestone replace stone
 
 scoreboard players set layer_3_handler_phase value 20

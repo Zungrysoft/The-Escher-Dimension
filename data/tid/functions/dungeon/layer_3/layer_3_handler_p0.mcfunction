@@ -2,7 +2,7 @@
 say Waiting for chunks to load...
 
 #Load the chunks necessary for generation
-forceload add 0 0 128 128
+forceload add 0 0 160 128
 forceload add 0 0 128 -128
 forceload add 0 0 -128 128
 forceload add 0 0 -128 -128

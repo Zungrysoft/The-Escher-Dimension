@@ -10,16 +10,13 @@ summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"tel
 #Remove straggler markers
 kill @e[type=area_effect_cloud,name="station_straggler_start"]
 kill @e[type=area_effect_cloud,name="moon_straggler_start"]
+kill @e[type=area_effect_cloud,name="moon_tower_marker"]
 
 #Remove nexus safeguard
 fill 22 60 -27 -23 54 29 stone replace cobblestone
 
 #These chunks are no longer needed
-forceload remove 0 0 128 128
-forceload remove 0 0 128 -128
-forceload remove 0 0 -128 128
-forceload remove 0 0 -128 -128
-forceload remove 1000 1000 1064 1064
+forceload remove all
 
 say Done!
 
