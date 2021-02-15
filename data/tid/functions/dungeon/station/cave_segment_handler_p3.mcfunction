@@ -11,6 +11,7 @@ kill @e[name="gold_pile"]
 
 #Scatter blocks of ancient debris
 execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"debris_piece\""}
+execute if predicate tid:random_50 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"debris_piece\""}
 spreadplayers ~16 ~16 1 16 under 128 false @e[name="debris_piece",type=area_effect_cloud]
 execute as @e[name="debris_piece",type=area_effect_cloud] at @s if block ~ ~ ~ air if block ~ ~-1 ~ warped_hyphae run setblock ~ ~ ~ ancient_debris
 kill @e[name="debris_piece",type=area_effect_cloud]
