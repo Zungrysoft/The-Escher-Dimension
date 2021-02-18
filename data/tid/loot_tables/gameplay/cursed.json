@@ -1,0 +1,172 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,zombie:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:zombie"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,creeper:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:creeper"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,skeleton:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:skeleton"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,spider:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:spider"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,blaze:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:blaze"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,witch:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:witch"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,phantom:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:phantom"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

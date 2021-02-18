@@ -113,6 +113,14 @@ execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
 #execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
 #Farie Summoner
 execute as @e[type=zombie,tag=farie_summoner] at @s run function tid:gameplay/ai_farie_summoner
+#Priest
+execute as @e[type=zombie,tag=priest] at @s run function tid:gameplay/ai_priest
+#Grave Item
+execute as @e[type=item,nbt={Item:{id:"minecraft:rotten_flesh",tag:{cursed:1b}}}] at @s run function tid:gameplay/ai_grave_summon
+#Grave Site
+execute as @e[type=area_effect_cloud,tag=grave] at @s run function tid:gameplay/ai_grave
+#Priest Summoner
+execute as @e[type=zombie,tag=priest_summoner] at @s run function tid:gameplay/ai_priest_summoner
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns
