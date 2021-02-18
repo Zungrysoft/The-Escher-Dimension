@@ -2,6 +2,10 @@
 scoreboard players set @s phase 0
 scoreboard players set @s counter1 0
 
+#Mutant reset time
+execute if entity @s[tag=mutant] run scoreboard players set @s phase 1
+execute if entity @s[tag=mutant] run scoreboard players set @s counter1 2
+
 #Sound effect
 playsound minecraft:item.firecharge.use hostile @a ~ ~ ~ 0.8 1.2
 playsound minecraft:item.crossbow.shoot hostile @a ~ ~ ~ 1.2 0.7
@@ -75,6 +79,9 @@ execute if entity @s[tag=power_low] run data modify entity @e[type=arrow,limit=1
 execute if entity @s[tag=power_medium] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 14
 execute if entity @s[tag=power_high] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 20
 execute if entity @s[tag=power_super] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 32
+
+#If this is a mutant war pig, edit the fireball to mutant as well
+execute if entity @s[tag=mutant] run tag @e[type=arrow,limit=1,tag=new] add mutant
 
 #Cleanup
 data remove storage temp fireball

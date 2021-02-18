@@ -8,4 +8,5 @@ execute if score @s counter1 matches 40.. run function tid:gameplay/fireball_fiz
 execute if entity @s[nbt={inGround:1b}] run function tid:gameplay/fireball_fizzle
 
 #Particles
-particle flame ~ ~ ~ 0.1 0.1 0.1 0 1
+execute unless entity @s[tag=mutant] run particle flame ~ ~ ~ 0.1 0.1 0.1 0 1
+execute if entity @s[tag=mutant] run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0 1

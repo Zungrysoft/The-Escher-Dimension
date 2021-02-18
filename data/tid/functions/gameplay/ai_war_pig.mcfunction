@@ -14,8 +14,8 @@ execute store result score @s up run data get entity @s Health
 #Count up the fireball time
 scoreboard players add @s counter1 1
 
-#If the fireball is ready to charge, warn the player with particles
+#If the fireball is ready to shoot, warn the player with particles
 execute if score @s counter1 matches 40.. if score @s phase matches 0 run function tid:gameplay/ai_war_pig_charge
 
-#If the fireball is ready to shoot, warn the player with particles
+#Shoot the fireball if fully charged
 execute if score @s counter1 matches 10.. if score @s phase matches 1 run function tid:gameplay/ai_war_pig_shoot
