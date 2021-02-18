@@ -5,6 +5,7 @@ execute if entity @s[tag=skeleton] run summon skeleton
 execute if entity @s[tag=spider] run summon spider
 execute if entity @s[tag=blaze] run summon blaze
 execute if entity @s[tag=witch] run summon witch
+execute if entity @s[tag=phantom] run summon phantom
 
 #Sound effect
 playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 1 2

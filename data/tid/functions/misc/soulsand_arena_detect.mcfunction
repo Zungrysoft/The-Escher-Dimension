@@ -10,8 +10,28 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"scatte
 #Spread them around
 function tid:misc/soulsand_arena_scatter
 
-#Summon mobs on them
-execute at @e[name="scatter",type=area_effect_cloud] run summon skeleton
+#Decide which wave type to spawn
+scoreboard players set temp value 0
+execute if predicate tid:random_50 run scoreboard players add temp value 1
+execute if predicate tid:random_50 run scoreboard players add temp value 2
+execute if predicate tid:random_50 run scoreboard players add temp value 4
+execute if predicate tid:random_50 run scoreboard players add temp value 8
+execute if score temp value matches 0 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_0
+execute if score temp value matches 1 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_1
+execute if score temp value matches 2 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_2
+execute if score temp value matches 3 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_3
+execute if score temp value matches 4 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_4
+execute if score temp value matches 5 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_5
+execute if score temp value matches 6 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_6
+execute if score temp value matches 7 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_7
+execute if score temp value matches 8 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_8
+execute if score temp value matches 9 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_9
+execute if score temp value matches 10 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_10
+execute if score temp value matches 11 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_11
+execute if score temp value matches 12 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_12
+execute if score temp value matches 13 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_13
+execute if score temp value matches 14 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_14
+execute if score temp value matches 15 at @e[name="scatter",type=area_effect_cloud] run function tid:misc/soulsand_wave_15
 
 kill @e[name="scatter",type=area_effect_cloud]
 

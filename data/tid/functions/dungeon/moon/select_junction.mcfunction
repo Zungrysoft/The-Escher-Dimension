@@ -168,6 +168,12 @@ execute if score south value matches 1 run fill ~1 255 ~3 ~2 255 ~3 minecraft:re
 execute if score west value matches 1 run fill ~0 255 ~1 ~0 255 ~2 minecraft:red_sandstone replace minecraft:granite
 execute if score east value matches 1 run fill ~3 255 ~1 ~3 255 ~2 minecraft:red_sandstone replace minecraft:granite
 
+#Maybe put in a chest
+execute if predicate tid:random_03 unless score north value matches 1 unless score west value matches 1 run setblock ~1 ~2 ~1 chest[facing=south]{LootTable: "tid:chests/moon"}
+execute if predicate tid:random_03 unless score south value matches 1 unless score east value matches 1 run setblock ~2 ~2 ~2 chest[facing=north]{LootTable: "tid:chests/moon"}
+execute if predicate tid:random_03 unless score north value matches 1 unless score east value matches 1 run setblock ~2 ~2 ~1 chest[facing=south]{LootTable: "tid:chests/moon"}
+execute if predicate tid:random_03 unless score south value matches 1 unless score west value matches 1 run setblock ~1 ~2 ~2 chest[facing=north]{LootTable: "tid:chests/moon"}
+
 #Mark this area as generated
 fill ~ ~128 ~ ~3 ~134 ~3 minecraft:blue_wool
 

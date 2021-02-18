@@ -3,10 +3,7 @@ say Shaping Lunar Surface...
 scoreboard players set temp6 value 0
 execute if predicate tid:random_50 run scoreboard players add temp6 value 1
 execute if predicate tid:random_50 run scoreboard players add temp6 value 2
-execute if score temp6 value matches 0 positioned 100 3 40 run function tid:dungeon/moon/carve
-execute if score temp6 value matches 1 positioned 100 3 7 run function tid:dungeon/moon/carve
-execute if score temp6 value matches 2 positioned 110 3 70 run function tid:dungeon/moon/carve
-execute if score temp6 value matches 3 positioned 120 3 40 run function tid:dungeon/moon/carve
+execute positioned 100 3 40 run function tid:dungeon/moon/carve
 
 #Brambles in Moon Zone
 say Growing Brambles...
