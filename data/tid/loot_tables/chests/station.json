@@ -99,8 +99,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 6,
+                                "max": 14
                             }
                         }
                     ]
@@ -141,8 +141,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 2,
+                                "max": 4
                             }
                         }
                     ]
@@ -200,13 +200,13 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:leather_helmet",
 					"functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 1,
+                                "min": 10,
                                 "max": 30
                             },
                             "treasure": true
@@ -219,13 +219,13 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:leather_chestplate",
 					"functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 1,
+                                "min": 10,
                                 "max": 30
                             },
                             "treasure": true
@@ -238,13 +238,13 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:leather_leggings",
 					"functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 1,
+                                "min": 10,
                                 "max": 30
                             },
                             "treasure": true
@@ -257,13 +257,13 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:leather_boots",
 					"functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 1,
+                                "min": 30,
                                 "max": 30
                             },
                             "treasure": true
@@ -275,25 +275,14 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:stone_pickaxe"
-                },
+					"type": "empty",
+					"weight": 10
+				},
 				{
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:stone_shovel"
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:stone_axe"
-                },
-				{
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:stone_sword"
-                },
+					"type": "minecraft:loot_table",
+					"weight": 6,
+					"name": "tid:chests/legendary_item"
+				},
                 {
                     "type": "item",
                     "weight": 4,

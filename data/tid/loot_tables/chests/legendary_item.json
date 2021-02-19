@@ -698,6 +698,28 @@
 				},
 				{
 					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"King of Spades\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\'},Enchantments:[{id:sharpness,lvl:8},{id:fire_aspect,lvl:2},{id:thorns,lvl:2},{id:efficiency,lvl:5}],legendary:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_shovel",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Ace of Spades\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants strength on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:sharpness,lvl:8},{id:efficiency,lvl:5}],legendary:1b,act_mainhand_kill_mob:1b,eff_grant_strength_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:firework_rocket",
 					"functions": [
@@ -711,6 +733,50 @@
 								"min": 9,
 								"max": 11
 							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:mojang_banner_pattern",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Heart Scroll\",\"italic\":false,\"color\":\"dark_red\"}]\'},legendary:1b,HideFlags:65535,health_scroll:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:mojang_banner_pattern",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Speed Scroll\",\"italic\":false,\"color\":\"aqua\"}]\'},legendary:1b,HideFlags:65535,speed_scroll:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:mojang_banner_pattern",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Damage Scroll\",\"italic\":false,\"color\":\"red\"}]\'},legendary:1b,HideFlags:65535,damage_scroll:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:mojang_banner_pattern",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Armor Scroll\",\"italic\":false,\"color\":\"dark_aqua\"}]\'},legendary:1b,HideFlags:65535,armor_scroll:1b}"
 						}
 					]
 				}

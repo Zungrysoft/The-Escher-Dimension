@@ -1,7 +1,10 @@
 {
     "pools": [
 		{
-            "rolls": 1,
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
             "bonus_rolls": {
                 "min": 0,
                 "max": 1
@@ -9,134 +12,14 @@
             "entries": [
 				{
                     "type": "item",
-                    "weight": 400,
+                    "weight": 7,
                     "name": "minecraft:green_dye"
                 },
-                {
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_sword",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
 				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_axe",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_pickaxe",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:iron_shovel",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_shovel",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 100,
-                    "name": "minecraft:trident"
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_helmet",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_chestplate",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_leggings",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 40,
-                    "name": "minecraft:iron_boots",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:iron_hoe",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-							"levels": 30,
-							"treasure": true
-                        }
-                    ]
-                }
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				}
             ]
         },
 		{

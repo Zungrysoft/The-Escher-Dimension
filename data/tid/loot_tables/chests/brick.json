@@ -253,6 +253,11 @@
 					]
 				},
 				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "tid:chests/legendary_item"
+				},
+				{
 					"type": "item",
 					"weight": 1,
 					"name": "minecraft:potion",

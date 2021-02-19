@@ -20,6 +20,20 @@
 			]
 		},
 		{
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "empty",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "tid:chests/legendary_item"
+				}
+            ]
+        },
+		{
 			"rolls": 6,
 			"bonus_rolls": 2,
 			"entries": [

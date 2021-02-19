@@ -8,15 +8,26 @@ scoreboard players operation selection3 value = temp value
 
 #Ensure no duplicate trades were picked. If so, start over.
 scoreboard players set reset value 0
-execute if score selection1 value = selection2 value run scoreboard players set reset value 1
-execute if score selection1 value = selection3 value run scoreboard players set reset value 1
-execute if score selection2 value = selection3 value run scoreboard players set reset value 1
+execute if score selection2 value = selection1 value run scoreboard players set reset value 1
+execute if score selection3 value = selection1 value run scoreboard players set reset value 1
+execute if score selection3 value = selection2 value run scoreboard players set reset value 1
 execute if score reset value matches 1 run tag @s remove new
 execute if score reset value matches 1 run tp @s ~ -100 ~
 execute if score reset value matches 1 run function tid:custom_mobs/dealer
 
-#Add in preset trades
+#Add in extra trade costs
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[2].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}}
+
+#Add in pre-set trades
+#Layer 2
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:iron_ingot,Count:4}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:coal,Count:10}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:cod,Count:8}}
+
+#Layer 3
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:2},sell:{id:diamond,Count:1}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:arrow,Count:15}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:8}}
 
 #Pick a random type
 scoreboard players set temp value 0

@@ -1,7 +1,7 @@
 {
     "pools": [
 		{
-            "rolls": 3,
+            "rolls": 2,
             "bonus_rolls": 1,
             "entries": [
 				{
@@ -165,6 +165,16 @@
                 }
             ]
         },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/legendary_item"
+				}
+			]
+		},
 		{
             "rolls": 1,
             "bonus_rolls": 0,

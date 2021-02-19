@@ -33,9 +33,8 @@ execute if score temp value matches 7 run data modify entity @s Offers.Recipes a
 #Coldsteel Glaive
 execute if score temp value matches 8 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:12},sell:{id:iron_sword,Count:1,tag:{display:{Name:'[{"text":"Coldsteel Glaive","italic":false,"bold":true,"color":"gray"}]',Lore:['[{"text":"Inflicts weakness and slowness on","italic":false,"color":"aqua"}]','[{"text":"enemies if hit at max range","italic":false,"color":"aqua"}]']},legendary:1b,tip_sword:1b}}}
 
-#Quartz Staff
-#TODO: Replace
-execute if score temp value matches 9 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:15},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Quartz Staff","italic":false,"color":"white","bold":true}]',Lore:['[{"text":"Aim to place Chiseled Quartz","italic":false,"color":"aqua"}]']},Recipes:[],legendary:1b,tome_block:1b,Enchantments:[{}]}}}
+#Azriel's Timepiece
+execute if score temp value matches 9 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:26},sell:{id:clock,Count:1,tag:{display:{Name:'[{"text":"Azriel\'s Timepiece","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts slowness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},legendary:1b,Enchantments:[{}],slow_clock:1b}}}
 
 #Wormhole Staff
 execute if score temp value matches 10 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:40},sell:{id:carrot_on_a_stick,Count:1,tag:{display:{Name:'[{"text":"Wormhole Staff","italic":false,"color":"dark_aqua","bold":true}]',Lore:['[{"text":"Teleports all monsters within 10","italic":false,"color":"aqua"}]','[{"text":"  blocks to chosen location","italic":false,"color":"aqua"}]','[{"text":"Costs one spider eye per use","italic":false,"color":"red"}]']},Recipes:[],legendary:1b,tome_wormhole:1b,Enchantments:[{}]}}}

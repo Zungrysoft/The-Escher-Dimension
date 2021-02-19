@@ -6,7 +6,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -17,7 +17,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"weight": 20,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -39,7 +39,7 @@
 				{
 					"type": "item",
 					"weight": 20,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -50,7 +50,7 @@
 				{
 					"type": "item",
 					"weight": 30,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -61,7 +61,7 @@
 				{
 					"type": "item",
 					"weight": 30,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -72,7 +72,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -83,7 +83,7 @@
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -94,7 +94,7 @@
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -105,7 +105,7 @@
 				{
 					"type": "item",
 					"weight": 60,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -116,7 +116,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -127,7 +127,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -138,7 +138,7 @@
 				{
 					"type": "item",
 					"weight": 15,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -149,7 +149,7 @@
 				{
 					"type": "item",
 					"weight": 40,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -160,88 +160,77 @@
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:\'[{\"text\":\"Potion of Dexterity\",\"italic\":false}]\'}}"
+							"tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:\'[{\"text\":\"Splash Potion of Dexterity\",\"italic\":false}]\'}}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Potion of Rage\",\"italic\":false}]\'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}"
+							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Splash Potion of Rage\",\"italic\":false}]\'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:7368959,display:{Name:\'[{\"text\":\"Potion of Grace\",\"italic\":false}]\'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:7368959,display:{Name:\'[{\"text\":\"Splash Potion of Grace\",\"italic\":false}]\'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:11382189,display:{Name:\'[{\"text\":\"Mystery Potion\",\"italic\":false}]\',Lore:[\'[{\"text\":\"Grants a random positive\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"potion effect\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535}"
+							"tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Splash Potion of Levitation\",\"italic\":false}]\'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Potion of Levitation\",\"italic\":false}]\'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
+							"tag": "{CustomPotionColor:16776960,display:{Name:\'[{\"text\":\"Splash Potion of Haste\",\"italic\":false}]\'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:3}]}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16776960,display:{Name:\'[{\"text\":\"Potion of Haste\",\"italic\":false}]\'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:3}]}"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 80,
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{CustomPotionColor:51153,display:{Name:\'[{\"text\":\"Potion of Endurance\",\"italic\":false}]\'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:51153,display:{Name:\'[{\"text\":\"Splash Potion of Endurance\",\"italic\":false}]\'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 3,
-					"name": "minecraft:potion",
+					"name": "minecraft:splash_potion",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:7229740,display:{Name:\'[{\"text\":\"Potion of Intoxication\",\"italic\":false}]\'},CustomPotionEffects:[{Id:26,Duration:1200,Amplifier:2},{Id:9,Duration:1200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:7229740,display:{Name:\'[{\"text\":\"Splash Potion of Intoxication\",\"italic\":false}]\'},CustomPotionEffects:[{Id:26,Duration:1200,Amplifier:2},{Id:9,Duration:1200,Amplifier:0}]}"
 						}
 					]
 				}

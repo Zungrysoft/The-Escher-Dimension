@@ -193,7 +193,17 @@
                             "tag": "{CustomPotionColor:11382189,display:{Name:'[{\"text\":\"Mystery Potion\",\"italic\":false}]',Lore:['[{\"text\":\"Grants a random positive\",\"italic\":false,\"color\":\"blue\"}]','[{\"text\":\"potion effect\",\"italic\":false,\"color\":\"blue\"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:0}],HideFlags:65535}"
                         }
                     ]
-                }
+                },
+				{
+					"type": "minecraft:loot_table",
+					"weight": 15,
+					"name": "tid:chests/potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "tid:chests/legendary_item"
+				}
             ]
         }
     ]

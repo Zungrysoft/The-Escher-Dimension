@@ -362,7 +362,12 @@
                             "tag": "{Potion:\"minecraft:regeneration\"}"
                         }
                     ]
-                }
+                },
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				}
             ]
         }
     ]

@@ -293,7 +293,7 @@
                 },
 				{
                     "type": "item",
-                    "weight": 25,
+                    "weight": 19,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -301,7 +301,12 @@
                             "tag": "{Potion:\"minecraft:water_breathing\"}"
                         }
                     ]
-                }
+                },
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "tid:chests/potion"
+				}
             ]
         }
     ]

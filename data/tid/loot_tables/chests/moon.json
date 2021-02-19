@@ -68,9 +68,28 @@
 					"name": "minecraft:ender_pearl"
 				},
 				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "tid:chests/legendary_item"
+				},
+				{
 					"type": "item",
 					"weight": 10,
 					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 5
+							}
+						}
+					]
 				},
 				{
 					"type": "item",
@@ -154,6 +173,11 @@
 							"tag": "{Potion:\"minecraft:harming\"}"
 						}
 					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 30,
+					"name": "tid:chests/splash_potion"
 				},
 				{
 					"type": "item",
