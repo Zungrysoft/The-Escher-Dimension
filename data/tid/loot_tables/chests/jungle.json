@@ -206,7 +206,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 2,
-                                "max": 8
+                                "max": 3
                             }
                         }
                     ]

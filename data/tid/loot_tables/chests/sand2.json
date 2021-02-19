@@ -321,6 +321,20 @@
                         }
                     ]
                 },
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 25
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "item",
                     "weight": 2,
@@ -360,6 +374,24 @@
                         {
                             "function": "set_nbt",
                             "tag": "{Potion:\"minecraft:regeneration\"}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 15
+                            }
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionColor:16775214,display:{Name:\'[{\"text\":\"Electric Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Electrocutes nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"after a certain travel time\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:3}],HideFlags:65535,zapper_arrow:1}"
                         }
                     ]
                 },

@@ -4,9 +4,34 @@
             "rolls": 1,
             "entries": [
                 {
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Fireball in the cardinal\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,tome_weakfireball:1b,Enchantments:[{}]}"
+						}
+					]
+				}
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+                {
                     "type": "item",
                     "weight": 666,
-                    "name": "minecraft:pink_dye"
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 30,
+                                "max": 35
+                            }
+                        }
+                    ]
                 }
             ]
         },

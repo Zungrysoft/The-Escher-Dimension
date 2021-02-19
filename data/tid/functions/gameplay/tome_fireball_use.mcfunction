@@ -16,6 +16,7 @@ data modify entity @e[type=small_fireball,tag=f3,limit=1] Owner set from entity 
 
 #Determine which direction the player is aiming in
 execute store result score temp2 value run data get entity @s Rotation[0]
+execute if score temp2 value matches 1.. run scoreboard players remove temp2 value 360
 
 #Set the fireballs' motions
 #South

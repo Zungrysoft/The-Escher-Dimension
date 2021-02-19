@@ -211,6 +211,20 @@
                             }
                         }
                     ]
+                },
+				{
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:shulker_shell",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
                 }
 			]
 		}
