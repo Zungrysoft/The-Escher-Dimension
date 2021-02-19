@@ -315,14 +315,14 @@
                 },
 				{
                     "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:gunpowder",
+                    "weight": 20,
+                    "name": "minecraft:netherite_scrap",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 7
+                                "max": 3
                             }
                         }
                     ]
