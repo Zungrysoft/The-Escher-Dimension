@@ -9,6 +9,7 @@ execute if predicate tid:random_15 if block ~ ~ ~ polished_andesite run setblock
 
 #Cracked stone bricks
 execute if predicate tid:random_15 if block ~ ~ ~ cracked_stone_bricks run setblock ~ ~ ~ stone_bricks
+execute if predicate tid:random_005 if block ~ ~ ~ cracked_stone_bricks run setblock ~ ~ ~ ancient_debris
 
 #Grey stained glass pane
 execute if predicate tid:random_40 if block ~ ~ ~ gray_stained_glass_pane run setblock ~ ~ ~ brown_stained_glass_pane
