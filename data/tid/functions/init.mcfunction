@@ -39,7 +39,7 @@ execute in tid:layer_infernal if block 0 54 0 bedrock run scoreboard players set
 execute if score temp value matches 1 in tid:layer_infernal run forceload add -7 -7 7 7
 #Finale
 scoreboard players set temp value 1
-execute in tid:layer_finale if block 0 184 0 bedrock run scoreboard players set temp value 0
+execute in tid:layer_finale if block 0 54 0 bedrock run scoreboard players set temp value 0
 execute if score temp value matches 1 in tid:layer_finale run forceload add -7 -7 7 7
 
 #Bossbars

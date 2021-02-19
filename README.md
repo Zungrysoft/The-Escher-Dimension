@@ -1,5 +1,5 @@
 # The-Infinite-Dungeon
-A procedural dungeon generator datapack for Minecraft. Explore the dungeons for enough resources to complete the victory monument! The datapack is getting pretty close to release, so everything should be in a working state minus some missing features, minor bugs, and balance testing.
+A procedural dungeon generator datapack for Minecraft. Explore the dungeons for enough resources to complete the victory monument! The datapack is very close to release, so everything should be in a working state. Balance testing is still under progress.
 
 Download the datapack by clicking Code->Download Zip
 
