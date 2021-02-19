@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/legendary_item"
+				}
+			]
+		}
+    ]
+}

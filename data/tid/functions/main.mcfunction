@@ -121,6 +121,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:rotten_flesh",tag:{cursed:1b}}}
 execute as @e[type=area_effect_cloud,tag=grave] at @s run function tid:gameplay/ai_grave
 #Priest Summoner
 execute as @e[type=zombie,tag=priest_summoner] at @s run function tid:gameplay/ai_priest_summoner
+#Potion Carrier Summoner
+execute as @e[type=zombie,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns

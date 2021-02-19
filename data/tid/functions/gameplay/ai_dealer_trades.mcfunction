@@ -18,13 +18,15 @@ execute if score reset value matches 1 run function tid:custom_mobs/dealer
 #Add in extra trade costs
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[2].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}}
 
-#Add in pre-set trades
+#Add in preset trades
 #Layer 2
 execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:iron_ingot,Count:4}}
 execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:coal,Count:10}}
 execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:cod,Count:8}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:chest,Count:1,tag:{BlockEntityTag: {LootTable: "tid:chests/mystery_box", id: "minecraft:chest"}, display:{Name:'[{"text":"Mystery Box","italic":true,"bold":false,"color":"purple"}]',Lore:['[{"text":"Contains two rare items","italic":false,"color":"aqua"}]']}}}}
 
 #Layer 3
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:9},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:2},sell:{id:diamond,Count:1}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:arrow,Count:15}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:8}}
