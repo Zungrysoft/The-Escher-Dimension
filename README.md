@@ -4,9 +4,10 @@ A procedural dungeon generator datapack for Minecraft Java Edition. Explore the 
 Download the datapack by clicking Code->Download Zip
 
 Run the datapack with the following steps:
-- Open the "Create New World" menu in Minecraft 1.16.5
+- Extract the zip file
+- Open the "Create New World" menu in Minecraft Java Edition 1.16.5
 - Press the "Datapacks" button
-- Drag the downloaded zip file into the left side of the menu
+- Drag the folder inside the zip file file into the game menu
 - Click on the arrow on the datapack to enable it
 - Click "Done", select your difficulty, and create the world
 - Wait for the first set of dungeons to generate and begin playing!
