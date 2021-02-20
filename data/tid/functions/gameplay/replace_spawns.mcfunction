@@ -17,4 +17,4 @@ execute if entity @s[predicate=tid:in_layer_jungle] run function tid:gameplay/re
 execute if entity @s[predicate=tid:in_layer_infernal] run function tid:gameplay/replace_spawns_infernal
 
 #Kill the source mob
-tp @s 1 -100 1
+tp @s ~ -100 ~
