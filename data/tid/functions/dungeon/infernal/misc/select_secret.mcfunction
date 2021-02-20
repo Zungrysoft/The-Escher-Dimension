@@ -8,7 +8,7 @@ setblock ~ ~1 ~ minecraft:redstone_block
 fill ~ ~128 ~ ~19 ~135 ~18 minecraft:blue_wool
 
 #Randomly change one of the barrels' loot tables to the secret loot table
-execute positioned ~2 ~1 ~2 run function tid:misc/infernal_barrel_x
+execute positioned ~2 ~2 ~2 run function tid:misc/infernal_barrel_x
 
 #Count the number of drills generated
 scoreboard players remove infernal_secrets value 1
