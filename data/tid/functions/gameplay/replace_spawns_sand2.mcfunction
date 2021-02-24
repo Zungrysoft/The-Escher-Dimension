@@ -11,7 +11,7 @@ execute if score temp value matches 3..4 run function tid:custom_mobs/potion_car
 #Servant of Zorethab (Swiftness)
 execute if score temp value matches 5..6 run function tid:custom_mobs/potion_carrier_swiftness
 #Alloy Elemental
-execute if score temp value matches 7 if predicate tid:random_10 run function tid:custom_mobs/alloy_elemental
+execute if score temp value matches 7 if predicate tid:random_30 run function tid:custom_mobs/alloy_elemental
 
 #Wither Skeleton
 summon wither_skeleton ~.5 ~ ~

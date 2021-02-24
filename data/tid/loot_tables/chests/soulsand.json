@@ -15,6 +15,20 @@
                 }
             ]
         },
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:blackstone"
+                },
+				{
+                    "type": "empty",
+                    "weight": 10,
+                }
+            ]
+        },
         {
             "rolls": 3,
             "bonus_rolls": 0,
