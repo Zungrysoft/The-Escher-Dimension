@@ -18,3 +18,4 @@ execute if entity @s[predicate=tid:in_layer_infernal] run function tid:gameplay/
 
 #Kill the source mob
 tp @s ~ -100 ~
+kill @s

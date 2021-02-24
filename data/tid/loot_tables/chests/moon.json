@@ -19,6 +19,29 @@
 			"entries": [
 				{
 					"type": "item",
+					"weight": 1,
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 6
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
 					"weight": 10,
 					"name": "minecraft:emerald",
 					"functions": [

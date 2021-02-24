@@ -15,6 +15,29 @@
             ]
         },
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:prismarine_bricks",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 6
+				}
+			]
+		},
+		{
             "rolls": {
                 "min": 1,
                 "max": 2
