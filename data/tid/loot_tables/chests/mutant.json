@@ -87,6 +87,34 @@
                 },
 				{
                     "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:nether_wart",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
                     "weight": 5,
                     "name": "minecraft:fern",
                     "functions": [
