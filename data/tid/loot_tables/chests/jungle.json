@@ -227,6 +227,20 @@
                 },
 				{
                     "type": "item",
+                    "weight": 11,
+                    "name": "minecraft:cocoa_beans",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:redstone",
                     "functions": [
