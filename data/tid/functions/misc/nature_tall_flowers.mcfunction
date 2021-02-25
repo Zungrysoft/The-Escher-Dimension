@@ -1,6 +1,6 @@
 #Delete the Command Block
 fill ~ ~ ~ ~ ~1 ~ air
-setblock ~ ~-1 ~ grass
+setblock ~ ~-1 ~ grass_block
 
 #Place all of the tall flowers
 execute positioned ~-2 ~ ~-2 if predicate tid:random_33 run function tid:misc/nature_tall_flower
