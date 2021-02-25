@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:gilded_blackstone"
     },
-    "title": "Not A Hope In Hell",
+    "title": "Not a Hope in Hell",
     "description": "Find and activate a blackstone portal",
     "frame": "goal",
     "show_toast": true,

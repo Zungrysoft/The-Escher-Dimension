@@ -12,6 +12,13 @@ execute if predicate tid:random_09 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_08 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_11", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_12", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_06 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_13", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_14", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
+#Special structures
+execute if score nature_totems value matches ..3 if predicate tid:random_30 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s1", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score nature_totems value matches ..3 if predicate tid:random_30 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s2", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score nature_totems value matches ..3 if predicate tid:random_30 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s3", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score nature_totems value matches ..3 if predicate tid:random_30 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s4", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
