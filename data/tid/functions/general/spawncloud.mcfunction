@@ -16,5 +16,11 @@ execute unless score temp value matches 9.. if entity @s[tag=war_pig_3] if predi
 execute unless score temp value matches 9.. if entity @s[tag=war_pig_4] run function tid:custom_mobs/war_pig_4
 execute unless score temp value matches 9.. if entity @s[tag=war_pig_mutant] if predicate tid:dark run function tid:custom_mobs/war_pig_mutant
 
+#Killer bunny
+#First, ensure there aren't too many others nearby
+execute store result score temp value if entity @e[type=minecraft:rabbit,distance=0..20]
+#Then spawn them
+execute unless score temp value matches 5.. if entity @s[tag=killer_bunny] if predicate tid:dark run function tid:custom_mobs/killer_bunny
+
 #Kill at the end
 kill @s

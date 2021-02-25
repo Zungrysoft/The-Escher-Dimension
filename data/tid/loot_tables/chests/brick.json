@@ -144,6 +144,20 @@
 				},
 				{
 					"type": "item",
+					"weight": 8,
+					"name": "minecraft:chicken",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 1,
 					"name": "minecraft:diamond"
 				},

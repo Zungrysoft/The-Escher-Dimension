@@ -9,6 +9,7 @@ execute if entity @s[nbt={Item:{tag:{spider:1b}}}] run summon minecraft:area_eff
 execute if entity @s[nbt={Item:{tag:{blaze:1b}}}] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["grave","blaze"]}
 execute if entity @s[nbt={Item:{tag:{witch:1b}}}] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["grave","witch"]}
 execute if entity @s[nbt={Item:{tag:{phantom:1b}}}] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["grave","phantom"]}
+execute if entity @s[nbt={Item:{tag:{killer_bunny:1b}}}] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["grave","killer_bunny"]}
 
 #Remove dropped item
 kill @s

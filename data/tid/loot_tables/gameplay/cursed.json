@@ -167,6 +167,30 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{cursed:1b,killer_bunny:1b}"
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:rabbit"
+							},
+							"entity": "this"
+						}
+					]
+				}
+			]
 		}
 	]
 }

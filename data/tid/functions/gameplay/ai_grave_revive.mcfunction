@@ -6,6 +6,7 @@ execute if entity @s[tag=spider] run summon spider
 execute if entity @s[tag=blaze] run summon blaze
 execute if entity @s[tag=witch] run summon witch
 execute if entity @s[tag=phantom] run summon phantom
+execute if entity @s[tag=killer_bunny] run function tid:custom_mobs/killer_bunny
 
 #Sound effect
 playsound minecraft:entity.evoker.prepare_summon hostile @a ~ ~ ~ 1 2
