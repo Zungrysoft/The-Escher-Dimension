@@ -6,7 +6,7 @@
       "nbt": "{Damage:0}"
     },
     "title": "Poseidon's Armaments",
-    "description": "Take your new trident for a spin",
+    "description": "Skewer a monster with your trident",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
