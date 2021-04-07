@@ -4,6 +4,12 @@ execute if score ice_global value matches 1 run setblock ~ ~ ~ minecraft:structu
 execute if score ice_global value matches 2 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if score ice_global value matches 3 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Occasionally pick a random room regardless of the global value
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:ice/room_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
