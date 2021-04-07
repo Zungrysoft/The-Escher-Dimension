@@ -3,6 +3,7 @@ execute if score @s kill_mob matches 1.. run function tid:gameplay/act_kill_mob
 execute if score @s damage_dealt matches 1.. run function tid:gameplay/act_deal_damage
 execute if score @s block_damage matches 1.. run function tid:gameplay/act_block_damage
 execute if score @s mine_spawner matches 1.. run function tid:gameplay/act_mine_spawner
+function tid:gameplay/act_take_damage
 function tid:gameplay/act_kill_creeper
 function tid:gameplay/act_kill_skeleton
 function tid:gameplay/act_kill_blaze

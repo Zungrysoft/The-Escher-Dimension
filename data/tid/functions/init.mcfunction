@@ -77,6 +77,8 @@ scoreboard objectives add adv_hellion_2 dummy
 scoreboard objectives add adv_hellion_3 dummy
 scoreboard objectives add adv_hellion_4 dummy
 scoreboard objectives add block_damage minecraft.custom:minecraft.damage_blocked_by_shield
+scoreboard objectives add take_damage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add cycle_short dummy
 scoreboard objectives add tome_use minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add item_used dummy
 scoreboard objectives add igneous dummy

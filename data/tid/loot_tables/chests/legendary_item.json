@@ -171,6 +171,259 @@
 				{
 					"type": "item",
 					"weight": 50,
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:iron_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 70,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Scattersear Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Sets a random monster on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_take_damage:1b,eff_inflict_fire_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 70,
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Mud-Stomps\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:1807947,Name:\'[{\"text\":\"Drapes of the Druid\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Monsters that trigger thorns\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"are inflicted with levitation\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_take_damage:1b,eff_inflict_levitation_target:1b,HideFlags:64,Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:15486736,Name:\'[{\"text\":\"Very Angry Pants\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Monsters that trigger thorns\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"are inflicted with wither\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_legs_take_damage:1b,eff_inflict_wither_target:1b,HideFlags:64,Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:13061821,Name:\'[{\"text\":\"Dredgewear\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Monsters that trigger thorns\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"are inflicted with weakness\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_take_damage:1b,eff_inflict_weakness_target:1b,HideFlags:64,Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:3949618,Name:\'[{\"text\":\"Mudcleats\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]\',Lore:[\'[{\"text\":\"Monsters that trigger thorns\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"are inflicted with slowness\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_target:1b,HideFlags:64,Enchantments:[{id:\"minecraft:thorns\",lvl:3}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
 					"name": "minecraft:golden_pickaxe",
 					"functions": [
 						{
