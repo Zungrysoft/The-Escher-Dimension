@@ -1,8 +1,22 @@
-#Run the dungeon generation
-execute as @e[type=minecraft:area_effect_cloud,name="hellion_north",sort=random] at @s run function tid:dungeon/hellion/check_north
-execute as @e[type=minecraft:area_effect_cloud,name="hellion_east",sort=random] at @s run function tid:dungeon/hellion/check_east
-execute as @e[type=minecraft:area_effect_cloud,name="hellion_south",sort=random] at @s run function tid:dungeon/hellion/check_south
-execute as @e[type=minecraft:area_effect_cloud,name="hellion_west",sort=random] at @s run function tid:dungeon/hellion/check_west
+#Type 1
+execute if score hellion_global value matches 0..1 as @e[type=minecraft:area_effect_cloud,name="hellion_north",sort=random] at @s run function tid:dungeon/hellion/check_north_1
+execute if score hellion_global value matches 0..1 as @e[type=minecraft:area_effect_cloud,name="hellion_east",sort=random] at @s run function tid:dungeon/hellion/check_east_1
+execute if score hellion_global value matches 0..1 as @e[type=minecraft:area_effect_cloud,name="hellion_south",sort=random] at @s run function tid:dungeon/hellion/check_south_1
+execute if score hellion_global value matches 0..1 as @e[type=minecraft:area_effect_cloud,name="hellion_west",sort=random] at @s run function tid:dungeon/hellion/check_west_1
+
+#Type 2
+execute if score hellion_global value matches 2 as @e[type=minecraft:area_effect_cloud,name="hellion_north",sort=random] at @s run function tid:dungeon/hellion/check_north_2
+execute if score hellion_global value matches 2 as @e[type=minecraft:area_effect_cloud,name="hellion_east",sort=random] at @s run function tid:dungeon/hellion/check_east_2
+execute if score hellion_global value matches 2 as @e[type=minecraft:area_effect_cloud,name="hellion_south",sort=random] at @s run function tid:dungeon/hellion/check_south_2
+execute if score hellion_global value matches 2 as @e[type=minecraft:area_effect_cloud,name="hellion_west",sort=random] at @s run function tid:dungeon/hellion/check_west_2
+
+#Type 3
+execute if score hellion_global value matches 3 as @e[type=minecraft:area_effect_cloud,name="hellion_north",sort=random] at @s run function tid:dungeon/hellion/check_north_3
+execute if score hellion_global value matches 3 as @e[type=minecraft:area_effect_cloud,name="hellion_east",sort=random] at @s run function tid:dungeon/hellion/check_east_3
+execute if score hellion_global value matches 3 as @e[type=minecraft:area_effect_cloud,name="hellion_south",sort=random] at @s run function tid:dungeon/hellion/check_south_3
+execute if score hellion_global value matches 3 as @e[type=minecraft:area_effect_cloud,name="hellion_west",sort=random] at @s run function tid:dungeon/hellion/check_west_3
+
+#Up direction
 execute as @e[type=minecraft:area_effect_cloud,name="hellion_up",sort=random] at @s run function tid:dungeon/hellion/check_up
 
 #Once all of the rooms are done generating, move to the next phase

@@ -103,6 +103,18 @@
                     ]
                 },
 				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					]
+				},
+				{
                     "type": "item",
                     "weight": 25,
                     "name": "minecraft:emerald",

@@ -243,6 +243,18 @@
 				},
 				{
 					"type": "item",
+					"weight": 10,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 15,
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 1,
 					"name": "minecraft:golden_helmet",
 					"functions": [

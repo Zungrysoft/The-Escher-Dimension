@@ -101,6 +101,30 @@
 					"name": "minecraft:golden_apple"
 				},
 				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 20,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
                     "type": "item",
                     "weight": 10,
                     "name": "minecraft:chorus_fruit",
@@ -218,7 +242,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 100,
 					"name": "minecraft:splash_potion",
 					"functions": [
 						{

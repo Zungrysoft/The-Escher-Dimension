@@ -31,7 +31,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16711680,display:{Name:\'[{\"text\":\"Shredder Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Deals triple damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Damage decreases with range\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}"
+							"tag": "{CustomPotionColor:16711680,display:{Name:\'[{\"text\":\"Shredder Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Deals triple damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Fizzles after a short distance\",\"italic\":false,\"color\":\"red\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:1}],HideFlags:65535,shredder_arrow:1}"
 						},
 						{
 							"function": "set_count",

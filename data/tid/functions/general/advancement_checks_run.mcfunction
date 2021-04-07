@@ -34,6 +34,7 @@ execute if entity @s[predicate=tid:in_layer_infernal,predicate=tid:on_strider] i
 
 #Circumnavigate Hellion
 #Track the player's movements in the four quadrants.
+execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] run function tid:update_coords
 execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if score @s x matches 10.. if score @s z matches 10.. run scoreboard players set @s adv_hellion_1 1
 execute as @a[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if score @s x matches ..-10 if score @s z matches 10.. run scoreboard players set @s adv_hellion_2 1
 execute if entity @s[predicate=tid:in_layer_hellion,predicate=tid:on_strider] if score @s x matches 10.. if score @s z matches ..-10 run scoreboard players set @s adv_hellion_3 1

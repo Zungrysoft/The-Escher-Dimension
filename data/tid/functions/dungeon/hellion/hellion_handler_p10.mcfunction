@@ -19,6 +19,7 @@ scoreboard players set hellion_rooms value 350
 scoreboard players set hellion_global value 0
 execute if predicate tid:random_50 run scoreboard players add hellion_global value 1
 execute if predicate tid:random_50 run scoreboard players add hellion_global value 2
+scoreboard players set hellion_global value 3
 
 summon minecraft:area_effect_cloud 0 183 -7 {Duration:99999999,CustomName:"\"hellion_north\""}
 summon minecraft:area_effect_cloud 0 183 7 {Duration:99999999,CustomName:"\"hellion_south\""}
