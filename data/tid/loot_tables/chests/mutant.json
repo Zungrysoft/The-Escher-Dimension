@@ -88,20 +88,6 @@
 				{
                     "type": "item",
                     "weight": 10,
-                    "name": "minecraft:chorus_fruit",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-				{
-                    "type": "item",
-                    "weight": 10,
                     "name": "minecraft:nether_wart",
                     "functions": [
                         {

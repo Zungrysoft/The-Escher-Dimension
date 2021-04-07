@@ -92,7 +92,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 5,
+					"weight": 8,
 					"name": "tid:chests/legendary_item"
 				},
 				{
@@ -101,6 +101,20 @@
 					"name": "minecraft:golden_apple"
 				},
 				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+				{
 					"type": "item",
 					"weight": 15,
 					"name": "minecraft:diamond",
@@ -108,8 +122,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 4,
-								"max": 5
+								"min": 2,
+								"max": 4
 							}
 						}
 					]
