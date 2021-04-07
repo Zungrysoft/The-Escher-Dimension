@@ -21,6 +21,9 @@ execute if block ~ ~1 ~2 air run fill ~2 255 ~2 ~ 255 ~2 minecraft:light_gray_co
 execute if block ~2 ~1 ~4 air run fill ~2 255 ~2 ~2 255 ~4 minecraft:light_gray_concrete replace minecraft:stone
 execute if block ~4 ~1 ~2 air run fill ~2 255 ~2 ~4 255 ~2 minecraft:light_gray_concrete replace minecraft:stone
 
+#Build the spawner
+execute if predicate tid:random_07 positioned ~2 ~1 ~2 run function tid:misc/stronghold2_random_spawner
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 
