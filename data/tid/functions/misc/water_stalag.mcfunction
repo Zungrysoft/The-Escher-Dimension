@@ -1,5 +1,6 @@
 #Spawn the initial pillar
-fill ~ ~ ~ ~ ~3 ~ prismarine
+fill ~ ~ ~ ~ ~3 ~ prismarine replace water
+fill ~ ~ ~ ~ ~ ~ prismarine replace gravel
 
 #Extend the structure upward
 execute positioned ~ ~4 ~ run function tid:misc/water_stalag_extend

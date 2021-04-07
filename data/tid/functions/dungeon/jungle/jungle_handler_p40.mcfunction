@@ -24,6 +24,7 @@ execute unless entity @e[type=evoker] run function tid:misc/safety_evoker
 
 #Kill the locators
 kill @e[type=area_effect_cloud,name="jungle_towerbase"]
+execute as @e[type=area_effect_cloud,name="underwater_ruin_treasure"] at @s run function tid:misc/water_ruin_chest
 
 #These chunks are no longer needed
 forceload remove -100 -100 100 100

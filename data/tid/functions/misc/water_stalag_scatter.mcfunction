@@ -2,7 +2,7 @@
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,Tags:["new"]}
 
 #Set the number to generate
-scoreboard players set water_stalag_count value 400
+scoreboard players set water_stalag_count value 1900
 
 #Start the recursion
 function tid:misc/water_stalag_scatter_recurse

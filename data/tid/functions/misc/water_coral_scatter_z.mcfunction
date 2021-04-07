@@ -1,0 +1,9 @@
+execute if predicate tid:random_10 positioned ~ ~ ~-4 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~-3 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~-2 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~-1 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~0 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~1 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~2 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~3 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
+execute if predicate tid:random_10 positioned ~ ~ ~4 if block ~ ~ ~ water run function tid:misc/water_coral_scatter_build
