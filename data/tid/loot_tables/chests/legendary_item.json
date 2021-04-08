@@ -555,6 +555,17 @@
 				},
 				{
 					"type": "item",
+					"weight": 300000000,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Abram\\'s Curse\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Grants resistance on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_mainhand_kill_mob:1b,eff_grant_resistance_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:iron_sword",
 					"functions": [
@@ -858,6 +869,17 @@
 						{
 							"function": "set_nbt",
 							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Tarball\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"resistance and inflicts wither on\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"all nearby monsters when you\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_mine_spawner:1b,eff_grant_resistance_strong:1b,eff_inflict_wither_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:charcoal",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Charball\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"resistance and sets all nearby\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"all monsters on fire when you\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_mine_spawner:1b,eff_grant_resistance_strong:1b,eff_inflict_fire_aoe:1b}"
 						}
 					]
 				},
