@@ -16,7 +16,7 @@ execute if score reset value matches 1 run tp @s ~ -100 ~
 execute if score reset value matches 1 run function tid:custom_mobs/dealer
 
 #Add in extra trade costs
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[2].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{}]}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[2].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1}}
 
 #Add in preset trades
 #Layer 2
