@@ -11,3 +11,6 @@ execute if predicate tid:random_25 run setblock ~ ~ ~ spawner{MaxNearbyEntities:
 execute if predicate tid:random_33 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 40s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:spider",DeathLootTable:"tid:gameplay/deathweb",CustomName:'[{"text":"Webspinner"}]',Health:26,Attributes:[{Name:"generic.max_health",Base:26F}]}, Weight: 1}]}
 #Zombie
 setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 16s, SpawnCount: 4s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 40s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:zombie",Tags:["farie_summoner_summoner"]}, Weight: 1}]}
+
+#Pedestal
+execute if block ~ ~-1 ~ snow run setblock ~ ~-1 ~ smooth_stone_slab[type=double]

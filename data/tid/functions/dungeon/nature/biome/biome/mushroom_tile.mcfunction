@@ -16,3 +16,6 @@ execute if predicate tid:random_03 if block ~ ~ ~ mycelium run setblock ~ ~1 ~ r
 #Maybe place a giant mushroom
 execute if predicate tid:random_01 if block ~ ~ ~ mycelium positioned ~ ~1 ~ if blocks ~-3 ~2 ~-3 ~3 ~7 ~3 1033 1 1001 all if block ~ ~9 ~ air run function tid:dungeon/nature/biome/feature/giant_mushroom_brown
 execute if predicate tid:random_01 if block ~ ~ ~ mycelium positioned ~ ~1 ~ if blocks ~-3 ~2 ~-3 ~3 ~7 ~3 1033 1 1001 all if block ~ ~9 ~ air run function tid:dungeon/nature/biome/feature/giant_mushroom_red
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ mycelium if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

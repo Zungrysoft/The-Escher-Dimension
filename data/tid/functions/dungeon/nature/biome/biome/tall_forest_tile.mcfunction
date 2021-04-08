@@ -20,3 +20,6 @@ execute if predicate tid:random_10 if block ~ ~-1 ~ grass_block if blocks ~-1 ~2
 
 #Maybe place a bush
 execute if predicate tid:random_04 if block ~ ~-1 ~ grass_block run function tid:dungeon/nature/biome/feature/oak_bush
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~-1 ~ grass_block if block ~ ~ ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

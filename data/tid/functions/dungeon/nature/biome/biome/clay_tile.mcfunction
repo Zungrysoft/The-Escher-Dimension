@@ -12,4 +12,7 @@ execute if block ~ 50 ~ air run fill ~ 61 ~ ~ 71 ~ clay
 execute if block ~ 49 ~ air run fill ~ 60 ~ ~ 72 ~ clay
 
 #Fire
-execute if predicate tid:random_02 run setblock ~ ~1 ~ fire
+execute if predicate tid:random_02 if block ~ ~1 ~ air run setblock ~ ~1 ~ fire
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ clay if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

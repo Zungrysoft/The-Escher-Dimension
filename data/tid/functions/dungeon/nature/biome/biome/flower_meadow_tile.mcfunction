@@ -34,3 +34,6 @@ execute if predicate tid:random_04 if block ~ ~1 ~ grass_block positioned ~ ~2 ~
 
 #Canopy Trees
 execute if predicate tid:random_005 if block ~ ~1 ~ grass_block if block ~-1 ~1 ~ grass_block if block ~ ~1 ~-1 grass_block if block ~-1 ~1 ~-1 grass_block positioned ~ ~2 ~ if blocks ~-2 ~2 ~-2 ~ ~4 ~ 1033 1 1001 all run function tid:dungeon/nature/biome/feature/canopy_tree
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~1 ~ grass_block if block ~ ~2 ~ air positioned ~ ~2 ~ run function tid:misc/nature_random_spawner

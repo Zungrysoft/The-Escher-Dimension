@@ -15,3 +15,6 @@ execute if block ~ ~1 ~ lilac run setblock ~ ~2 ~ lilac[half=upper]
 
 #Maybe place a tree
 execute if predicate tid:random_02 if block ~ ~ ~ grass_block positioned ~ ~1 ~ if blocks ~-2 ~2 ~-2 ~2 ~4 ~2 1033 1 1001 all run function tid:dungeon/nature/biome/feature/field_tree
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ grass_block if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

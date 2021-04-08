@@ -7,3 +7,6 @@ fill ~ ~-7 ~ ~ ~-22 ~ stone replace air
 execute if predicate tid:random_01 run setblock ~ ~1 ~ dead_bush
 execute if predicate tid:random_005 run setblock ~ ~1 ~ cactus
 execute if predicate tid:random_50 if block ~ ~1 ~ cactus run setblock ~ ~2 ~ cactus
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

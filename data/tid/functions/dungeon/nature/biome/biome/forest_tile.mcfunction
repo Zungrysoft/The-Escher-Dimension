@@ -24,3 +24,6 @@ execute if predicate tid:random_50 if block ~ ~1 ~ sugar_cane run setblock ~ ~2 
 
 #Maybe place a tree
 execute if predicate tid:random_10 if block ~ ~ ~ grass_block positioned ~ ~1 ~ if blocks ~-1 ~2 ~-1 ~1 ~4 ~1 1033 1 1001 all run function tid:dungeon/nature/biome/feature/oak_tree
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ grass_block if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

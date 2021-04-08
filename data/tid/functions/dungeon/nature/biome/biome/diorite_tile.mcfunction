@@ -15,3 +15,6 @@ execute if predicate tid:random_01 if score pick value matches 51..150 run setbl
 
 #Maybe place a stalagmite
 execute if predicate tid:random_05 if block ~ ~ ~ diorite if block ~-1 ~ ~ diorite if block ~ ~ ~-1 diorite if block ~-1 ~ ~-1 diorite positioned ~ ~1 ~ run function tid:dungeon/nature/biome/feature/netherrack_stalag
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ diorite if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:misc/nature_random_spawner

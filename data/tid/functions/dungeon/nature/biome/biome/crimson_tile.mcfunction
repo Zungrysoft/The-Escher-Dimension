@@ -14,3 +14,6 @@ execute if predicate tid:random_02 if block ~ ~ ~ crimson_nylium run setblock ~ 
 
 #Maybe place a tree
 execute if predicate tid:random_10 if block ~ ~ ~ crimson_nylium if block ~-1 ~ ~ crimson_nylium if block ~ ~ ~-1 crimson_nylium if block ~-1 ~ ~-1 crimson_nylium positioned ~ ~1 ~ if blocks ~-2 ~2 ~-2 ~ ~4 ~ 1033 1 1001 all run function tid:dungeon/nature/biome/feature/crimson_tree
+
+#Maybe place a spawner
+execute if predicate tid:random_biome if block ~ ~ ~ crimson_nylium if block ~ ~1 ~ air run function tid:misc/nature_random_spawner

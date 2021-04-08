@@ -11,3 +11,6 @@ fill ~ ~-4 ~ ~ ~-22 ~ stone replace air
 
 #Snow
 execute if block ~ ~ ~ grass_block run setblock ~ ~1 ~ snow
+
+#Maybe place a spawner (reduced spawners in this biome)
+execute if predicate tid:random_biome if predicate tid:random_10 if block ~ ~ ~ grass_block if block ~ ~1 ~ snow positioned ~ ~2 ~ run function tid:misc/nature_random_spawner
