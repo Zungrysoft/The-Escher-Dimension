@@ -109,6 +109,8 @@ execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:ga
 execute as @e[type=vex,tag=!keep] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
 execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
+#Deathweb
+execute as @e[type=item,nbt={Item:{id:"minecraft:string",tag:{deathweb:1b}}}] at @s run function tid:gameplay/deathweb
 #Ice Blaze
 #execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
 #Farie Summoner
@@ -123,6 +125,8 @@ execute as @e[type=area_effect_cloud,tag=grave] at @s run function tid:gameplay/
 execute as @e[type=zombie,tag=priest_summoner] at @s run function tid:gameplay/ai_priest_summoner
 #Potion Carrier Summoner
 execute as @e[type=zombie,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
+#Farie Summoner Summoner
+execute as @e[type=zombie,tag=farie_summoner_summoner] at @s run function tid:gameplay/ai_farie_summoner_summoner
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns

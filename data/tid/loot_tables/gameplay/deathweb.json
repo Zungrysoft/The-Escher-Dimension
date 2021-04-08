@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{deathweb:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -346,7 +346,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 80,
+					"weight": 20,
 					"name": "minecraft:iron_boots",
 					"functions": [
 						{
