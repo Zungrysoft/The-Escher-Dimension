@@ -538,6 +538,28 @@
 					"functions": [
 						{
 							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Temporal Sabre\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"On kill, grants speed and inflicts\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness on a random monster\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_mainhand_kill_mob:1b,eff_grant_speed_strong:1b,eff_inflict_slowness_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Mesomorphic Sabre\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"On kill, grants strength and inflicts\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"weakness on a random monster\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_mainhand_kill_mob:1b,eff_grant_strength_weak:1b,eff_inflict_weakness_random:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
 							"tag": "{display:{Name:\'[{\"text\":\"Apocalypse Dagger\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"On kill, inflicts wither, fire, slowness, and\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"weakness each to a random monster\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_mainhand_kill_mob:1b,eff_inflict_wither_random:1b,eff_inflict_fire_random:1b,eff_inflict_slowness_random:1b,eff_inflict_weakness_random:1b}"
 						}
 					]
@@ -825,6 +847,17 @@
 						{
 							"function": "set_nbt",
 							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Flash Powder\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"speed and strength and inflicts\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"slowness on all nearby monsters\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_mine_spawner:1b,eff_grant_speed_strong:1b,eff_grant_strength_strong:1b,eff_inflict_slowness_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Tarball\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"resistance and inflicts wither on\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"all nearby monsters when you\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_mine_spawner:1b,eff_grant_resistance_strong:1b,eff_inflict_wither_aoe:1b}"
 						}
 					]
 				},
