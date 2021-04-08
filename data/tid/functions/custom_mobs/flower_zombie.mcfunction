@@ -1,0 +1,2 @@
+summon minecraft:zombie ~ ~ ~ {CustomName:'[{"text":"Zombloom"}]',Health:30,HandItems:[{id:dandelion,Count:1}],HandDropChances:[2.00f],ArmorItems:[{id:leather_boots,Count:1},{id:leather_leggings,Count:1},{id:leather_chestplate,Count:1},{id:lilac,Count:1}],ArmorDropChances:[0.01f,0.01f,0.01f,2.00f],Attributes:[{Name:"generic.attack_damage",Base:6f},{Name:"generic.max_health",Base:30F}],Tags:["new"],DeathLootTable:""}
+execute as @e[type=zombie,tag=new] run function tid:gameplay/ai_flower_zombie_randomize

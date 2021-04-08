@@ -417,6 +417,11 @@
                     "weight": 10,
                     "name": "minecraft:shears"
                 },
+				{
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:egg"
+                },
                 {
                     "type": "item",
                     "weight": 5,

@@ -21,6 +21,9 @@ execute if predicate tid:random_50 as @e[tag=new] at @s run tp @s ~ ~ ~4
 execute if predicate tid:random_50 as @e[tag=new] at @s run tp @s ~ ~ ~2
 execute if predicate tid:random_50 as @e[tag=new] at @s run tp @s ~ ~ ~1
 
+#Maybe build a kelp patch
+execute if predicate tid:random_03 at @e[tag=new] positioned ~ 159 ~ run function tid:misc/water_kelp
+
 #Maybe build a chain
 execute if predicate tid:random_03 at @e[tag=new] positioned ~ 177 ~ if block ~ ~ ~ water run function tid:misc/water_chain
 execute if predicate tid:random_03 at @e[tag=new] positioned ~ 170 ~ if block ~ ~ ~ water run function tid:misc/water_chain
