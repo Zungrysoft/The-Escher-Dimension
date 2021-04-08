@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/kill_captain",
+  "parent": "tid:sin/find_sin",
   "display": {
     "icon": {
       "item": "minecraft:golden_horse_armor"

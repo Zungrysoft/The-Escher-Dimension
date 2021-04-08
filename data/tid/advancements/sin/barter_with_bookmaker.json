@@ -1,5 +1,5 @@
 {
-  "parent": "tid:sin/enter_capitol",
+  "parent": "tid:sin/kill_captain",
   "display": {
     "icon": {
       "item": "minecraft:spectral_arrow"

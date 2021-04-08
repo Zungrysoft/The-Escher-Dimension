@@ -29,6 +29,7 @@ scoreboard players set neon_rooms value 18
 scoreboard players set sand1_x_spot_build value 0
 scoreboard players set sin_portals value 0
 scoreboard players set nature_totems value 0
+scoreboard players set nature_cake value 0
 
 #Summon the entrance rooms and starting area
 function tid:dungeon/layer_2/generate_intro

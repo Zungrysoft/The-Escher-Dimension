@@ -335,6 +335,28 @@
 				},
 				{
 					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Psy-Crown\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts all nearby monsters with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_slowness_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 80,
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Spiketreads\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Destroys cobwebs on touch\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,spurs:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 10,
 					"name": "minecraft:leather_helmet",
 					"functions": [

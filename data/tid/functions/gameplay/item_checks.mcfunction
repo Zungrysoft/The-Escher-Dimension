@@ -27,6 +27,7 @@ function tid:gameplay/slow_clock
 function tid:gameplay/weakness_compass
 function tid:gameplay/fire_diamond
 function tid:gameplay/book_barrier
+function tid:gameplay/spurs
 
 #Reset per-frame check scores
 scoreboard players set @s damage_dealt 0
