@@ -49,3 +49,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{eff_gold_nugget:1b}}}] run give @s 
 
 #Give Gold Ingot
 execute if entity @s[nbt={SelectedItem:{tag:{eff_gold_ingot:1b}}}] run give @s minecraft:gold_ingot
+
+#Reload Crossbows
+execute if entity @s[nbt={SelectedItem:{tag:{eff_reload:1b}}}] run function tid:gameplay/eff_reload

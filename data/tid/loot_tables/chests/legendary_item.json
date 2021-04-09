@@ -175,7 +175,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -186,7 +186,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -197,7 +197,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -208,7 +208,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b}"
 						}
 					]
 				},
@@ -219,29 +219,29 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
 						}
 					]
 				},
 				{
 					"type": "item",
-					"weight": 70,
+					"weight": 40,
 					"name": "minecraft:iron_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Scattersear Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Sets a random monster on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_take_damage:1b,eff_inflict_fire_random:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Scattersear Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]\',Lore:[\'[{\"text\":\"Sets a random monster on fire\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_take_damage:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
 				{
 					"type": "item",
-					"weight": 70,
+					"weight": 40,
 					"name": "minecraft:iron_boots",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Mud-Stomps\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_random:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Mud-Stomps\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_random:1b}"
 						}
 					]
 				},
@@ -252,7 +252,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -263,7 +263,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -274,7 +274,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -285,7 +285,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
+							"tag": "{display:{color:11600910,Name:\'[{\"text\":\"Bisiliman\\'s Rage Clothes\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Grants strength upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_strength_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -296,7 +296,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -307,7 +307,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -318,7 +318,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -329,7 +329,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -340,7 +340,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Psy-Crown\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts all nearby monsters with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_slowness_aoe:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Psy-Crown\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts all nearby monsters with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_slowness_aoe:1b}"
 						}
 					]
 				},
@@ -362,7 +362,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -373,7 +373,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -384,7 +384,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -395,7 +395,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 60 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -555,7 +555,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 300000000,
+					"weight": 30,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -578,11 +578,110 @@
 				{
 					"type": "item",
 					"weight": 100,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Lockblade\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_reload:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:stone_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Bolt-head Halberd\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_reload:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The History of Wistavo\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"When in offhand, grants speed and\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_offhand_kill_mob:1b,eff_reload:1b,eff_grant_speed_strong:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"The History of New Pantheas\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"When in offhand, grants resistance\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"and reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 Health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_offhand_kill_mob:1b,eff_reload:1b,eff_grant_resistance_weak:1b,health_penalty:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Hypercompound Bow\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"When in main hand, reloads\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_reload:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:6200854,Name:\'[{\"text\":\"Archer\\'s Camouflage\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows upon\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_reload:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:6200854,Name:\'[{\"text\":\"Archer\\'s Camouflage\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows upon\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_reload:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:6200854,Name:\'[{\"text\":\"Archer\\'s Camouflage\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows upon\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_reload:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:6200854,Name:\'[{\"text\":\"Archer\\'s Camouflage\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Reloads your crossbows upon\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_reload:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 100,
 					"name": "minecraft:iron_axe",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Silth Gunnet\\'s Halberd\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Grants resistance on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-20% speed when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,speed_penalty:1b,act_mainhand_kill_mob:1b,eff_grant_resistance_weak:2b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Silth Gunnet\\'s Halberd\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Grants resistance on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-20% speed when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,speed_penalty:1b,act_mainhand_kill_mob:1b,eff_grant_resistance_weak:1b}"
 						}
 					]
 				},

@@ -49,3 +49,6 @@ execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{eff_gold_nugget:1b}}]}] ru
 
 #Give Gold Ingot
 execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{eff_gold_ingot:1b}}]}] run give @s minecraft:gold_ingot
+
+#Reload Crossbows
+execute if entity @s[nbt={Inventory:[{Slot:103b, tag:{eff_reload:1b}}]}] run function tid:gameplay/eff_reload

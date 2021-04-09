@@ -11,7 +11,7 @@ execute if score @s take_damage matches 1.. if score @s cycle_short matches ..0 
 execute if score @s take_damage matches 1.. if score @s cycle_short matches ..0 if entity @s[predicate=tid:item/act_feet_cycle_short] run function tid:gameplay/effect_grant_feet
 
 #Handle the cycling
-execute if score @s take_damage matches 1.. if score @s cycle_short matches ..0 run scoreboard players set @s cycle_short 1200
+execute if score @s take_damage matches 1.. if score @s cycle_short matches ..0 run scoreboard players set @s cycle_short 900
 scoreboard players remove @s cycle_short 1
 
 #Cycling feedback
