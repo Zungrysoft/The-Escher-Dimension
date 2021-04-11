@@ -5,13 +5,8 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 20,
+					"weight": 666,
 					"name": "minecraft:orange_dye"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 1,
-					"name": "tid:chests/legendary_item"
 				}
 			]
 		},

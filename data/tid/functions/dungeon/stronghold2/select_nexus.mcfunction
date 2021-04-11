@@ -45,6 +45,12 @@ execute if predicate tid:random_07 run scoreboard players set temp value 1
 execute if predicate tid:random_25 if score stronghold2_secrets value matches ..1 run scoreboard players set temp value 1
 execute if score temp value matches 1 run function tid:dungeon/stronghold2/secret_place
 
+#Randomize blocks
+scoreboard players set xmax value 13
+scoreboard players set ymax value 8
+scoreboard players set zmax value 13
+function tid:dungeon/stronghold2/rng/run_rng
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 

@@ -17,6 +17,12 @@ fill ~ 255 ~5 ~1 255 ~5 minecraft:light_gray_concrete replace minecraft:stone
 fill ~11 255 ~5 ~12 255 ~5 minecraft:light_gray_concrete replace minecraft:stone
 fill ~3 255 ~3 ~9 255 ~3 minecraft:light_gray_concrete replace minecraft:stone
 
+#Randomize blocks
+scoreboard players set xmax value 13
+scoreboard players set ymax value 12
+scoreboard players set zmax value 21
+function tid:dungeon/stronghold2/rng/run_rng
+
 #We're done here
 kill @s
 

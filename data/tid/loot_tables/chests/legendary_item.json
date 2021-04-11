@@ -615,7 +615,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The History of New Pantheas\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"When in offhand, grants resistance\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"and reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 Health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_offhand_kill_mob:1b,eff_reload:1b,eff_grant_resistance_weak:1b,health_penalty:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"The History of New Pantheas\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"When in offhand, grants resistance\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"and reloads your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_offhand_kill_mob:1b,eff_reload:1b,eff_grant_resistance_weak:1b,health_penalty:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
 						}
 					]
 				},

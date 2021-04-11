@@ -18,6 +18,12 @@ fill ~ 255 ~ ~4 255 ~4 minecraft:stone replace minecraft:bricks
 fill ~ 255 ~2 ~4 255 ~2 minecraft:light_gray_concrete replace minecraft:stone
 fill ~1 255 ~1 ~3 255 ~3 minecraft:light_gray_concrete replace minecraft:stone
 
+#Randomize blocks
+scoreboard players set xmax value 5
+scoreboard players set ymax value 16
+scoreboard players set zmax value 5
+function tid:dungeon/stronghold2/rng/run_rng
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 

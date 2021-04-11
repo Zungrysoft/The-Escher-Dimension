@@ -29,6 +29,12 @@ execute if entity @s[name="stronghold2_east"] run setblock ~3 ~3 ~3 chest[facing
 execute if entity @s[name="stronghold2_east"] run fill ~3 255 ~3 ~ 255 ~3 minecraft:light_gray_concrete replace minecraft:stone
 execute if entity @s[name="stronghold2_east"] run fill ~ ~3 ~2 ~ ~6 ~4 air
 
+#Randomize blocks
+scoreboard players set xmax value 7
+scoreboard players set ymax value 10
+scoreboard players set zmax value 7
+function tid:dungeon/stronghold2/rng/run_rng
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 

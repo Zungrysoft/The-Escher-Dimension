@@ -24,6 +24,12 @@ execute if block ~4 ~1 ~2 air run fill ~2 255 ~2 ~4 255 ~2 minecraft:light_gray_
 #Build the spawner
 execute if predicate tid:random_07 positioned ~2 ~1 ~2 run function tid:misc/stronghold2_random_spawner
 
+#Randomize blocks
+scoreboard players set xmax value 5
+scoreboard players set ymax value 6
+scoreboard players set zmax value 5
+function tid:dungeon/stronghold2/rng/run_rng
+
 #Count the room in the total
 scoreboard players remove stronghold2_rooms value 1
 

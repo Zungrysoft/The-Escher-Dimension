@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/legendary_item"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/potion"
+				}
+			]
+		},
+		{
+			"rolls": 27,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:vine"
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "minecraft:stone_bricks"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:mossy_stone_bricks"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:cracked_stone_bricks"
+				}
+			]
+		}
+	]
+}
