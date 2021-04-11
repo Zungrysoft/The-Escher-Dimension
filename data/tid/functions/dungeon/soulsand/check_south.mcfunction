@@ -4,3 +4,8 @@ execute unless score @s failed matches 1.. if predicate tid:random_10 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~-1 ~-1 ~1 if blocks ~ ~128 ~ ~6 ~139 ~9 1001 1 1001 all run function tid:dungeon/soulsand/select_stairs_south
 execute unless score @s failed matches 1.. if predicate tid:random_003 positioned ~-1 ~-6 ~1 if blocks ~ ~128 ~ ~6 ~139 ~9 1001 1 1001 all run function tid:dungeon/soulsand/select_stairs_north
 
+#Room
+execute unless score @s failed matches 1.. if predicate tid:random_03 unless entity @s[tag=room] positioned ~-8 ~-1 ~1 if blocks ~ ~128 ~ ~16 ~148 ~16 1001 1 1001 all run function tid:dungeon/soulsand/select_room
+
+#Room
+execute unless score @s failed matches 1.. if predicate tid:random_30 if entity @s[tag=straight] positioned ~-4 ~-2 ~1 if blocks ~ ~128 ~ ~8 ~135 ~8 1001 1 1001 all run function tid:dungeon/soulsand/select_junction

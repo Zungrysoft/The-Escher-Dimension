@@ -12,8 +12,8 @@ fill ~ 255 ~ ~9 255 ~6 soul_soil replace black_concrete
 fill ~ 255 ~3 ~9 255 ~3 nether_bricks replace soul_soil
 
 #Summon other doorways for further generation
-summon minecraft:area_effect_cloud ~9 ~6 ~3 {Duration:99999999,CustomName:"\"soulsand_east\""}
-summon minecraft:area_effect_cloud ~ ~1 ~3 {Duration:99999999,CustomName:"\"soulsand_west\""}
+summon minecraft:area_effect_cloud ~9 ~6 ~3 {Duration:99999999,CustomName:"\"soulsand_east\"",Tags:["straight"]}
+summon minecraft:area_effect_cloud ~ ~1 ~3 {Duration:99999999,CustomName:"\"soulsand_west\"",Tags:["straight"]}
 
 #Count the room in the total
 scoreboard players remove soulsand_rooms value 1
