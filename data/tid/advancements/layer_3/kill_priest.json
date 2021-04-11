@@ -5,7 +5,7 @@
 			"item": "minecraft:potion",
 			"nbt": "{Enchantments:[{}],CustomPotionColor:12896511}"
 		},
-		"title": "Revelation 13:18",
+		"title": "Revelation 9:6",
 		"description": "Kill an Unholy Priest",
 		"frame": "task",
 		"show_toast": true,
