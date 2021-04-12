@@ -129,7 +129,7 @@ execute as @e[type=zombie,tag=potion_carrier_summoner] at @s run function tid:ga
 execute as @e[type=zombie,tag=farie_summoner_summoner] at @s run function tid:gameplay/ai_farie_summoner_summoner
 
 #Handle monster spawning replacement
-execute as @e[type=zombie_villager,tag=!keep] at @s run function tid:gameplay/replace_spawns
+execute as @e[type=zombie_villager,tag=!keep,tag=!done] at @s run function tid:gameplay/replace_spawns
 #Underwater spawns
 execute as @e[type=cod,tag=!keep] at @s run function tid:gameplay/replace_water_spawns
 #Babirusan Undergrounds spawns

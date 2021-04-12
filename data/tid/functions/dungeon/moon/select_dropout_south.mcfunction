@@ -17,10 +17,10 @@ setblock ~ ~1 ~ minecraft:redstone_block
 #Mark this area on the map
 fill ~ 255 ~ ~9 255 ~9 minecraft:granite replace minecraft:end_stone
 fill ~ 255 ~ ~9 255 ~9 minecraft:granite replace minecraft:black_concrete
-fill ~8 255 ~9 ~7 255 ~1 minecraft:red_sandstone replace minecraft:granite
-fill ~6 255 ~1 ~2 255 ~2 minecraft:red_sandstone replace minecraft:granite
-fill ~2 255 ~3 ~4 255 ~3 minecraft:red_sandstone replace minecraft:granite
-fill ~1 255 ~8 ~5 255 ~4 minecraft:red_sandstone replace minecraft:granite
+execute positioned ~9 ~ ~9 run fill ~-8 255 ~-9 ~-7 255 ~-1 minecraft:red_sandstone replace minecraft:granite
+execute positioned ~9 ~ ~9 run fill ~-6 255 ~-1 ~-2 255 ~-2 minecraft:red_sandstone replace minecraft:granite
+execute positioned ~9 ~ ~9 run fill ~-2 255 ~-3 ~-4 255 ~-3 minecraft:red_sandstone replace minecraft:granite
+execute positioned ~9 ~ ~9 run fill ~-1 255 ~-8 ~-5 255 ~-4 minecraft:red_sandstone replace minecraft:granite
 
 #Mark this area as generated
 fill ~ ~128 ~ ~9 ~134 ~9 minecraft:blue_wool

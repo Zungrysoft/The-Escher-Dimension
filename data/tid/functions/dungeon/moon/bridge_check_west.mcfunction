@@ -1,6 +1,6 @@
 function tid:dungeon/moon/room_checks
 
-execute unless score @s failed matches 1.. unless block ~-3 ~-2 ~ air positioned ~-5 ~-2 ~-1 if blocks ~ ~128 ~ ~4 ~136 ~8 1001 1 1033 all run function tid:dungeon/moon/select_connector_east
+execute unless score @s failed matches 1.. unless block ~-3 ~-2 ~ air positioned ~-5 ~-2 ~-6 if blocks ~ ~128 ~ ~4 ~136 ~8 1001 1 1033 all run function tid:dungeon/moon/select_connector_east
 
 execute if score @s failed matches 1.. positioned ~-4 ~-2 ~-1 if blocks ~ ~128 ~ ~3 ~134 ~3 1001 1 1033 all run function tid:dungeon/moon/select_junction
 
