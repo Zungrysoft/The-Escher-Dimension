@@ -1,0 +1,9 @@
+execute positioned ~-4 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~-3 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~-2 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~-1 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~0 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~1 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~2 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~3 ~ ~ run function tid:misc/soulsand_gravel_z
+execute positioned ~4 ~ ~ run function tid:misc/soulsand_gravel_z
