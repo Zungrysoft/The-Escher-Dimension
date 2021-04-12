@@ -38,13 +38,13 @@
 				{
 					"type": "minecraft:item",
 					"weight": 40,
-					"name": "minecraft:iron_nugget",
+					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 16,
+								"min": 2,
+								"max": 4,
 								"type": "minecraft:uniform"
 							}
 						}

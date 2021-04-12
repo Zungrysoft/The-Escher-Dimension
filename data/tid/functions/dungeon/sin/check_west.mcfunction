@@ -9,7 +9,7 @@ execute unless score @s failed matches 1.. if predicate tid:random_02 unless sco
 execute unless score @s failed matches 1.. if predicate tid:random_15 if score @s counter1 matches 8 positioned ~-4 ~-1 ~0 if blocks ~ ~-128 ~ ~3 ~-120 ~0 1001 1 1001 all run function tid:dungeon/sin/select_thinstairs_west
 
 #Black
-execute unless score @s failed matches 1.. if predicate tid:random_06 if score @s counter1 matches 15 positioned ~-9 ~-7 ~-5 if blocks ~ ~-128 ~ ~8 ~-115 ~17 1001 1 1001 all run function tid:dungeon/sin/select_slant
+execute unless score @s failed matches 1.. if predicate tid:random_08 if score @s counter1 matches 15 positioned ~-9 ~-7 ~-5 if blocks ~ ~-128 ~ ~8 ~-115 ~17 1001 1 1001 all run function tid:dungeon/sin/select_slant
 
 #Green
 execute unless score @s failed matches 1.. if predicate tid:random_04 if score @s counter1 matches 13 positioned ~-13 ~-5 ~-6 if blocks ~ ~-128 ~ ~8 ~-115 ~17 1001 1 1001 all run function tid:dungeon/sin/select_silo
