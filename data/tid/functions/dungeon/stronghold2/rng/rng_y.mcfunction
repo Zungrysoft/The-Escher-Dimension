@@ -17,8 +17,11 @@ execute if block ~ ~ ~ stone_bricks run function tid:dungeon/stronghold2/rng/sto
 #Air
 execute if predicate tid:random_08 if block ~ ~ ~ air run function tid:dungeon/stronghold2/rng/air
 
+#Gravel
+execute if predicate tid:random_08 if block ~ ~ ~ gravel if block ~ ~1 ~ air positioned ~ ~1 ~ run function tid:dungeon/stronghold2/rng/gravel_patch
+
 #Water
-#execute if predicate tid:random_60 if block ~ ~ ~ water[level=0] if block ~ ~-1 ~ #tid:stone_brick_blocks run function tid:dungeon/stronghold2/rng/water
+#execute if predicate tid:random_60 if block ~ ~ ~ water if block ~ ~-1 ~ #tid:stone_brick_blocks run function tid:dungeon/stronghold2/rng/water
 
 #Recurse
 scoreboard players add ycount value 1
