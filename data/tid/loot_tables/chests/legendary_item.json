@@ -1167,6 +1167,24 @@
 				},
 				{
 					"type": "item",
+					"weight": 200,
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{bridge_snowball:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,display:{Name:\'[{\"text\":\"Superchilled Snowball\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Leaves a trail of snow\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"behind it when thrown\",\"italic\":false,\"color\":\"aqua\"}]\']}}"
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 40,
 					"name": "minecraft:mojang_banner_pattern",
 					"functions": [

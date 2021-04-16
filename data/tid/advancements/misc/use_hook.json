@@ -1,0 +1,20 @@
+{
+	"rewards": {
+		"function": "tid:gameplay/hook_use"
+	},
+	"criteria": {
+		"hooked": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type":"#tid:living"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"hooked"
+		]
+	]
+}
