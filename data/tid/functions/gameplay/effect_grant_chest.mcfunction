@@ -52,3 +52,6 @@ execute if entity @s[nbt={Inventory:[{Slot:102b, tag:{eff_gold_ingot:1b}}]}] run
 
 #Reload Crossbows
 execute if entity @s[nbt={Inventory:[{Slot:102b, tag:{eff_reload:1b}}]}] run function tid:gameplay/eff_reload
+
+#Evoker Fangs
+execute if entity @s[nbt={Inventory:[{Slot:102b, tag:{eff_evoker:1b}}]}] run function tid:gameplay/eff_evoker_alt

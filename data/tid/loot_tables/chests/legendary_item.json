@@ -170,6 +170,17 @@
 				},
 				{
 					"type": "item",
+					"weight": 8,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Wizard\\'s Combat Armor\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Summons biting fangs around\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"you on kill\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_chest_kill_mob:1b,eff_evoker:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 50,
 					"name": "minecraft:iron_helmet",
 					"functions": [
@@ -1159,8 +1170,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 9,
-								"max": 11
+								"min": 12,
+								"max": 15
 							}
 						}
 					]
@@ -1213,17 +1224,6 @@
 						{
 							"function": "set_nbt",
 							"tag": "{display:{Name:\'[{\"text\":\"Damage Scroll\",\"italic\":false,\"color\":\"red\"}]\'},legendary:1b,HideFlags:65535,damage_scroll:1b}"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 40,
-					"name": "minecraft:mojang_banner_pattern",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Armor Scroll\",\"italic\":false,\"color\":\"dark_aqua\"}]\'},legendary:1b,HideFlags:65535,armor_scroll:1b}"
 						}
 					]
 				}

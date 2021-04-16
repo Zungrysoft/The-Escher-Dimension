@@ -16,7 +16,6 @@ execute if score @s tome_use matches 1.. run function tid:gameplay/tome_checks
 function tid:gameplay/heart_scroll
 function tid:gameplay/speed_scroll
 function tid:gameplay/damage_scroll
-function tid:gameplay/armor_scroll
 #function tid:gameplay/float_orb
 function tid:gameplay/conditional_weapons
 function tid:gameplay/no_sprint
@@ -33,9 +32,3 @@ function tid:gameplay/spurs
 scoreboard players set @s damage_dealt 0
 scoreboard players set @s tome_use 0
 scoreboard players set @s item_used 0
-
-
-
-
-
-

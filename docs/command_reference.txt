@@ -272,7 +272,14 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 
 /give @p shield{display:{Name:'[{"text":"Shield of Balt Ghadlef","italic":false,"bold":true,"color":"dark_red"}]',Lore:['[{"text":"Sets all nearby monsters on fire upon","italic":false,"color":"white"}]','[{"text":"blocking damage when held in offhand","italic":false,"color":"white"}]']},Enchantments:[{id:thorns,lvl:2},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.max_health",Amount:-14,Operation:0,UUID:[I;-12119,31531,212750,-63062],Slot:offhand,Name:"generic.max_health"}],BlockEntityTag: {Patterns: [{Pattern: "ss", Color: 15}, {Pattern: "gra", Color: 15}, {Pattern: "gru", Color: 15}, {Pattern: "cbo", Color: 14}, {Pattern: "bo", Color: 15}], Base: 0},HideFlags:32,legendary:1b,act_offhand_block_damage:1b,eff_inflict_fire_aoe:1b} 1
 
+#Earthquake Hook
 /give @p fishing_rod{display:{Name:'[{"text":"Earthquake Hook","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Effect: Deals 9 damage to all","italic":false,"color":"aqua"}]','[{"text":"nearby monsters and launches","italic":false,"color":"aqua"}]','[{"text":"them into the air.","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:8,Operation:0,UUID:[I;-121316,30606,618,-61212],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-121316,30706,618,-61412],Slot:mainhand,Name:"generic.attack_speed"}],hook_type:1} 1
+
+#Wizard's Chestplate
+/give @p iron_chestplate{display:{Name:'[{"text":"Wizard\'s Combat Armor","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Summons biting fangs around","italic":false,"color":"aqua"}]','[{"text":"you on kill","italic":false,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"-2 max health when carried","italic":false,"color":"red"}]']},legendary:1b,health_penalty:1b,act_chest_kill_mob:1b,eff_evoker:1b} 1
+
+#The Wizard's Handaxe
+/give @p iron_axe{display:{Name:'[{"text":"The Wizard\'s Handaxe","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Summons biting fangs around","italic":false,"color":"aqua"}]','[{"text":"you on kill","italic":false,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]']},legendary:1b,act_mainhand_kill_mob:1b,eff_evoker:1b} 1
 
 #Shredder Contract
 /give @p paper{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}

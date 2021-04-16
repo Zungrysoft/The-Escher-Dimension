@@ -82,6 +82,7 @@ execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turre
 execute as @a at @s run function tid:gameplay/shield_curse
 execute as @a at @s run function tid:gameplay/pending_hunger
 execute as @e[type=area_effect_cloud,name="finale_boss_core"] at @s run function tid:misc/finale_core
+execute as @e[type=area_effect_cloud,tag=fang_damage] at @s run function tid:gameplay/fang_damage
 function tid:gameplay/hooks
 
 #Handles custom monster effects
