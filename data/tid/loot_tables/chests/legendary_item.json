@@ -170,12 +170,12 @@
 				},
 				{
 					"type": "item",
-					"weight": 8,
+					"weight": 15,
 					"name": "minecraft:iron_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Wizard\\'s Combat Armor\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Summons biting fangs around\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"you on kill\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"-2 max health when carried\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,health_penalty:1b,act_chest_kill_mob:1b,eff_evoker:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Wizard\\'s Combat Armor\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Summons biting fangs around\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"you when you take damage\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_evoker:1b}"
 						}
 					]
 				},
