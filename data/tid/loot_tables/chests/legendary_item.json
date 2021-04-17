@@ -307,7 +307,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -318,7 +318,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -329,7 +329,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -340,7 +340,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
+							"tag": "{display:{color:16756574,Name:\'[{\"text\":\"Form of the Torchman\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Sets all nearby monsters on\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"fire upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_fire_aoe:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -373,7 +373,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -384,7 +384,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -395,7 +395,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -406,7 +406,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+							"tag": "{display:{color:3847130,Name:\'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
 						}
 					]
 				},

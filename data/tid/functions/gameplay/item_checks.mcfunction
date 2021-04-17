@@ -18,7 +18,7 @@ function tid:gameplay/speed_scroll
 function tid:gameplay/damage_scroll
 #function tid:gameplay/float_orb
 function tid:gameplay/conditional_weapons
-function tid:gameplay/no_sprint
+#function tid:gameplay/no_sprint
 function tid:gameplay/lava_saver_leggings
 function tid:gameplay/safety_helmet
 function tid:gameplay/igneous

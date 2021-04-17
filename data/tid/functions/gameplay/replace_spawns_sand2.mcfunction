@@ -4,8 +4,10 @@ execute if predicate tid:random_50 run scoreboard players add temp value 1
 execute if predicate tid:random_50 run scoreboard players add temp value 2
 execute if predicate tid:random_50 run scoreboard players add temp value 4
 
+#Spellcaster
+execute if score temp value matches 0 run function tid:custom_mobs/spellcaster
 #Servant of Zorethab (Healing)
-execute if score temp value matches 0..2 run function tid:custom_mobs/potion_carrier_healing
+execute if score temp value matches 1..2 run function tid:custom_mobs/potion_carrier_healing
 #Servant of Zorethab (Strength)
 execute if score temp value matches 3..4 run function tid:custom_mobs/potion_carrier_strength
 #Servant of Zorethab (Swiftness)
