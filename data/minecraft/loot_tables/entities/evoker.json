@@ -1,0 +1,68 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 32,
+								"max": 48,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:1481884,display:{Name:\'[{\"text\":\"Arrow of Evocation\",\"italic\":false,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"Summons biting fangs as it travels\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:2,Amplifier:6}],HideFlags:65535}"
+						}
+					],
+					"name": "minecraft:tipped_arrow"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"min": 0.0,
+								"max": 1.0
+							}
+						}
+					],
+					"name": "minecraft:emerald"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
+		}
+	]
+}

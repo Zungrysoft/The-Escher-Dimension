@@ -76,6 +76,7 @@ execute as @e[type=arrow,nbt={CustomPotionEffects:[{}],inGround:1b}] at @s run f
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] at @s run function tid:gameplay/shredder_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] at @s run function tid:gameplay/sniper_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:3b}]}] at @s run function tid:gameplay/zapper_arrow
+execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:6b}]}] at @s run function tid:gameplay/evocation_arrow
 scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
 execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
@@ -136,6 +137,10 @@ execute as @e[type=zombie_villager,tag=!keep,tag=!done] at @s run function tid:g
 execute as @e[type=cod,tag=!keep] at @s run function tid:gameplay/replace_water_spawns
 #Babirusan Undergrounds spawns
 execute as @e[type=hoglin,tag=!keep] at @s run function tid:gameplay/replace_sin_spawns
+
+#Give armor to skeletons in infernal
+execute as @e[type=minecraft:skeleton,predicate=tid:in_layer_infernal,tag=!armored] at @s run function tid:custom_mobs/equip/infernal_skeleton
+execute as @e[type=minecraft:wither_skeleton,predicate=tid:in_layer_infernal,tag=!armored] at @s run function tid:custom_mobs/equip/infernal_wither_skeleton
 
 #Remove Baby Zombies from the spawning pool
 tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1

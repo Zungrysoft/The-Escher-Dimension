@@ -7,6 +7,7 @@ execute as @a[nbt={ActiveEffects:[{Amplifier:0b,Id:27b}]}] run function tid:game
 execute as @e[type=#tid:living,nbt={ActiveEffects:[{Amplifier:4b,Id:27b}]}] at @s run function tid:gameplay/release_fireballs
 #5: Collection Potion
 execute as @a[nbt={ActiveEffects:[{Amplifier:5b,Id:27b}]}] at @s run function tid:gameplay/collect_items
+#6 is used for Evocation Arrow
 
 #Clear the bad luck effect
 effect clear @a unluck

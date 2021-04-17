@@ -402,7 +402,7 @@
 						},
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16775214,display:{Name:\'[{\"text\":\"Electric Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Electrocutes nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"after a certain travel time\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:3}],HideFlags:65535,zapper_arrow:1}"
+							"tag": "{CustomPotionColor:16775214,display:{Name:\'[{\"text\":\"Electric Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Electrocutes nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"after a certain travel time\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:3}],HideFlags:65535,zapper_arrow:1}"
 						}
 					]
 				},
