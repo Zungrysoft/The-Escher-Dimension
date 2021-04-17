@@ -4,6 +4,12 @@ execute if score station_global value matches 1 run setblock ~6 ~ ~6 minecraft:s
 execute if score station_global value matches 2 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_3", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if score station_global value matches 3 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_4", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Random structures
+execute if predicate tid:random_05 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_1", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_2", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_3", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~6 ~ ~6 minecraft:structure_block{name: "tid:station/platform_4", posX: -6, posY: 0, posZ: -6, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+
 #Activate whichever structure block was picked
 setblock ~6 ~1 ~6 minecraft:redstone_block
 

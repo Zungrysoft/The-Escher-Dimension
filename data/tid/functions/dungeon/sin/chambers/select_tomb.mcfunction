@@ -8,6 +8,11 @@ execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_7", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_8", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_9", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_10", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_03 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_11", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_03 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_12", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_03 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_13", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_03 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sin/chambers/tomb_14", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
