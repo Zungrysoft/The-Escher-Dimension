@@ -1,0 +1,46 @@
+{
+  "scale": 0.2,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+	"music": {
+      "sound": "minecraft:music.nether.warped_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+	"ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "sky_color": 8991416,
+    "fog_color": 8991416,
+    "water_color": 3811214,
+    "water_fog_color": 3811214
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [],
+  "starts": [],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "rain",
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "category": "forest",
+  "depth": 0.1
+}

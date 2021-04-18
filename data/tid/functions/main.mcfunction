@@ -3,6 +3,11 @@ execute as @a[predicate=tid:in_overworld] run function tid:general/respawn
 execute as @a[predicate=tid:in_the_nether] run function tid:general/respawn
 execute as @a[predicate=tid:in_the_end] run function tid:general/respawn
 
+#Intro
+execute in tid:layer_intro positioned 0 222 0 unless block ~ ~ ~ bedrock run scoreboard players reset intro_handler_phase
+execute in tid:layer_intro positioned 0 222 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage
+execute if entity @a[predicate=tid:in_layer_intro] in tid:layer_intro if block 0 222 0 bedrock run function tid:dungeon/intro/intro_handler
+
 #Layer 1
 execute in tid:layer_1 positioned 0 54 0 unless block ~ ~ ~ bedrock run scoreboard players reset layer_1_handler_phase
 execute in tid:layer_1 positioned 0 54 0 unless block ~ ~ ~ bedrock run function tid:general/bedrock_cage

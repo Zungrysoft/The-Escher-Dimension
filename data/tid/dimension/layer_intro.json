@@ -1,0 +1,42 @@
+{
+  "type": "tid:layer_intro_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 60000,
+    "settings": {
+      "biome": "tid:intro",
+      "lakes": false,
+      "features": false,
+	  "sea_level": 188,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+		{
+          "block": "minecraft:mossy_cobblestone",
+          "height": 50
+        },
+		{
+          "block": "minecraft:orange_wool",
+          "height": 76
+        },
+		{
+          "block": "minecraft:bedrock",
+          "height": 2
+        },
+		{
+          "block": "minecraft:coarse_dirt",
+          "height": 20
+        },
+		{
+          "block": "minecraft:water",
+          "height": 30
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

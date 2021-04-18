@@ -1,0 +1,1 @@
+summon minecraft:drowned ~ ~ ~ {CustomName:'[{"text":"Merfolk Ranger"}]',Health:10,HandItems:[{id:trident,Count:1}],ArmorItems:[{},{},{id:chainmail_chestplate,Count:1},{id:chainmail_helmet,Count:1}],ArmorDropChances:[0F,0F,0.01f,0.01f],HandDropChances:[0F],Attributes:[{Name:"generic.attack_damage",Base:0f},{Name:"generic.max_health",Base:10F}],PersistenceRequired:1b}

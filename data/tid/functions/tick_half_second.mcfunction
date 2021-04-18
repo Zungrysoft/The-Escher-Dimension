@@ -15,3 +15,6 @@ execute if score finale_handler_phase value matches 666 run bossbar set minecraf
 
 #Esoteric armor bonus
 execute as @a at @s run function tid:gameplay/esoteric_armor
+
+#Detect the player mining diorite
+execute if score intro_horde_spawned value matches 0 if entity @a[scores={mine_diorite=1..}] run function tid:misc/intro_horde

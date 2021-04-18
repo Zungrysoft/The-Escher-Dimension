@@ -37,5 +37,9 @@ execute if score temp value matches 11 in tid:layer_1 unless entity @e[name="tel
 execute if score temp value matches 12 in tid:layer_finale positioned 0 143 0 run function tid:general/teleporter_teleport_run
 execute if score temp value matches 13 in tid:layer_1 positioned 0 55 0 run function tid:general/teleporter_teleport_run
 
+#Teleporter from The Wicked Sea
+execute if score temp value matches 14 in tid:layer_1 positioned 0 55 0 run function tid:general/teleporter_teleport_run
+#execute if score temp value matches 15 in tid:layer_intro positioned 0 223 0 run function tid:general/teleporter_teleport_run
+
 #Teleporter command for reference
 #/summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"teleporter\"",Color:8b}
