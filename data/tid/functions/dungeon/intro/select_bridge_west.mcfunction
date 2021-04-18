@@ -1,8 +1,8 @@
 #Pick a structure from this list
-setblock ~ ~ ~ minecraft:structure_block{name: "tid:intro/bridge_west", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock ~1 ~1 ~1 minecraft:structure_block{name: "tid:intro/bridge_west", posX: -1, posY: -1, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
-setblock ~ ~1 ~ minecraft:redstone_block
+setblock ~1 ~2 ~1 minecraft:redstone_block
 
 #Mark this area as generated
 fill ~ ~-128 ~ ~16 ~-119 ~6 minecraft:blue_wool

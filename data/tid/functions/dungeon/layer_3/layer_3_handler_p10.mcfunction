@@ -43,7 +43,7 @@ execute if predicate tid:random_50 run scoreboard players add mutant_global valu
 execute if predicate tid:random_50 run scoreboard players add mutant_global value 2
 
 #Summon the entrance rooms and starting area
-function tid:dungeon/layer_3/generate_intro
+function tid:dungeon/layer_3/generate_junction
 
 execute positioned -16 42 -60 run function tid:dungeon/station/cave_expand
 

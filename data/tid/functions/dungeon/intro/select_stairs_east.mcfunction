@@ -1,8 +1,8 @@
 #Pick a structure from this list
-setblock ~ ~ ~ minecraft:structure_block{name: "tid:intro/stairs_east", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock ~2 ~ ~2 minecraft:structure_block{name: "tid:intro/stairs_east", posX: -2, posY: 0, posZ: -2, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Activate whichever structure block was picked
-setblock ~ ~1 ~ minecraft:redstone_block
+setblock ~2 ~1 ~2 minecraft:redstone_block
 
 #Mark this area as generated
 fill ~ ~-128 ~ ~10 ~-116 ~4 minecraft:blue_wool

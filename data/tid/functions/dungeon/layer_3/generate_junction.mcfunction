@@ -50,7 +50,7 @@ fill 7 255 -22 -7 255 -26 stone
 #Add glowstone lights
 
 #Build the item shop
-setblock -2 55 26 minecraft:structure_block{name: "tid:intro/itemshop2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+setblock -2 55 26 minecraft:structure_block{name: "tid:junction/itemshop2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 setblock -2 56 26 minecraft:redstone_block
 execute positioned 0 55 28 run function tid:custom_mobs/dealer
 execute positioned -2 55 26 run fill ~ ~128 ~ ~4 ~132 ~5 blue_wool

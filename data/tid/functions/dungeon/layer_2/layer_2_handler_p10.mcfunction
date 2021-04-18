@@ -32,7 +32,7 @@ scoreboard players set nature_totems value 0
 scoreboard players set nature_cake value 0
 
 #Summon the entrance rooms and starting area
-function tid:dungeon/layer_2/generate_intro
+function tid:dungeon/layer_2/generate_junction
 execute positioned 0 55 24 positioned ~-10 ~-37 ~0 run function tid:dungeon/neon/select_zone_large_west
 
 execute positioned 0 55 -24 positioned ~-6 ~-21 ~-31 run function tid:dungeon/sand1/select_entrance_north
