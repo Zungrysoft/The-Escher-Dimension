@@ -2,8 +2,9 @@
 setblock 0 55 0 air destroy
 setblock 0 56 0 air destroy
 
-#Give a starting weapon
+#Give a starting items
 give @s wooden_sword
+give @s wooden_pickaxe
 
 #Determine where the player should be teleported
 scoreboard players set temp9 value 0
