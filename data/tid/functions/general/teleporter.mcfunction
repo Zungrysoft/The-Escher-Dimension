@@ -6,6 +6,8 @@ execute if entity @s[tag=!open] if data entity @s {Color:4} run function tid:gen
 execute if entity @s[tag=!open] if data entity @s {Color:6} run function tid:general/teleporter_inactive_jungle
 execute if entity @s[tag=!open] if data entity @s {Color:8} run function tid:general/teleporter_inactive_sin
 execute if entity @s[tag=!open] if data entity @s {Color:10} run function tid:general/teleporter_inactive_layer_2
+execute if entity @s[tag=!open] if data entity @s {Color:14} run function tid:general/teleporter_inactive_layer_1
+execute if entity @s[tag=!open] if data entity @s {Color:15} run function tid:general/teleporter_inactive_intro
 
 execute if entity @s[tag=open] run fill ~ ~-2 ~ ~3 ~-2 ~3 sea_lantern replace air
 execute if entity @s[tag=open] run function tid:general/teleporter_active

@@ -103,7 +103,7 @@
 								"min": 1,
 								"max": 7
 							},
-							"treasure": true
+							"treasure": false
 						}
 					]
 				},
@@ -118,7 +118,7 @@
 								"min": 1,
 								"max": 7
 							},
-							"treasure": true
+							"treasure": false
 						}
 					]
 				},
@@ -133,7 +133,7 @@
 								"min": 1,
 								"max": 7
 							},
-							"treasure": true
+							"treasure": false
 						}
 					]
 				},
@@ -148,7 +148,37 @@
 								"min": 1,
 								"max": 7
 							},
-							"treasure": true
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_helmet",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 7
+							},
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_chestplate",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 7
+							},
+							"treasure": false
 						}
 					]
 				},

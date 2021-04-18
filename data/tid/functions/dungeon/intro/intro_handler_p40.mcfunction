@@ -8,7 +8,7 @@ fill -5 223 -5 5 227 5 air replace bedrock
 #function tid:misc/water_stalag_scatter
 
 #If somehow, no diorite room was generated, put some at the end of the dungeon that the player can use.
-execute unless entity @e[type=area_effect_cloud,tag=diorite] positioned 0 10000 0 at @e[type=area_effect_cloud,name="intro_marker",sort=furthest,limit=1] run function tid:misc/intro_safety_diorite
+execute unless entity @e[type=area_effect_cloud,tag=diorite] positioned 0 10000 0 at @e[type=area_effect_cloud,name="intro_marker",sort=furthest,limit=1] run function tid:misc/intro_diorite
 kill @e[type=area_effect_cloud,name="intro_marker"]
 
 #These chunks are no longer needed

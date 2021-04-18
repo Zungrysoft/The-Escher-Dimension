@@ -12,14 +12,14 @@ execute if predicate tid:random_50 run scoreboard players add intro_global value
 execute if predicate tid:random_50 run scoreboard players add intro_global value 2
 
 #Determine the number of rooms to generate
-scoreboard players set intro_rooms value 30
+scoreboard players set intro_rooms value 50
 scoreboard players set intro_large_rooms value 2
 scoreboard players set intro_horde_spawned value 0
 scoreboard players set intro_horde_monsters value 0
 scoreboard players reset @a mine_diorite
 
-#Summon starting doorways
-summon minecraft:area_effect_cloud 0 223 -7 {Duration:99999999,CustomName:"\"intro_north\""}
+#Summon starting room
+execute positioned -8 217 -14 run function tid:dungeon/intro/select_entrance
 
 #Done, now move to the next phase
 scoreboard players set intro_handler_phase value 20

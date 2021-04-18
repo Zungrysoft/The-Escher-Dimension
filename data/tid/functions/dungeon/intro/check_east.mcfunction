@@ -1,5 +1,8 @@
 function tid:dungeon/intro/room_checks
 
+#Diorite (Final room)
+execute unless score @s failed matches 1.. if score intro_rooms value matches ..20 positioned ~1 ~-2 ~-6 if blocks ~ ~-128 ~ ~12 ~-121 ~12 1001 129 1001 all run function tid:dungeon/intro/select_diorite
+
 #Small
 execute unless score @s failed matches 1.. if predicate tid:random_10 unless entity @s[tag=inside] positioned ~1 ~-2 ~-5 if blocks ~ ~-128 ~ ~10 ~-120 ~10 1001 129 1001 all run function tid:dungeon/intro/select_small
 execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~1 ~-2 ~-5 if blocks ~ ~-128 ~ ~10 ~-120 ~10 1001 129 1001 all run function tid:dungeon/intro/select_small
