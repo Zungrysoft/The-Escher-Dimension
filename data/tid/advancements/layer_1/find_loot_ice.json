@@ -23,12 +23,19 @@
       "conditions": {
         "loot_table": "tid:chests/ice_top"
       }
+    },
+	"loot_3": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/ice_arena"
+      }
     }
   },
   "requirements": [
     [
       "loot_1",
-	  "loot_2"
+	  "loot_2",
+	  "loot_3"
     ]
   ]
 }

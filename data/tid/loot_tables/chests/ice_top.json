@@ -2,10 +2,7 @@
 	"pools": [
 		{
 			"rolls": 3,
-			"bonus_rolls": {
-				"min": 1,
-				"max": 1
-			},
+			"bonus_rolls": 1,
 			"entries": [
 				{
 					"type": "item",
@@ -27,7 +24,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 3,
+					"weight": 2,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
@@ -42,13 +39,27 @@
 				{
 					"type": "item",
 					"weight": 3,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
 					"name": "minecraft:lapis_lazuli",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 1
 							}
 						}
 					]
