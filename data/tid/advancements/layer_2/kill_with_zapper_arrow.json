@@ -6,7 +6,7 @@
 	  "nbt": "{CustomPotionColor:16775214}"
     },
     "title": "The Power You're Supplying",
-    "description": "Shock eight monsters with one Electric Arrow §d[Reward: 20 Gold Ingots]",
+    "description": "Shock eight monsters with one Electric Arrow §d[Reward: 40 Gold Ingots]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

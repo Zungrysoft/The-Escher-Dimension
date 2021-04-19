@@ -11,7 +11,7 @@ playsound minecraft:block.basalt.break player @a ~ ~ ~ 2 0
 
 #Check for advancement
 execute store result score temp value if entity @e[distance=0..3,type=#tid:monster]
-execute if score temp value matches 8.. run advancement grant @p only tid:layer_2/kill_with_electric_arrow
+execute if score temp value matches 8.. run advancement grant @p only tid:layer_2/kill_with_zapper_arrow
 
 #Self-damage
 effect give @a[distance=0..5] instant_damage 1 0

@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:observer"
+      "item": "minecraft:purple_glazed_terracotta"
     },
-    "title": "Infernal Industries",
+    "title": "The Wicked Night",
     "description": "",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/basalt_side.png"
+    "background": "minecraft:textures/block/crying_obsidian.png"
   },
   "criteria": {
         "impossible": {

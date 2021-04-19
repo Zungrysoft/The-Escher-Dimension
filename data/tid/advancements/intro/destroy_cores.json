@@ -1,0 +1,19 @@
+{
+  "parent": "tid:intro/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": "Fateful Temptations",
+    "description": "Destroy all of the submerged cores",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
