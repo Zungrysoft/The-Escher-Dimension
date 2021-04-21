@@ -32,7 +32,6 @@
     "monster": [],
     "creature": [],
     "ambient": [],
-    "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
@@ -41,6 +40,6 @@
   "precipitation": "rain",
   "temperature": 0.7,
   "downfall": 0.8,
-  "category": "forest",
+  "category": "river",
   "depth": 0.1
 }

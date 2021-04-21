@@ -11,3 +11,7 @@ execute if predicate tid:random_02 if score xcount value matches 15..85 if score
 execute if predicate tid:random_20 positioned ~ ~4 ~ if block ~ ~ ~ coarse_dirt run setblock ~ ~ ~ gravel
 execute if predicate tid:random_20 positioned ~ ~5 ~ if block ~ ~ ~ coarse_dirt run setblock ~ ~ ~ gravel
 execute if predicate tid:random_20 positioned ~ ~6 ~ if block ~ ~ ~ coarse_dirt run setblock ~ ~ ~ gravel
+
+#Maybe place a spawner here
+execute if predicate tid:random_005 run function tid:misc/intro_drowned_spawner
+execute if block ~ ~ ~ spawner run fill ~ ~1 ~ ~ ~6 ~ water

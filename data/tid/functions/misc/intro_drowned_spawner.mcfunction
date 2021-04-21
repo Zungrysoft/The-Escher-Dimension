@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 17s, SpawnCount: 2s, MinSpawnDelay: 200s, MaxSpawnDelay: 400s, Delay: 5s, SpawnRange: 4s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand", Invisible:1,Tags:["spawncloud","drowned"]}, Weight: 1}]}

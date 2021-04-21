@@ -22,5 +22,11 @@ execute store result score temp value if entity @e[type=minecraft:rabbit,distanc
 #Then spawn them
 execute unless score temp value matches 5.. if entity @s[tag=killer_bunny] if predicate tid:dark run function tid:custom_mobs/killer_bunny
 
+#Killer bunny
+#First, ensure there aren't too many others nearby
+execute store result score temp value if entity @e[type=minecraft:drowned,distance=0..20]
+#Then spawn them
+execute unless score temp value matches 5.. if entity @s[tag=drowned] if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}]}
+
 #Kill at the end
 kill @s

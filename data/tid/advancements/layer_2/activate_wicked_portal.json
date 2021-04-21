@@ -1,0 +1,19 @@
+{
+  "parent": "tid:layer_2/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "title": "The Wicked Night",
+    "description": "",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

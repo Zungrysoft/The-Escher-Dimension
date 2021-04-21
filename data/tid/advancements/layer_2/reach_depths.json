@@ -1,0 +1,35 @@
+{
+  "parent": "tid:layer_2/return_to_wicked",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "The Underbelly",
+    "description": "Dig down into cavernous depths",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "position": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+	      "dimension": "tid:layer_intro",
+		  "position": {
+            "y": {
+              "min": 128,
+              "max": 145
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "position"
+    ]
+  ]
+}

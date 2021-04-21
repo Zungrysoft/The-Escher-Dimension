@@ -20,7 +20,7 @@ execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand2/quad19", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:sand2/tee2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
-
+#Choose a random orientation
 execute if predicate tid:random_50 run function tid:dungeon/sand2/orient_room_0f
 execute if predicate tid:random_33 run function tid:dungeon/sand2/orient_room_90
 execute if predicate tid:random_25 run function tid:dungeon/sand2/orient_room_90f
@@ -28,6 +28,10 @@ execute if predicate tid:random_20 run function tid:dungeon/sand2/orient_room_18
 execute if predicate tid:random_15 run function tid:dungeon/sand2/orient_room_180f
 execute if predicate tid:random_15 run function tid:dungeon/sand2/orient_room_270
 execute if predicate tid:random_10 run function tid:dungeon/sand2/orient_room_270f
+
+#Event rooms
+execute if score wicked_portals value matches 1 if score sand2_rooms value matches ..30 run function tid:dungeon/sand2/select_event2
+execute if score wicked_portals value matches 0 if score sand2_rooms value matches ..80 run function tid:dungeon/sand2/select_event2
 
 #Activate the structure block
 setblock ~ ~1 ~ minecraft:redstone_block
