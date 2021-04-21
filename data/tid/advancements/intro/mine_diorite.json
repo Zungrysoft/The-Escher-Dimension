@@ -1,0 +1,19 @@
+{
+  "parent": "tid:intro/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diorite"
+    },
+    "title": "Rock Collector",
+    "description": "Collect diorite for the portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

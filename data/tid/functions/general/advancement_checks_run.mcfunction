@@ -1,3 +1,6 @@
+#Activate Layer 1 Portal
+execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:14},tag=open] run advancement grant @s only tid:intro/activate_portal
+
 #Find a Layer 2 Portal
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:10},distance=0..5] run advancement grant @s only tid:layer_1/find_layer_2_portal
 execute if entity @e[type=area_effect_cloud,name="teleporter",nbt={Color:10},tag=open,distance=0..5] run advancement grant @s only tid:layer_1/activate_layer_2_portal
@@ -67,6 +70,12 @@ scoreboard players set @s mine_core 0
 #Use a map in Infernal Industries
 execute if score @s use_map matches 1.. if entity @s[predicate=tid:in_layer_infernal] run advancement grant @s only tid:infernal/use_map
 scoreboard players set @s use_map 0
+
+#Re-Enter The Wicked Night
+execute if entity @s[predicate=tid:in_layer_intro,advancements={tid:layer_2/root=true}] run advancement grant @s only tid:intro/return
+
+#Mine Diorite
+execute if score @s mine_diorite matches 1.. run advancement grant @s only tid:intro/mine_diorite
 
 #Exterminate Silverfish
 execute if score @s kill_silverfish matches 1.. run function tid:misc/advancement_kill_silverfish

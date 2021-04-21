@@ -1,5 +1,4 @@
 {
-  "parent": "tid:layer_2/root",
   "display": {
     "icon": {
       "item": "minecraft:purple_glazed_terracotta"
@@ -9,7 +8,8 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
-    "hidden": true
+    "hidden": false,
+    "background": "minecraft:textures/block/purple_terracotta.png"
   },
   "criteria": {
         "impossible": {

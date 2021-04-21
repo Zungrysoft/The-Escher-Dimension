@@ -24,3 +24,4 @@ execute if score @s counter1 matches 60 run playsound minecraft:item.lodestone_c
 
 #Title text for opening the portal to layer 1
 execute if score @s counter1 matches 67 if data entity @s {Color:14} as @a[distance=0..12] run function tid:intro/portal
+execute if score @s counter1 matches 67 if data entity @s {Color:14} run advancement grant @a only tid:intro/activate_portal

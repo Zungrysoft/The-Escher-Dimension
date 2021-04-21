@@ -1,15 +1,15 @@
 {
-  "parent": "tid:layer_2/activate_wicked_portal",
+  "parent": "tid:intro/activate_portal",
   "display": {
     "icon": {
       "item": "minecraft:bone"
     },
     "title": "Fateful Return",
-    "description": "Revisit The Wicked Night",
+    "description": "Come back stronger than before",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
         "impossible": {

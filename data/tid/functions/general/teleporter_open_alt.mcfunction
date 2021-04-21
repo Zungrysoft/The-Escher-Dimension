@@ -31,3 +31,7 @@ execute if score @s counter1 matches 60 run fill ~1 ~-2 ~ ~2 ~-2 ~3 sea_lantern 
 execute if score @s counter1 matches 60 run fill ~ ~-2 ~1 ~3 ~-2 ~2 sea_lantern replace bedrock
 execute if score @s counter1 matches 60 run playsound minecraft:block.beacon.activate block @a ~1.5 ~-1 ~1.5
 execute if score @s counter1 matches 60 run playsound minecraft:item.lodestone_compass.lock block @a ~1.5 ~-1 ~1.5 1 .7
+
+#Title text for opening the portal to layer 1
+execute if score @s counter1 matches 67 if data entity @s {Color:14} as @a[distance=0..12] run function tid:intro/portal
+execute if score @s counter1 matches 67 if data entity @s {Color:14} run advancement grant @a only tid:intro/activate_portal

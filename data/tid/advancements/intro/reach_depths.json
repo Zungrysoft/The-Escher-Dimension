@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/return_to_wicked",
+  "parent": "tid:intro/return",
   "display": {
     "icon": {
       "item": "minecraft:obsidian"

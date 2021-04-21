@@ -1,0 +1,19 @@
+{
+  "parent": "tid:intro/mine_diorite",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_diorite"
+    },
+    "title": "Adventure's Beginning",
+    "description": "Activate the Diorite Portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

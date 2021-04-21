@@ -1,5 +1,5 @@
 #The Wicked Seas
-execute as @a[advancements={tid:misc/find_intro=false}] at @s if predicate tid:in_layer_intro if block ~ ~-1 ~ #tid:intro_blocks run function tid:intro/intro
+execute as @a[advancements={tid:intro/root=false}] at @s if predicate tid:in_layer_intro if block ~ ~-1 ~ #tid:intro_blocks run function tid:intro/intro
 
 #The Stronghold Ruins
 execute as @a[advancements={tid:layer_1/find_stronghold2=false}] at @s if entity @e[name="stronghold2_entrance",distance=..5] run function tid:intro/stronghold2
