@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 15,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:purple_stained_glass"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:crying_obsidian"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:magenta_stained_glass"
+				}
+			]
+		}
+	]
+}

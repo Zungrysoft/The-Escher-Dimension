@@ -11,7 +11,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{}]}"
+							"tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
 						}
 					]
 				},
@@ -217,22 +217,22 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 5,
 					"name": "minecraft:lava_bucket"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 5,
 					"name": "minecraft:flint_and_steel"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 5,
 					"name": "minecraft:name_tag"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 20,
+					"weight": 10,
 					"name": "minecraft:chain",
 					"functions": [
 						{
@@ -270,6 +270,21 @@
 							"count": {
 								"min": 4,
 								"max": 8,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:blaze_powder",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6,
 								"type": "minecraft:uniform"
 							}
 						}

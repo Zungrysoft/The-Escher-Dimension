@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 15,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:polished_blackstone_bricks"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:polished_blackstone"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:black_glazed_terracotta"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:redstone_torch"
+				}
+			]
+		}
+	]
+}

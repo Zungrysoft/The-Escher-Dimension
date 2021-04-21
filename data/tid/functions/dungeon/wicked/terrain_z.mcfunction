@@ -1,0 +1,10 @@
+execute positioned ~ 0 -50 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 -40 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 -30 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 -20 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 -10 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 0 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 10 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 20 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 30 run function tid:dungeon/wicked/chunk
+execute positioned ~ 0 40 run function tid:dungeon/wicked/chunk

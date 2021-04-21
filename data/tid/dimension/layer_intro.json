@@ -14,7 +14,7 @@
           "height": 1
         },
 		{
-          "block": "minecraft:mossy_cobblestone",
+          "block": "minecraft:purple_wool",
           "height": 50
         },
 		{
@@ -26,8 +26,12 @@
           "height": 2
         },
 		{
+          "block": "minecraft:obsidian",
+          "height": 19
+        },
+		{
           "block": "minecraft:coarse_dirt",
-          "height": 20
+          "height": 1
         },
 		{
           "block": "minecraft:water",

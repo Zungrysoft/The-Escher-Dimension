@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+			"rolls": 6,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/potion"
+				}
+			]
+		}
+    ]
+}

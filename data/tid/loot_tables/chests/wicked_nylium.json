@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 15,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:crimson_nylium"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:crimson_hyphae"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:crimson_roots"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:crimson_fungus"
+				}
+			]
+		}
+	]
+}

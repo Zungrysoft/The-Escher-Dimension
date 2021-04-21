@@ -182,44 +182,44 @@
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_helmet",
+					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{color:16185087,display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_chestplate",
+					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{color:16185087,display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_leggings",
+					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{color:16185087,display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_boots",
+					"name": "minecraft:leather_boots",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b}"
+							"tag": "{color:16383214,display:{Name:\'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -236,7 +236,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
+					"weight": 30,
 					"name": "minecraft:iron_chestplate",
 					"functions": [
 						{
@@ -248,11 +248,11 @@
 				{
 					"type": "item",
 					"weight": 40,
-					"name": "minecraft:iron_boots",
+					"name": "minecraft:leather_boots",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Mud-Stomps\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_random:1b}"
+							"tag": "{display:{color:4673403,Name:\'[{\"text\":\"Mud-Stomps\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"slowness upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_take_damage:1b,eff_inflict_slowness_random:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -357,7 +357,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 20,
+					"weight": 40,
 					"name": "minecraft:iron_boots",
 					"functions": [
 						{
@@ -467,7 +467,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 50,
 					"name": "minecraft:stone_axe",
 					"functions": [
 						{
@@ -478,7 +478,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 50,
 					"name": "minecraft:stone_axe",
 					"functions": [
 						{
@@ -489,8 +489,8 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
-					"name": "minecraft:diamond_shovel",
+					"weight": 100,
+					"name": "minecraft:stone_shovel",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -500,19 +500,8 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
-					"name": "minecraft:diamond_shovel",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Graverobber\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_deal_damage:1b,eff_inflict_slowness_target:1b}"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 40,
-					"name": "minecraft:diamond_shovel",
+					"weight": 100,
+					"name": "minecraft:stone_shovel",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -578,7 +567,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -687,7 +676,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 80,
 					"name": "minecraft:iron_axe",
 					"functions": [
 						{
@@ -995,7 +984,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 50,
 					"name": "minecraft:prismarine_shard",
 					"functions": [
 						{
@@ -1050,7 +1039,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 2,
+					"weight": 1,
 					"name": "minecraft:gold_nugget",
 					"functions": [
 						{
@@ -1066,7 +1055,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Highly Flammable Glue\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Sets fire to a random monster on hit\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Inflicts slowness on hit\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,10845,45552,-21690],Slot:offhand,Name:\"generic.max_health\"}],act_offhand_deal_damage:1b,eff_inflict_slowness_target:1b,eff_inflict_fire_random:1b}"
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Highly Flammable Glue\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 max health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Sets fire to a random monster on hit\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  Inflicts slowness on hit\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12119,10845,45552,-21690],Slot:offhand,Name:\"generic.max_health\"}],act_offhand_deal_damage:1b,eff_inflict_slowness_target:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
@@ -1127,7 +1116,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 73,
 					"name": "minecraft:iron_shovel",
 					"functions": [
 						{
@@ -1149,7 +1138,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 40,
 					"name": "minecraft:iron_shovel",
 					"functions": [
 						{

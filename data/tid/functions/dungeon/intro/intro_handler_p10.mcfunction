@@ -3,8 +3,12 @@ say Generating world...
 
 #Storehouse for orange wool
 fill 1000 129 1000 1033 156 1033 minecraft:bedrock
-fill 1001 129 1001 1033 155 1033 minecraft:orange_wool
+fill 1001 129 1001 1032 155 1033 minecraft:orange_wool
 fill 1000 1 1000 1032 28 1032 minecraft:air
+#Storehouse for purple wool
+fill 1000 129 1033 1033 156 1065 minecraft:bedrock
+fill 1001 129 1033 1032 155 1064 minecraft:purple_wool
+fill 1000 1 1032 1065 28 1065 minecraft:air
 
 #Determine the global room selection
 scoreboard players set intro_global value 0
