@@ -247,6 +247,28 @@
 				},
 				{
 					"type": "item",
+					"weight": 50,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:13387360,display:{Name:\'[{\"text\":\"Potion of Vampirism\",\"italic\":false,\"bold\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Health Boost (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Lifesteal (8:00)\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:7},{Id:21,Duration:9600,Amplifier:0}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:10560371,display:{Name:\'[{\"text\":\"Potion of Leeching\",\"italic\":false,\"bold\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Speed (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Lifesteal II (8:00)\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:8},{Id:1,Duration:9600,Amplifier:0}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 3,
 					"name": "minecraft:potion",
 					"functions": [

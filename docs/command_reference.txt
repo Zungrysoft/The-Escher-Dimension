@@ -89,6 +89,15 @@ summon minecraft:stray ~ ~ ~ {HandItems:[],ActiveEffects:[{ShowParticles:0b,Dura
 #Volcanic Potion
 /give @p potion{CustomPotionColor:16763481,display:{Name:'[{"text":"Volcanic Potion","italic":false,"color":"gold"}]'},CustomPotionEffects:[{Id:11,Duration:3600,Amplifier:4},{Id:12,Duration:3600},{Id:5,Duration:3600,Amplifier:1},{Id:6,Duration:0,Amplifier:2}]} 1
 
+#Silver Slim's Fireball Whiskey
+/give @p potion{CustomPotionColor:16758968,display:{Name:'[{"text":"Silver Slim\'s Fireball Whiskey","italic":false,"bold":true,"color":"white"}]',Lore:['[{"text":"Fire Resistance (8:00)","italic":false,"color":"blue"}]','[{"text":"Health Boost III (8:00)","italic":false,"color":"blue"}]','[{"text":"Lifesteal IV (8:00)","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:10},{Id:12,Duration:9600},{Id:21,Duration:9600,Amplifier:2}],HideFlags:65535}
+
+#Potion of Vampirism
+/give @p potion{CustomPotionColor:13387360,display:{Name:'[{"text":"Potion of Vampirism","italic":false,"bold":false,"color":"white"}]',Lore:['[{"text":"Health Boost (8:00)","italic":false,"color":"blue"}]','[{"text":"Lifesteal (8:00)","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:7},{Id:21,Duration:9600,Amplifier:0}],HideFlags:65535}
+
+#Potion of Leeching
+/give @p potion{CustomPotionColor:10560371,display:{Name:'[{"text":"Potion of Leeching","italic":false,"bold":false,"color":"white"}]',Lore:['[{"text":"Speed (8:00)","italic":false,"color":"blue"}]','[{"text":"Lifesteal II (8:00)","italic":false,"color":"blue"}]']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:7},{Id:1,Duration:9600,Amplifier:0}],HideFlags:65535}
+
 #Potion of Levitation
 give @p potion{CustomPotionColor:10747903,display:{Name:'[{"text":"Potion of Levitation","italic":false}]'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]} 1
 

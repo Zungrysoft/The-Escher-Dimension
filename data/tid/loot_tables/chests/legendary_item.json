@@ -808,6 +808,17 @@
 				},
 				{
 					"type": "item",
+					"weight": 30,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:16758968,display:{Name:\'[{\"text\":\"Silver Slim\\'s Fireball Whiskey\",\"italic\":false,\"bold\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Fire Resistance (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Health Boost III (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Lifesteal IV (8:00)\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:10},{Id:12,Duration:9600},{Id:21,Duration:9600,Amplifier:2}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:chainmail_helmet",
 					"functions": [
