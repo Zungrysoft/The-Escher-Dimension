@@ -44,6 +44,9 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_inflict_fire_target:1
 execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_inflict_fire_aoe:1b}}]}] run function tid:gameplay/eff_inflict_fire_aoe
 execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_inflict_fire_random:1b}}]}] run function tid:gameplay/eff_inflict_fire_random
 
+#Launch monsters
+execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_launch_aoe:1b}}]}] run function tid:gameplay/eff_launch_aoe
+
 #Give Gold Nugget
 execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_gold_nugget:1b}}]}] run give @s minecraft:gold_nugget
 
@@ -52,3 +55,9 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_gold_ingot:1b}}]}] ru
 
 #Reload Crossbows
 execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_reload:1b}}]}] run function tid:gameplay/eff_reload
+
+#Potion Refill
+execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_refill_healing_9:1b}}]}] run function tid:gameplay/eff_refill_healing_9
+execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_refill_healing_8:1b}}]}] run function tid:gameplay/eff_refill_healing_8
+execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_refill_healing_7:1b}}]}] run function tid:gameplay/eff_refill_healing_7
+execute if entity @s[nbt={Inventory:[{Slot:-106b, tag:{eff_refill_healing_6:1b}}]}] run function tid:gameplay/eff_refill_healing_6

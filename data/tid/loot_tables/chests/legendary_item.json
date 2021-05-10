@@ -412,6 +412,61 @@
 				},
 				{
 					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 9 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_kill_mob:1b,eff_refill_healing_9:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 8 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_kill_mob:1b,eff_refill_healing_8:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 7 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_legs_kill_mob:1b,eff_refill_healing_7:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Weapon of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 6 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_refill_healing_6:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 60,
+					"name": "minecraft:stone_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Maul\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Launches nearby\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"monsters on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_launch_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 40,
 					"name": "minecraft:leather_chestplate",
 					"functions": [
@@ -813,7 +868,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16758968,display:{Name:\'[{\"text\":\"Silver Slim\\'s Fireball Whiskey\",\"italic\":false,\"bold\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Fire Resistance (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Health Boost III (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Lifesteal IV (8:00)\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:10},{Id:12,Duration:9600},{Id:21,Duration:9600,Amplifier:2}],HideFlags:65535}"
+							"tag": "{CustomPotionColor:16758968,display:{Name:\'[{\"text\":\"Silver Slim\\'s Firebomb Whiskey\",\"italic\":false,\"bold\":false,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Fire Resistance (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Health Boost III (8:00)\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"Lifesteal IV (8:00)\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:10},{Id:12,Duration:9600},{Id:21,Duration:9600,Amplifier:2}],HideFlags:65535}"
 						}
 					]
 				},
