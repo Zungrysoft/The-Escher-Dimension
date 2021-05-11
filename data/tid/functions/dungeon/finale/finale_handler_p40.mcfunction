@@ -4,6 +4,9 @@ fill -5 143 -5 5 147 5 air replace bedrock
 #Build the boss fight
 execute as @e[type=area_effect_cloud,name="boss_marker",limit=1] at @s run function tid:dungeon/finale/boss/start
 
+#Place backup chests
+execute unless entity @e[type=area_effect_cloud,name="finale_chest_north"] unless entity @e[type=area_effect_cloud,name="finale_chest_south"] unless entity @e[type=area_effect_cloud,name="finale_chest_west"] unless entity @e[type=area_effect_cloud,name="finale_chest_east"] positioned 0 155 0 run function tid:misc/finale_chest_backup
+
 #Place the chests
 execute as @e[type=area_effect_cloud,name="finale_chest_north"] at @s run function tid:misc/finale_chest_north
 execute as @e[type=area_effect_cloud,name="finale_chest_south"] at @s run function tid:misc/finale_chest_south

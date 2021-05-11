@@ -161,6 +161,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Igneous Armor
 /give @p leather_chestplate{display:{Name:'[{"text":"Igneous Armor","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Grants +2 damage for each","italic":false,"color":"green"}]','[{"text":"living creature on fire nearby","italic":false,"color":"green"}]'],color:7567221},HideFlags:64,Unbreakable:1,igneous:1b}
 
+#Hilt Missile
+/give @p diamond_axe{display:{Name:'[{"text":"Hilt Missile","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Put a crossbow in Slot 2 of","italic":false,"color":"aqua"}]','[{"text":"your inventory. On kill, that","italic":false,"color":"aqua"}]','[{"text":"crossbow will be reloaded with","italic":false,"color":"aqua"}]','[{"text":"fireworks from your inventory.","italic":false,"color":"aqua"}]']},act_mainhand_kill_mob:1b,eff_fireworks_reload:1b}
+
 #Esoteric set
 /give @p leather_helmet{display:{color:6610140,Name:'[{"text":"c","italic":false,"bold":true,"color":"light_purple","obfuscated":true},{"text":" Esoteric Headwear ","obfuscated":false},{"text":"c"},{"text":" "}]',Lore:['[{"text":"Grants strength upon killing","italic":false,"color":"green"}]','[{"text":"a skeleton.","italic":false,"color":"green"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Full set bonus: All nearby","italic":false,"color":"light_purple"}]','[{"text":"monsters have glowing.","italic":false,"color":"light_purple"}]']},esoteric:1b,act_kill_skeleton:1b,eff_grant_strength_weak:1b}
 

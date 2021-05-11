@@ -1,2 +1,2 @@
 #Weakness
-effect give @s minecraft:weakness 1 1
+effect give @s minecraft:weakness 1 0

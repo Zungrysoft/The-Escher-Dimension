@@ -218,8 +218,17 @@
 				},
 				{
 					"type": "item",
-					"weight": 5,
-					"name": "minecraft:diamond"
+					"weight": 15,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
 				},
 				{
 					"type": "item",
