@@ -19,6 +19,9 @@ function tid:dungeon/brick/tnt_scatter
 #Add the entrance to the room
 execute at @s run function tid:dungeon/brick/make_entrance
 
+#Add marker entity
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"brick_largeroom_marker\""}
+
 #Count the room in the total
 scoreboard players remove brick_rooms value 1
 

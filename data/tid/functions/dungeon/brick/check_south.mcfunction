@@ -25,5 +25,5 @@ execute unless score @s failed matches 1.. if predicate tid:random_05 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-3 ~-6 ~0 if blocks ~ ~128 ~ ~7 ~138 ~7 1001 1 1001 all run function tid:dungeon/brick/select_down_north
 
 #Large Room
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-17 ~-11 ~0 if blocks ~ ~128 ~ ~28 ~148 ~21 1001 1 1001 all run function tid:dungeon/brick/select_largeroom
-execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-10 ~-11 ~0 if blocks ~ ~128 ~ ~28 ~148 ~21 1001 1 1001 all run function tid:dungeon/brick/select_largeroom
+execute unless score @s failed matches 1.. if predicate tid:random_50 positioned ~-17 ~-11 ~0 unless entity @e[type=area_effect_cloud,name="brick_largeroom_marker",distance=0..35] if blocks ~ ~128 ~ ~28 ~148 ~21 1001 1 1001 all run function tid:dungeon/brick/select_largeroom
+execute unless score @s failed matches 1.. if predicate tid:random_50 positioned ~-10 ~-11 ~0 unless entity @e[type=area_effect_cloud,name="brick_largeroom_marker",distance=0..35] if blocks ~ ~128 ~ ~28 ~148 ~21 1001 1 1001 all run function tid:dungeon/brick/select_largeroom
