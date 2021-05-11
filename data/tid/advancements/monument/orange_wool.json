@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/white_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_wool"
+    },
+    "title": "Scour the Wreckage",
+    "description": "Place the orange wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

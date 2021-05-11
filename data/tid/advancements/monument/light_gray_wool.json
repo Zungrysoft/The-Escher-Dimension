@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/gray_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "title": "Flaming Death",
+    "description": "Place the light gray wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

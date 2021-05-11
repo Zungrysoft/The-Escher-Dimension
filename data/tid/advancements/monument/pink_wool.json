@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/lime_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_wool"
+    },
+    "title": "Your Final Resting Place",
+    "description": "Place the pink wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/light_blue_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_wool"
+    },
+    "title": "Lucifer's Playground",
+    "description": "Place the yellow wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

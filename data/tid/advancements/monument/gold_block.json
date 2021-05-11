@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/iron_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "title": "Gold Block",
+    "description": "Place the gold block on the monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

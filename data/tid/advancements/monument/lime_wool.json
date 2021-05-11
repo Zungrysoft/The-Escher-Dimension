@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/yellow_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_wool"
+    },
+    "title": "Chunk Error",
+    "description": "Place the lime wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

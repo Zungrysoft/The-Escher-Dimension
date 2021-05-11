@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_wool"
+    },
+    "title": "Easy Seas",
+    "description": "Place the white wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

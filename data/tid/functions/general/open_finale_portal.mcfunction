@@ -9,5 +9,6 @@ title @a title {"text":"","color":"yellow"}
 title @a subtitle {"text":"The Final Portal has been opened...","color":"yellow"}
 
 #Sound effect
-execute in tid:layer_1 run playsound minecraft:block.beacon.activate block @a 0 55 0 20
+execute in tid:layer_1 run playsound minecraft:block.end_portal.spawn block @a 0 55 0 20
+#execute in tid:layer_1 run playsound minecraft:block.beacon.activate block @a 0 55 0 20
 execute in tid:layer_1 run playsound minecraft:item.lodestone_compass.lock block @a 0 55 0 20

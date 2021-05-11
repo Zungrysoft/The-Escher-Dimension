@@ -1,4 +1,4 @@
-#VM MEssage
+#VM Message
 title @a times 20 100 20
 title @a title {"text":"The VM is Complete!","color":"yellow"}
 

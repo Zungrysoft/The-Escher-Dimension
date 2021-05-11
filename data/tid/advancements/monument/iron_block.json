@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "title": "Iron Block",
+    "description": "Place the iron block on the monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

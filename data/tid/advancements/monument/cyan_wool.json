@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/light_gray_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_wool"
+    },
+    "title": "Superspeed Combat",
+    "description": "Place the cyan wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

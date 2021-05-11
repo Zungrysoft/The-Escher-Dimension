@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/brown_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:green_wool"
+    },
+    "title": "The Cultists' Refuge",
+    "description": "Place the green wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

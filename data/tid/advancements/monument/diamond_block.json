@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/lapis_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_block"
+    },
+    "title": "Diamond Block",
+    "description": "Place the diamond block on the monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

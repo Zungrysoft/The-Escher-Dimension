@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/pink_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_wool"
+    },
+    "title": "The Cold War",
+    "description": "Place the gray wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

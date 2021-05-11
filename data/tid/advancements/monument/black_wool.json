@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/red_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_wool"
+    },
+    "title": "Welcome to the Machine",
+    "description": "Place the black wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

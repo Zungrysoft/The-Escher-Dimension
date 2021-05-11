@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/orange_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "title": "Bombing Run",
+    "description": "Place the magenta wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

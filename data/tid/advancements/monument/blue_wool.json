@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/purple_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_wool"
+    },
+    "title": "Organism Oddities",
+    "description": "Place the blue wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

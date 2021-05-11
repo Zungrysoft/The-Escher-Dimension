@@ -1,0 +1,19 @@
+{
+  "parent": "tid:monument/magenta_wool",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "title": "Frostbite Survivor",
+    "description": "Place the light blue wool on the victory monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}
