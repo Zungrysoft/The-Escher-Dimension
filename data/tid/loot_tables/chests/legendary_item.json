@@ -544,6 +544,28 @@
 				},
 				{
 					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Ultimate Prejudice\",\"italic\":false,\"bold\":true,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Inflicts slowness on hit\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Two-Handed: Deals zero damage if you are\",\"italic\":false,\"color\":\"red\"}]\',\'[{\"text\":\"carrying an item in your offhand slot\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_mainhand_deal_damage:1b,eff_inflict_slowness_target:1b,two_handed:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Eddie\\'s Eviscerator\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on hit\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Two-Handed: Deals zero damage if you are\",\"italic\":false,\"color\":\"red\"}]\',\'[{\"text\":\"carrying an item in your offhand slot\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_mainhand_deal_damage:1b,eff_inflict_weakness_target:1b,two_handed:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:stone_shovel",
 					"functions": [

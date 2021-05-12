@@ -35,6 +35,10 @@ execute if score temp value matches 15 at @e[name="scatter",type=area_effect_clo
 
 kill @e[name="scatter",type=area_effect_cloud]
 
+#Maybe do an event
+execute if score haunted_chests_found value matches 3.. if predicate tid:random_10 run function tid:misc/soulsand_arena_event
+scoreboard players add haunted_chests_found value 1
+
 #Lock players into the arena to make it a bit harder to just grab the loot and run. Only replace air though.
 fill ~14 ~-1 ~1 ~14 ~2 ~-12 iron_bars replace air
 fill ~-14 ~-1 ~1 ~-14 ~2 ~-12 iron_bars replace air
