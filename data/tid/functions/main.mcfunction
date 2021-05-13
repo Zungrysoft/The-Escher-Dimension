@@ -59,7 +59,7 @@ execute as @e[type=minecraft:area_effect_cloud,name="power_drill"] at @s run fun
 execute as @e[type=minecraft:sheep] run data modify entity @s Color set value 0
 effect clear @a bad_omen
 execute if score victory value matches 1 run function tid:general/victory_tick
-execute as @e[type=armor_stand,tag=spawncloud] at @s run function tid:general/spawncloud
+execute as @e[type=armor_stand,tag=spawncloud] at @s run function tid:gameplay/spawncloud
 
 #Haunted Chests
 #Soulsand Arena
@@ -117,6 +117,9 @@ execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:ga
 execute as @e[type=vex,tag=!keep] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
 execute as @e[type=bee] at @s run function tid:gameplay/ai_bee
+#Factory Automaton
+execute as @e[type=zombie,tag=auto] at @s run function tid:gameplay/ai_auto
+execute as @e[type=item,nbt={Item:{id:"minecraft:iron_nugget",tag:{auto_death:1b}}}] at @s run function tid:gameplay/ai_auto_death
 #Deathweb
 execute as @e[type=item,nbt={Item:{id:"minecraft:string",tag:{deathweb:1b}}}] at @s run function tid:gameplay/deathweb
 #Spellcaster Death Effect

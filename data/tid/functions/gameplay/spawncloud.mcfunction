@@ -18,15 +18,21 @@ execute unless score temp value matches 9.. if entity @s[tag=war_pig_mutant] if 
 
 #Killer bunny
 #First, ensure there aren't too many others nearby
-execute store result score temp value if entity @e[type=minecraft:rabbit,distance=0..20]
+execute if entity @s[tag=killer_bunny] store result score temp value if entity @e[type=minecraft:rabbit,distance=0..20]
 #Then spawn them
-execute unless score temp value matches 5.. if entity @s[tag=killer_bunny] if predicate tid:dark run function tid:custom_mobs/killer_bunny
+execute if entity @s[tag=killer_bunny] unless score temp value matches 5.. if predicate tid:dark run function tid:custom_mobs/killer_bunny
 
-#Killer bunny
+#Drowned
 #First, ensure there aren't too many others nearby
-execute store result score temp value if entity @e[type=minecraft:drowned,distance=0..20]
+execute if entity @s[tag=drowned] store result score temp value if entity @e[type=minecraft:drowned,distance=0..20]
 #Then spawn them
-execute unless score temp value matches 5.. if entity @s[tag=drowned] if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}]}
+execute if entity @s[tag=drowned] unless score temp value matches 5.. if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}]}
+
+#Drowned
+#First, ensure there aren't too many others nearby
+execute if entity @s[tag=auto] store result score temp value if entity @e[type=minecraft:zombie,tag=auto,distance=0..25]
+#Then spawn them
+execute if entity @s[tag=auto] unless score temp value matches 10.. if predicate tid:dark run function tid:custom_mobs/auto
 
 #Kill at the end
 kill @s
