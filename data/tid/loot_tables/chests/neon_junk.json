@@ -5,7 +5,7 @@
             "entries": [
                 {
 					"type": "item",
-					"weight": 10,
+					"weight": 20,
 					"name": "minecraft:tipped_arrow",
 					"functions": [
 						{
@@ -34,7 +34,11 @@
                             }
                         }
                     ]
-                }
+                },
+				{
+					"type": "empty",
+					"weight": 30
+				}
             ]
         },
 		{

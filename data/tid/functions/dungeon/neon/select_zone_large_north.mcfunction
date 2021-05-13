@@ -11,7 +11,7 @@ fill ~ ~128 ~ ~19 ~153 ~31 minecraft:green_wool replace minecraft:orange_wool
 fill ~ 255 ~ ~19 255 ~31 minecraft:purpur_block replace minecraft:black_concrete
 
 #Summon a starting piece
-summon minecraft:area_effect_cloud ~10 ~7 ~15 {Duration:99999999,CustomName:"\"neon_west\""}
+summon minecraft:area_effect_cloud ~10 ~7 ~15 {Duration:99999999,CustomName:"\"neon_north\""}
 
 #Summon doorways
 summon minecraft:area_effect_cloud ~2 ~1 ~15 {Duration:99999999,CustomName:"\"neon_zone_west\""}

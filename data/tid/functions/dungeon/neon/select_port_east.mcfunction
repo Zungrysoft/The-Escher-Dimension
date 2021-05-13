@@ -4,6 +4,9 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/port_east", posX: 0, po
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
+#Reserve
+fill ~1 ~128 ~ ~3 ~134 ~7 blue_wool
+
 #Mark this area on the map
 fill ~ 255 ~ ~3 255 ~7 minecraft:green_terracotta replace stone
 fill ~ 255 ~ ~3 255 ~7 minecraft:green_terracotta replace purpur_block

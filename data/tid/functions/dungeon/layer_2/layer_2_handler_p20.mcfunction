@@ -4,10 +4,10 @@ execute as @e[type=minecraft:area_effect_cloud,name="neon_east"] at @s run funct
 execute as @e[type=minecraft:area_effect_cloud,name="neon_south"] at @s run function tid:dungeon/neon/check_south
 execute as @e[type=minecraft:area_effect_cloud,name="neon_west"] at @s run function tid:dungeon/neon/check_west
 
-execute as @e[type=minecraft:area_effect_cloud,name="neon_halls_north",sort=random] at @s run function tid:dungeon/neon/halls_check_north
-execute as @e[type=minecraft:area_effect_cloud,name="neon_halls_east",sort=random] at @s run function tid:dungeon/neon/halls_check_east
-execute as @e[type=minecraft:area_effect_cloud,name="neon_halls_south",sort=random] at @s run function tid:dungeon/neon/halls_check_south
-execute as @e[type=minecraft:area_effect_cloud,name="neon_halls_west",sort=random] at @s run function tid:dungeon/neon/halls_check_west
+execute if score neon_ports value matches ..0 as @e[type=minecraft:area_effect_cloud,name="neon_halls_north",sort=random] at @s run function tid:dungeon/neon/halls_check_north
+execute if score neon_ports value matches ..0 as @e[type=minecraft:area_effect_cloud,name="neon_halls_east",sort=random] at @s run function tid:dungeon/neon/halls_check_east
+execute if score neon_ports value matches ..0 as @e[type=minecraft:area_effect_cloud,name="neon_halls_south",sort=random] at @s run function tid:dungeon/neon/halls_check_south
+execute if score neon_ports value matches ..0 as @e[type=minecraft:area_effect_cloud,name="neon_halls_west",sort=random] at @s run function tid:dungeon/neon/halls_check_west
 
 execute as @e[type=minecraft:area_effect_cloud,name="neon_zone_north",sort=random] at @s run function tid:dungeon/neon/zone_check_north
 execute as @e[type=minecraft:area_effect_cloud,name="neon_zone_east",sort=random] at @s run function tid:dungeon/neon/zone_check_east
