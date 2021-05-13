@@ -30,6 +30,7 @@ scoreboard players set jungle_portals value 0
 scoreboard players set infernal_portals value 0
 scoreboard players set station_secrets value 0
 scoreboard players set mutant_arenas value 0
+scoreboard players set station_special value 0
 
 #Determine the global room selections
 scoreboard players set station_global value 0

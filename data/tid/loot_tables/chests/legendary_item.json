@@ -1273,6 +1273,24 @@
 				},
 				{
 					"type": "item",
+					"weight": 100,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:3698198,display:{Name:\'[{\"text\":\"Arrow of Cowardice\",\"italic\":false,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"Transforms monsters into maggots\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:12}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 40,
 					"name": "minecraft:mojang_banner_pattern",
 					"functions": [

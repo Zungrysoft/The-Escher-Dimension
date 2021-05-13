@@ -24,6 +24,9 @@ scoreboard players set sand1_rooms value 10
 scoreboard players set sand2_rooms value 100
 scoreboard players set nature_rooms value 150
 scoreboard players set neon_rooms value 18
+scoreboard players set neon_ports value 5
+scoreboard players set neon_halls_rooms value 90
+scoreboard players set neon_halls_ends value 15
 
 #Set some other starting values
 scoreboard players set sand1_x_spot_build value 0
@@ -32,6 +35,12 @@ scoreboard players set wicked_portals value 0
 scoreboard players set nature_totems value 0
 scoreboard players set nature_cake value 0
 scoreboard players set haunted_chests_found value 0
+
+#Set random globals
+scoreboard players set neon_junk_global value 0
+execute if predicate tid:random_50 run scoreboard players add neon_junk_global value 1
+execute if predicate tid:random_50 run scoreboard players add neon_junk_global value 2
+execute if predicate tid:random_50 run scoreboard players add neon_junk_global value 4
 
 #Summon the entrance rooms and starting area
 function tid:dungeon/layer_2/generate_junction
