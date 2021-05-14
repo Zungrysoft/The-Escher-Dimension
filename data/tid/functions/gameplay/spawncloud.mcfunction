@@ -28,11 +28,17 @@ execute if entity @s[tag=drowned] store result score temp value if entity @e[typ
 #Then spawn them
 execute if entity @s[tag=drowned] unless score temp value matches 5.. if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}]}
 
-#Drowned
+#Automaton
 #First, ensure there aren't too many others nearby
 execute if entity @s[tag=auto] store result score temp value if entity @e[type=minecraft:zombie,tag=auto,distance=0..25]
 #Then spawn them
 execute if entity @s[tag=auto] unless score temp value matches 10.. if predicate tid:dark run function tid:custom_mobs/auto
+
+#Lunar Cannibal
+#First, ensure there aren't too many others nearby
+execute if entity @s[tag=cannibal] store result score temp value if entity @e[type=minecraft:zombie,distance=0..20]
+#Then spawn them
+execute if entity @s[tag=cannibal] unless score temp value matches 10.. if predicate tid:dark run function tid:custom_mobs/cannibal
 
 #Kill at the end
 kill @s
