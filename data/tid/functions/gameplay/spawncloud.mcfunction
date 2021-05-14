@@ -26,7 +26,13 @@ execute if entity @s[tag=killer_bunny] unless score temp value matches 5.. if pr
 #First, ensure there aren't too many others nearby
 execute if entity @s[tag=drowned] store result score temp value if entity @e[type=minecraft:drowned,distance=0..20]
 #Then spawn them
-execute if entity @s[tag=drowned] unless score temp value matches 5.. if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}]}
+execute if entity @s[tag=drowned] unless score temp value matches 5.. if block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}],HandDropChances:[0F]}
+
+#Drowned 2
+#First, ensure there aren't too many others nearby
+execute if entity @s[tag=drowned2] store result score temp value if entity @e[type=minecraft:drowned,distance=0..20]
+#Then spawn them
+execute if entity @s[tag=drowned2] unless score temp value matches 5.. unless block ~ ~ ~ water run summon drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",Count:1b}],HandDropChances:[0F]}
 
 #Automaton
 #First, ensure there aren't too many others nearby

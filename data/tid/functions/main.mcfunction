@@ -113,6 +113,8 @@ execute as @e[type=minecraft:arrow,tag=war_pig_fireball] at @s run function tid:
 execute as @e[tag=glowing] at @s run function tid:gameplay/ai_glowing
 #Fountain of Flame
 execute as @e[type=minecraft:zombie,tag=fire_fountain] at @s run function tid:gameplay/ai_fire_fountain
+#Sporemage
+execute as @e[type=minecraft:zombie,tag=sporemage] at @s run function tid:gameplay/ai_sporemage
 #Vexes
 execute as @e[type=vex,tag=!keep] at @s run function tid:gameplay/ai_vex
 #Murder-Bees
