@@ -11,7 +11,7 @@ scoreboard players set temp9 value 0
 execute if entity @s[advancements={tid:layer_1/root=true}] run scoreboard players set temp9 value 1
 
 #Do the teleport
-execute if score temp9 value matches 0 in tid:layer_intro run tp @s 0 223 0 180 0
+execute if score temp9 value matches 0 in tid:layer_intro run tp @s 0 223 0 0 0
 execute if score temp9 value matches 1 in tid:layer_1 run tp @s 0 55 0 180 0
 
 #Respawn the diorite if the player dies in the intro area
