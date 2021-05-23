@@ -26,6 +26,7 @@ scoreboard players set moon_rooms value 600
 scoreboard players set mutant_rooms value 140
 
 #Reset various tracking scores
+scoreboard players set retry_attempts value 0
 scoreboard players set jungle_portals value 0
 scoreboard players set infernal_portals value 0
 scoreboard players set station_secrets value 0

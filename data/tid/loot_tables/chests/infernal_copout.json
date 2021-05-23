@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 100,
+					"name": "tid:chests/copout_book"
+				}
+			]
+		},
+		{
+			"rolls": 25,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "black_dye"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "netherite_block",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"For Monument Use Only!\",\"italic\":false,\"bold\":true,\"underlined\":true,\"color\":\"gray\"}]\'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

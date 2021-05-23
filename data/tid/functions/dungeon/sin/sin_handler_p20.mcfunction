@@ -1,12 +1,18 @@
 #Run the dungeon generation
 
 #Sin City
+execute as @e[type=minecraft:area_effect_cloud,name="sin_up",sort=random] at @s run function tid:dungeon/sin/check_up
+execute as @e[type=minecraft:area_effect_cloud,name="sin_down",sort=random] at @s run function tid:dungeon/sin/check_down
+
 execute as @e[type=minecraft:area_effect_cloud,name="sin_north",sort=random] at @s run function tid:dungeon/sin/check_north
 execute as @e[type=minecraft:area_effect_cloud,name="sin_east",sort=random] at @s run function tid:dungeon/sin/check_east
 execute as @e[type=minecraft:area_effect_cloud,name="sin_south",sort=random] at @s run function tid:dungeon/sin/check_south
 execute as @e[type=minecraft:area_effect_cloud,name="sin_west",sort=random] at @s run function tid:dungeon/sin/check_west
-execute as @e[type=minecraft:area_effect_cloud,name="sin_up",sort=random] at @s run function tid:dungeon/sin/check_up
-execute as @e[type=minecraft:area_effect_cloud,name="sin_down",sort=random] at @s run function tid:dungeon/sin/check_down
+
+execute as @e[type=minecraft:area_effect_cloud,name="sin_north",sort=random] at @s if score @s y matches ..219 run function tid:dungeon/sin/check_north
+execute as @e[type=minecraft:area_effect_cloud,name="sin_east",sort=random] at @s if score @s y matches ..219 run function tid:dungeon/sin/check_east
+execute as @e[type=minecraft:area_effect_cloud,name="sin_south",sort=random] at @s if score @s y matches ..219 run function tid:dungeon/sin/check_south
+execute as @e[type=minecraft:area_effect_cloud,name="sin_west",sort=random] at @s if score @s y matches ..219 run function tid:dungeon/sin/check_west
 
 #The Fire Chambers
 execute as @e[type=minecraft:area_effect_cloud,name="sin_chambers_north",sort=random] at @s run function tid:dungeon/sin/chambers/check_north

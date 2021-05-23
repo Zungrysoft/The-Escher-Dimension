@@ -1,0 +1,34 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"weight": 100,
+					"name": "tid:chests/copout_book"
+				}
+			]
+		},
+		{
+			"rolls": 13,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "cyan_dye"
+				}
+			]
+		},
+		{
+			"rolls": 13,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "blackstone"
+				}
+			]
+		}
+	]
+}

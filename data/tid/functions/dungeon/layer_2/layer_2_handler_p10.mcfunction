@@ -34,6 +34,7 @@ scoreboard players set sin_portals value 0
 scoreboard players set wicked_portals value 0
 scoreboard players set nature_totems value 0
 scoreboard players set nature_cake value 0
+scoreboard players set soulsand_arenas_built value 0
 scoreboard players set haunted_chests_found value 0
 
 #Set random globals

@@ -21,6 +21,9 @@ execute if score temp value matches 0 run fill ~ ~ ~ ~ ~1 ~ nether_bricks
 #Mark this area as generated
 fill ~ ~128 ~ ~14 ~136 ~10 blue_wool
 
+#Tracker
+scoreboard players add infernal_nexuses_built value 1
+
 #We're done here
 kill @s
 

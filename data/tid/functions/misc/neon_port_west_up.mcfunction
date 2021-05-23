@@ -13,5 +13,8 @@ execute if block ~1 ~ ~3 lava run fill ~ ~ ~1 ~ ~ ~6 lava
 
 fill ~-1 ~ ~2 ~-2 ~ ~5 dark_prismarine
 
+#Reserve
+fill ~-1 ~ ~0 ~0 ~ ~7 air
+
 #Recurse
-execute if block ~1 ~1 ~3 #tid:air_or_liquid positioned ~ ~1 ~ run function tid:misc/neon_port_west_up
+execute if block ~1 ~1 ~3 #tid:air_or_liquid unless block ~-1 ~1 ~3 air positioned ~ ~1 ~ run function tid:misc/neon_port_west_up

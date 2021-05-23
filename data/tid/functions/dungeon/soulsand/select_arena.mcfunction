@@ -47,6 +47,7 @@ execute unless entity @s[name="soulsand_west"] run summon minecraft:area_effect_
 
 #Count the room in the total
 scoreboard players remove soulsand_rooms value 1
+scoreboard players add soulsand_arenas_built value 1
 
 #We're done here
 kill @s
