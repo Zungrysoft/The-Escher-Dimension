@@ -34,6 +34,9 @@ data modify storage minecraft:gravecopy Items append from entity @s Inventory[{S
 data modify storage minecraft:gravecopy Items append from entity @s Inventory[{Slot:34b}]
 data modify storage minecraft:gravecopy Items append from entity @s Inventory[{Slot:35b}]
 
+#Remove vanishing items
+data remove storage minecraft:gravecopy Items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
+
 #Change the item slots
 data modify storage minecraft:gravecopy Items[0].Slot set value 0b
 data modify storage minecraft:gravecopy Items[1].Slot set value 1b

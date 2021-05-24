@@ -11,7 +11,7 @@ execute positioned ~ ~1 ~ unless block ~ ~ ~ #tid:unbreakable_grave run function
 #Copy data to storage
 data modify storage gravecopy Items set from entity @s Inventory
 
-#Change the item slots
+#Remove items that aren't in this barrel
 data remove storage minecraft:gravecopy Items[{Slot:9b}]
 data remove storage minecraft:gravecopy Items[{Slot:10b}]
 data remove storage minecraft:gravecopy Items[{Slot:11b}]
@@ -40,6 +40,11 @@ data remove storage minecraft:gravecopy Items[{Slot:33b}]
 data remove storage minecraft:gravecopy Items[{Slot:34b}]
 data remove storage minecraft:gravecopy Items[{Slot:35b}]
 data remove storage minecraft:gravecopy Items[{Slot:35b}]
+
+#Remove vanishing items
+data remove storage minecraft:gravecopy Items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
+
+#Change the item slots
 data modify storage minecraft:gravecopy Items[0].Slot set value 0b
 data modify storage minecraft:gravecopy Items[1].Slot set value 1b
 data modify storage minecraft:gravecopy Items[2].Slot set value 2b
