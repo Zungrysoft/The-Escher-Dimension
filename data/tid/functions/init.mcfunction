@@ -1,5 +1,6 @@
 #Setup
 gamerule commandBlockOutput false
+gamerule keepInventory true
 gamerule doTraderSpawning false
 gamerule doWeatherCycle false
 gamerule doInsomnia false
@@ -86,6 +87,7 @@ scoreboard objectives add item_used dummy
 scoreboard objectives add igneous dummy
 scoreboard objectives add fireworks_kills dummy
 scoreboard objectives add deaths deathCount "Deaths"
+scoreboard objectives add deaths_prev dummy
 scoreboard objectives setdisplay list deaths
 scoreboard objectives add health health "Health"
 scoreboard objectives setdisplay belowName health

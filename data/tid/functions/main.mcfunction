@@ -166,5 +166,8 @@ execute as @e[type=area_effect_cloud,name="teleporter"] at @s run function tid:g
 #Protects dye and wool items
 execute as @e[type=item] run function tid:general/protect_dyes
 
+#Handle death and graves
+execute as @a at @s run function tid:general/death_check
+
 #Test the victory monument for completion
 execute in tid:layer_1 run function tid:general/test_victory_monument

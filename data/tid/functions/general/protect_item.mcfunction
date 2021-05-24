@@ -1,5 +1,5 @@
 #Prevents it from disappearing
-data modify entity @s Age set value 5b
+data modify entity @s Age set value 5s
 
 #Prevents it from being destroyed
 data modify entity @s Invulnerable set value 1b
