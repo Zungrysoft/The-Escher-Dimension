@@ -13,3 +13,9 @@ execute if score moon_rooms value matches 400.. run setblock 35 55 18 chest[faci
 
 #Moon copout
 execute if score mutant_rooms value matches 90.. run setblock -26 55 18 chest[facing=east]{LootTable: "tid:chests/mutant_copout"}
+
+#Jungle teleporter copout
+execute if score jungle_portals value matches ..0 run summon minecraft:area_effect_cloud -18 55 0 {Duration:99999999,CustomName:"\"teleporter\"",Color:6b}
+
+#Infernal teleporter copout
+execute if score infernal_portals value matches ..0 run summon minecraft:area_effect_cloud 15 55 -3 {Duration:99999999,CustomName:"\"teleporter\"",Color:4b}

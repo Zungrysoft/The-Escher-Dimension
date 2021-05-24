@@ -16,6 +16,7 @@ kill @e[type=area_effect_cloud,name="neon_junk_marker"]
 
 #Generate pipes in Fusion Central
 #execute as @e[type=area_effect_cloud,name="pipe_start"] at @s run function tid:misc/fusion_pipe_start
+kill @e[type=area_effect_cloud,name="pipe_start"]
 
 #Make all pre-generated alloy elementals persistent
 execute as @e[type=zombie,tag=alloy_elemental] run data modify entity @s PersistenceRequired set value 1

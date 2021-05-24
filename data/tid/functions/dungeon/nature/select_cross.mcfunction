@@ -35,10 +35,10 @@ execute if block ~6 ~1 ~6 honeycomb_block positioned ~3 ~1 ~4 run function tid:d
 fill ~1 ~128 ~1 ~11 ~142 ~11 minecraft:blue_wool replace minecraft:orange_wool
 
 #Add in doorways
-summon minecraft:area_effect_cloud ~6 ~1 ~ {Duration:99999999,CustomName:"\"station_north\""}
-summon minecraft:area_effect_cloud ~6 ~1 ~12 {Duration:99999999,CustomName:"\"station_south\""}
-summon minecraft:area_effect_cloud ~ ~1 ~6 {Duration:99999999,CustomName:"\"station_west\""}
-summon minecraft:area_effect_cloud ~12 ~1 ~6 {Duration:99999999,CustomName:"\"station_east\""}
+summon minecraft:area_effect_cloud ~6 ~1 ~ {Duration:99999999,CustomName:"\"nature_north\""}
+summon minecraft:area_effect_cloud ~6 ~1 ~12 {Duration:99999999,CustomName:"\"nature_south\""}
+summon minecraft:area_effect_cloud ~ ~1 ~6 {Duration:99999999,CustomName:"\"nature_west\""}
+summon minecraft:area_effect_cloud ~12 ~1 ~6 {Duration:99999999,CustomName:"\"nature_east\""}
 
 #Count the room in the total
 scoreboard players remove nature_rooms value 1

@@ -19,8 +19,8 @@ scoreboard players set zmax value 13
 execute positioned ~ ~2 ~ run function tid:dungeon/nature/rng/flower_run_rng
 
 #Add in doorways
-summon minecraft:area_effect_cloud ~4 ~1 ~ {Duration:99999999,CustomName:"\"station_north\""}
-summon minecraft:area_effect_cloud ~4 ~1 ~12 {Duration:99999999,CustomName:"\"station_south\""}
+summon minecraft:area_effect_cloud ~4 ~1 ~ {Duration:99999999,CustomName:"\"nature_north\""}
+summon minecraft:area_effect_cloud ~4 ~1 ~12 {Duration:99999999,CustomName:"\"nature_south\""}
 
 #Count the room in the total
 scoreboard players remove nature_rooms value 1

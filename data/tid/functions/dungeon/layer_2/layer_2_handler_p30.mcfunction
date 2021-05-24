@@ -13,3 +13,6 @@ execute if score nature_rooms value matches 90.. run setblock -34 55 0 chest[fac
 
 #Sand2 copout
 execute if score sand2_rooms value matches 70.. run setblock 0 36 -48 chest[facing=south]{LootTable: "tid:chests/sand2_copout"}
+
+#Sin teleporter copout
+execute if score sin_portals value matches ..0 run summon minecraft:area_effect_cloud 22 55 22 {Duration:99999999,CustomName:"\"teleporter\"",Color:8b}

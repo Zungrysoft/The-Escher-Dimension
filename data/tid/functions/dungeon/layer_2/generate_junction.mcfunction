@@ -40,6 +40,6 @@ execute positioned 21 55 -30 run fill ~ ~128 ~ ~3 ~131 ~4 blue_wool
 #Mark on the map
 fill -25 255 -25 25 255 25 stone
 
-#TEMP Add the teleporter
+#Add the teleporter
 summon minecraft:area_effect_cloud -4 36 -4 {Duration:99999999,CustomName:"\"teleporter\"",Color:2b}
 
