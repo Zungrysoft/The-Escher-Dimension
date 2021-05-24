@@ -7,6 +7,7 @@ say Adding Final Touches...
 #function tid:misc/water_stalag_scatter
 
 #If somehow, no diorite room was generated, put some at the end of the dungeon that the player can use.
+summon minecraft:area_effect_cloud 0 223 -10 {Duration:99999999,CustomName:"\"intro_marker\""}
 execute unless entity @e[type=area_effect_cloud,tag=diorite] positioned 0 10000 0 at @e[type=area_effect_cloud,name="intro_marker",sort=furthest,limit=1] run function tid:misc/intro_diorite
 kill @e[type=area_effect_cloud,name="intro_marker"]
 

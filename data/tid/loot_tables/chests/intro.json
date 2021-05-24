@@ -109,7 +109,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 5,
 					"name": "minecraft:wooden_axe",
 					"functions": [
 						{
@@ -117,6 +117,25 @@
 							"levels": {
 								"min": 1,
 								"max": 7
+							},
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:wooden_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:sharpness,lvl:1}]}"
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 1
 							},
 							"treasure": false
 						}
