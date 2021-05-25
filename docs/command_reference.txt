@@ -287,6 +287,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #Earthquake Hook
 /give @p fishing_rod{display:{Name:'[{"text":"Earthquake Hook","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Effect: Deals 9 damage to all","italic":false,"color":"aqua"}]','[{"text":"nearby monsters and launches","italic":false,"color":"aqua"}]','[{"text":"them into the air.","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:1}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:8,Operation:0,UUID:[I;-121316,30606,618,-61212],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-121316,30706,618,-61412],Slot:mainhand,Name:"generic.attack_speed"}],hook_type:1} 1
 
+#Hurricane Hook
+/give @p fishing_rod{display:{Name:'[{"text":"Hurricane Hook","italic":false,"bold":true,"color":"blue"}]',Lore:['[{"text":"Effect: Deals 6 damage to all","italic":false,"color":"aqua"}]','[{"text":"nearby monsters, slows them,","italic":false,"color":"aqua"}]','[{"text":"and launches them into the air.","italic":false,"color":"aqua"}]']},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Operation:0,UUID:[I;-121316,30606,618,-61212],Slot:mainhand,Name:"generic.attack_damage"},{AttributeName:"generic.attack_speed",Amount:-3,Operation:0,UUID:[I;-121316,30706,618,-61412],Slot:mainhand,Name:"generic.attack_speed"}],hook_type:2} 1
+
 #Wizard's Chestplate
 /give @p iron_chestplate{display:{Name:'[{"text":"Wizard\'s Combat Armor","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Summons biting fangs around","italic":false,"color":"aqua"}]','[{"text":"you on kill","italic":false,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"-2 max health when carried","italic":false,"color":"red"}]']},legendary:1b,health_penalty:1b,act_chest_kill_mob:1b,eff_evoker:1b} 1
 

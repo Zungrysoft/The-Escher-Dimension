@@ -342,17 +342,6 @@
 				},
 				{
 					"type": "item",
-					"weight": 15,
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{CustomPotionColor:11468981,display:{Name:\'[{\"text\":\"Potion of Gathering\",\"italic\":false}]\',Lore:[\'[{\"text\":\"Teleports all items within\",\"italic\":false,\"color\":\"blue\"}]\',\'[{\"text\":\"50 blocks to you.\",\"italic\":false,\"color\":\"blue\"}]\']},CustomPotionEffects:[{Id:27,Duration:20,Amplifier:5}],HideFlags:65535}"
-						}
-					]
-				},
-				{
-					"type": "item",
 					"weight": 4,
 					"name": "minecraft:book",
 					"functions": [

@@ -203,7 +203,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 80,
+					"weight": 30,
 					"name": "minecraft:potion",
 					"functions": [
 						{

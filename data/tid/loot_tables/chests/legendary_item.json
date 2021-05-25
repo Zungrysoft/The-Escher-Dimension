@@ -83,7 +83,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_pickaxe",
+					"name": "minecraft:stone_pickaxe",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -116,7 +116,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -417,7 +417,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 9 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_kill_mob:1b,eff_refill_healing_9:1b,HideFlags:64}"
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 8 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_kill_mob:1b,eff_refill_healing_8:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -428,7 +428,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 8 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_kill_mob:1b,eff_refill_healing_8:1b,HideFlags:64}"
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 7 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_kill_mob:1b,eff_refill_healing_7:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -439,18 +439,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 7 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_legs_kill_mob:1b,eff_refill_healing_7:1b,HideFlags:64}"
-						}
-					]
-				},
-				{
-					"type": "item",
-					"weight": 50,
-					"name": "minecraft:stone_sword",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Weapon of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 6 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_refill_healing_6:1b}"
+							"tag": "{display:{color:8337052,Name:\'[{\"text\":\"Raiments of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 6 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_legs_kill_mob:1b,eff_refill_healing_6:1b,HideFlags:64}"
 						}
 					]
 				},

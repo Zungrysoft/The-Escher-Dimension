@@ -40,7 +40,7 @@ execute positioned 21 55 -30 run fill ~ ~128 ~ ~3 ~131 ~4 blue_wool
 #Build the art gallery
 setblock 22 53 22 minecraft:structure_block{name: "tid:junction/art_gallery_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 setblock 22 54 22 minecraft:redstone_block
-execute positioned 22 53 22 run fill ~ ~128 ~ ~12 ~133 ~12 blue_wool
+execute positioned 22 53 22 run fill ~ ~128 ~ ~12 ~134 ~12 blue_wool
 
 #Now build the art gallery references in reserve space
 execute positioned 31 182 23 run function tid:dungeon/nature/select_art
