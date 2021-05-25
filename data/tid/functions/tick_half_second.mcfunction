@@ -18,3 +18,6 @@ execute as @a at @s run function tid:gameplay/esoteric_armor
 
 #Detect the player mining diorite
 execute if score intro_horde_spawned value matches 0 if entity @a[scores={mine_diorite=1..}] run function tid:misc/intro_horde
+
+#Detect art gallery builds
+execute in tid:layer_2 positioned 27 54 27 if entity @a[distance=0..12] run function tid:art/test_1

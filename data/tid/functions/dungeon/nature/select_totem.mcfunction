@@ -19,6 +19,11 @@ execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_05 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s4", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Cake structure
+execute if score nature_cake value matches 1 if score art_templates_nature value matches 2 if score nature_rooms value matches ..40 run function tid:dungeon/nature/select_art_template
+execute if score nature_cake value matches 1 if score art_templates_nature value matches 1 if score nature_rooms value matches ..70 run function tid:dungeon/nature/select_art_template
+execute if score nature_cake value matches 1 if score art_templates_nature value matches 0 if score nature_rooms value matches ..100 run function tid:dungeon/nature/select_art_template
+
+#Cake structure
 execute if score nature_cake value matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/totem_s5", posX: -3, posY: -1, posZ: -3, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 scoreboard players set nature_cake value 1
 

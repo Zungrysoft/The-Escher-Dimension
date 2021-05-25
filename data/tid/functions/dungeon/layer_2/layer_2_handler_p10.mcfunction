@@ -36,6 +36,14 @@ scoreboard players set nature_totems value 0
 scoreboard players set nature_cake value 0
 scoreboard players set soulsand_arenas_built value 0
 scoreboard players set haunted_chests_found value 0
+scoreboard players set art_templates_nature value 0
+scoreboard players set art_templates_sand2 value 0
+scoreboard players set art_templates_soulsand value 0
+scoreboard players set art_templates_neon value 0
+scoreboard players set art_nature value 0
+scoreboard players set art_sand2 value 0
+scoreboard players set art_soulsand value 0
+scoreboard players set art_neon value 0
 
 #Set random globals
 scoreboard players set neon_junk_global value 0

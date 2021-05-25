@@ -1,0 +1,31 @@
+{
+  "parent": "tid:layer_2/find_loot_neon",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": "Lunar Remnants",
+    "description": "Find some end stone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:end_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}

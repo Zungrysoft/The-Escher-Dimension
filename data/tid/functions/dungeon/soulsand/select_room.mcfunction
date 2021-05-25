@@ -18,6 +18,9 @@ execute unless entity @s[name="soulsand_north"] run summon minecraft:area_effect
 execute unless entity @s[name="soulsand_east"] run summon minecraft:area_effect_cloud ~ ~1 ~8 {Duration:99999999,CustomName:"\"soulsand_west\"",Tags:["room"]}
 execute unless entity @s[name="soulsand_west"] run summon minecraft:area_effect_cloud ~16 ~1 ~8 {Duration:99999999,CustomName:"\"soulsand_east\"",Tags:["room"]}
 
+#Construct the room interior
+execute positioned ~8 ~1 ~8 run function tid:misc/soulsand_room
+
 #Count the room in the total
 scoreboard players remove soulsand_rooms value 1
 

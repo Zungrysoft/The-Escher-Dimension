@@ -1,11 +1,11 @@
 {
-  "parent": "tid:layer_2/find_loot_neon",
+  "parent": "tid:layer_2/find_end_stone",
   "display": {
     "icon": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:end_stone_bricks"
     },
     "title": "Forge Onward",
-    "description": "Activate the end stone portal",
+    "description": "Activate the end stone portal in the central hub",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

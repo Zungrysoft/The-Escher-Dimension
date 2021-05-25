@@ -8,6 +8,10 @@ execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{
 execute if predicate tid:random_15 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/cross_7", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_10 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:neon/cross_8", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Event rooms
+execute if score art_templates_neon value matches 1 if predicate tid:random_20 run function tid:dungeon/neon/select_event1
+execute if score art_templates_neon value matches 0 if predicate tid:random_60 run function tid:dungeon/neon/select_event1
+
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 

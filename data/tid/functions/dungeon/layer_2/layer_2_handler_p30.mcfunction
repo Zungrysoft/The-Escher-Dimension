@@ -15,4 +15,13 @@ execute if score nature_rooms value matches 90.. run setblock -34 55 0 chest[fac
 execute if score sand2_rooms value matches 70.. run setblock 0 36 -48 chest[facing=south]{LootTable: "tid:chests/sand2_copout"}
 
 #Sin teleporter copout
-execute if score sin_portals value matches ..0 run summon minecraft:area_effect_cloud 22 55 22 {Duration:99999999,CustomName:"\"teleporter\"",Color:8b}
+execute if score sin_portals value matches ..0 run summon minecraft:area_effect_cloud -25 55 -25 {Duration:99999999,CustomName:"\"teleporter\"",Color:8b}
+
+#Wicked teleporter copout
+execute if score wicked_portals value matches ..0 run summon minecraft:area_effect_cloud -25 55 22 {Duration:99999999,CustomName:"\"teleporter\"",Color:15b}
+
+#Art copouts teleporter copout
+execute if score art_templates_nature value matches ..0 positioned 31 54 23 run function tid:misc/nature_copy_art
+execute if score art_templates_sand2 value matches ..0 positioned 31 54 27 run function tid:misc/sand2_copy_art
+execute if score art_templates_soulsand value matches ..0 positioned 27 54 31 run function tid:misc/soulsand_copy_art
+execute if score art_templates_neon value matches ..0 positioned 23 54 31 run function tid:misc/neon_copy_art
