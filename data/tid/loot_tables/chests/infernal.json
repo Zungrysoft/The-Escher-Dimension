@@ -326,7 +326,7 @@
 							"function": "set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]

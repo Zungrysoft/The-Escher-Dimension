@@ -12,7 +12,8 @@ spreadplayers ~ ~ 1 3 false @e[type=area_effect_cloud,name="scatter"]
 execute as @e[type=area_effect_cloud,name="scatter"] run data modify entity @s Pos[1] set from entity @e[type=area_effect_cloud,limit=1,name="anchor"] Pos[1]
 
 #Place the iron (changed to diamonds)
-execute at @e[type=area_effect_cloud,name="scatter"] if block ~ ~ ~ air run setblock ~ ~ ~ diamond_block
+execute at @e[type=area_effect_cloud,name="scatter"] if block ~ ~ ~ air run setblock ~ ~ ~ iron_block
+execute at @e[type=area_effect_cloud,name="scatter"] if predicate tid:random_40 if block ~ ~ ~ iron_block run setblock ~ ~ ~ diamond_block
 
 #Kill the entities
 kill @e[type=area_effect_cloud,name="scatter"]

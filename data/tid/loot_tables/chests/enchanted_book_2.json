@@ -1,0 +1,168 @@
+{
+	"pools": [
+		{
+			"rolls": 2,
+			"bonus_rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:unbreaking,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:sharpness,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:efficiency,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:power,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:quick_charge,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:protection,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:projectile_protection,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:blast_protection,lvl:2}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{StoredEnchantments:[{id:fire_protection,lvl:2}]}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 11,
+								"max": 20
+							},
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 11,
+								"max": 20
+							},
+							"treasure": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 10,
+			"bonus_rolls": 2,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 40,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

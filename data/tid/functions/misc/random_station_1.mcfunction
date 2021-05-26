@@ -8,4 +8,4 @@ execute if predicate tid:random_15 run setblock ~ ~ ~ crafting_table
 execute if predicate tid:random_25 run setblock ~ ~ ~ smithing_table
 execute if predicate tid:random_15 run setblock ~ ~ ~ chipped_anvil[facing=west]
 execute if predicate tid:random_10 run setblock ~ ~ ~ anvil[facing=east]
-execute if predicate tid:random_15 run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/station"}
+execute if predicate tid:random_15 run setblock ~ ~ ~ chest[facing=south]{LootTable: "tid:chests/enchanted_book_3"}

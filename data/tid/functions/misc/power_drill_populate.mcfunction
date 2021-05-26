@@ -3,7 +3,7 @@
 summon minecraft:area_effect_cloud ~ -1 ~ {Duration:99999999,CustomName:"\"scatter\""}
 
 #Set the target score for scattering debris
-scoreboard players set debris_score value 650
+scoreboard players set debris_score value 8500
 
 #Recursively add ancient debris
 execute as @e[type=area_effect_cloud,name="scatter"] run function tid:misc/power_drill_populate_recurse

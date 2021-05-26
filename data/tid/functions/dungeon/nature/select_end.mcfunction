@@ -8,7 +8,8 @@ execute if predicate tid:random_50 run scoreboard players add temp value 4
 execute if score temp value matches 0..1 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if score temp value matches 0..1 if predicate tid:random_20 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if score temp value matches 2..4 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
-execute if score temp value matches 5..7 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score temp value matches 5..6 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_4", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if score temp value matches 7 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:nature/end_5", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Mark this area on the map
 fill ~ 255 ~ ~16 255 ~16 minecraft:oak_planks replace minecraft:black_concrete

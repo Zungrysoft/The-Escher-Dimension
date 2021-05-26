@@ -16,7 +16,7 @@ execute at @s if predicate tid:random_50 run tp @s ~ ~1 ~
 execute at @s if block ~ ~ ~ #tid:infernal_blocks run setblock ~ ~ ~ ancient_debris
 
 #Count it up
-execute at @s if block ~ ~ ~ ancient_debris run scoreboard players remove debris_score value 100
+execute at @s if block ~ ~ ~ ancient_debris run scoreboard players remove debris_score value 1000
 scoreboard players remove debris_score value 1
 
 #Recurse

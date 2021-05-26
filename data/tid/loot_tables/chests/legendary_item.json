@@ -6,7 +6,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_pickaxe",
+					"name": "minecraft:stone_pickaxe",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -17,7 +17,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_axe",
+					"name": "minecraft:stone_axe",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -28,7 +28,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -39,33 +39,33 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_chestplate",
+					"name": "minecraft:leather_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Grants strength when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_chest_mine_spawner:1b,eff_grant_strength_strong:1b}"
+							"tag": "{display:{color:4678269,Name:\'[{\"text\":\"The Cagebreaker\\'s Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Grants strength when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},HideFlags:64,legendary:1b,act_chest_mine_spawner:1b,eff_grant_strength_strong:1b}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 20,
-					"name": "minecraft:iron_helmet",
+					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Cap\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_head_mine_spawner:1b,eff_grant_saturation_strong:1b}"
+							"tag": "{display:{color:4678269,Name:\'[{\"text\":\"The Cagebreaker\\'s Cap\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Restores hunger when you\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},HideFlags:64,legendary:1b,act_head_mine_spawner:1b,eff_grant_saturation_strong:1b}"
 						}
 					]
 				},
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_boots",
+					"name": "minecraft:leather_boots",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Cagebreaker\\'s Clogs\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_feet_mine_spawner:1b,eff_inflict_weakness_aoe:1b}"
+							"tag": "{display:{color:4678269,Name:\'[{\"text\":\"The Cagebreaker\\'s Clogs\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on all nearby monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"when you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]\']},HideFlags:64,legendary:1b,act_feet_mine_spawner:1b,eff_inflict_weakness_aoe:1b}"
 						}
 					]
 				},
@@ -226,11 +226,11 @@
 				{
 					"type": "item",
 					"weight": 30,
-					"name": "minecraft:iron_leggings",
+					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
+							"tag": "{display:{color:11902359,Name:\'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]\']},HideFlags:64,legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
 						}
 					]
 				},
@@ -578,7 +578,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -589,7 +589,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -600,7 +600,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -611,7 +611,7 @@
 				{
 					"type": "item",
 					"weight": 100,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -743,7 +743,7 @@
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:iron_axe",
+					"name": "minecraft:stone_axe",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -930,7 +930,7 @@
 				{
 					"type": "item",
 					"weight": 80,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
