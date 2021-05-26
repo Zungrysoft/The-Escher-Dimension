@@ -9,6 +9,8 @@ forceload remove -128 -128 128 7
 forceload remove 45 -65 120 20
 forceload remove 1000 1000 1064 1064
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

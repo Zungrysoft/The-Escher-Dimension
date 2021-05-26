@@ -32,6 +32,8 @@ fill -5 223 -5 5 227 5 air replace bedrock
 #These chunks are no longer needed
 forceload remove all
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

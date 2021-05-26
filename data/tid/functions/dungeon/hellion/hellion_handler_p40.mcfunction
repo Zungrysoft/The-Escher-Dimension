@@ -11,6 +11,8 @@ setblock 6 183 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_
 forceload remove -64 -64 64 64
 forceload remove 1000 1000 1032 1032
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

@@ -22,6 +22,8 @@ execute positioned 0 172 0 run function tid:misc/finale_entrance_stalags
 #These chunks are no longer needed
 forceload remove all
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

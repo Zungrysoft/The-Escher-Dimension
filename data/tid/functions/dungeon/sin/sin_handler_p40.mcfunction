@@ -28,6 +28,8 @@ function tid:misc/sin_chambers_scatter_chests
 forceload remove -100 -100 100 100
 forceload remove 1000 1000 1064 1064
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

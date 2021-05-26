@@ -1,6 +1,0 @@
-§lYour Goal: §r§ Complete the Victory Monument by placing all 16 colors of wool on it.
-
-Wool can only be obtained by crafting it from §onine dyes§r of that color.
-
-To get dyes, you must explore the dungeons!
-§1§oGood luck!

@@ -21,6 +21,8 @@ fill 22 60 -27 -23 54 29 stone replace cobblestone
 #These chunks are no longer needed
 forceload remove all
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase

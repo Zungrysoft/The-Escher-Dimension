@@ -32,6 +32,8 @@ kill @e[type=area_effect_cloud,name="jungle_towerbase"]
 forceload remove -100 -100 100 100
 forceload remove 1000 1000 1032 1032
 
+#We're finished
+execute as @a at @s run function tid:general/complete_sound
 say Done!
 
 #Move to nonexistent phase
