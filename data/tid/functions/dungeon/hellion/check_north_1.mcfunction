@@ -4,7 +4,7 @@ execute unless score @s failed matches 1.. if predicate tid:random_10 positioned
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-1 ~-1 ~-6 if blocks ~ ~-128 ~ ~2 ~-122 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_north
 execute unless score @s failed matches 1.. if predicate tid:random_01 positioned ~-1 ~-4 ~-6 if blocks ~ ~-128 ~ ~2 ~-122 ~5 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_south
 execute unless score @s failed matches 1.. if predicate tid:random_05 positioned ~-1 ~-1 ~-3 if blocks ~ ~-128 ~ ~2 ~-124 ~2 1001 129 1001 all run function tid:dungeon/hellion/select_outside
-execute unless score @s failed matches 1.. if predicate tid:random_005 positioned ~-4 ~-2 ~-9 if blocks ~ ~-128 ~ ~8 ~-112 ~8 1001 129 1001 all run function tid:dungeon/hellion/select_totem
+execute unless score @s failed matches 1.. if predicate tid:random_01 positioned ~-4 ~-2 ~-9 if blocks ~ ~-128 ~ ~8 ~-112 ~8 1001 129 1001 all run function tid:dungeon/hellion/select_totem
 execute unless score @s failed matches 1.. if predicate tid:random_10 positioned ~-5 ~-1 ~-11 if blocks ~ ~-128 ~ ~10 ~-118 ~10 1001 129 1001 all run function tid:dungeon/hellion/select_largeroom
 
 #Stairwells only show up in the (+, +) quadrant

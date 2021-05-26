@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 666,
+					"name": "tid:chests/enchanted_book_1"
+				}
+			]
+		},
+		{
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:shulker_shell"
+                }
+            ]
+        }
+    ]
+}

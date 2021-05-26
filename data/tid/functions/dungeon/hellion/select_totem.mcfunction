@@ -3,6 +3,10 @@ setblock ~ ~ ~ minecraft:structure_block{name: "tid:hellion/totem_1", posX: 0, p
 execute if predicate tid:random_20 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:hellion/totem_2", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_07 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:hellion/totem_3", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
+#Rest stop
+execute if score hellion_rest_stops value matches 0 run setblock ~ ~ ~ minecraft:structure_block{name: "tid:hellion/totem_s1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+scoreboard players add hellion_rest_stops value 1
+
 #Activate whichever structure block was picked
 setblock ~ ~1 ~ minecraft:redstone_block
 
