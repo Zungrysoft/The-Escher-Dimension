@@ -1,0 +1,76 @@
+{
+  "parent": "tid:layer_2/find_blackstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword",
+	  "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+    },
+    "title": "The Magic User",
+    "description": "Enchant a pickaxe to efficiency V, a bow to Power V, and a sword/axe to Sharpness V §d[Reward: 256 Bottles o\' Enchanting and 20 lapis lazuli]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/enchant_max"]
+  },
+  "criteria": {
+    "got_sharpness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+				{
+					"enchantment": "minecraft:sharpness",
+					"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    },
+	"got_efficiency": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+				{
+					"enchantment": "minecraft:efficiency",
+					"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    },
+	"got_power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+				{
+					"enchantment": "minecraft:power",
+					"levels": 5
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_sharpness"
+    ],
+	[
+      "got_efficiency"
+    ],
+	[
+      "got_power"
+    ]
+  ]
+}
