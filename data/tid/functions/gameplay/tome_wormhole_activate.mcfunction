@@ -1,5 +1,5 @@
 #Take the item
-execute unless entity @s[gamemode=creative] run clear @s spider_eye 1
+execute unless entity @s[gamemode=creative] run clear @s fire_charge 3
 
 #Teleport the creatures
 #execute as @e[type=#tid:living,distance=0..10] run tp @s ^ ^ ^-0.4

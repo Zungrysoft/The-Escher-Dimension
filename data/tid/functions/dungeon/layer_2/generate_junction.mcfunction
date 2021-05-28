@@ -37,6 +37,9 @@ setblock 21 56 -30 minecraft:redstone_block
 execute positioned 23 55 -27 run function tid:custom_mobs/dealer
 execute positioned 21 55 -30 run fill ~ ~128 ~ ~3 ~131 ~4 blue_wool
 
+#Add enderchest
+setblock 25 55 -25 ender_chest[facing=south]
+
 #Build the art gallery
 setblock 22 53 22 minecraft:structure_block{name: "tid:junction/art_gallery_1", posX: 0, posY: 0, posZ: 0, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 setblock 22 54 22 minecraft:redstone_block

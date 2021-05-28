@@ -5,14 +5,14 @@
       "item": "minecraft:cake"
     },
     "title": "Victory",
-    "description": "Claim Victory over The Infinite Dungeon",
+    "description": "Claim Victory over The Escher Dimension",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "experience": 9999999
+    "experience": 10000000
   },
   "criteria": {
         "impossible": {

@@ -5,7 +5,7 @@
       "item": "minecraft:pumpkin_pie"
     },
     "title": "A Refined Palate",
-    "description": "Eat every food §d[Reward: 4 Diamonds]",
+    "description": "Eat every food §d[Reward: 64 Golden Carrots]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

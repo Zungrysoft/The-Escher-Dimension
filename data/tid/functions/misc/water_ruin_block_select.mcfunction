@@ -8,7 +8,7 @@ execute if predicate tid:random_001 if predicate tid:random_50 run setblock ~ ~ 
 execute if predicate tid:random_001 run setblock ~ ~ ~ gold_ore
 execute if predicate tid:random_001 run setblock ~ ~ ~ redstone_ore
 execute if predicate tid:random_002 run setblock ~ ~ ~ iron_ore
-execute if predicate tid:random_002 run setblock ~ ~ ~ lapis_ore
+execute if predicate tid:random_001 run setblock ~ ~ ~ lapis_ore
 
 #Decide on water blocks
 scoreboard players set temp9 value 0

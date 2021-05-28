@@ -55,5 +55,6 @@ setblock -2 56 26 minecraft:redstone_block
 execute positioned 0 55 28 run function tid:custom_mobs/dealer
 execute positioned -2 55 26 run fill ~ ~128 ~ ~4 ~132 ~5 blue_wool
 
-
-
+#Ender chests
+setblock -4 55 20 ender_chest[facing=north]
+setblock 4 55 20 ender_chest[facing=north]

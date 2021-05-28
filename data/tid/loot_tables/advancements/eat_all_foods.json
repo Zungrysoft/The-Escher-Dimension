@@ -6,11 +6,11 @@
                 {
                     "type": "item",
                     "weight": 666,
-                    "name": "minecraft:diamond",
+                    "name": "minecraft:golden_carrot",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 4
+                            "count": 64
                         }
                     ]
                 }

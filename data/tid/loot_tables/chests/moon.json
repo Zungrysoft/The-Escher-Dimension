@@ -1,16 +1,16 @@
 {
 	"pools": [
 		{
-			"rolls": 3,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
-					"weight": 1,
+					"weight": 2,
 					"name": "minecraft:red_dye"
 				},
 				{
 					"type": "empty",
-					"weight": 9
+					"weight": 3
 				}
 			]
 		},

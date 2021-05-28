@@ -945,7 +945,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Bayonet Bow\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12117,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],legendary:1b}"
 						}
 					]
 				},
@@ -1244,7 +1244,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 200,
+					"weight": 140,
 					"name": "minecraft:snowball",
 					"functions": [
 						{
@@ -1280,7 +1280,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
+					"weight": 30,
 					"name": "minecraft:mojang_banner_pattern",
 					"functions": [
 						{
@@ -1291,7 +1291,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
+					"weight": 30,
 					"name": "minecraft:mojang_banner_pattern",
 					"functions": [
 						{
@@ -1302,7 +1302,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 40,
+					"weight": 30,
 					"name": "minecraft:mojang_banner_pattern",
 					"functions": [
 						{

@@ -6,12 +6,12 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 5,
+					"weight": 4,
 					"name": "minecraft:flint",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+							"tag": "{display:{Name:'[{\"text\":\"Babirusan Shiv\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]',Lore:['[{\"text\":\"Costs one Gold Ingot per swing.\",\"italic\":false,\"color\":\"red\"}]']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-120713,28944,194251,-57888],Slot:mainhand,Name:\"generic.attack_damage\"}],super_flint:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,legendary:1b}"
 						}
 					]
 				},

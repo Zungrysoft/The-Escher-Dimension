@@ -26,8 +26,8 @@ execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.
 execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:chest,Count:1,tag:{BlockEntityTag: {LootTable: "tid:chests/mystery_box", id: "minecraft:chest"}, display:{Name:'[{"text":"Mystery Box","italic":true,"bold":false,"color":"purple"}]',Lore:['[{"text":"Contains two rare items","italic":false,"color":"aqua"}]']}}}}
 
 #Layer 3
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:9},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:2},sell:{id:diamond,Count:1}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:18},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:3},sell:{id:diamond,Count:1}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:arrow,Count:15}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:8}}
 

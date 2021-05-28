@@ -159,11 +159,6 @@
 				{
 					"type": "item",
 					"weight": 1,
-					"name": "minecraft:diamond"
-				},
-				{
-					"type": "item",
-					"weight": 1,
 					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
