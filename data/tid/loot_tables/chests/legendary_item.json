@@ -758,7 +758,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Royal Guard\",\"italic\":false,\"color\":\"dark_aqua\"}]\'},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:-1,Operation:0,UUID:[I;-12119,15652,20317,-30306],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-12119,15651,20317,-31206],Slot:offhand,Name:\"generic.max_health\"}],BlockEntityTag: {Patterns: [{Pattern: \"ms\", Color: 7}, {Pattern: \"sc\", Color: 15}, {Pattern: \"br\", Color: 9}, {Pattern: \"tl\", Color: 9}, {Pattern: \"flo\", Color: 15}, {Pattern: \"bo\", Color: 15}], Base: 0},HideFlags:32,legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Royal Guard\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\'},Enchantments:[{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:-1,Operation:0,UUID:[I;-12119,15652,20317,-30306],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-12119,15651,20317,-31206],Slot:offhand,Name:\"generic.max_health\"}],BlockEntityTag: {Patterns: [{Pattern: \"ms\", Color: 7}, {Pattern: \"sc\", Color: 15}, {Pattern: \"br\", Color: 9}, {Pattern: \"tl\", Color: 9}, {Pattern: \"flo\", Color: 15}, {Pattern: \"bo\", Color: 15}], Base: 0},HideFlags:32,legendary:1b}"
 						}
 					]
 				},
@@ -769,7 +769,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Firebreath Shield\",\"italic\":false,\"color\":\"red\"}]\'},Enchantments:[{id:thorns,lvl:4},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:-4,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:\"generic.attack_damage\"}],Damage: 0, BlockEntityTag: {Patterns: [{Pattern: \"drs\", Color: 14}, {Pattern: \"tr\", Color: 14}, {Pattern: \"cbo\", Color: 4}, {Pattern: \"flo\", Color: 14}, {Pattern: \"bo\", Color: 15}], Base: 4},HideFlags:32,legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Firebreath Shield\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]\'},Enchantments:[{id:thorns,lvl:4},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:-4,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,3303,204543,-6606],Slot:offhand,Name:\"generic.attack_damage\"}],Damage: 0, BlockEntityTag: {Patterns: [{Pattern: \"drs\", Color: 14}, {Pattern: \"tr\", Color: 14}, {Pattern: \"cbo\", Color: 4}, {Pattern: \"flo\", Color: 14}, {Pattern: \"bo\", Color: 15}], Base: 4},HideFlags:32,legendary:1b}"
 						}
 					]
 				},
@@ -890,7 +890,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Safety Helmet\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"If your health goes below 6, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and heal you to full health\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],safety_helmet:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Safety Helmet\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]\',Lore:[\'[{\"text\":\"If your health goes below 6, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and heal you to full health\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],safety_helmet:1b,legendary:1b}"
 						}
 					]
 				},
@@ -901,7 +901,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Golden Applebottom Jeans\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Upon touching lava, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and grant fire resistance\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],lava_saver_leggings:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Golden Applebottom Jeans\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"Upon touching lava, this item\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"will break and grant fire resistance\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:unbreaking,lvl:10}],lava_saver_leggings:1b,legendary:1b}"
 						}
 					]
 				},
@@ -956,7 +956,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Sharpening Stone\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+3 Attack Damage when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:\"generic.attack_damage\"}],legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Sharpening Stone\",\"italic\":false,\"bold\":true,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+3 Attack Damage when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120825,18605,202753,-37210],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-120826,18605,202753,-37211],Slot:offhand,Name:\"generic.attack_damage\"}],legendary:1b}"
 						}
 					]
 				},
@@ -967,7 +967,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Superweight\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+100% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}],legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Superweight\",\"italic\":false,\"bold\":true,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+100% Knockback Resistance when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37610],Slot:mainhand,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-120823,18605,202753,-37711],Slot:offhand,Name:\"generic.knockback_resistance\"}],legendary:1b}"
 						}
 					]
 				},
@@ -978,7 +978,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Wizard Shell\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+30% Speed when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Wizard Shell\",\"italic\":false,\"bold\":true,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"+30% Speed when held\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37210],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-120823,18605,202753,-37211],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b}"
 						}
 					]
 				},
@@ -989,7 +989,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Angel Feather\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Max Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17876,394,-35750],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12109,17877,394,-35750],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12129,17878,394,-35750],Slot:mainhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17879,394,-35750],Slot:offhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12149,17871,394,-35750],Slot:offhand,Name:\"generic.max_health\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12169,17870,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12179,17872,394,-35750],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12189,17873,394,-35750],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3}"
+							"tag": "{display:{Name:\'[{\"text\":\"Angel Feather\",\"italic\":false,\"bold\":true,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Max Health\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Armor Toughness\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,17876,394,-35750],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12109,17877,394,-35750],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12129,17878,394,-35750],Slot:mainhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-12119,17879,394,-35750],Slot:offhand,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12149,17871,394,-35750],Slot:offhand,Name:\"generic.max_health\"},{AttributeName:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-12169,17870,394,-35750],Slot:mainhand,Name:\"generic.max_health\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12179,17872,394,-35750],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12189,17873,394,-35750],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3}"
 						}
 					]
 				},
@@ -1000,7 +1000,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Charge Crystal\",\"italic\":false,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12149,5353,4524,-10746],Slot:mainhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12179,5353,4524,-10716],Slot:offhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12159,5353,4524,-10726],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12169,5353,4524,-10736],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3}"
+							"tag": "{display:{Name:\'[{\"text\":\"Charge Crystal\",\"italic\":false,\"bold\":true,\"color\":\"light_purple\"}]\',Lore:[\'[{\"text\":\"When held:\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +2 Attack Speed\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]\']},AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12149,5353,4524,-10746],Slot:mainhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-12179,5353,4524,-10716],Slot:offhand,Name:\"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12159,5353,4524,-10726],Slot:mainhand,Name:\"generic.movement_speed\"},{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12169,5353,4524,-10736],Slot:offhand,Name:\"generic.movement_speed\"}],legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3}"
 						}
 					]
 				},

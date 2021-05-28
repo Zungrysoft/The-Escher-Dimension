@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 4,
+					"weight": 3,
 					"name": "minecraft:flint",
 					"functions": [
 						{
@@ -27,12 +27,12 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 20,
+					"weight": 25,
 					"name": "minecraft:gray_dye"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 3,
 					"name": "minecraft:music_disc_pigstep"
 				},
 				{

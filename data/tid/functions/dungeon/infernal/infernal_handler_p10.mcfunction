@@ -1,6 +1,5 @@
 #Message to notify that the world is being built
 say Generating the facility...
-say (This one might take a while!)
 
 #Storehouse for orange wool
 fill 1000 1 1000 1032 28 1032 minecraft:bedrock

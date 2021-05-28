@@ -28,10 +28,7 @@ setblock 6 55 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_b
 kill @e[type=area_effect_cloud,name="neon_chest_locator"]
 
 #These chunks are no longer needed
-forceload remove -128 -128 128 0
-forceload remove -128 0 128 128
-forceload remove 1000 1000 1064 1064
-forceload remove 2000 2000 2064 2064
+forceload remove all
 
 #We're finished
 execute as @a at @s run function tid:general/complete_sound

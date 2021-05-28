@@ -84,6 +84,9 @@ execute if score @s kill_silverfish matches 1.. run function tid:misc/advancemen
 execute if score @s kill_silverfish matches 1.. run function tid:misc/advancement_kill_silverfish
 execute if score @s kill_silverfish matches 1.. run function tid:misc/advancement_kill_silverfish
 
+#Non-Aggression Principle Advancement
+execute if entity @s[advancements={tid:sin/craft_wool_sin=true}] if entity @s[advancements={tid:sin/find_loot_sin=false}] if entity @s[advancements={tid:misc/kill_piglin=false}] run advancement grant @s only tid:sin/nap
+
 #Revoke the No Grave But The Sea advancement if the player leaves their boat without fully completing it
 execute if entity @s[predicate=!tid:on_boat,advancements={tid:layer_1/kill_all_on_boat=false}] run advancement revoke @s only tid:layer_1/kill_all_on_boat
 

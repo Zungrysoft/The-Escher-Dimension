@@ -1,5 +1,3 @@
-#How each of these checks work is 
-
 #North
 scoreboard players set temp value 0
 execute if predicate tid:random_50 unless entity @s[tag=north] run scoreboard players set temp value 1

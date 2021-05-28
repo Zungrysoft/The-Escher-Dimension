@@ -4,6 +4,11 @@
 			"rolls": 1,
 			"entries": [
 				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:gray_dye"
+				},
+				{
 					"type": "minecraft:loot_table",
 					"weight": 5,
 					"name": "tid:chests/legendary_item"

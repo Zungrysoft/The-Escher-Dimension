@@ -12,7 +12,7 @@ execute unless score @s failed matches 1.. if predicate tid:random_03 positioned
 execute unless score @s failed matches 1.. if score @s x matches ..0 if score @s z matches ..0 if predicate tid:random_06 positioned ~-6 ~-4 ~-1 if blocks ~ ~-127 ~ ~5 ~-123 ~2 1001 129 1001 all run function tid:dungeon/hellion/select_stairs_east
 
 #Largerooms only show up in the (+, -) quadrant
-execute unless score @s failed matches 1.. if score @s x matches 0.. if score @s z matches ..0 if predicate tid:random_15 positioned ~-11 ~-1 ~-5 if blocks ~ ~-128 ~ ~10 ~-118 ~10 1001 129 1001 all run function tid:dungeon/hellion/select_largeroom
+execute unless score @s failed matches 1.. if score @s x matches 0.. if score @s z matches ..0 if predicate tid:random_06 positioned ~-11 ~-1 ~-5 if blocks ~ ~-128 ~ ~10 ~-118 ~10 1001 129 1001 all run function tid:dungeon/hellion/select_largeroom
 
 #Stairwells only show up in the (-, ~) half
 execute unless score @s failed matches 1.. if score @s x matches ..0 if predicate tid:random_04 positioned ~1 ~-1 ~-1 if blocks ~ ~-128 ~ ~2 ~-122 ~2 1001 129 1001 all run function tid:dungeon/hellion/select_stairwell

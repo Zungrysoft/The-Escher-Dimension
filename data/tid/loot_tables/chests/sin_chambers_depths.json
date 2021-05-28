@@ -88,8 +88,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 3,
-								"max": 5
+								"min": 2,
+								"max": 4
 							}
 						}
 					]

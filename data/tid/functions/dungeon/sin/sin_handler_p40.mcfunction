@@ -21,12 +21,14 @@ execute as @e[type=area_effect_cloud,name="sin_chambers_chest_west"] at @s run f
 execute as @e[type=area_effect_cloud,name="sin_chambers_chest_east"] at @s run function tid:misc/sin_chambers_chest_east
 execute as @e[type=area_effect_cloud,name="sin_chambers_chest_any"] at @s run function tid:misc/sin_chambers_chest_any
 
+#Kill remaining lava movers
+kill @e[type=area_effect_cloud,name="lava_mover"]
+
 #Scatter some more chests in the depths of the fire chambers
 function tid:misc/sin_chambers_scatter_chests
 
 #These chunks are no longer needed
-forceload remove -100 -100 100 100
-forceload remove 1000 1000 1064 1064
+forceload remove all
 
 #We're finished
 execute as @a at @s run function tid:general/complete_sound

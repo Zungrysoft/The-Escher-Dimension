@@ -9,6 +9,7 @@ execute if predicate tid:random_07 run setblock ~1 ~ ~1 minecraft:structure_bloc
 execute if predicate tid:random_06 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_06 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_7", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 execute if predicate tid:random_05 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_10", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
+execute if predicate tid:random_05 run setblock ~1 ~ ~1 minecraft:structure_block{name: "tid:jungle/totem_11", posX: -1, posY: 0, posZ: -1, ignoreEntities: 0b, powered: 0b, mode: "LOAD", showair: 0b, showboundingbox: 0b}
 
 #Don't place ravager pens too close to spawn
 scoreboard players set close_to_spawn value 0

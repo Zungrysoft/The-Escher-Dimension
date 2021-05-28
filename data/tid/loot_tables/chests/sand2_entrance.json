@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Fireball in the cardinal\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,tome_weakfireball:1b,Enchantments:[{}]}"
+							"tag": "{display:{Name:\'[{\"text\":\"Fireball Staff\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Launches a Fireball in the cardinal\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"direction you are facing\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Costs one fire charge per use\",\"italic\":false,\"color\":\"red\"}]\']},legendary:1b,tome_weakfireball:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}],HideFlags:1}"
 						}
 					]
 				}
