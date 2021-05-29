@@ -1,0 +1,20 @@
+{
+    "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:1328383,display:{Name:\'[{\"text\":\"Ballistic Arrow\",\"italic\":false,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Bounces off walls and\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"pierces through enemies\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:13}],HideFlags:65535,bounce_arrow:1}"
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

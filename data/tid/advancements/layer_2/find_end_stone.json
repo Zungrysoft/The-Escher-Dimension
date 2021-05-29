@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/find_loot_neon",
+  "parent": "tid:layer_2/kill_ballistic_commando",
   "display": {
     "icon": {
       "item": "minecraft:end_stone"

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:mojang_banner_pattern",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Heart Scroll\",\"italic\":false,\"color\":\"dark_red\"}]\'},legendary:1b,HideFlags:65535,health_scroll:1b}"
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

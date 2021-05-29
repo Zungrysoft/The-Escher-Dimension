@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 6,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight":10,
+					"name": "tid:chests/ballistic_arrow"
+				}
+			]
+		}
+	]
+}

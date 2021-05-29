@@ -24,7 +24,7 @@ data modify entity @s inGround set value 0b
 data modify entity @s PierceLevel set value 10b
 
 #Increase the damage stat
-execute unless score @s counter2 matches ..1 store result entity @s damage double 2 run data get entity @s damage
+#execute unless score @s counter2 matches ..1 store result entity @s damage double 2 run data get entity @s damage
 
 #Track number of bounces for the advancement
 execute unless score @s counter2 matches ..1 run scoreboard players add @s counter4 1

@@ -1,12 +1,12 @@
 {
-	"parent": "tid:layer_2/find_loot_neon",
+	"parent": "tid:layer_2/kill_ballistic_commando",
 	"display": {
 		"icon": {
 			"item": "minecraft:tipped_arrow",
 		"nbt": "{CustomPotionColor:1328383}"
 		},
-		"title": "Spring Reverb",
-		"description": "Kill a monster with a Ballistic Arrow that has bounced 3 or more times §d[Reward: 40 Gold Ingots]",
+		"title": "3 Ball, Corner Pocket",
+		"description": "Hit a monster with a Ballistic Arrow that has bounced 3 or more times §d[Reward: Heart Scroll]",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
