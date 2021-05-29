@@ -17,9 +17,6 @@ execute if score @s counter3 matches 3 run function tid:gameplay/bounce_arrow_bo
 #If this arrow has tried all three directions and failed, just put it out of its misery
 execute if score @s counter3 matches 4.. run function tid:gameplay/arrow_fizzle
 
-#Reset the bounce timer
-scoreboard players set @s counter2 0
-
 #Set it to no longer be in the ground
 data modify entity @s inGround set value 0b
 
@@ -27,4 +24,11 @@ data modify entity @s inGround set value 0b
 data modify entity @s PierceLevel set value 10b
 
 #Increase the damage stat
-execute store result entity @s damage double 2 run data get entity @s damage
+execute unless score @s counter2 matches ..1 store result entity @s damage double 2 run data get entity @s damage
+
+#Track number of bounces for the advancement
+execute unless score @s counter2 matches ..1 run scoreboard players add @s counter4 1
+execute if score @s counter4 matches 3.. run tag @s add bouncy
+
+#Reset the bounce timer
+scoreboard players set @s counter2 0

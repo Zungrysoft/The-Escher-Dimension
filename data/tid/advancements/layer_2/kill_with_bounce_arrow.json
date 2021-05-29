@@ -1,0 +1,46 @@
+{
+	"parent": "tid:layer_2/find_loot_neon",
+	"display": {
+		"icon": {
+			"item": "minecraft:tipped_arrow",
+		"nbt": "{CustomPotionColor:1328383}"
+		},
+		"title": "Spring Reverb",
+		"description": "Kill a monster with a Ballistic Arrow that has bounced 3 or more times §d[Reward: 40 Gold Ingots]",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"rewards": {
+		"loot": ["tid:advancements/kill_with_bounce_arrow"]
+	},
+	"criteria": {
+		"hit_mob": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+				"type": "#tid:monster"
+						},
+						"entity": "this"
+					}
+				],
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"bouncy\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"hit_mob"
+		]
+	]
+}

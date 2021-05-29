@@ -69,6 +69,7 @@ scoreboard objectives add lifesteal_amp dummy
 scoreboard objectives add counter1 dummy
 scoreboard objectives add counter2 dummy
 scoreboard objectives add counter3 dummy
+scoreboard objectives add counter4 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add power dummy
 scoreboard objectives add health_boost dummy

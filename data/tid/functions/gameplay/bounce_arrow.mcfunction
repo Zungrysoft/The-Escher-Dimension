@@ -2,6 +2,7 @@
 # counter1 - How long the arrow has been alive
 # counter2 - How long since the last time the arrow bounced
 # counter3 - Which angle the arrow bounced last time
+# counter4 - Number of bounces
 
 #Give this arrow piercing
 execute unless score @s counter1 matches 1.. run data modify entity @s PierceLevel set value 10b
