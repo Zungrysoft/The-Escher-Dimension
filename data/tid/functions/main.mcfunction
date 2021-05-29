@@ -70,25 +70,37 @@ execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s
 execute as @e[type=minecraft:area_effect_cloud,name="illusioner_detector"] at @s unless block ~ ~-1 ~ chest run function tid:misc/illusioner_detect
 
 #Gameplay stuff
+#Player team
 team join players @a
+#Item Checks
 execute as @a at @s run function tid:gameplay/item_checks
+#Custom Potion
 function tid:gameplay/custom_potions
+#Ghast Fireballs
 execute as @e[type=fireball] at @s run function tid:gameplay/powerup_fireballs
+#Bridge Snowball
 execute as @e[type=snowball,nbt={Item:{tag:{bridge_snowball:1b}}}] at @s run function tid:gameplay/bridge_snowball
 execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:gameplay/bridge_snowball_place
+#Custom Arrows
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}]}] run data modify entity @s pickup set value 0
+execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]}] at @s run function tid:gameplay/bounce_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}],inGround:1b}] at @s run function tid:gameplay/arrow_fizzle
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] at @s run function tid:gameplay/shredder_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] at @s run function tid:gameplay/sniper_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:3b}]}] at @s run function tid:gameplay/zapper_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:6b}]}] at @s run function tid:gameplay/evocation_arrow
+#Fireworks
 scoreboard players reset @a fireworks_kills
 execute as @e[type=firework_rocket,nbt={FireworksItem:{tag:{plague_missile:1}}}] at @s run function tid:gameplay/plague_missile
-execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
-execute as @a at @s run function tid:gameplay/shield_curse
+#execute as @e[type=armor_stand,tag=turret] at @s run function tid:gameplay/turret
+#execute as @a at @s run function tid:gameplay/shield_curse
+#Lifesteal
 execute as @a at @s run function tid:gameplay/pending_hunger
+#Final Boss Cores
 execute as @e[type=area_effect_cloud,name="finale_boss_core"] at @s run function tid:misc/finale_core
+#Evoker Fangs
 execute as @e[type=area_effect_cloud,tag=fang_damage] at @s run function tid:gameplay/fang_damage
+#Hook Weapons
 function tid:gameplay/hooks
 
 #Handles custom monster effects

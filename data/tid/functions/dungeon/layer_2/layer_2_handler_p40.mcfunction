@@ -9,6 +9,7 @@ summon minecraft:area_effect_cloud -6 55 -6 {Duration:99999999,CustomName:"\"tel
 
 #Add wall pattern to Fusion Central
 execute positioned 0 42 40 run function tid:misc/neon_magma
+execute positioned 0 42 27 run function tid:misc/neon_magma
 
 #Add junk to Fusion Halls
 execute as @e[type=area_effect_cloud,name="neon_junk_marker"] at @s if predicate tid:random_10 if block ~1 ~ ~ air if block ~-1 ~ ~ air if block ~ ~ ~1 air if block ~ ~ ~-1 air run function tid:dungeon/neon/select_junk

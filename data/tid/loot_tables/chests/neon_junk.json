@@ -5,19 +5,19 @@
             "entries": [
                 {
 					"type": "item",
-					"weight": 20,
+					"weight": 10,
 					"name": "minecraft:tipped_arrow",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 2,
-								"max": 3
+								"min": 6,
+								"max": 12
 							}
 						},
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Void Arrow\",\"italic\":false,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Teleports monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"into the void\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:11}],HideFlags:65535}"
+							"tag": "{CustomPotionColor:1328383,display:{Name:\'[{\"text\":\"Ballistic Arrow\",\"italic\":false,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"Bounces off walls and pierces through enemies\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Damage increases with each bounce\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"Use with extreme caution!\",\"italic\":false,\"color\":\"red\",\"underlined\":true}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,CustomPotionEffects:[{Id:27,Duration:1,Amplifier:13}],HideFlags:65535,bounce_arrow:1}"
 						}
 					]
 				},
@@ -28,7 +28,7 @@
                 },
 				{
 					"type": "empty",
-					"weight": 30
+					"weight": 40
 				}
             ]
         },

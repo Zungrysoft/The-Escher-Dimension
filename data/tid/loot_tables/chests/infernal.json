@@ -348,6 +348,24 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Void Arrow\",\"italic\":false,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Teleports monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"into the void\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:11}],HideFlags:65535}"
+						}
+					]
 				}
 			]
 		}

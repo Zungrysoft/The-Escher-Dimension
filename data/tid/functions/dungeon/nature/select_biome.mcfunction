@@ -15,25 +15,25 @@ execute at @s run fill ~-1 ~ ~-1 ~1 ~3 ~1 air replace oak_planks
 execute at @s run fill ~-2 ~ ~-2 ~2 ~4 ~2 smooth_stone_slab[type=double] replace oak_planks
 
 #Place new doorways
-summon minecraft:area_effect_cloud ~12 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~25 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~38 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~51 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\""}
+summon minecraft:area_effect_cloud ~12 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~25 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~38 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~51 ~8 ~1 {Duration:99999999,CustomName:"\"nature_north\"",Tags:["biome"]}
 
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~12 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\""}
-summon minecraft:area_effect_cloud ~25 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~38 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~51 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\""}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~12 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\"",Tags:["biome"]}
+summon minecraft:area_effect_cloud ~25 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~38 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~51 ~8 ~62 {Duration:99999999,CustomName:"\"nature_south\"",Tags:["biome"]}
 
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~1 ~8 ~12 {Duration:99999999,CustomName:"\"nature_west\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~1 ~8 ~25 {Duration:99999999,CustomName:"\"nature_west\""}
-summon minecraft:area_effect_cloud ~1 ~8 ~38 {Duration:99999999,CustomName:"\"nature_west\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~1 ~8 ~51 {Duration:99999999,CustomName:"\"nature_west\""}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~1 ~8 ~12 {Duration:99999999,CustomName:"\"nature_west\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~1 ~8 ~25 {Duration:99999999,CustomName:"\"nature_west\"",Tags:["biome"]}
+summon minecraft:area_effect_cloud ~1 ~8 ~38 {Duration:99999999,CustomName:"\"nature_west\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~1 ~8 ~51 {Duration:99999999,CustomName:"\"nature_west\"",Tags:["biome"]}
 
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~62 ~8 ~12 {Duration:99999999,CustomName:"\"nature_east\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~62 ~8 ~25 {Duration:99999999,CustomName:"\"nature_east\""}
-execute if predicate tid:random_80 run summon minecraft:area_effect_cloud ~62 ~8 ~38 {Duration:99999999,CustomName:"\"nature_east\""}
-summon minecraft:area_effect_cloud ~62 ~8 ~51 {Duration:99999999,CustomName:"\"nature_east\""}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~62 ~8 ~12 {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~62 ~8 ~25 {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
+execute if predicate tid:random_70 run summon minecraft:area_effect_cloud ~62 ~8 ~38 {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
+summon minecraft:area_effect_cloud ~62 ~8 ~51 {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
 
 #Select biome for generation
 execute positioned ~6 ~1 ~6 run function tid:dungeon/nature/biome/start
