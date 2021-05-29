@@ -5,7 +5,7 @@
 # counter4 - Number of bounces
 
 #Give this arrow piercing
-execute unless score @s counter1 matches 1.. run data modify entity @s PierceLevel set value 10b
+execute unless score @s counter1 matches 1.. if entity @s[nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]}] run data modify entity @s PierceLevel set value 10b
 
 #Track how long it has been alive
 scoreboard players add @s counter1 1

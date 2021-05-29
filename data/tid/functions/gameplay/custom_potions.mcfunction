@@ -21,6 +21,7 @@ execute as @e[type=#tid:monster,nbt={ActiveEffects:[{Amplifier:11b,Id:27b}]}] at
 #12: Transform
 execute as @e[type=#tid:monster,nbt={ActiveEffects:[{Amplifier:12b,Id:27b}]}] at @s run function tid:gameplay/transform_arrow
 #13 is used for Bouncing Arrow
+#14 is used for Bouncing Arrow from Monsters
 
 #Clear the bad luck effect
 effect clear @a unluck

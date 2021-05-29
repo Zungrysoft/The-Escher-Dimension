@@ -84,6 +84,7 @@ execute as @e[type=area_effect_cloud,name="snow_placer"] at @s run function tid:
 #Custom Arrows
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}]}] run data modify entity @s pickup set value 0
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]}] at @s run function tid:gameplay/bounce_arrow
+execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:14b}]}] at @s run function tid:gameplay/bounce_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{}],inGround:1b}] at @s run function tid:gameplay/arrow_fizzle
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:1b}]}] at @s run function tid:gameplay/shredder_arrow
 execute as @e[type=arrow,nbt={CustomPotionEffects:[{Id:27b,Amplifier:2b}]}] at @s run function tid:gameplay/sniper_arrow

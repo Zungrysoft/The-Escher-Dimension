@@ -21,7 +21,7 @@ execute if score @s counter3 matches 4.. run function tid:gameplay/arrow_fizzle
 data modify entity @s inGround set value 0b
 
 #Reset piece level
-data modify entity @s PierceLevel set value 10b
+execute if entity @s[nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]}] run data modify entity @s PierceLevel set value 10b
 
 #Increase the damage stat
 #execute unless score @s counter2 matches ..1 store result entity @s damage double 2 run data get entity @s damage
