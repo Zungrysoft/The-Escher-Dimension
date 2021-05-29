@@ -929,12 +929,23 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 50,
 					"name": "minecraft:compass",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Inflicts weakness on nearby\",\"italic\":false,\"color\":\"green\"}]\',\'[{\"text\":\"monsters when held\",\"italic\":false,\"color\":\"green\"}]\']},legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,weakness_compass:1b}"
+							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Wayfinder\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"When in offhand: \",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  Inflicts weakness on all nearby \",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  monsters upon killing a skeleton\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  +1 Armor Toughness\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,act_offhand_kill_skeleton:1b,eff_inflict_weakness_aoe:1b,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Amount:1,Slot:offhand,Name:\"generic.armor_toughness\",UUID:[I;-121429,30295,22241,-60591]}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Azriel\\'s Timepiece\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"When in offhand: \",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  Inflicts slowness on all nearby \",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  monsters upon killing a creeper\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"  +1 Armor Toughness\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,act_offhand_kill_creeper:1b,eff_inflict_slowness_aoe:1b,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Amount:1,Slot:offhand,Name:\"generic.armor_toughness\",UUID:[I;-121429,30295,22241,-60491]}]}"
 						}
 					]
 				},
@@ -1067,6 +1078,17 @@
 						{
 							"function": "set_nbt",
 							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"Charball\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand, grants\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"resistance and sets all nearby\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"all monsters on fire when you\",\"italic\":false,\"color\":\"white\"}]\',\'[{\"text\":\"break a monster spawner\",\"italic\":false,\"color\":\"white\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_mine_spawner:1b,eff_grant_resistance_strong:1b,eff_inflict_fire_aoe:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "minecraft:glistering_melon_slice",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{legendary:1b,display:{Name:\'[{\"text\":\"X-Treme Sour Melon\",\"italic\":false,\"color\":\"green\",\"bold\":true}]\',Lore:[\'[{\"text\":\"When held in offhand,\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"restores hunger on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1,act_offhand_kill_mob:1b,eff_grant_saturation_medium:1b}"
 						}
 					]
 				},

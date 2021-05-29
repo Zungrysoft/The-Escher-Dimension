@@ -22,12 +22,13 @@ function tid:gameplay/conditional_weapons
 function tid:gameplay/lava_saver_leggings
 function tid:gameplay/safety_helmet
 function tid:gameplay/igneous
-function tid:gameplay/slow_clock
-function tid:gameplay/weakness_compass
+#function tid:gameplay/slow_clock
+#function tid:gameplay/weakness_compass
 function tid:gameplay/fire_diamond
 function tid:gameplay/book_barrier
 function tid:gameplay/spurs
 function tid:gameplay/lifesteal
+function tid:gameplay/stomp_boots
 
 #Reset per-frame check scores
 scoreboard players set @s damage_dealt 0

@@ -296,6 +296,9 @@ give @p tipped_arrow{CustomPotionColor:10747903,display:{Name:'[{"text":"Arrow o
 #The Wizard's Handaxe
 /give @p iron_axe{display:{Name:'[{"text":"The Wizard\'s Handaxe","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Summons biting fangs around","italic":false,"color":"aqua"}]','[{"text":"you on kill","italic":false,"color":"aqua"},{"text":"","italic":false,"color":"dark_purple"}]']},legendary:1b,act_mainhand_kill_mob:1b,eff_evoker:1b} 1
 
+#Earthquake Boots
+/give @p iron_boots{display:{Name:'[{"text":"Earthquake Boots","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Damages nearby monsters","italic":false,"color":"aqua"}]','[{"text":"when you hit the ground","italic":false,"color":"aqua"}]']},legendary:1b,stomp_boots:1b} 1
+
 #Shredder Contract
 /give @p paper{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Shredder Arrow\' trade.","italic":false,"color":"gray"}]']},shredder_arrow:1}
 

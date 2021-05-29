@@ -39,8 +39,8 @@ execute if score temp value matches 6 run data modify entity @s Offers.Recipes a
 #Firebird Diamond
 execute if score temp value matches 7 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:36},sell:{id:diamond,Count:1,tag:{display:{Name:'[{"text":"Firebird Diamond","italic":false,"bold":true,"color":"aqua"}]',Lore:['[{"text":"When held, inflicts levitation","italic":false,"color":"green"}]','[{"text":"on nearby burning creatures.","italic":false,"color":"green"}]']},Enchantments:[{id:fire_aspect,lvl:1}],legendary:1b,fire_diamond:1b}}}
 
-#Azriel's Timepiece
-execute if score temp value matches 8 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:46},sell:{id:clock,Count:1,tag:{display:{Name:'[{"text":"Azriel\'s Timepiece","italic":false,"bold":true,"color":"dark_purple"}]',Lore:['[{"text":"Inflicts slowness on nearby","italic":false,"color":"green"}]','[{"text":"monsters when held","italic":false,"color":"green"}]']},legendary:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1,slow_clock:1b}}}
+#Earthquake Boots
+execute if score temp value matches 8 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:iron_boots,Count:1,tag:{display:{Name:'[{"text":"Earthquake Boots","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Damages nearby monsters","italic":false,"color":"aqua"}]','[{"text":"when you hit the ground","italic":false,"color":"aqua"}]']},legendary:1b,stomp_boots:1b}}}
 
 #Book of Taliesyn
 execute if score temp value matches 9 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:22},sell:{id:book,Count:1,tag:{legendary:1b,display:{Name:'[{"text":"Book of Taliesyn","italic":false,"bold":true,"color":"dark_aqua"}]',Lore:['[{"text":"Destroys arrows shot by","italic":false,"color":"green"}]','[{"text":"monsters when held.","italic":false,"color":"green"}]']},Recipes:[],Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1,book_barrier:1b}}}
