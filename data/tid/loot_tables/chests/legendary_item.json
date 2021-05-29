@@ -413,6 +413,17 @@
 				{
 					"type": "item",
 					"weight": 50,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Weapon of the Swordmage\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]\',Lore:[\'[{\"text\":\"Put an empty bottle in Slot 9 of\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your hotbar and it will be refilled\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"with Potion of Healing on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,act_mainhand_kill_mob:1b,eff_refill_healing_9:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 50,
 					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
