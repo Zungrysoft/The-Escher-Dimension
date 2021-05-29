@@ -22,21 +22,16 @@
 		},
 		{
 			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"weight": 15,
-					"name": "tid:chests/legendary_item"
-				}
-			]
-		},
-		{
-			"rolls": 1,
 			"bonus_rolls": {
 				"min": 0,
 				"max": 1
 			},
 			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "tid:chests/legendary_item"
+				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
@@ -49,18 +44,13 @@
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 1,
 					"name": "minecraft:totem_of_undying"
 				},
 				{
 					"type": "item",
-					"weight": 10,
+					"weight": 1,
 					"name": "minecraft:enchanted_golden_apple"
-				},
-				{
-					"type": "item",
-					"weight": 10,
-					"name": "minecraft:trident"
 				}
 			]
 		}

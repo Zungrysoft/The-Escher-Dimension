@@ -6,7 +6,7 @@
     },
     "title": "The Underbelly",
     "description": "Dig down into cavernous depths",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

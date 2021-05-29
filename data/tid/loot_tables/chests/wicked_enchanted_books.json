@@ -1,7 +1,7 @@
 {
 	"pools": [
 		{
-			"rolls": 2,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
@@ -11,18 +11,13 @@
 						{
 							"function": "enchant_with_levels",
 							"levels": {
-								"min": 40,
-								"max": 40
+								"min": 20,
+								"max": 20
 							},
 							"treasure": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
+				},
 				{
 					"type": "item",
 					"weight": 2,

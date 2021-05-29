@@ -545,7 +545,7 @@
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
@@ -556,7 +556,7 @@
 				{
 					"type": "item",
 					"weight": 50,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:stone_sword",
 					"functions": [
 						{
 							"function": "set_nbt",
