@@ -584,7 +584,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:healing\"}"
+                            "tag": "{Potion:\"minecraft:strong_healing\"}"
                         }
                     ]
                 },
