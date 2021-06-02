@@ -148,20 +148,6 @@
 				},
 				{
 					"type": "item",
-					"weight": 8,
-					"name": "minecraft:coal",
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							}
-						}
-					]
-				},
-				{
-					"type": "item",
 					"weight": 1,
 					"name": "minecraft:repeater",
 					"functions": [
@@ -214,15 +200,12 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 9,
 					"name": "minecraft:gilded_blackstone",
 					"functions": [
 						{
 							"function": "set_count",
-							"count": {
-								"min": 3,
-								"max": 3
-							}
+							"count": 9
 						}
 					]
 				},
@@ -315,9 +298,29 @@
 				},
 				{
 					"type": "item",
-					"weight": 2,
+					"weight": 1,
 					"name": "minecraft:golden_axe",
 					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:sharpness,lvl:2}]}"
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{id:sharpness,lvl:3}]}"
+						},
 						{
 							"function": "enchant_with_levels",
 							"levels": 30,
@@ -388,6 +391,41 @@
 							}
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 16,
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:charcoal",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		}

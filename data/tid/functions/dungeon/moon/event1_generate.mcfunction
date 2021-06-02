@@ -2,6 +2,11 @@
 fill ~2 ~4 ~2 ~5 ~5 ~5 air replace ladder
 summon minecraft:area_effect_cloud ~2 ~4 ~2 {Duration:99999999,CustomName:"\"teleporter\"",Color:4b}
 
+#Add glowstone
+fill ~3 ~8 ~3 ~4 ~8 ~4 glowstone
+setblock ~3 ~8 ~3 polished_granite
+setblock ~4 ~8 ~4 polished_granite
+
 #Note that a portal has been successfully generated
 scoreboard players add infernal_portals value 1
 

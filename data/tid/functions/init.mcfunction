@@ -72,7 +72,7 @@ scoreboard objectives add counter3 dummy
 scoreboard objectives add counter4 dummy
 scoreboard objectives add phase dummy
 scoreboard objectives add on_ground dummy
-scoreboard objectives add fall_velocity dummy
+scoreboard objectives add fall_distance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add power dummy
 scoreboard objectives add health_boost dummy
 scoreboard objectives add speed_boost dummy

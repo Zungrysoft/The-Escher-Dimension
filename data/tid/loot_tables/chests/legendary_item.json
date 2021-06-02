@@ -973,6 +973,17 @@
 				},
 				{
 					"type": "item",
+					"weight": 10,
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\'[{\"text\":\"Razorbow\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]\'},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-12116,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-12115,21240,1334,-42480],Slot:mainhand,Name:\"generic.attack_speed\"}],legendary:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:iron_ingot",
 					"functions": [
@@ -1187,7 +1198,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Quartz Staff\",\"italic\":false,\"color\":\"white\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to place Chiseled Quartz\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,tome_block:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+							"tag": "{display:{Name:\'[{\"text\":\"Quartz Staff\",\"italic\":false,\"color\":\"white\",\"bold\":true}]\',Lore:[\'[{\"text\":\"Aim to place Chiseled Quartz\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"from your inventory\",\"italic\":false,\"color\":\"aqua\"}]\']},legendary:1b,tome_block:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
 						}
 					]
 				},
