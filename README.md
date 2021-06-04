@@ -1,5 +1,5 @@
 # The Escher Dimension
-A procedural dungeon generator datapack for Minecraft Java Edition. Explore the dungeons for enough resources to complete the victory monument! The datapack is very close to release, so everything should be in a working state.
+A procedural dungeon generator datapack for Minecraft Java Edition. Explore the dungeons for enough resources to complete the victory monument!
 
 Download the datapack by clicking Code->Download Zip
 
