@@ -9,6 +9,7 @@ Run the datapack with the following steps:
 - Drag the downloaded zip file into the game menu
 - Click on the arrow on the datapack to enable it. (It should be on the right-hand side of the screen.)
 - Click "Done", select your difficulty, and create the world
+- When it gives you the warning about experimental settings, click "Proceed"
 - Wait for the first set of dungeons to generate and begin playing!
 
 ![The Stronghold Ruins](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/stronghold2_1.png)
