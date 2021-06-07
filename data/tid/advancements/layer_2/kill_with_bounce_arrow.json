@@ -6,7 +6,7 @@
 		"nbt": "{CustomPotionColor:1328383}"
 		},
 		"title": "3 Ball, Corner Pocket",
-		"description": "Hit a monster with a Ballistic Arrow that has bounced 3 or more times §d[Reward: Heart Scroll]",
+		"description": "Hit a monster with a Ballistic Arrow that has bounced 3 or more times §d[Reward: Ballistic Arrow Manufacturing Contract]",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -9,9 +9,8 @@ execute if predicate tid:random_10 run scoreboard players set temp value 6
 execute if predicate tid:random_09 run scoreboard players set temp value 7
 execute if predicate tid:random_08 run scoreboard players set temp value 8
 execute if predicate tid:random_06 run scoreboard players set temp value 9
-execute if predicate tid:random_04 run scoreboard players set temp value 10
-execute if predicate tid:random_04 run scoreboard players set temp value 11
-execute if predicate tid:random_05 run scoreboard players set temp value 12
+execute if predicate tid:random_05 run scoreboard players set temp value 10
+execute if predicate tid:random_05 run scoreboard players set temp value 11
 
 
 #Add the trade
@@ -50,6 +49,3 @@ execute if score temp value matches 10 run data modify entity @s Offers.Recipes 
 
 #Manufacturing Contract: Sniper Arrow
 execute if score temp value matches 11 run data modify entity @s Offers.Recipes append value {maxUses:1,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:paper,Count:1,tag:{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Sniper Arrow\' trade.","italic":false,"color":"gray"}]']},sniper_arrow:1}}}
-
-#Manufacturing Contract: Zapper Arrow
-execute if score temp value matches 12 run data modify entity @s Offers.Recipes append value {maxUses:1,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:paper,Count:1,tag:{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Electric Arrow\' trade.","italic":false,"color":"gray"}]']},zapper_arrow:1}}}

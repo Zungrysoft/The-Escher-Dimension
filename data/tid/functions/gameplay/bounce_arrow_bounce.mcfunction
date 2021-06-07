@@ -24,7 +24,7 @@ data modify entity @s inGround set value 0b
 execute if entity @s[nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]}] run data modify entity @s PierceLevel set value 10b
 
 #Increase the damage stat
-#execute unless score @s counter2 matches ..1 store result entity @s damage double 2 run data get entity @s damage
+execute if entity @s[nbt={CustomPotionEffects:[{Id:27b,Amplifier:13b}]},tag=!powered_up] run function tid:gameplay/bounce_arrow_power
 
 #Track number of bounces for the advancement
 execute unless score @s counter2 matches ..1 run scoreboard players add @s counter4 1

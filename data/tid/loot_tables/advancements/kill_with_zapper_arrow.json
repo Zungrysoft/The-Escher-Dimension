@@ -4,16 +4,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "weight": 666,
-                    "name": "minecraft:gold_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 40
-                        }
-                    ]
-                }
+					"type": "item",
+					"weight": 30,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Manufacturing Contract\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"Bring this item to an Underworld Dealer\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to unlock the \\'Electric Arrow\\' trade.\",\"italic\":false,\"color\":\"gray\"}]']},legendary:1b,HideFlags:65535,zapper_arrow:1}"
+						}
+					]
+				}
             ]
         }
     ]

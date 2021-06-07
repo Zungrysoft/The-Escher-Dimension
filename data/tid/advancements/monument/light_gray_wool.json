@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:light_gray_wool"
     },
-    "title": "Flaming Death",
+    "title": "Volunteer Firefighter",
     "description": "Place the light gray wool on the victory monument",
     "frame": "task",
     "show_toast": true,

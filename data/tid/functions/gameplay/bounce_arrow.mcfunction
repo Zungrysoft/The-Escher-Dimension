@@ -10,7 +10,7 @@ execute unless score @s counter1 matches 1.. if entity @s[nbt={CustomPotionEffec
 #Track how long it has been alive
 scoreboard players add @s counter1 1
 scoreboard players add @s counter2 1
-execute if score @s counter1 matches 40.. run function tid:gameplay/bounce_arrow_explode
+execute if score @s counter1 matches 60.. run function tid:gameplay/bounce_arrow_explode
 
 #Determine if the arrow is in the ground
 scoreboard players set temp value 0

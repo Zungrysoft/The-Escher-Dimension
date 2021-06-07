@@ -6,11 +6,11 @@
                 {
 					"type": "item",
 					"weight": 30,
-					"name": "minecraft:mojang_banner_pattern",
+					"name": "minecraft:paper",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Heart Scroll\",\"italic\":false,\"color\":\"dark_red\"}]'},legendary:1b,HideFlags:65535,health_scroll:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Manufacturing Contract\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"Bring this item to an Underworld Dealer\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"to unlock the \\'Ballistic Arrow\\' trade.\",\"italic\":false,\"color\":\"gray\"}]']},legendary:1b,HideFlags:65535,bounce_arrow:1}"
 						}
 					]
 				}
