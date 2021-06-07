@@ -1138,12 +1138,12 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 80,
 					"name": "minecraft:bone",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Corethab\\\'s Bone\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +4 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"  -6 Max Health\",\"italic\":false,\"color\":\"red\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-6,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.max_health\"}]}"
+							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Corethab\\'s Bone\",\"italic\":false,\"bold\":true,\"color\":\"gray\"}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +4 Attack Damage\",\"italic\":false,\"color\":\"white\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"  -6 Max Health\",\"italic\":false,\"color\":\"red\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.max_health\",Amount:-6,Operation:0,UUID:[I;-12119,2118,44148,-4236],Slot:offhand,Name:\"generic.max_health\"}]}"
 						}
 					]
 				},
