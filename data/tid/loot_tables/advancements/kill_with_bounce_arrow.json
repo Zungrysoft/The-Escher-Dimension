@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Heart Scroll\",\"italic\":false,\"color\":\"dark_red\"}]\'},legendary:1b,HideFlags:65535,health_scroll:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Heart Scroll\",\"italic\":false,\"color\":\"dark_red\"}]'},legendary:1b,HideFlags:65535,health_scroll:1b}"
 						}
 					]
 				}

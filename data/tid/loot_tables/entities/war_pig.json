@@ -58,7 +58,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"Dust Cover\",\"italic\":false,\"bold\":false,\"color\":\"dark_green\"}]\',Lore:[\'[{\"text\":\"When in offhand, reloads\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]\']},act_offhand_kill_mob:1b,eff_reload:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+							"tag": "{display:{Name:'[{\"text\":\"Dust Cover\",\"italic\":false,\"bold\":false,\"color\":\"dark_green\"}]',Lore:['[{\"text\":\"When in offhand, reloads\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"your crossbows on kill\",\"italic\":false,\"color\":\"aqua\"}]']},act_offhand_kill_mob:1b,eff_reload:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
 						}
 					]
 				}

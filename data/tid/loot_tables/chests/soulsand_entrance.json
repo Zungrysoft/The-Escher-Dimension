@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'[{\"text\":\"Lucifer\\'s Clogs\",\"italic\":false,\"color\":\"red\",\"bold\":true}]'},Enchantments:[{id:soul_speed,lvl:5},{id:unbreaking,lvl:10}],Unbreakable:1,HideFlags:4}"
+                            "tag": "{display:{Name:'[{\"text\":\"Lucifer\\'s Clogs\",\"italic\":false,\"color\":\"red\",\"bold\":true}]'},Enchantments:[{id:soul_speed,lvl:5}],Unbreakable:1}"
                         }
                     ]
                 }

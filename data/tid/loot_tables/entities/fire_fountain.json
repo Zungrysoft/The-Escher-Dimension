@@ -24,10 +24,35 @@
 						},
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16358941,display:{Name:\'[{\"text\":\"Arrow of Wrath\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Causes victim to release fireballs\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:2,Amplifier:4}],HideFlags:65535}"
+							"tag": "{CustomPotionColor:16358941,display:{Name:'[{\"text\":\"Arrow of Wrath\",\"italic\":false,\"color\":\"white\"}]',Lore:['[{\"text\":\"Causes victim to release fireballs\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:2,Amplifier:4}],HideFlags:65535}"
 						}
 					],
 					"name": "minecraft:tipped_arrow"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book"
+				}
+			],
+			"functions": [
+				{
+			"function": "set_nbt",
+			"tag": "{StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:3}]}"
+		}
+		],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.03,
+					"looting_multiplier": 0.03
 				}
 			]
 		}

@@ -24,7 +24,7 @@
             },
 			{
               "function": "set_nbt",
-              "tag": "{display:{Name:\'[{\"text\":\"Glowing Powder\",\"italic\":false,\"color\":\"gold\",\"bold\":false}]\'},glow_powder:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+              "tag": "{display:{Name:'[{\"text\":\"Glowing Powder\",\"italic\":false,\"color\":\"gold\",\"bold\":false}]'},glow_powder:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
             }
           ],
           "name": "minecraft:blaze_powder"

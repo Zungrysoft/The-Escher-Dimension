@@ -164,7 +164,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:5136243,display:{Name:\'[{\"text\":\"Arrow of Lethargy\",\"italic\":false}]\'},CustomPotionEffects:[{Id:2,Duration:200,Amplifier:4},{Id:18,Duration:200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:5136243,display:{Name:'[{\"text\":\"Arrow of Lethargy\",\"italic\":false}]'},CustomPotionEffects:[{Id:2,Duration:200,Amplifier:4},{Id:18,Duration:200,Amplifier:0}]}"
 						},
 						{
 							"function": "set_count",

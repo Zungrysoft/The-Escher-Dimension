@@ -38,7 +38,7 @@
 			"functions": [
 				{
 			"function": "set_nbt",
-			"tag": "{StoredEnchantments:[{id:blast_protection,lvl:3}]}"
+			"tag": "{StoredEnchantments:[{id:\"minecraft:blast_protection\",lvl:3}]}"
 		}
 		],
 			"conditions": [
@@ -47,8 +47,8 @@
 				},
 				{
 					"condition": "minecraft:random_chance_with_looting",
-					"chance": 0.05,
-					"looting_multiplier": 0.05
+					"chance": 0.03,
+					"looting_multiplier": 0.03
 				}
 			]
 		}

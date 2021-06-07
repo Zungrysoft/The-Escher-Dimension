@@ -24,7 +24,7 @@
             },
 			{
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:3866685,display:{Name:\'[{\"text\":\"Dread Arrow\",\"italic\":false}]\'},CustomPotionEffects:[{Id:15,Duration:40},{Id:20,Duration:40}]}"
+              "tag": "{CustomPotionColor:3866685,display:{Name:'[{\"text\":\"Dread Arrow\",\"italic\":false}]'},CustomPotionEffects:[{Id:15,Duration:40},{Id:20,Duration:40}]}"
             }
           ],
           "name": "minecraft:tipped_arrow"

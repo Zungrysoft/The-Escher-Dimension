@@ -43,7 +43,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:10542775,display:{Name:\'[{\"text\":\"Sniper Arrow\",\"italic\":false,\"color\":\"white\"}]\',Lore:[\'[{\"text\":\"Damage increases with range\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:2}],HideFlags:65535,sniper_arrow:1}"
+							"tag": "{CustomPotionColor:10542775,display:{Name:'[{\"text\":\"Sniper Arrow\",\"italic\":false,\"color\":\"white\"}]',Lore:['[{\"text\":\"Damage increases with range\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:2}],HideFlags:65535,sniper_arrow:1}"
 						},
 						{
 							"function": "set_count",

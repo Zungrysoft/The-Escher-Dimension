@@ -24,7 +24,7 @@
             },
 			{
               "function": "set_nbt",
-              "tag": "{display:{Name:\'[{\"text\":\"Ice Crystals\",\"italic\":false,\"color\":\"aqua\",\"bold\":false}]\'},ice_crystal:1b,Enchantments:[{}]}"
+              "tag": "{display:{Name:'[{\"text\":\"Ice Crystals\",\"italic\":false,\"color\":\"aqua\",\"bold\":false}]'},ice_crystal:1b,Enchantments:[{}]}"
             }
           ],
           "name": "minecraft:prismarine_crystals"

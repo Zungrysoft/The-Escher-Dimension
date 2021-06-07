@@ -30,7 +30,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"For Monument Use Only!\",\"italic\":false,\"bold\":true,\"underlined\":true,\"color\":\"gray\"}]\'}}"
+							"tag": "{display:{Name:'[{\"text\":\"For Monument Use Only!\",\"italic\":false,\"bold\":true,\"underlined\":true,\"color\":\"gray\"}]'}}"
 						}
 					]
 				}

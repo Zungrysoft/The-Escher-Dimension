@@ -356,7 +356,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Firestorm\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]\',Lore:[\'[{\"text\":\"5 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 0b, Colors: [I; 15221057]}, {Type: 0b, Colors: [I; 15761987]}, {Type: 0b, Colors: [I; 16753725]}, {Type: 0b, Colors: [I; 16761889]}, {Type: 0b, Colors: [I; 15924992]}]}}"
+							"tag": "{display:{Name:'[{\"text\":\"The Firestorm\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]',Lore:['[{\"text\":\"5 charges\",\"italic\":false,\"color\":\"gray\"}]']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 0b, Colors: [I; 15221057]}, {Type: 0b, Colors: [I; 15761987]}, {Type: 0b, Colors: [I; 16753725]}, {Type: 0b, Colors: [I; 16761889]}, {Type: 0b, Colors: [I; 15924992]}]}}"
 						},
 						{
 							"function": "set_count",

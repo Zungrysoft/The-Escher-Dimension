@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{pages: [\'{\"text\":\"This dungeon did not generate properly and may not be completable. You may still explore the area, but the dye is here for free. I promise this happens very rarely!\"}\'], title: \"My Sincerest Apologies\", author: \"ZungryWare\", resolved: 1b}"
+							"tag": "{pages: ['{\"text\":\"This dungeon did not generate properly and may not be completable. You may still explore the area, but the dye is here for free. I promise this happens very rarely!\"}'], title: \"My Sincerest Apologies\", author: \"ZungryWare\", resolved: 1b}"
 						}
 					]
 				}

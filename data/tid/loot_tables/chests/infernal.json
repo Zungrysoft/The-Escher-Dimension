@@ -338,7 +338,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:\'[{\"text\":\"The Starfighter\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]\',Lore:[\'[{\"text\":\"9 charges\",\"italic\":false,\"color\":\"gray\"}]\']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}]}}"
+							"tag": "{display:{Name:'[{\"text\":\"The Starfighter\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"9 charges\",\"italic\":false,\"color\":\"gray\"}]']},HideFlags:65535,Fireworks: {Flight: 1b, Explosions: [{Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}, {Type: 2b, Flicker:1b, Colors: [I; 7895295]}, {Type: 1b, Flicker:1b, Colors: [I; 16739950]}]}}"
 						},
 						{
 							"function": "set_count",
@@ -363,7 +363,7 @@
 						},
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Void Arrow\",\"italic\":false,\"color\":\"dark_red\"}]\',Lore:[\'[{\"text\":\"Teleports monsters\",\"italic\":false,\"color\":\"aqua\"}]\',\'[{\"text\":\"into the void\",\"italic\":false,\"color\":\"aqua\"}]\']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:11}],HideFlags:65535}"
+							"tag": "{CustomPotionColor:0,display:{Name:'[{\"text\":\"Void Arrow\",\"italic\":false,\"color\":\"dark_red\"}]',Lore:['[{\"text\":\"Teleports monsters\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"into the void\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:11}],HideFlags:65535}"
 						}
 					]
 				}

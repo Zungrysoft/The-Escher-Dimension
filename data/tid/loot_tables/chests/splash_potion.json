@@ -164,7 +164,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:\'[{\"text\":\"Splash Potion of Dexterity\",\"italic\":false}]\'}}"
+							"tag": "{CustomPotionEffects:[{Id:8,Amplifier:4,Duration:600},{Id:1,Amplifier:2,Duration:600},{Id:3,Amplifier:2,Duration:600}],CustomPotionColor:16777215,display:{Name:'[{\"text\":\"Splash Potion of Dexterity\",\"italic\":false}]'}}"
 						}
 					]
 				},
@@ -175,7 +175,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:0,display:{Name:\'[{\"text\":\"Splash Potion of Rage\",\"italic\":false}]\'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}"
+							"tag": "{CustomPotionColor:0,display:{Name:'[{\"text\":\"Splash Potion of Rage\",\"italic\":false}]'},CustomPotionEffects:[{Id:5,Duration:1800,Amplifier:3},{Id:3,Duration:1800,Amplifier:3},{Id:7,Duration:0,Amplifier:1}]}"
 						}
 					]
 				},
@@ -186,7 +186,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:7368959,display:{Name:\'[{\"text\":\"Splash Potion of Grace\",\"italic\":false}]\'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:7368959,display:{Name:'[{\"text\":\"Splash Potion of Grace\",\"italic\":false}]'},CustomPotionEffects:[{Id:30,Duration:7200,Amplifier:0}]}"
 						}
 					]
 				},
@@ -197,7 +197,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:10747903,display:{Name:\'[{\"text\":\"Splash Potion of Levitation\",\"italic\":false}]\'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
+							"tag": "{CustomPotionColor:10747903,display:{Name:'[{\"text\":\"Splash Potion of Levitation\",\"italic\":false}]'},CustomPotionEffects:[{Id:25,Duration:200,Amplifier:3},{Id:28,Duration:400}]}"
 						}
 					]
 				},
@@ -208,7 +208,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:16776960,display:{Name:\'[{\"text\":\"Splash Potion of Haste\",\"italic\":false}]\'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:3}]}"
+							"tag": "{CustomPotionColor:16776960,display:{Name:'[{\"text\":\"Splash Potion of Haste\",\"italic\":false}]'},CustomPotionEffects:[{Id:3,Duration:7200,Amplifier:3}]}"
 						}
 					]
 				},
@@ -219,7 +219,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:51153,display:{Name:\'[{\"text\":\"Splash Potion of Endurance\",\"italic\":false}]\'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:51153,display:{Name:'[{\"text\":\"Splash Potion of Endurance\",\"italic\":false}]'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
 						}
 					]
 				},
@@ -230,7 +230,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:7229740,display:{Name:\'[{\"text\":\"Splash Potion of Intoxication\",\"italic\":false}]\'},CustomPotionEffects:[{Id:26,Duration:1200,Amplifier:2},{Id:9,Duration:1200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:7229740,display:{Name:'[{\"text\":\"Splash Potion of Intoxication\",\"italic\":false}]'},CustomPotionEffects:[{Id:26,Duration:1200,Amplifier:2},{Id:9,Duration:1200,Amplifier:0}]}"
 						}
 					]
 				}
