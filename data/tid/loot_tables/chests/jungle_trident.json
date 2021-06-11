@@ -31,7 +31,7 @@
 				{
                     "type": "item",
                     "weight": 25,
-                    "name": "minecraft:prismarine_shard",
+                    "name": "minecraft:sponge",
                     "functions": [
                         {
                             "function": "set_count",
@@ -45,7 +45,7 @@
 				{
                     "type": "item",
                     "weight": 25,
-                    "name": "minecraft:prismarine_crystals",
+                    "name": "minecraft:wet_sponge",
                     "functions": [
                         {
                             "function": "set_count",
