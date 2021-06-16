@@ -22,21 +22,21 @@ execute if score @s igneous matches 1.. as @e[type=#tid:living,distance=..15] ru
 scoreboard players operation @s igneous *= bonus value
 
 #Give the damage bonus attribute if applicable
-execute if score @s igneous matches 1 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 2 add
-execute if score @s igneous matches 2 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 4 add
-execute if score @s igneous matches 3 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 6 add
-execute if score @s igneous matches 4 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 8 add
-execute if score @s igneous matches 5 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 10 add
-execute if score @s igneous matches 6 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 12 add
-execute if score @s igneous matches 7 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 14 add
-execute if score @s igneous matches 8 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 16 add
-execute if score @s igneous matches 9 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 18 add
-execute if score @s igneous matches 10 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 20 add
-execute if score @s igneous matches 11..12 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 24 add
-execute if score @s igneous matches 13..14 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 28 add
-execute if score @s igneous matches 15..16 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 32 add
-execute if score @s igneous matches 17..18 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 36 add
-execute if score @s igneous matches 19..20 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 40 add
-execute if score @s igneous matches 21..25 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 50 add
-execute if score @s igneous matches 26..30 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 60 add
-execute if score @s igneous matches 31.. run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 80 add
+execute if score @s igneous matches 1 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 1 add
+execute if score @s igneous matches 2 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 2 add
+execute if score @s igneous matches 3 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 3 add
+execute if score @s igneous matches 4 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 4 add
+execute if score @s igneous matches 5 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 5 add
+execute if score @s igneous matches 6 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 6 add
+execute if score @s igneous matches 7 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 7 add
+execute if score @s igneous matches 8 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 8 add
+execute if score @s igneous matches 9 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 9 add
+execute if score @s igneous matches 10 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 10 add
+execute if score @s igneous matches 11..12 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 12 add
+execute if score @s igneous matches 13..14 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 14 add
+execute if score @s igneous matches 15..16 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 16 add
+execute if score @s igneous matches 17..18 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 18 add
+execute if score @s igneous matches 19..20 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 20 add
+execute if score @s igneous matches 21..25 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 25 add
+execute if score @s igneous matches 26..30 run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 30 add
+execute if score @s igneous matches 31.. run attribute @s minecraft:generic.attack_damage modifier add 21483d2f-4e05-4f9a-9e04-8ea571aac87f bonus 40 add

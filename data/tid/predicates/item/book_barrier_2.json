@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"item": "minecraft:book",
+						"nbt": "{book_barrier_2:1b}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"item": "minecraft:book",
+						"nbt": "{book_barrier_2:1b}"
+					}
+				}
+			}
+		}
+	]
+}

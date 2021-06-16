@@ -16,23 +16,23 @@ execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.
 
 #Add in preset trades
 #Layer 2
-execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},legendary:1b,HideFlags:65535,health_scroll:1b}}}
-execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:iron_ingot,Count:4}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:25},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Heart Scroll","italic":false,"color":"dark_red"}]'},legendary:1b,HideFlags:65535,health_scroll:1b}}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:iron_ingot,Count:3}}
 execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:coal,Count:10}}
-execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:mutton,Count:8}}
-execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:chest,Count:1,tag:{BlockEntityTag: {LootTable: "tid:chests/mystery_box", id: "minecraft:chest"}, display:{Name:'[{"text":"Mystery Box","italic":true,"bold":false,"color":"purple"}]',Lore:['[{"text":"Contains two rare items","italic":false,"color":"aqua"}]']}}}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:mutton,Count:6}}
+execute if entity @s[predicate=tid:in_layer_2] run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:20},sell:{id:chest,Count:1,tag:{BlockEntityTag: {LootTable: "tid:chests/mystery_box", id: "minecraft:chest"}, display:{Name:'[{"text":"-?- Mystery Box -?-","italic":true,"color":"dark_purple","bold":true}]',Lore:['[{"text":"Contains two rare items","italic":false,"color":"aqua"}]']}}}}
 
 #Layer 3: Damage scroll or speed scroll
 scoreboard players set temp9 value 0
 execute if predicate tid:random_50 run scoreboard players set temp9 value 1
-execute if score temp9 value matches 0 if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:30},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Speed Scroll","italic":false,"color":"aqua"}]'},legendary:1b,HideFlags:65535,speed_scroll:1b}}}
-execute if score temp9 value matches 1 if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:30},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Damage Scroll","italic":false,"color":"red"}]'},legendary:1b,HideFlags:65535,damage_scroll:1b}}}
+execute if score temp9 value matches 0 if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:48},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Speed Scroll","italic":false,"color":"aqua"}]'},legendary:1b,HideFlags:65535,speed_scroll:1b}}}
+execute if score temp9 value matches 1 if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:48},sell:{id:mojang_banner_pattern,Count:1,tag:{display:{Name:'[{"text":"Damage Scroll","italic":false,"color":"red"}]'},legendary:1b,HideFlags:65535,damage_scroll:1b}}}
 
 #Layer 3
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:18},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:22},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:3},sell:{id:diamond,Count:1}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:arrow,Count:15}}
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:8}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:6}}
 
 #Pick a random type
 scoreboard players set temp value 0

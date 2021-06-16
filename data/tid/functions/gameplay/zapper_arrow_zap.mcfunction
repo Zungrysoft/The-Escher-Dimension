@@ -1,6 +1,6 @@
 #Deal damage to all mobs within a couple of blocks
-effect give @e[type=#tid:undead,distance=0..3] instant_health 1 2
-effect give @e[type=!#tid:undead,type=!player,distance=0..3] instant_damage 1 2
+effect give @e[type=#tid:monster,type=#tid:undead,distance=0..3] instant_health 1 2
+effect give @e[type=#tid:monster,type=!#tid:undead,distance=0..3] instant_damage 1 2
 
 #Particles
 particle minecraft:dust 1 1 0.2 2 ~ ~ ~ 1 1 1 0.4 25

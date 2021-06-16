@@ -13,5 +13,8 @@ execute if score hellion_global value matches 1 as @e[type=minecraft:area_effect
 #Up direction
 execute as @e[type=minecraft:area_effect_cloud,name="hellion_up",sort=random] at @s run function tid:dungeon/hellion/check_up
 
+#Super Safety Measure
+execute as @a[predicate=tid:in_layer_hellion,gamemode=survival] at @s if block ~ ~-2 ~ lava run tp @s 0 183 0
+
 #Once all of the rooms are done generating, move to the next phase
 execute unless entity @e[type=area_effect_cloud,name="hellion_north"] unless entity @e[type=area_effect_cloud,name="hellion_south"] unless entity @e[type=area_effect_cloud,name="hellion_east"] unless entity @e[type=area_effect_cloud,name="hellion_west"] unless entity @e[type=area_effect_cloud,name="hellion_up"] run scoreboard players set hellion_handler_phase value 30

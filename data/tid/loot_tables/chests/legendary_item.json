@@ -148,7 +148,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 60,
 					"name": "minecraft:leather_boots",
 					"functions": [
 						{
@@ -236,12 +236,12 @@
 				},
 				{
 					"type": "item",
-					"weight": 30,
-					"name": "minecraft:iron_chestplate",
+					"weight": 10,
+					"name": "minecraft:golden_chestplate",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Scattersear Cataphract\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"Sets a random monster on fire\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_chest_take_damage:1b,eff_inflict_fire_random:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Scattersear Cataphract\",\"italic\":false,\"bold\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"Sets a random monster on fire\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_chest_take_damage:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
@@ -599,7 +599,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 30,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -610,7 +610,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 20,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -621,7 +621,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 20,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -632,7 +632,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 30,
+					"weight": 15,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -643,7 +643,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 30,
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
@@ -824,7 +824,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Deals +4 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]']},legendary:1b,igneous:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Igneous Blade\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Deals +2 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]']},legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -835,7 +835,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +1 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -846,7 +846,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +1 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -857,7 +857,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +2 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +1 damage for each\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
@@ -868,7 +868,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +2 damage if a there is\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Igneous Armor\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]',Lore:['[{\"text\":\"Grants +1 damage if a there is\",\"italic\":false,\"color\":\"green\"}]','[{\"text\":\"living creature on fire nearby\",\"italic\":false,\"color\":\"green\"}]'],color:7567221},HideFlags:64,legendary:1b,igneous:1b}"
 						}
 					]
 				},
