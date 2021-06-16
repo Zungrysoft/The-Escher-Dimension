@@ -1,0 +1,20 @@
+{
+  "parent": "tid:finale/kill_boss",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon",
+	  "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Challengemaster",
+    "description": "Complete every challenge",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

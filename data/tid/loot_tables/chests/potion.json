@@ -241,7 +241,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{CustomPotionColor:51153,display:{Name:'[{\"text\":\"Potion of Endurance\",\"italic\":false}]'},CustomPotionEffects:[{Id:11,Duration:7200,Amplifier:0}]}"
+							"tag": "{CustomPotionColor:51153,display:{Name:'[{\"text\":\"Potion of Endurance\",\"italic\":false}]'},CustomPotionEffects:[{Id:11,Duration:4800,Amplifier:0}]}"
 						}
 					]
 				},

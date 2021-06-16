@@ -3,11 +3,11 @@
 #Ghast
 execute if predicate tid:random_06 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 1s, MinSpawnDelay: 200s, MaxSpawnDelay: 3000s, Delay: 2000s, SpawnRange: 8s, SpawnPotentials: [{Entity: {id: "minecraft:ghast",Health:25,Attributes:[{Name:"generic.max_health",Base:25F}]}, Weight: 1}]}
 #Phantom
-execute if predicate tid:random_25 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 2s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:phantom",Size:8,Health:40,Attributes:[{Name:"generic.attack_damage",Base:6f},{Name:"generic.max_health",Base:40F}]}, Weight: 1}]}
+execute if predicate tid:random_33 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 2s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:phantom",Size:8,Health:40,Attributes:[{Name:"generic.attack_damage",Base:36f},{Name:"generic.max_health",Base:40F}]}, Weight: 1}]}
 #Blaze
-execute if predicate tid:random_33 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 3s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand", Invisible:1,Tags:["spawncloud","blaze"]}, Weight: 1}]}
+execute if predicate tid:random_25 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 3s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand", Invisible:1,Tags:["spawncloud","blaze"]}, Weight: 1}]}
 #Bat Skeleton
-execute if predicate tid:random_03 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 1s, MinSpawnDelay: 200s, MaxSpawnDelay: 1600s, Delay: 200s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand",Invisible:1,Tags:["spawncloud","bat_skeleton"]}, Weight: 1}]}
+execute if predicate tid:random_02 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 1s, MinSpawnDelay: 200s, MaxSpawnDelay: 1600s, Delay: 200s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand",Invisible:1,Tags:["spawncloud","bat_skeleton"]}, Weight: 1}]}
 #Vex
 execute if predicate tid:random_25 run setblock ~ ~ ~ spawner{MaxNearbyEntities: 3s, RequiredPlayerRange: 32s, SpawnCount: 2s, MinSpawnDelay: 200s, MaxSpawnDelay: 800s, Delay: 100s, SpawnRange: 3s, SpawnPotentials: [{Entity: {id: "minecraft:armor_stand", Invisible:1,Tags:["spawncloud","vex"]}, Weight: 1}]}
 #Bee

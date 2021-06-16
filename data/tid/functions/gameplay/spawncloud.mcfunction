@@ -3,7 +3,7 @@
 execute if entity @s[tag=skeleton] run summon skeleton
 execute if entity @s[tag=blaze] run summon blaze
 execute if entity @s[tag=bat_skeleton] run summon bat ~ ~ ~ {Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1}],HandDropChances:[0F]}]}
-execute if entity @s[tag=vex] run summon vex ~ ~ ~ {Health:8,Tags:["keep"]}
+execute if entity @s[tag=vex] run summon vex ~ ~ ~ {Health:6,Tags:["keep"],HandItems:[{id:"minecraft:diamond_axe",Count:1b}]}
 
 #War pigs
 #Done using spawnclouds to circumvent a bug that lags the game with zombie pigman spawners
