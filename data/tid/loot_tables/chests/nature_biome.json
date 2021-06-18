@@ -15,7 +15,7 @@
             "entries": [
                 {
 					"type": "empty",
-					"weight": 10
+					"weight": 2
 				},
 				{
 					"type": "minecraft:loot_table",

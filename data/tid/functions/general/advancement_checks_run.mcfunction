@@ -95,5 +95,3 @@ execute if entity @s[advancements={tid:finale/kill_boss=true,tid:layer_2/kill_wi
 
 #Grant certain non-renewable advancements to all players instead of just the one
 execute if entity @a[advancements={tid:jungle/kill_ravager=true}] run advancement grant @s only tid:jungle/kill_ravager
-
-
