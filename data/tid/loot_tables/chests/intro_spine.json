@@ -1,0 +1,24 @@
+{
+    "pools": [
+		{
+            "rolls": 8,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gold_nugget"
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_apple"
+                }
+            ]
+        }
+    ]
+}

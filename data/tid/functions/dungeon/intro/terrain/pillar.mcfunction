@@ -1,3 +1,6 @@
+#Spine
+execute if predicate tid:random_002 positioned ~ ~7 ~ run function tid:misc/intro_spine
+
 #Coarse Dirt
 execute if predicate tid:random_50 run fill ~ ~ ~ ~ ~0 ~ coarse_dirt replace water
 execute if predicate tid:random_30 if score xcount value matches 1..99 if score zcount value matches 1..99 run fill ~ ~ ~ ~ ~1 ~ coarse_dirt replace water

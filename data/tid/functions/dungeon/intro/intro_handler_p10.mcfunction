@@ -20,6 +20,7 @@ scoreboard players set intro_rooms value 50
 scoreboard players set intro_large_rooms value 2
 scoreboard players set intro_horde_spawned value 0
 scoreboard players set intro_horde_monsters value 0
+scoreboard players set intro_spine_chests value 0
 scoreboard players reset @a mine_diorite
 
 #Summon starting room
