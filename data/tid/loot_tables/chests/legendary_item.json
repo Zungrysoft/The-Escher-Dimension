@@ -1306,7 +1306,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 100,
+					"weight": 92,
 					"name": "minecraft:tipped_arrow",
 					"functions": [
 						{
