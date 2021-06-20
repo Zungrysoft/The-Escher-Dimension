@@ -14,5 +14,8 @@ execute unless score temp4 value matches 0 at @e[type=area_effect_cloud,name="sc
 #I will die a happy man if I can just understand why the FUCK this line of code sometimes hangs for two entire minutes
 execute at @s run kill @e[type=area_effect_cloud,name="scatter_marker",distance=..75]
 
+#Count up the districts
+scoreboard players add s_district_count value 1
+
 #Remove the new tag
 tag @s remove new
