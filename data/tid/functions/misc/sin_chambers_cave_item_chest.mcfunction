@@ -5,7 +5,7 @@ setblock ~ ~ ~ polished_blackstone_bricks
 
 #Determine what we're building
 scoreboard players set temp5 value 0
-execute if predicate tid:random_40 run scoreboard players set temp5 value 1
+execute if predicate tid:random_50 run scoreboard players set temp5 value 1
 
 #Chest
 execute if score temp5 value matches 0 if predicate tid:random_20 run setblock ~ ~1 ~ chest[facing=north]{LootTable: "tid:chests/sin_chambers"}

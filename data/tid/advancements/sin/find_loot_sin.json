@@ -23,12 +23,19 @@
       "conditions": {
         "loot_table": "tid:chests/sin_office"
       }
+    },
+	"loot_3": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "tid:chests/sin_pedestal"
+      }
     }
   },
   "requirements": [
     [
       "loot_1",
-      "loot_2"
+      "loot_2",
+      "loot_3"
     ]
   ]
 }
