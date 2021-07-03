@@ -22,3 +22,4 @@ execute as @a[predicate=tid:custom_effect] run function tid:gameplay/custom_poti
 #12: Transform
 #13 is used for Bouncing Arrow
 #14 is used for Bouncing Arrow from Monsters
+#15 is used for Cagebreaker Arrow

@@ -186,7 +186,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{color:16185087,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
+							"tag": "{color:9937520,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_head_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -197,7 +197,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{color:16185087,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
+							"tag": "{color:3949787,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_chest_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -208,7 +208,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{color:16185087,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
+							"tag": "{color:9937520,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_legs_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -219,7 +219,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{color:16383214,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
+							"tag": "{color:9937520,display:{Name:'[{\"text\":\"Reflex Gear\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_feet_cycle_short:1b,eff_grant_speed_weak:1b,HideFlags:64}"
 						}
 					]
 				},
@@ -230,7 +230,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{color:11902359,Name:'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},HideFlags:64,legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
+							"tag": "{display:{color:3295232,Name:'[{\"text\":\"Double-Down Fitouts\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Grants resistance upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},HideFlags:64,legendary:1b,act_legs_cycle_short:1b,eff_grant_resistance_weak:1b}"
 						}
 					]
 				},
@@ -407,6 +407,61 @@
 						{
 							"function": "set_nbt",
 							"tag": "{display:{color:3847130,Name:'[{\"text\":\"Etherean Raiments\",\"italic\":false,\"bold\":true,\"color\":\"red\"}]',Lore:['[{\"text\":\"Inflicts a random monster with\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"levitation upon taking damage\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Refreshes after 45 seconds\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,act_feet_cycle_short:1b,eff_inflict_levitation_random:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 12,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16734873,Name:'[{\"text\":\"Hexproof Helm\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"Grants strength, speed,\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"and resistance upon\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"upon killing a witch\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_head_kill_witch:1b,eff_grant_strength_strong:1b,eff_grant_speed_strong:1b,eff_grant_resistance_strong:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Shi\",\"italic\":false,\"bold\":true,\"color\":\"blue\"},{\"text\":\"mme\",\"color\":\"light_purple\"},{\"text\":\"rin\",\"color\":\"red\"},{\"text\":\"g Sh\",\"color\":\"gold\"},{\"text\":\"ams\",\"color\":\"yellow\"},{\"text\":\"hir\",\"color\":\"green\"}]',Lore:['[{\"text\":\"On kill, has a 2% chance to grant\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"strength, speed, and resistance\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_mainhand_kill_mob:1b,eff_grant_ultra:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16734873,Name:'[{\"text\":\"Shi\",\"italic\":false,\"bold\":true,\"color\":\"blue\"},{\"text\":\"mme\",\"color\":\"light_purple\"},{\"text\":\"rin\",\"color\":\"red\"},{\"text\":\"g Ar\",\"color\":\"gold\"},{\"text\":\"mor\",\"color\":\"yellow\"}]',Lore:['[{\"text\":\"On kill, has a 2% chance to grant\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"strength, speed, and resistance\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_chest_kill_mob:1b,eff_grant_ultra:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{color:16734873,Name:'[{\"text\":\"Shi\",\"italic\":false,\"bold\":true,\"color\":\"blue\"},{\"text\":\"mme\",\"color\":\"light_purple\"},{\"text\":\"rin\",\"color\":\"red\"},{\"text\":\"g Ar\",\"color\":\"gold\"},{\"text\":\"mor\",\"color\":\"yellow\"}]',Lore:['[{\"text\":\"On kill, has a 2% chance to grant\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"strength, speed, and resistance\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_legs_kill_mob:1b,eff_grant_ultra:1b,HideFlags:64}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Shi\",\"italic\":false,\"bold\":true,\"color\":\"blue\"},{\"text\":\"mme\",\"color\":\"light_purple\"},{\"text\":\"rin\",\"color\":\"red\"},{\"text\":\"g Pi\",\"color\":\"gold\"},{\"text\":\"cka\",\"color\":\"yellow\"},{\"text\":\"xe\",\"color\":\"green\"}]',Lore:['[{\"text\":\"Upon breaking a spawner, has\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"a 2% chance to grant strength,\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"speed, and resistance\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_mainhand_mine_spawner:1b,eff_grant_ultra:1b}"
 						}
 					]
 				},
@@ -1306,7 +1361,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 92,
+					"weight": 72,
 					"name": "minecraft:tipped_arrow",
 					"functions": [
 						{
@@ -1319,6 +1374,24 @@
 						{
 							"function": "set_nbt",
 							"tag": "{CustomPotionColor:3698198,display:{Name:'[{\"text\":\"Arrow of Cowardice\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[{\"text\":\"Transforms monsters into maggots\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:12}],HideFlags:65535}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 72,
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 8,
+								"max": 12
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionColor:10027153,display:{Name:'[{\"text\":\"Cagebreaker Arrow\",\"italic\":false,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"Breaks monster spawners\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],CustomPotionEffects:[{Id:27,Duration:1,Amplifier:15}],HideFlags:65535}"
 						}
 					]
 				},

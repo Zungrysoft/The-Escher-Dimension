@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:black_wool"
     },
-    "title": "Welcome to the Machine",
+    "title": "Industrial Revolution",
     "description": "Place the black wool on the victory monument",
     "frame": "task",
     "show_toast": true,

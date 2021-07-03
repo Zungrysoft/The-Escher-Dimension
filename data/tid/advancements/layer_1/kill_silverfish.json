@@ -5,7 +5,7 @@
       "item": "minecraft:iron_bars"
     },
     "title": "Exterminator",
-    "description": "Kill ten silverfish in ten seconds §d[Reward: 25 Iron Ingots]",
+    "description": "Kill ten silverfish in ten seconds §d[Reward: 15 Iron Ingots]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

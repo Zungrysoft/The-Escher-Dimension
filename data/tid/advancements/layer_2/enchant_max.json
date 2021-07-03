@@ -6,7 +6,7 @@
 	  "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
     },
     "title": "The Magic User",
-    "description": "Enchant a pickaxe to efficiency V, a bow to Power V, and a sword/axe to Sharpness V §d[Reward: 256 Bottles o' Enchanting and 20 lapis lazuli]",
+    "description": "Enchant an Efficiency V tool, a Power V tool, and a Sharpness V tool §d[Reward: 256 Bottles o' Enchanting and 20 lapis lazuli]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

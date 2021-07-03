@@ -113,6 +113,7 @@ scoreboard objectives add kill_wither_skel minecraft.killed:minecraft.wither_ske
 scoreboard objectives add kill_piglin minecraft.killed:minecraft.piglin
 scoreboard objectives add kill_brute minecraft.killed:minecraft.piglin_brute
 scoreboard objectives add kill_zpig minecraft.killed:minecraft.zombified_piglin
+scoreboard objectives add kill_witch minecraft.killed:minecraft.witch
 team add players
 team add glow
 team modify glow color yellow

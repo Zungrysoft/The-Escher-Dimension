@@ -8,6 +8,7 @@ function tid:gameplay/act_kill_creeper
 function tid:gameplay/act_kill_skeleton
 function tid:gameplay/act_kill_blaze
 function tid:gameplay/act_kill_piglin
+function tid:gameplay/act_kill_witch
 
 #Tomes
 execute if score @s tome_use matches 1.. run function tid:gameplay/tome_checks

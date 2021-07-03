@@ -78,7 +78,8 @@ data modify entity @e[type=arrow,limit=1,tag=new] {} merge from storage temp fir
 execute if entity @s[tag=power_low] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 9
 execute if entity @s[tag=power_medium] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 14
 execute if entity @s[tag=power_high] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 22
-execute if entity @s[tag=power_super] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 42
+execute if entity @s[tag=power_super] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 34
+execute if entity @s[tag=power_super,predicate=tid:in_layer_finale] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 42
 
 #If this is a mutant war pig, edit the fireball to mutant as well
 execute if entity @s[tag=mutant] run tag @e[type=arrow,limit=1,tag=new] add mutant
