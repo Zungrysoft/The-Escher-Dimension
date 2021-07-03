@@ -10,6 +10,12 @@ execute if predicate tid:random_05 unless entity @e[type=area_effect_cloud,name=
 execute if score temp value matches 1 run setblock ~ ~2 ~1 chest{LootTable: "tid:chests/neon"}
 execute if score temp value matches 1 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"neon_chest_locator\""}
 
+#Maybe put a spawner here
+scoreboard players set temp value 0
+execute if predicate tid:random_10 unless entity @e[type=area_effect_cloud,name="neon_spawner_locator",distance=0..27] run scoreboard players set temp value 1
+execute if score temp value matches 1 positioned ~1 ~2 ~ run function tid:misc/neon_random_spawner
+execute if score temp value matches 1 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"neon_spawner_locator\""}
+
 #Mark this area on the map
 fill ~ 255 ~ ~1 255 ~1 minecraft:green_terracotta replace minecraft:purpur_block
 

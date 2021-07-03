@@ -27,6 +27,7 @@ setblock 6 55 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_b
 
 #Remove locators
 kill @e[type=area_effect_cloud,name="neon_chest_locator"]
+kill @e[type=area_effect_cloud,name="neon_spawner_locator"]
 
 #These chunks are no longer needed
 forceload remove all
