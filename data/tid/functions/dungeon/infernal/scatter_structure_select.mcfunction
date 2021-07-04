@@ -18,6 +18,9 @@ execute if score temp value matches 0.. unless score power_drills value matches 
 #For the first few structures, also build an explosive drill directly above it
 execute if score temp value matches 0.. if score power_drills value matches 1.. positioned ~-13 111 ~-13 if blocks ~ ~128 ~ ~26 ~143 ~26 1001 1 1001 all run function tid:dungeon/infernal/misc/select_power_drill
 
+#Make sure a minimum number of towers are built
+execute if score infernal_built_towers value matches ..7 run scoreboard players set temp value 0
+
 #Build it
-execute if score temp value matches 0..15 run function tid:dungeon/infernal/tanktower/start
-execute if score temp value matches 16..31 run function tid:dungeon/infernal/tower/start
+execute if score temp value matches 0..9 run function tid:dungeon/infernal/tower/start
+execute if score temp value matches 10..31 run function tid:dungeon/infernal/tanktower/start
