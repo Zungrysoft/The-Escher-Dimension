@@ -1385,8 +1385,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 8,
-								"max": 12
+								"min": 12,
+								"max": 16
 							}
 						},
 						{
