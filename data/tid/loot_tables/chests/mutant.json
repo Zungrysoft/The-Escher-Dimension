@@ -151,7 +151,7 @@
                 },
 				{
                     "type": "item",
-                    "weight": 25,
+                    "weight": 35,
                     "name": "minecraft:prismarine_shard",
                     "functions": [
                         {
