@@ -8,7 +8,7 @@ execute unless score @s failed matches 1.. if predicate tid:random_04 unless ent
 execute unless score @s failed matches 1.. if predicate tid:random_10 unless entity @s[tag=tower] positioned ~-6 ~-1 ~1 if blocks ~ ~128 ~ ~13 ~154 ~13 1001 1 1001 all run function tid:dungeon/ice/select_tower
 
 #Arena
-execute unless score @s failed matches 1.. if predicate tid:random_02 positioned ~-12 ~-3 ~1 unless entity @e[name="ice_arena_marker",distance=0..30] if blocks ~ ~128 ~ ~25 ~138 ~25 1001 1 1001 all run function tid:dungeon/ice/select_arena
+execute unless score @s failed matches 1.. if predicate tid:random_02 unless entity @e[name="ice_arena_marker",distance=0..30] positioned ~-12 ~-3 ~1 if blocks ~ ~128 ~ ~25 ~138 ~25 1001 1 1001 all run function tid:dungeon/ice/select_arena
 
 #Other rooms
 execute unless score @s failed matches 1.. if predicate tid:random_01 positioned ~-5 ~-2 ~1 if blocks ~ ~128 ~ ~11 ~134 ~11 1001 1 1001 all run function tid:dungeon/ice/select_room
