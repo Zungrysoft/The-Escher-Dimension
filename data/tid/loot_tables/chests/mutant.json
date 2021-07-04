@@ -7,10 +7,6 @@
                     "type": "item",
                     "weight": 20,
                     "name": "minecraft:blue_dye"
-                },
-				{
-                    "type": "empty",
-                    "weight": 10
                 }
             ]
         },
