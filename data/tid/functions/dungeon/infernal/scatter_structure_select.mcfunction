@@ -19,7 +19,7 @@ execute if score temp value matches 0.. unless score power_drills value matches 
 execute if score temp value matches 0.. if score power_drills value matches 1.. positioned ~-13 111 ~-13 if blocks ~ ~128 ~ ~26 ~143 ~26 1001 1 1001 all run function tid:dungeon/infernal/misc/select_power_drill
 
 #Make sure a minimum number of towers are built
-execute if score infernal_built_towers value matches ..7 run scoreboard players set temp value 0
+execute if score temp value matches 0.. if score infernal_built_towers value matches ..7 run scoreboard players set temp value 0
 
 #Build it
 execute if score temp value matches 0..9 run function tid:dungeon/infernal/tower/start

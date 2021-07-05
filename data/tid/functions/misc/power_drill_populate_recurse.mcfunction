@@ -3,7 +3,7 @@
 spreadplayers ~ ~ 1 3 false @s
 
 #Randomize it on the y axis
-execute at @s run tp @s ~ 21 ~
+execute at @s run tp @s ~ 14 ~
 execute at @s if predicate tid:random_57 run tp @s ~ ~32 ~
 execute at @s if predicate tid:random_57 run tp @s ~ ~32 ~
 execute at @s if predicate tid:random_50 run tp @s ~ ~16 ~

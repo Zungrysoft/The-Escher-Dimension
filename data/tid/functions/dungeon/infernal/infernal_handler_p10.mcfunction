@@ -24,6 +24,7 @@ scoreboard players set infernal_glassbridge_rooms value 30
 scoreboard players set power_drills value 5
 scoreboard players set elytras value 2
 scoreboard players set infernal_secrets value 2
+scoreboard players set infernal_dock_chests value 3
 scoreboard players set infernal_nexuses_built value 0
 scoreboard players set infernal_built_towers value 0
 

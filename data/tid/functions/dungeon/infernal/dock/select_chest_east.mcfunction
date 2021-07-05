@@ -18,6 +18,7 @@ function tid:dungeon/infernal/rng/run_rng
 
 #Count the room in the total
 scoreboard players remove infernal_rooms value 1
+scoreboard players remove infernal_dock_chests value 1
 
 #We're done here
 kill @s
