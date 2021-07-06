@@ -126,6 +126,20 @@
 				},
 				{
                     "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
                     "weight": 10,
                     "name": "minecraft:chorus_fruit",
                     "functions": [

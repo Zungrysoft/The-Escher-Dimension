@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 100,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Ember Staff\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]',Lore:['[{\"text\":\"Aim to set an area on fire\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"Costs 3 fire charges per use\",\"italic\":false,\"color\":\"red\"}]']},legendary:1b,tome_ember:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:1}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                }
+			]
+		}
+	]
+}
