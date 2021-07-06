@@ -2,26 +2,30 @@
   "parent": "tid:layer_3/find_loot_mutant",
   "display": {
     "icon": {
-      "item": "minecraft:warped_door"
+      "item": "minecraft:prismarine_shard"
     },
-    "title": "Hell Hotel",
-    "description": "Open a chest in a mutant hotel",
+    "title": "Subaquatic Remnants",
+    "description": "Collect some prismarine shards",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "loot_1": {
-      "trigger": "minecraft:player_generates_container_loot",
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "loot_table": "tid:chests/mutant_arena"
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          }
+        ]
       }
     }
   },
   "requirements": [
     [
-      "loot_1"
+      "got_item"
     ]
   ]
 }

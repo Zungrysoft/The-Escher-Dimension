@@ -5,7 +5,7 @@
       "item": "minecraft:map"
     },
     "title": "Subterranean Cartographer",
-    "description": "Find the materials needed to craft a map",
+    "description": "Craft a map out of eight paper and a compass",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
