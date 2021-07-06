@@ -12,6 +12,11 @@ Run the datapack with the following steps:
 - When it gives you the warning about experimental settings, click "Proceed"
 - Wait for the first set of dungeons to generate and begin playing!
 
+If you want to update the datapack to the latest version:
+- Open up the the world file you created in the above steps. (This is usually found under %appdata%/.minecraft/saves)
+- Open the "datapacks" folder
+- Delete the zip file that is there and replace it with the newly-downloaded zip file
+
 ![The Stronghold Ruins](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/stronghold2_1.png)
 ![Hellion Heights](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/hellion_1.png)
 ![Infernal Industries](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/infernal_1.png)
