@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "tid:gameplay/act_eat_food"
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "eat_food"
+    ]
+  ]
+}
