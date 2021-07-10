@@ -1182,7 +1182,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 50,
+					"weight": 30,
 					"name": "minecraft:prismarine_shard",
 					"functions": [
 						{
@@ -1209,7 +1209,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Fistfight Farmer\",\"italic\":false,\"color\":\"red\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Sets a random monster on fire upon eating food\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,6221,4290,-12164],Slot:offhand,Name:\"generic.attack_damage\"}],act_offhand_eat_food:1b,eff_inflict_fire_random:1b}"
+							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"The Fistfight Farmer\",\"italic\":false,\"color\":\"red\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +1 Attack Damage\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Sets a random monster on fire upon eating food\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-12119,6221,4290,-12164],Slot:offhand,Name:\"generic.attack_damage\"}],act_offhand_eat_food:1b,eff_inflict_fire_random:1b}"
 						}
 					]
 				},
