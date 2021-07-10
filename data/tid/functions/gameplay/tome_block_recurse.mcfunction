@@ -16,4 +16,4 @@ execute if score temp2 value matches 0 positioned ^ ^ ^-1 run function tid:gamep
 execute if score temp2 value matches 2 at @s run function tid:gameplay/fail_sound
 
 #If the block is transparent, and we haven't run out of range, keep going
-execute if score temp2 value matches 1 positioned ^ ^ ^.5 run function tid:gameplay/tome_block_recurse
+execute if score temp2 value matches 1 positioned ^ ^ ^.1 run function tid:gameplay/tome_block_recurse

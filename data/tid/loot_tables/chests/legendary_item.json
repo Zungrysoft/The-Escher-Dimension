@@ -1227,11 +1227,11 @@
 				{
 					"type": "item",
 					"weight": 20,
-					"name": "minecraft:emerald",
+					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Summoning Gem\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Summons biting fangs upon eating food\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,6221,4290,-12164],Slot:offhand,Name:\"generic.movement_speed\"}],act_offhand_eat_food:1b,eff_evoker:1b}"
+							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Summoning Device\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Summons biting fangs upon eating food\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,6221,4290,-12164],Slot:offhand,Name:\"generic.movement_speed\"}],act_offhand_eat_food:1b,eff_evoker:1b}"
 						}
 					]
 				},
