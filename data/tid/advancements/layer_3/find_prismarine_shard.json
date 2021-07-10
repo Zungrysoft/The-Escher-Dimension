@@ -1,31 +1,34 @@
 {
-  "parent": "tid:layer_3/find_loot_mutant",
-  "display": {
-    "icon": {
-      "item": "minecraft:prismarine_shard"
-    },
-    "title": "Subaquatic Remnants",
-    "description": "Collect some prismarine shards",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "got_item": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:prismarine_shard"
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "got_item"
-    ]
-  ]
+	"parent": "tid:layer_3/find_loot_mutant",
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_shard"
+		},
+		"title": "Subaquatic Remnants",
+		"description": "Collect some prismarine shards",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:prismarine_shard",
+						"count": {
+							"min": 4
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got_item"
+		]
+	]
 }

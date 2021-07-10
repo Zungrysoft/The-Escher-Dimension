@@ -1,3 +1,6 @@
+#Particles
+execute at @s run particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.2 0.6 0.2 0.01 20
+
 #Teleport player
 tp @s ~ ~ ~
 
