@@ -1,6 +1,6 @@
 #Delete the Command Block
 setblock ~ ~ ~ air
-fill ~ ~-1 ~ ~ ~1 ~ air replace redstone_block
+fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace redstone_block
 
 #Decide which spawner to place
 #War Pig 2
