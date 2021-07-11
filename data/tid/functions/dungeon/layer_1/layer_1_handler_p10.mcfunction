@@ -18,6 +18,9 @@ fill 1033 1 1000 1065 28 1032 minecraft:bedrock
 fill 1033 1 1001 1064 27 1032 minecraft:purple_wool
 fill 1033 129 1000 1065 156 1032 minecraft:blue_wool
 
+#Reserve some space to the right of the monument to prevent the ice dungeon from generating too close
+fill 22 194 -31 35 182 -12 blue_wool
+
 #Determine the number of rooms to generate
 scoreboard players set stronghold2_rooms value 300
 scoreboard players set brick_rooms value 250
