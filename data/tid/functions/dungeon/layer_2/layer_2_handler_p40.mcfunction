@@ -23,7 +23,7 @@ kill @e[type=area_effect_cloud,name="pipe_start"]
 execute as @e[type=zombie,tag=alloy_elemental] run data modify entity @s PersistenceRequired set value 1
 
 #Add in the bonus chest
-setblock 6 55 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {pages: ['{"text":"Quick tip: You can put stone and leather equipment on a smithing table with an iron block to upgrade it to an iron tool. You can do the same with iron equipment and a diamond block.\\n\\nThis will come in handy if you want to upgrade a legendary item."}'], title: "Smithing Tutorial", author: "ZungryWare", resolved: 1b}},{Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:luck"}}]}
+setblock 6 55 6 chest[facing=north]{Items: [{Slot: 11b, id: "minecraft:written_book", Count: 1b, tag: {smithing_tutorial:1b, pages: ['{"text":"Quick tip: You can put stone and leather equipment on a smithing table with an iron block to upgrade it to an iron tool. You can do the same with iron equipment and a diamond block.\\n\\nThis will come in handy if you want to upgrade a legendary item."}'], title: "Smithing Tutorial", author: "ZungryWare", resolved: 1b}},{Slot: 15b, id: "minecraft:potion", Count: 1b, tag: {Potion: "minecraft:luck"}}]}
 
 #Remove locators
 kill @e[type=area_effect_cloud,name="neon_chest_locator"]

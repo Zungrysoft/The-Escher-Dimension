@@ -1,0 +1,42 @@
+{
+  "rewards": {
+    "recipes": [
+      "tid:diamond_axe_smithing",
+      "tid:diamond_boots_smithing",
+      "tid:diamond_chestplate_smithing",
+      "tid:diamond_helmet_smithing",
+      "tid:diamond_hoe_smithing",
+      "tid:diamond_leggings_smithing",
+      "tid:diamond_pickaxe_smithing",
+      "tid:diamond_shovel_smithing",
+      "tid:diamond_sword_smithing",
+	  "tid:iron_axe_smithing",
+      "tid:iron_boots_smithing",
+      "tid:iron_chestplate_smithing",
+      "tid:iron_helmet_smithing",
+      "tid:iron_hoe_smithing",
+      "tid:iron_leggings_smithing",
+      "tid:iron_pickaxe_smithing",
+      "tid:iron_shovel_smithing",
+      "tid:iron_sword_smithing"
+    ]
+  },
+  "criteria": {
+    "got_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+			"nbt": "{smithing_tutorial:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_item"
+    ]
+  ]
+}
