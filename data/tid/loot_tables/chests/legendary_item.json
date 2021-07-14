@@ -1334,7 +1334,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Jack of Spades\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]'},Enchantments:[{id:knockback,lvl:5},{id:efficiency,lvl:5}],legendary:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Jack of Spades\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]'},Enchantments:[{id:knockback,lvl:5},{id:efficiency,lvl:5},{id:unbreaking,lvl:3}],legendary:1b}"
 						}
 					]
 				},
@@ -1345,7 +1345,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Queen of Spades\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]'},Enchantments:[{id:sharpness,lvl:10},{id:efficiency,lvl:5}],legendary:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Queen of Spades\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]'},Enchantments:[{id:sharpness,lvl:10},{id:efficiency,lvl:5},{id:unbreaking,lvl:3}],legendary:1b}"
 						}
 					]
 				},
@@ -1356,7 +1356,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"King of Spades\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]'},Enchantments:[{id:sharpness,lvl:8},{id:fire_aspect,lvl:2},{id:thorns,lvl:2},{id:efficiency,lvl:5}],legendary:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"King of Spades\",\"italic\":false,\"bold\":true,\"color\":\"dark_aqua\"}]'},Enchantments:[{id:sharpness,lvl:8},{id:fire_aspect,lvl:2},{id:thorns,lvl:2},{id:efficiency,lvl:5},{id:unbreaking,lvl:3}],legendary:1b}"
 						}
 					]
 				},
@@ -1367,7 +1367,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{display:{Name:'[{\"text\":\"Ace of Spades\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Grants strength on kill\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:sharpness,lvl:8},{id:efficiency,lvl:5}],legendary:1b,act_mainhand_kill_mob:1b,eff_grant_strength_weak:1b}"
+							"tag": "{display:{Name:'[{\"text\":\"Ace of Spades\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Grants strength on kill\",\"italic\":false,\"color\":\"aqua\"}]']},Enchantments:[{id:sharpness,lvl:8},{id:efficiency,lvl:5},{id:unbreaking,lvl:3}],legendary:1b,act_mainhand_kill_mob:1b,eff_grant_strength_weak:1b}"
 						}
 					]
 				},
