@@ -11,3 +11,6 @@ execute positioned ~ ~-1 ~ run function tid:misc/soulsand_gravel_x
 
 #Gravel
 fill ~4 ~ ~4 ~-4 ~ ~-4 gravel
+
+#Chest
+execute if predicate tid:random_60 run setblock ~-5 ~ ~-6 chest[facing=north]{LootTable: "tid:chests/soulsand_shovel"}

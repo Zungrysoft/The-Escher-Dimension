@@ -11,7 +11,7 @@
                     "functions": [
 						{
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:sharpness,lvl:5},{id:fire_aspect,lvl:2}]}"
+                            "tag": "{Enchantments:[{id:sharpness,lvl:4},{id:fire_aspect,lvl:2}]}"
                         }
                     ]
                 },
@@ -22,7 +22,7 @@
                     "functions": [
 						{
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:sharpness,lvl:5},{id:efficiency,lvl:5}]}"
+                            "tag": "{Enchantments:[{id:sharpness,lvl:4},{id:efficiency,lvl:4}]}"
                         }
                     ]
                 },
