@@ -1,6 +1,6 @@
 #Set the block
-execute if score temp3 value matches 0 run setblock ~ ~ ~ redstone_block
-execute if score temp3 value matches 1 run setblock ~ ~ ~ lapis_block
+execute if score temp3 value matches 0 unless block ~ ~ ~ bedrock run setblock ~ ~ ~ redstone_block
+execute if score temp3 value matches 1 unless block ~ ~ ~ bedrock run setblock ~ ~ ~ lapis_block
 
 #Maybe place a core location
 execute if predicate tid:random_04 unless entity @e[name="finale_core_location",distance=0..13] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"finale_core_location\""}
@@ -16,7 +16,6 @@ execute if predicate tid:random_15 run scoreboard players set temp4 value 5
 #Ensure we have enough moves left
 scoreboard players remove movesleft value 1
 execute unless score movesleft value matches 1.. run scoreboard players set temp4 value 666
-execute if block ~ ~-1 ~ bedrock run scoreboard players set temp4 value 666
 
 #Recurse
 execute if score temp4 value matches 0 positioned ~1 ~ ~ run function tid:dungeon/finale/boss/bramble/generate
