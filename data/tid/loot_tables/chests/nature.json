@@ -450,11 +450,6 @@
                         }
                     ]
                 },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:diamond"
-                },
 				{
                     "type": "item",
                     "weight": 3,
