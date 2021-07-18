@@ -1,3 +1,11 @@
-#Check to ensure there isn't a player inside the block
-execute unless entity @p[distance=0..2] run function tid:gameplay/tome_block_activate_place
-execute if entity @p[distance=0..2] run function tid:gameplay/fail_sound
+#Take the item
+execute unless entity @s[gamemode=creative] run clear @s chiseled_quartz_block 1
+
+#Place the block
+setblock ~ ~ ~ chiseled_quartz_block destroy
+
+#Particles
+execute align xyz run particle minecraft:block chiseled_quartz_block ~0.5 ~0.5 ~0.5 0.5 0.5 0.5 0 20
+
+#Play a sound
+playsound minecraft:block.stone.break block @a
