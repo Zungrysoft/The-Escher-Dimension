@@ -161,12 +161,12 @@
 				},
 				{
 					"type": "item",
-					"weight": 2,
+					"weight": 1,
 					"name": "minecraft:enchanted_golden_apple"
 				},
 				{
 					"type": "item",
-					"weight": 5,
+					"weight": 3,
 					"name": "minecraft:totem_of_undying"
 				},
 				{
@@ -207,13 +207,13 @@
 				},
 				{
 					"type": "item",
-					"weight": 25,
+					"weight": 13,
 					"name": "minecraft:golden_apple",
 					"functions": [
 						{
 							"function": "set_count",
 							"count": {
-								"min": 1,
+								"min": 2,
 								"max": 4
 							}
 						}
