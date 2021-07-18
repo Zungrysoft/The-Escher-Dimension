@@ -27,8 +27,10 @@ execute as @e[type=area_effect_cloud,tag=scatter] at @s run function tid:dungeon
 
 #Modifiers
 execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_underbelly
-execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_shafts
-execute if predicate tid:random_50 run function tid:dungeon/infernal/factory/mod_crosscut
+execute if predicate tid:random_30 run function tid:dungeon/infernal/factory/mod_shafts
+execute if predicate tid:random_30 run function tid:dungeon/infernal/factory/mod_crosscut
+execute if predicate tid:random_30 run function tid:dungeon/infernal/factory/mod_hangar
+execute if predicate tid:random_10 run function tid:dungeon/infernal/factory/mod_vents
 
 #Topper
 execute if predicate tid:random_15 positioned ~-15 ~94 ~-15 run function tid:dungeon/infernal/factory/select_topper
