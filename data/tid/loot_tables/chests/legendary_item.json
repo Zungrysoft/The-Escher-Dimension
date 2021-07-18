@@ -71,6 +71,28 @@
 				},
 				{
 					"type": "item",
+					"weight": 10,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Mattock of Mayhem\",\"italic\":false,\"bold\":true,\"color\":\"green\"}]',Lore:['[{\"text\":\"Grants strength and speed when\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_mainhand_mine_spawner:1b,eff_grant_strength_weak:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "minecraft:stone_pickaxe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Gas-Powered Pick\",\"italic\":false,\"bold\":true,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Grants speed and haste when\",\"italic\":false,\"color\":\"aqua\"}]','[{\"text\":\"you break a monster spawner\",\"italic\":false,\"color\":\"aqua\"}]']},legendary:1b,act_mainhand_mine_spawner:1b,eff_grant_haste_strong:1b,eff_grant_speed_weak:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
 					"weight": 100,
 					"name": "minecraft:stone_pickaxe",
 					"functions": [
@@ -1232,6 +1254,17 @@
 						{
 							"function": "set_nbt",
 							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Summoning Device\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +10% Speed\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Summons biting fangs upon eating food\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-12119,6221,4290,-12164],Slot:offhand,Name:\"generic.movement_speed\"}],act_offhand_eat_food:1b,eff_evoker:1b}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:ghast_tear",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{legendary:1b,display:{Name:'[{\"text\":\"Fusion Serum\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}]',Lore:['[{\"text\":\"When held in offhand:\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  +30% Attack Speed\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"  Eating food has a 2% chance to\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"    grant strength, speed, and resistance\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:0.3,Operation:1,UUID:[I;-12119,3111,4290,-12164],Slot:offhand,Name:\"generic.attack_speed\"}],act_offhand_eat_food:1b,eff_grant_ultra:1b}"
 						}
 					]
 				},
