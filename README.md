@@ -17,6 +17,12 @@ If you want to update the datapack to the latest version:
 - Open the "datapacks" folder
 - Delete the zip file that is there and replace it with the newly-downloaded zip file
 
+If you want to run the datapack on a server:
+- Generate a default world on the server, then close the server
+- Open the world's folder and check if there is a datapacks folder there. If there is no datapacks folder, create one.
+- Copy the downloaded zip file into the datapacks folder
+- Open the server.properties file and make sure "enable-command-block=true". If it is set to false, change it to true. The datapack will not work unless you do this!
+
 ![The Stronghold Ruins](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/stronghold2_1.png)
 ![Hellion Heights](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/hellion_1.png)
 ![Infernal Industries](https://raw.githubusercontent.com/Zungrysoft/The-Escher-Dimension/master/docs/screenshots/infernal_1.png)
