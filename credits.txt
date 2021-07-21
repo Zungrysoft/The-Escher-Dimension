@@ -1,0 +1,16 @@
+The Escher Dimension was created by ZungryWare
+
+Playtesters:
+- orian34
+- DRVGXXN
+- Forite
+- sw3aterCS
+
+Help with Datapacks:
+- Mbletz
+- L. Lawliet
+- Timber Forge Datapack Server
+
+Code Credits:
+- onowhere's advancement disabler
+- NOPEname's square root method
