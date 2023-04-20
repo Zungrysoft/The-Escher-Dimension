@@ -13,7 +13,10 @@ execute if entity @s[predicate=tid:item/skeleton_bane] unless entity @e[type=ske
 execute if entity @s[predicate=tid:item/super_flint] unless data entity @s Inventory[{id:"minecraft:gold_ingot"}] run scoreboard players set cancel value 1
 
 #Two-handed Weapons
-execute if entity @s[predicate=tid:item/two_handed] if data entity @s Inventory[{Slot:-106b}] run scoreboard players set cancel value 1
+scoreboard players set two_handed_error value 0
+execute if entity @s[predicate=tid:item/two_handed] if data entity @s Inventory[{Slot:-106b}] run scoreboard players set two_handed_error value 1
+execute if score two_handed_error value matches 1 run scoreboard players set cancel value 1
+execute if score two_handed_error value matches 1 if score @s damage_dealt matches 1.. run tellraw @s "Warning: Using a Two-Handed Weapon"
 
 #Give the damage reduction attribute if applicable
 execute if score cancel value matches 1 run attribute @s minecraft:generic.attack_damage modifier add 21183d2f-4e05-4f9a-9e04-8ee579aab87f nodamage -1000 add
