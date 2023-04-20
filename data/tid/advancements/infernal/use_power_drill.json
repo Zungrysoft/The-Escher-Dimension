@@ -5,7 +5,7 @@
       "item": "minecraft:bedrock"
     },
     "title": "Industrial Mining Techniques",
-    "description": "Activate an explosive drill",
+    "description": "Activate an explosive drill to uncover ancient debris",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

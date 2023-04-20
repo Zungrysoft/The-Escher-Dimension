@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_2/find_loot_nature",
+  "parent": "tid:layer_2/find_blackstone",
   "display": {
     "icon": {
       "item": "minecraft:gilded_blackstone"

@@ -1,5 +1,5 @@
 {
-	"parent": "tid:layer_3/find_loot_mutant",
+	"parent": "tid:layer_3/find_station",
 	"display": {
 		"icon": {
 			"item": "minecraft:prismarine_shard"

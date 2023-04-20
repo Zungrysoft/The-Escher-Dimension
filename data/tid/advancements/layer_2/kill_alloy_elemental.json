@@ -6,10 +6,10 @@
     },
     "title": "Wheel of Fortune",
     "description": "Kill an Alloy Elemental and have it drop diamonds",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "kill_mob": {

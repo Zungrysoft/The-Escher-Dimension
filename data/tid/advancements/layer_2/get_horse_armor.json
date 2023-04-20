@@ -5,7 +5,7 @@
       "item": "minecraft:diamond_horse_armor"
     },
     "title": "Armor Before the Horse",
-    "description": "There are no horses down here. Sorry.",
+    "description": "There are no horses in The Escher Dimension. Sorry.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

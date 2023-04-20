@@ -5,7 +5,7 @@
       "item": "minecraft:cornflower"
     },
     "title": "Flower Power",
-    "description": "Collect every type of flower §d[Reward: 5 Emeralds]",
+    "description": "Collect every type of flower §d[Reward: 12 Emeralds]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

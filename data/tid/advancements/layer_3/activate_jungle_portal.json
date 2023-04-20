@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_3/find_station",
+  "parent": "tid:layer_3/find_prismarine_shard",
   "display": {
     "icon": {
       "item": "minecraft:prismarine"
