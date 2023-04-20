@@ -5,7 +5,7 @@
       "item": "minecraft:netherite_pickaxe",
       "nbt": "{Damage:0}"
     },
-    "title": "You can run...",
+    "title": "Fault Lines",
     "description": "Kill a Debris Demon",
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:husk",
-			  "nbt": "{Tags:[\"debris_demon\"]}"
+			  "nbt": "{Tags:[\"debris_demon2\"]}"
             },
             "entity": "this"
           }
