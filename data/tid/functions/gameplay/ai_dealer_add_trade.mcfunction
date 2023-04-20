@@ -2,15 +2,16 @@
 scoreboard players set temp value 0
 execute if predicate tid:random_50 run scoreboard players set temp value 1
 execute if predicate tid:random_33 run scoreboard players set temp value 2
-execute if predicate tid:random_25 run scoreboard players set temp value 3
-execute if predicate tid:random_20 run scoreboard players set temp value 4
-execute if predicate tid:random_15 run scoreboard players set temp value 5
-execute if predicate tid:random_10 run scoreboard players set temp value 6
-execute if predicate tid:random_09 run scoreboard players set temp value 7
-execute if predicate tid:random_08 run scoreboard players set temp value 8
-execute if predicate tid:random_06 run scoreboard players set temp value 9
-execute if predicate tid:random_05 run scoreboard players set temp value 10
-execute if predicate tid:random_05 run scoreboard players set temp value 11
+execute if predicate tid:random_25 run scoreboard players set temp value 5
+execute if predicate tid:random_20 run scoreboard players set temp value 6
+execute if predicate tid:random_15 run scoreboard players set temp value 7
+execute if predicate tid:random_15 run scoreboard players set temp value 8
+execute if predicate tid:random_10 run scoreboard players set temp value 9
+execute if predicate tid:random_09 run scoreboard players set temp value 10
+execute if predicate tid:random_08 run scoreboard players set temp value 11
+execute if predicate tid:random_08 run scoreboard players set temp value 12
+execute if predicate tid:random_04 run scoreboard players set temp value 3
+execute if predicate tid:random_04 run scoreboard players set temp value 4
 
 
 #Add the trade
@@ -49,3 +50,6 @@ execute if score temp value matches 10 run data modify entity @s Offers.Recipes 
 
 #Manufacturing Contract: Sniper Arrow
 execute if score temp value matches 11 run data modify entity @s Offers.Recipes append value {maxUses:1,specialPrice:0,buy:{id:emerald,Count:32},sell:{id:paper,Count:1,tag:{display:{Name:'[{"text":"Manufacturing Contract","italic":false,"color":"aqua","bold":false}]',Lore:['[{"text":"Buy this item to unlock","italic":false,"color":"gray"}]','[{"text":"the \'Sniper Arrow\' trade.","italic":false,"color":"gray"}]']},sniper_arrow:1}}}
+
+# Lightfoot Greaves
+execute if score temp value matches 12 run data modify entity @s Offers.Recipes append value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:39},sell:{id:chainmail_boots,Count:1,tag:{AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.3,Slot:feet,Operation:1,Name:"generic.movement_speed",UUID:[I;-123320,25484,1665,-50968]},{AttributeName:"generic.max_health",Amount:-2,Slot:feet,Name:"generic.max_health",UUID:[I;-123320,25584,1665,-51168]}],display:{Name:'[{"text":"Lightfoot Greaves","italic":false,"color":"#356eb0","bold":true}]',Lore:['[{"text":"You are always sprinting while","italic":false,"color":"aqua"}]','[{"text":"wearing these","italic":false,"color":"aqua"}]']},no_sprint:1b,legendary:1b}}}
