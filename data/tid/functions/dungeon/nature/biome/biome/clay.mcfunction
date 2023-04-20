@@ -4,7 +4,7 @@ scoreboard players set falloff value 20
 function tid:dungeon/nature/biome/terrain
 
 # Magma lake
-fill 2001 50 2001 2062 50 2062 magma_block replace clay
+fill 2001 50 2001 2062 50 2062 lava replace clay
 
 # Remove fire near the edge so the dungeon doesn't burn down
 fill 2001 50 2001 2062 80 2006 air replace fire
