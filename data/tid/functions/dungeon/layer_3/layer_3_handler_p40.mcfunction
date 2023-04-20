@@ -18,6 +18,9 @@ kill @e[type=area_effect_cloud,name="moon_tower_marker"]
 #Remove nexus safeguard
 fill 22 60 -27 -23 54 29 stone replace cobblestone
 
+# Replace warped hyphae at entrance with stone
+fill -9 58 -28 9 55 -28 stone replace warped_hyphae
+
 #These chunks are no longer needed
 forceload remove all
 
