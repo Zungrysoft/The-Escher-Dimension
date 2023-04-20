@@ -32,7 +32,10 @@ execute if score temp value matches 15..18 run function tid:dungeon/station/bram
 execute if predicate tid:random_01 unless score station_bramble_branchmovesleft value matches 1.. if block ~ ~ ~ nether_wart_block run setblock ~ ~ ~ shroomlight
 
 #Maybe add in vines
-execute if predicate tid:random_15 unless score station_bramble_branchmovesleft value matches 1.. if block ~ ~-1 ~ air run setblock ~ ~-1 ~ weeping_vines
+execute if predicate tid:random_25 unless score station_bramble_branchmovesleft value matches 1.. if block ~ ~-1 ~ air run setblock ~ ~-1 ~ weeping_vines
+
+# Maybe place a spawner
+execute if predicate tid:random_02 unless score station_bramble_branchmovesleft value matches 1.. if block ~ ~ ~ nether_wart_block run function tid:misc/station_outskirts_spawner
 
 
 #Recurse

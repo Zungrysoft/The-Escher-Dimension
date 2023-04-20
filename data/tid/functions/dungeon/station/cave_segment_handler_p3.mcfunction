@@ -25,7 +25,7 @@ execute as @e[name="scatter",type=area_effect_cloud] at @s run function tid:misc
 kill @e[name="scatter",type=area_effect_cloud]
 
 #Scatter ghast spawners on the ceiling >:)
-execute if predicate tid:random_07 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"scatter\""}
+execute if predicate tid:random_40 run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"scatter\""}
 spreadplayers ~16 ~16 1 16 under 128 false @e[name="scatter",type=area_effect_cloud]
 execute as @e[name="scatter",type=area_effect_cloud] at @s run function tid:misc/station_ceiling_ghast_spawner
 kill @e[name="scatter",type=area_effect_cloud]
