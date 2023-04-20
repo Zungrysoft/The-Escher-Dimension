@@ -7,13 +7,13 @@ execute if predicate tid:random_50 run scoreboard players add temp value 8
 execute if predicate tid:random_50 run scoreboard players add temp value 16
 
 #Debris Demon
-execute if score temp value matches 0..7 run function tid:custom_mobs/debris_demon
+execute if score temp value matches 0..9 run function tid:custom_mobs/debris_demon2
 
 #Babirusan Scavenger
-execute if score temp value matches 8..9 run function tid:custom_mobs/babirusan_scavenger
+execute if score temp value matches 10..10 run function tid:custom_mobs/babirusan_scavenger
 
 #Charged Creeper
-execute if score temp value matches 10..13 run summon minecraft:creeper ~ ~ ~ {powered:1}
+execute if score temp value matches 11..13 run summon minecraft:creeper ~ ~ ~ {powered:1}
 
 #War Pig
 execute if score temp value matches 14..28 run function tid:custom_mobs/war_pig_4
