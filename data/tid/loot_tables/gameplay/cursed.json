@@ -5,6 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -21,6 +22,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -29,6 +34,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -45,6 +51,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -53,6 +63,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -69,6 +80,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -77,6 +92,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -93,6 +109,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -101,6 +121,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -117,6 +138,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -125,6 +150,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -141,6 +167,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -149,6 +179,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -165,6 +196,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		},
@@ -173,6 +208,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -189,6 +225,10 @@
 							"entity": "this"
 						}
 					]
+				},
+				{
+					"type": "empty",
+					"weight": 2
 				}
 			]
 		}

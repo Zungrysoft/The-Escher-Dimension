@@ -19,7 +19,7 @@ execute store result score @s up run data get entity @s Health
 scoreboard players add @s counter1 1
 
 #If the revive is ready to go, warn the player with particles
-execute if score @s counter1 matches 80.. if score @s phase matches 0 run function tid:gameplay/ai_priest_charge
+execute if score @s counter1 matches 35.. if score @s phase matches 0 run function tid:gameplay/ai_priest_charge
 
 #Do the revive if fully charged
 execute if score @s counter1 matches 18.. if score @s phase matches 1 run function tid:gameplay/ai_priest_revive
