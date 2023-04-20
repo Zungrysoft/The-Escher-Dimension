@@ -1,0 +1,12 @@
+{
+  "values":[
+	  "minecraft:grass_block",
+	  "minecraft:magma_block",
+	  "minecraft:dark_prismarine",
+	  "minecraft:warped_planks",
+	  "minecraft:warped_slab",
+	  "minecraft:warped_stairs",
+	  "minecraft:clay",
+	  "minecraft:prismarine_bricks"
+  ]
+}

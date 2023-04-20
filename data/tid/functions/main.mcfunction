@@ -171,6 +171,9 @@ execute as @e[type=hoglin,tag=!keep] at @s run function tid:gameplay/replace_sin
 execute as @e[type=minecraft:skeleton,predicate=tid:in_layer_infernal,tag=!armored] at @s run function tid:custom_mobs/equip/infernal_skeleton
 execute as @e[type=minecraft:wither_skeleton,predicate=tid:in_layer_infernal,tag=!armored] at @s run function tid:custom_mobs/equip/infernal_wither_skeleton
 
+# Handle levitation dispensers
+execute as @e[type=minecraft:area_effect_cloud,tag=levitation_dispenser] at @s run function tid:gameplay/levitation_dispenser
+
 #Remove Baby Zombies from the spawning pool
 tp @e[type=minecraft:zombie,nbt={IsBaby:1b},name=!"Fireflare"] 1 -100 1
 

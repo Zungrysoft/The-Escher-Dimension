@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:prismarine_crystals"
     },
-    "title": "Psychic Dispensary",
+    "title": "Gravitonic Pads",
     "description": "Float up through a vertical chute",
     "frame": "task",
     "show_toast": true,
