@@ -42,6 +42,9 @@ execute if block ~16 ~4 ~27 air run setblock ~16 ~4 ~27 soul_wall_torch[facing=n
 # Place soul fire randomly around the arena
 execute positioned ~14 ~2 ~14 run function tid:misc/soulsand_scatter_fire
 
+# Add slabs to ceiling to prevent spawning on top of structures
+fill ~ ~10 ~ ~28 ~10 ~28 minecraft:nether_brick_slab[type=top] replace minecraft:air
+
 #Summon other doorways for further generation
 execute unless entity @s[name="soulsand_south"] run summon minecraft:area_effect_cloud ~14 ~2 ~ {Duration:99999999,CustomName:"\"soulsand_north\""}
 execute unless entity @s[name="soulsand_north"] run summon minecraft:area_effect_cloud ~14 ~2 ~28 {Duration:99999999,CustomName:"\"soulsand_south\""}
