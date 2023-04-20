@@ -39,6 +39,9 @@ execute if block ~27 ~4 ~16 air run setblock ~27 ~4 ~16 soul_wall_torch[facing=w
 execute if block ~12 ~4 ~27 air run setblock ~12 ~4 ~27 soul_wall_torch[facing=north]
 execute if block ~16 ~4 ~27 air run setblock ~16 ~4 ~27 soul_wall_torch[facing=north]
 
+# Place soul fire randomly around the arena
+execute positioned ~14 ~2 ~14 run function tid:misc/soulsand_scatter_fire
+
 #Summon other doorways for further generation
 execute unless entity @s[name="soulsand_south"] run summon minecraft:area_effect_cloud ~14 ~2 ~ {Duration:99999999,CustomName:"\"soulsand_north\""}
 execute unless entity @s[name="soulsand_north"] run summon minecraft:area_effect_cloud ~14 ~2 ~28 {Duration:99999999,CustomName:"\"soulsand_south\""}
