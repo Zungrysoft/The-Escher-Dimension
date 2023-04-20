@@ -63,6 +63,20 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:quartz",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
 				}
 			]
 		}
