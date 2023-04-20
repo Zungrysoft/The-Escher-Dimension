@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'[{\"text\":\"Lucifer\\'s Clogs\",\"italic\":false,\"color\":\"red\",\"bold\":true}]'},Enchantments:[{id:soul_speed,lvl:5}],legendary:1b,Unbreakable:1}"
+                            "tag": "{display:{Lore:['{\"text\":\"Disables sprinting\",\"color\":\"red\",\"italic\":false}'],Name:'[{\"text\":\"Lucifer\\'s Clogs\",\"italic\":false,\"color\":\"red\",\"bold\":true}]'},Enchantments:[{id:soul_speed,lvl:7}],legendary:1b,Unbreakable:1,no_sprint:1b}"
                         }
                     ]
                 }
