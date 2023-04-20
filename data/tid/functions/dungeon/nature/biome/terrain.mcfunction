@@ -15,6 +15,6 @@ data modify block 2064 50 2064 CookTimeTotal set value 700
 function tid:dungeon/nature/biome/terrain_generate
 
 #Write the terrain
-scoreboard players set x value 6
-scoreboard players set z value 6
-execute positioned 2006 50 2006 run function tid:dungeon/nature/biome/write_x
+scoreboard players set x value 1
+scoreboard players set z value 1
+execute positioned 2001 50 2001 run function tid:dungeon/nature/biome/write_x

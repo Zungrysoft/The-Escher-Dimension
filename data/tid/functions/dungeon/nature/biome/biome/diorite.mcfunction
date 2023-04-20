@@ -4,10 +4,10 @@ scoreboard players set falloff value 40
 function tid:dungeon/nature/biome/terrain
 
 #Fill lava on the bottom layer
-fill 2006 50 2006 2057 50 2057 lava replace air
+fill 2001 50 2001 2062 50 2062 lava replace air
 
 #Enclose lava so it doesn't spill out
-fill 2006 58 2006 2057 72 2006 diorite replace lava
-fill 2006 58 2006 2006 72 2057 diorite replace lava
-fill 2057 58 2057 2057 72 2006 diorite replace lava
-fill 2057 58 2057 2006 72 2057 diorite replace lava
+fill 2001 42 2001 2062 72 2002 diorite replace lava
+fill 2001 42 2001 2002 72 2062 diorite replace lava
+fill 2062 42 2062 2061 72 2002 diorite replace lava
+fill 2062 42 2062 2002 72 2061 diorite replace lava

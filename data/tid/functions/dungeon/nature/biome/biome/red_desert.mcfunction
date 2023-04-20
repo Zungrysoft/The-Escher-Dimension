@@ -4,4 +4,4 @@ scoreboard players set falloff value 40
 function tid:dungeon/nature/biome/terrain
 
 #Add water
-fill 2006 50 2006 2057 55 2057 water replace air
+fill 2001 50 2001 2062 55 2062 water replace air

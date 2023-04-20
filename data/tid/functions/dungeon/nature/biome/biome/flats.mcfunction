@@ -4,4 +4,4 @@ scoreboard players set falloff value 55
 function tid:dungeon/nature/biome/terrain
 
 #Fill andesite on the bottom layer
-fill 2006 50 2006 2057 50 2057 gravel replace air
+fill 2001 50 2001 2062 50 2062 gravel replace air

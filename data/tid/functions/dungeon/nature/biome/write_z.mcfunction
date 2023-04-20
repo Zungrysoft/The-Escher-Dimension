@@ -27,4 +27,4 @@ execute if score height value matches 2151.. positioned ~ ~21 ~ run function tid
 
 scoreboard players add z value 1
 
-execute if score z value matches ..57 positioned ~ ~ ~1 run function tid:dungeon/nature/biome/write_z
+execute if score z value matches ..64 positioned ~ ~ ~1 run function tid:dungeon/nature/biome/write_z
