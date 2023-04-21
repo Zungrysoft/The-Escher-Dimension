@@ -7,8 +7,8 @@ execute store result storage temp small_fireball.Motion[1] double .000006 run da
 execute store result storage temp small_fireball.Motion[2] double .000008 run data get storage temp arrow.Motion[2] 10000
 data remove storage temp arrow
 
-#Summon the fireball and 
-summon small_fireball ~ ~ ~ {Tags:["oxidation_fireball","new"]}
+#Summon the fireball and
+summon small_fireball ~ ~ ~ {Tags:["oxidation_fireball","new","projectile_fix"]}
 data modify entity @e[type=small_fireball,limit=1,tag=new,distance=0] {} merge from storage temp small_fireball
 tag @e[type=small_fireball,distance=0] remove new
 data remove storage temp small_fireball

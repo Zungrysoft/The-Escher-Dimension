@@ -2,10 +2,10 @@
 playsound minecraft:item.firecharge.use block @a ~ ~ ~ 2 1.01
 
 #Summon the fireballs
-summon minecraft:small_fireball ~ ~1 ~ {Tags:["f1","new"]}
-summon minecraft:small_fireball ~ ~1 ~ {Tags:["f2","new"]}
-summon minecraft:small_fireball ~ ~1 ~ {Tags:["f3","new"]}
-summon minecraft:small_fireball ~ ~1 ~ {Tags:["f4","new"]}
+summon minecraft:small_fireball ~ ~1 ~ {Tags:["f1","new","projectile_fix"]}
+summon minecraft:small_fireball ~ ~1 ~ {Tags:["f2","new","projectile_fix"]}
+summon minecraft:small_fireball ~ ~1 ~ {Tags:["f3","new","projectile_fix"]}
+summon minecraft:small_fireball ~ ~1 ~ {Tags:["f4","new","projectile_fix"]}
 
 #Set the ownership of the fireballs
 data modify entity @e[type=small_fireball,tag=f1,limit=1] Owner set from entity @s UUID

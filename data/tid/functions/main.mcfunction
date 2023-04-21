@@ -104,6 +104,10 @@ execute as @e[type=area_effect_cloud,name="finale_boss_core"] at @s run function
 execute as @e[type=area_effect_cloud,tag=fang_damage] at @s run function tid:gameplay/fang_damage
 #Hook Weapons
 function tid:gameplay/hooks
+# Fix fireballs
+scoreboard players add fireball_frame value 1
+execute if score fireball_frame value matches 2.. run scoreboard players set fireball_frame value 0
+execute as @e[tag=projectile_fix] run function tid:gameplay/projectile_fix
 
 #Handles custom monster effects
 #Fireflare
