@@ -54,6 +54,8 @@ scoreboard objectives add value dummy
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
+scoreboard objectives add dx dummy
+scoreboard objectives add dz dummy
 scoreboard objectives add north dummy
 scoreboard objectives add south dummy
 scoreboard objectives add east dummy

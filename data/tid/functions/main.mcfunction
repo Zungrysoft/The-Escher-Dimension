@@ -110,10 +110,12 @@ function tid:gameplay/hooks
 execute as @e[type=minecraft:zombie,tag=fireflare] at @s run function tid:gameplay/ai_fireflare
 #Debris Demon
 execute as @e[type=minecraft:husk,tag=debris_demon] at @s run function tid:gameplay/ai_debris_demon
-#New Debris Demon
+# New Debris Demon
 execute as @e[type=minecraft:husk,tag=debris_demon2] at @s run function tid:gameplay/ai_breaker
 execute as @e[type=minecraft:area_effect_cloud,tag=tid_breaker_projectile] at @s rotated as @s run function tid:gameplay/ai_breaker_projectile
 execute as @e[type=minecraft:area_effect_cloud,tag=tid_breaker_marker] at @s rotated as @s run function tid:gameplay/ai_breaker_marker
+# Flesheater
+execute as @e[type=minecraft:skeleton,tag=jumping_skeleton] at @s run function tid:gameplay/ai_jumping_skeleton
 #Oxidation Spirit
 execute as @e[type=minecraft:stray,tag=oxidation_spirit] at @s run function tid:gameplay/ai_oxidation_spirit
 execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid:gameplay/oxidation_fireball

@@ -1,12 +1,11 @@
 {
-  "parent": "tid:layer_3/kill_flesheater",
+  "parent": "tid:layer_3/find_station",
   "display": {
     "icon": {
-      "item": "minecraft:blaze_powder",
-	  "nbt": "{Enchantments:[{}]}"
+      "item": "minecraft:rotten_flesh"
     },
-    "title": "What Lurks Within",
-    "description": "Kill a Revenant",
+    "title": "Thy Flesh Consumed",
+    "description": "Kill a Flesheater",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -20,7 +19,7 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-			  "nbt": "{Tags:[\"glowing\"]}"
+			      "nbt": "{Tags:[\"jumping_skeleton\"]}"
             },
             "entity": "this"
           }
