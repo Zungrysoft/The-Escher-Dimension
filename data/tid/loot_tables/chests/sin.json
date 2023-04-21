@@ -223,20 +223,6 @@
 					]
 				},
 				{
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:prismarine_shard",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 5
-                            }
-                        }
-                    ]
-                },
-				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
 					"name": "tid:chests/lanterns"
