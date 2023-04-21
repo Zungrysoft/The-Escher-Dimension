@@ -1,1 +1,0 @@
-summon skeleton ~ ~ ~ {CustomName:'[{"text":"Frostbite Archer"}]',HandItems:[{id:bow,Count:1},{id:tipped_arrow,Count:1,tag:{Potion:"minecraft:weakness"}}],HandDropChances:[0F,0F],ArmorItems:[{},{},{},{id:blue_ice,Count:1}],ArmorDropChances:[0F,0F,0F,0F],Tags:["frostbite_archer"],DeathLootTable: "tid:entities/frostbite_archer"}

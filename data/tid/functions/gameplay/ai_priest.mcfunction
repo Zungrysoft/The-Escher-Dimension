@@ -11,7 +11,7 @@ execute unless entity @e[type=area_effect_cloud,tag=grave,distance=0..7] run sco
 
 #If the mob has been damaged since the previous frame, reset the revive time
 execute store result score temp value run data get entity @s Health
-execute unless score @s up = temp value run scoreboard players set @s counter1 40
+execute unless score @s up = temp value run scoreboard players set @s counter1 10
 execute unless score @s up = temp value run scoreboard players set @s phase 0
 execute store result score @s up run data get entity @s Health
 
@@ -22,4 +22,4 @@ scoreboard players add @s counter1 1
 execute if score @s counter1 matches 35.. if score @s phase matches 0 run function tid:gameplay/ai_priest_charge
 
 #Do the revive if fully charged
-execute if score @s counter1 matches 18.. if score @s phase matches 1 run function tid:gameplay/ai_priest_revive
+execute if score @s counter1 matches 25.. if score @s phase matches 1 run function tid:gameplay/ai_priest_revive
