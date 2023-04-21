@@ -10,10 +10,6 @@ setblock ~63 ~1 ~ minecraft:redstone_block
 setblock ~63 ~1 ~63 minecraft:redstone_block
 setblock ~ ~1 ~63 minecraft:redstone_block
 
-#Open up the doorway
-execute at @s run fill ~-1 ~ ~-1 ~1 ~3 ~1 air replace oak_planks
-execute at @s run fill ~-2 ~ ~-2 ~2 ~4 ~2 smooth_stone_slab[type=double] replace oak_planks
-
 #Select biome for generation
 execute positioned ~6 ~1 ~6 run function tid:dungeon/nature/biome/start
 
@@ -47,6 +43,16 @@ execute positioned ~62 ~8 ~12 if predicate tid:random_70 if block ~ ~2 ~ air run
 execute positioned ~62 ~8 ~25 if predicate tid:random_70 if block ~ ~2 ~ air run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
 execute positioned ~62 ~8 ~38 if predicate tid:random_70 if block ~ ~2 ~ air run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
 execute positioned ~62 ~8 ~51 if block ~ ~2 ~ air run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"nature_east\"",Tags:["biome"]}
+
+#Open up the entrance doorway
+execute at @s run fill ~-1 ~ ~-1 ~1 ~3 ~1 air replace oak_planks
+execute at @s run fill ~-2 ~-1 ~-2 ~2 ~4 ~2 smooth_stone_slab[type=double] replace oak_planks
+
+# Check to see if entrance is blocked. If it is, do a lazy fill to make the path accessible
+execute at @s unless block ~1 ~3 ~ #tid:raytrace_ignore run fill ~1 ~ ~1 ~12 ~15 ~-1 air
+execute at @s unless block ~-1 ~3 ~ #tid:raytrace_ignore run fill ~-1 ~ ~1 ~-12 ~15 ~-1 air
+execute at @s unless block ~ ~3 ~1 #tid:raytrace_ignore run fill ~1 ~ ~1 ~-1 ~15 ~12 air
+execute at @s unless block ~ ~3 ~-1 #tid:raytrace_ignore run fill ~1 ~ ~-1 ~-1 ~15 ~-12 air
 
 #Count the room in the total
 scoreboard players remove nature_rooms value 1
