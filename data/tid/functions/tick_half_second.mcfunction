@@ -21,3 +21,6 @@ execute if score intro_horde_spawned value matches 0 if entity @a[scores={mine_d
 
 #Detect art gallery builds
 execute in tid:layer_2 positioned 27 54 27 if entity @a[distance=0..12] run function tid:art/test_1
+
+# Disable zombie reinforcements
+execute as @e[type=#tid:zombies,tag=!reinforce_checked] run function tid:gameplay/disable_reinforcements
