@@ -12,4 +12,9 @@ execute if predicate tid:random_30 if block ~ ~-1 ~ oak_planks positioned ~ ~-1 
 
 #Fusion Central
 execute if predicate tid:random_50 if block ~ ~-1 ~ dark_prismarine run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:purple_dye,Count:1}],HandDropChances:[2F]}
-execute if predicate tid:random_50 if block ~ ~-1 ~0.1 dark_prismarine run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:end_stone,Count:1}],HandDropChances:[2F]}
+execute if predicate tid:random_50 if block ~ ~-1 ~ dark_prismarine run summon minecraft:zombie ~ ~ ~0.1 {HandItems:[{id:end_stone,Count:1}],HandDropChances:[2F]}
+
+# Obsidian
+execute if block ~ ~-1 ~ obsidian run function tid:custom_mobs/obsidian_elemental
+execute if predicate tid:random_50 if block ~ ~-1 ~7 obsidian positioned ~ ~ ~7 run function tid:custom_mobs/obsidian_elemental
+execute if predicate tid:random_50 if block ~7 ~-1 ~ obsidian positioned ~7 ~ ~ run function tid:custom_mobs/obsidian_elemental

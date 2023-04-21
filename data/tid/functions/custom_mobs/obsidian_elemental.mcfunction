@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {CanBreakDoors:1,CustomName:"\"Obsidian Elemental\"",Health:80,ArmorItems:[{},{},{},{id:obsidian,Count:1}],ArmorDropChances:[0.00F,0.00F,0.00F,0.00F],Attributes:[{Name:"generic.max_health",Base:80F},{Name:"generic.attack_damage",Base:5F},{Name:"generic.knockback_resistance",Base:0.9F}],DeathLootTable: "tid:entities/obsidian_elemental"}
