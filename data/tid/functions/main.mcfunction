@@ -108,6 +108,8 @@ function tid:gameplay/hooks
 scoreboard players add fireball_frame value 1
 execute if score fireball_frame value matches 2.. run scoreboard players set fireball_frame value 0
 execute as @e[tag=projectile_fix] run function tid:gameplay/projectile_fix
+# Reflect Fireball Detector for fireball reflection advancement
+execute as @e[type=area_effect_cloud,name="reflect_fireball_detector"] at @s run function tid:gameplay/reflect_fireball_detector
 
 #Handles custom monster effects
 #Fireflare

@@ -1,0 +1,22 @@
+{
+  "parent": "tid:layer_3/kill_flesheater",
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": "Return to Sender's Sender",
+    "description": "Destroy a Ghast Spawner with a fireball §d[Reward: 20 Emeralds]",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": ["tid:advancements/reflect_fireball_at_spawner"]
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

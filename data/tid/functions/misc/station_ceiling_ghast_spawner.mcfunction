@@ -1,5 +1,6 @@
 #If we're at the ceiling, create the spawner >:)
 execute if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ air run setblock ~ ~ ~ spawner{MaxNearbyEntities: 1s, RequiredPlayerRange: 40s, SpawnCount: 1s, MinSpawnDelay: 1800s, MaxSpawnDelay: 3600s, SpawnRange: 15s, SpawnPotentials: [{Entity: {id: "minecraft:ghast"}, Weight: 1}]}
+execute if block ~ ~1 ~ warped_hyphae if block ~ ~ ~ spawner run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:99999999,CustomName:"\"reflect_fireball_detector\""}
 
 #If we're at the ceiling, light it up so the player knows exactly where it is
 execute if block ~ ~ ~ spawner run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 glowstone replace warped_hyphae
