@@ -12,6 +12,10 @@
                     "type": "item",
                     "weight": 10,
                     "name": "minecraft:diamond"
+                },
+				{
+                    "type": "empty",
+                    "weight": 40
                 }
             ]
         },
