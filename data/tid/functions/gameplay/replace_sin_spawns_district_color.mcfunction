@@ -101,7 +101,7 @@ execute if score district_color value matches 14 run data modify entity @s Armor
 execute if score district_color value matches 14 run data modify entity @s ArmorItems[1].tag.display.color set value 11546150
 execute if score district_color value matches 14 run data modify entity @s ArmorItems[2].tag.display.color set value 11546150
 execute if score district_color value matches 14 run data modify entity @s ArmorItems[3].tag.display.color set value 11546150
-execute if score district_color value matches 14 run data modify entity @s HandItems[1].tag set value {BlockEntityTag:{Base:14,Patterns:[{Pattern:bo,Color:12},{Pattern:mc,Color:12}]}}
+execute if score district_color value matches 14 run data modify entity @s HandItems[1].tag set value {BlockEntityTag:{Base:14,Patterns:[{Pattern:bo,Color:15},{Pattern:mc,Color:15}]}}
 
 #Black
 execute if score district_color value matches 15 run data modify entity @s ArmorItems[0].tag.display.color set value 0
