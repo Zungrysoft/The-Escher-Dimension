@@ -116,6 +116,9 @@ execute as @e[type=minecraft:area_effect_cloud,tag=tid_breaker_projectile] at @s
 execute as @e[type=minecraft:area_effect_cloud,tag=tid_breaker_marker] at @s rotated as @s run function tid:gameplay/ai_breaker_marker
 # Flesheater
 execute as @e[type=minecraft:skeleton,tag=jumping_skeleton] at @s run function tid:gameplay/ai_jumping_skeleton
+# Broodmother
+execute as @e[type=minecraft:zombie,tag=broodmother] at @s run function tid:gameplay/ai_broodmother
+execute as @e[type=zombie,tag=broodmother_summoner] at @s run function tid:gameplay/ai_broodmother_summoner
 #Oxidation Spirit
 execute as @e[type=minecraft:stray,tag=oxidation_spirit] at @s run function tid:gameplay/ai_oxidation_spirit
 execute as @e[type=small_fireball,tag=oxidation_fireball] at @s run function tid:gameplay/oxidation_fireball
@@ -150,21 +153,20 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:arrow",tag:{spellcaster:1b}}}] 
 #execute as @e[type=blaze,tag=ice_blaze] at @s run function tid:gameplay/ai_ice_blaze
 #Farie Summoner
 execute as @e[type=zombie,tag=farie_summoner] at @s run function tid:gameplay/ai_farie_summoner
+execute as @e[type=zombie,tag=farie_summoner_summoner] at @s run function tid:gameplay/ai_farie_summoner_summoner
 #Priest
 execute as @e[type=zombie,tag=priest] at @s run function tid:gameplay/ai_priest
+execute as @e[type=zombie,tag=priest_summoner] at @s run function tid:gameplay/ai_priest_summoner
 #Grave Item
 execute as @e[type=item,nbt={Item:{id:"minecraft:rotten_flesh",tag:{cursed:1b}}}] at @s run function tid:gameplay/ai_grave_summon
 #Grave Site
 execute as @e[type=area_effect_cloud,tag=grave] at @s run function tid:gameplay/ai_grave
-#Priest Summoner
-execute as @e[type=zombie,tag=priest_summoner] at @s run function tid:gameplay/ai_priest_summoner
 #Potion Carrier Summoner
 execute as @e[type=zombie,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
 execute as @e[type=blaze,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
 execute as @e[type=skeleton,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
 execute as @e[type=wither_skeleton,tag=potion_carrier_summoner] at @s run function tid:gameplay/ai_potion_carrier_summoner
-#Farie Summoner Summoner
-execute as @e[type=zombie,tag=farie_summoner_summoner] at @s run function tid:gameplay/ai_farie_summoner_summoner
+
 
 #Handle monster spawning replacement
 execute as @e[type=zombie_villager,tag=!keep,tag=!done] at @s run function tid:gameplay/replace_spawns

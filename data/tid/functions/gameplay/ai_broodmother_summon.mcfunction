@@ -1,0 +1,1 @@
+summon minecraft:silverfish ~ ~ ~ {Health:1,Attributes:[{Name:"generic.max_health",Base:1F},{Name:"generic.attack_damage",Base:4f},{Name:"generic.armor",Base:-2000f}],DeathLootTable:"",Tags:["broodchild","new"]}
