@@ -22,4 +22,4 @@ scoreboard players add @s counter1 1
 execute if score @s counter1 matches 35.. if score @s phase matches 0 run function tid:gameplay/ai_priest_charge
 
 #Do the revive if fully charged
-execute if score @s counter1 matches 25.. if score @s phase matches 1 run function tid:gameplay/ai_priest_revive
+execute if score @s counter1 matches 16.. if score @s phase matches 1 run function tid:gameplay/ai_priest_revive
