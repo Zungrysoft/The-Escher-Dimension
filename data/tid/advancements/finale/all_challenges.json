@@ -5,7 +5,7 @@
       "item": "minecraft:beacon",
 	  "nbt": "{Enchantments:[{}]}"
     },
-    "title": "Challengemaster",
+    "title": "Challenge Master",
     "description": "Complete every challenge",
     "frame": "challenge",
     "show_toast": true,

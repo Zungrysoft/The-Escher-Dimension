@@ -91,7 +91,7 @@ execute if entity @s[advancements={tid:sin/craft_wool_sin=true}] if entity @s[ad
 execute if entity @s[predicate=!tid:on_boat,advancements={tid:jungle/kill_all_on_boat=false}] run advancement revoke @s only tid:jungle/kill_all_on_boat
 
 #Challenge Master
-execute if entity @s[advancements={tid:finale/kill_boss=true,tid:layer_2/kill_with_zapper_arrow=true,tid:layer_2/kill_with_bounce_arrow=true,tid:layer_2/eat_all_foods=true,tid:layer_2/collect_honeycomb=true,tid:layer_2/get_all_flowers=true,tid:layer_2/enchant_max=true,tid:layer_3/get_all_netherite_gear=true,tid:infernal/kill_giant_magma_cube=true,tid:infernal/kill_on_strider=true,tid:hellion/circumnavigate=true,tid:layer_1/kill_all_with_fireworks=true,tid:layer_1/kill_silverfish=true,tid:jungle/kill_all_on_boat=true,}] run advancement grant @s only tid:finale/all_challenges
+execute if entity @s[advancements={tid:finale/kill_boss=true,tid:layer_2/kill_with_zapper_arrow=true,tid:layer_2/kill_with_bounce_arrow=true,tid:layer_2/eat_all_foods=true,tid:layer_2/collect_honeycomb=true,tid:layer_2/get_all_flowers=true,tid:layer_2/enchant_max=true,tid:layer_3/get_all_netherite_gear=true,tid:infernal/kill_giant_magma_cube=true,tid:infernal/kill_on_strider=true,tid:hellion/circumnavigate=true,tid:layer_1/kill_all_with_fireworks=true,tid:layer_1/kill_silverfish=true,tid:jungle/kill_all_on_boat=true,tid:layer_3/reflect_fireball_at_spawner=true,}] run advancement grant @s only tid:finale/all_challenges
 
 #Grant certain non-renewable advancements to all players instead of just the one
 execute if entity @a[advancements={tid:jungle/kill_ravager=true}] run advancement grant @s only tid:jungle/kill_ravager
