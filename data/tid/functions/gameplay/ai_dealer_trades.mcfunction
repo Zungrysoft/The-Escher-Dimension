@@ -12,7 +12,7 @@ execute if score reset value matches 1 run tp @s ~ -100 ~
 execute if score reset value matches 1 run function tid:custom_mobs/dealer
 
 #Add in extra trade costs
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[1].buyB set value {id:blaze_powder,Count:3,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes[1].buyB set value {id:blaze_powder,Count:2,tag:{display:{Name:'[{"text":"Glowing Powder","italic":false,"color":"gold","bold":false}]'},glow_powder:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1}}
 
 #Add in preset trades
 #Layer 2
@@ -30,7 +30,7 @@ execute if score temp9 value matches 1 if entity @s[predicate=tid:in_layer_3] ru
 
 #Layer 3
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:22},sell:{id:enchanted_book,Count:1,tag:{StoredEnchantments:[{id:unbreaking,lvl:3},{id:mending,lvl:1}]}}}
-execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:3},sell:{id:diamond,Count:1}}
+execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:5},sell:{id:diamond,Count:1}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:arrow,Count:15}}
 execute if entity @s[predicate=tid:in_layer_3] run data modify entity @s Offers.Recipes prepend value {maxUses:9999999,specialPrice:0,buy:{id:emerald,Count:1},sell:{id:beef,Count:6}}
 
