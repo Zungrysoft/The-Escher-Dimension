@@ -2,9 +2,9 @@
 autocalc = 1
 
 #Room sizes
-w = 5
-h = 5
-l = 5
+w = 15
+h = 27
+l = 15
 
 #Door positions
 north = [0, 0, 0]
@@ -16,7 +16,7 @@ west = [0, 0, 0]
 #0: Underground dungeon
 #1: Outdoor dungeon
 #2: No reserve space
-mode = 1
+mode = 0
 
 if autocalc:
 	south[0] = int((w-1)/2)
@@ -57,7 +57,7 @@ y = east[1]
 z = east[2]
 west_dom = [-x-1, -y, -z]
 west_opp = [-x+w-2, -y+h-1, -z+l-1]
-    
+
 print ("North:")
 print ("Position: ~" + str(north_dom[0]) + " ~" + str(north_dom[1]) + " ~" + str(north_dom[2]))
 print("")

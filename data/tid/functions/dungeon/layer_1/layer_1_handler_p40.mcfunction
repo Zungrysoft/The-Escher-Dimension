@@ -7,6 +7,9 @@ kill @e[type=area_effect_cloud,name="brick_largeroom_marker"]
 #Build ice pillars
 execute as @e[type=area_effect_cloud,name="ice_pillar"] at @s run function tid:misc/ice_pillar
 
+# Carve spire cave in stronghold ruins
+execute as @e[type=area_effect_cloud,name="stronghold2_spire"] at @s run function tid:dungeon/stronghold2/cave_scatter
+
 #These chunks are no longer needed
 forceload remove all
 

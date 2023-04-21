@@ -30,6 +30,7 @@ scoreboard players set ice_rooms value 250
 scoreboard players set hellion_portals value 0
 scoreboard players set layer_2_portals value 0
 scoreboard players set stronghold2_secrets value 0
+scoreboard players set stronghold2_spires value 0
 function tid:general/victory_monument_reset
 
 #Determine the global room selections
