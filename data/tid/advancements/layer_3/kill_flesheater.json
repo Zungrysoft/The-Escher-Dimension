@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_3/find_station",
+  "parent": "tid:layer_3/find_loot_station",
   "display": {
     "icon": {
       "item": "minecraft:rotten_flesh"

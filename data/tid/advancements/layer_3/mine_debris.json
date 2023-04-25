@@ -1,5 +1,5 @@
 {
-  "parent": "tid:layer_3/find_loot_station",
+  "parent": "tid:layer_3/kill_flesheater",
   "display": {
     "icon": {
       "item": "minecraft:ancient_debris"
