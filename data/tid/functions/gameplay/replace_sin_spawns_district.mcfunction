@@ -33,4 +33,4 @@ execute if score temp value matches 16 run summon minecraft:piglin_brute ~ ~ ~ {
 execute as @e[tag=new] run function tid:gameplay/replace_sin_spawns_district_color
 
 #If no croupiers exist, maybe spawn another one
-execute if predicate tid:random_01 unless entity @e[type=piglin,tag=bookmaker] positioned ~ ~ ~0.1 run function tid:custom_mobs/piglin_bookmaker
+execute if predicate tid:random_04 unless entity @e[type=piglin,tag=bookmaker,distance=0..60] positioned ~ ~ ~0.1 run function tid:custom_mobs/piglin_bookmaker
